@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>16031 e_gw1.8.581.1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>602</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>16031 e_gw1.8.581.1_mRNA</Iteration_query-def>
+  <Iteration_query-len>602</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|16083</Hit_id>
+  <Hit_def>gnl|TC-DB|U9UKY5|2.A.17.2.3 Uncharacterized protein OS=Rhizophagus irregularis (strain DAOM 181602 / DAOM 197198 / MUCL 43194) GN=GLOINDRAFT_343346 PE=3 SV=1</Hit_def>
+  <Hit_accession>16083</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.512</Hsp_bit-score>
+      <Hsp_score>1020</Hsp_score>
+      <Hsp_evalue>1.94898e-132</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>593</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>537</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>556</Hsp_align-len>
+      <Hsp_qseq>SQTTGD-DEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAW-MTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIP--TNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGIIFWFTFSKLDKEEDSLNEIKEGKRSD</Hsp_qseq>
+      <Hsp_hseq>SKTKGSVDEEHETLPTLEDWRTLPRVADKIPIMAWMVVICELCERFTYYGASGPFQNYVQYPPP------AVKFGQ-AGAIGAGQETATALIYF----------FSAIVADQYFGRYNTILLFCIIYMVGLTVLTATATPMAIAAKAAFPGLI-VSMIIIGLGTGGIKSNVSPLVADQYTRTKPYVKSTGN-KKVIVDPKITIQSLFHWFYLAINVGSLSPIL-TTYIEKYHSFWLAFLIPLAMFFGAIAVLVIFKSRYIKTPPQGSILLKSFRVLKMAFIRG-------KKLD---NVKPSNLSNEDISKYNVNWDDKFINQVKKTLKACKVFVFFPIYWVCYGQMNSNLVSQASVMQTGNVPNDLIMNLNPISLIILVPFTDHVIYPTLRRFGITVRPITRMFIGFMLASLAMAYTAIIQHVIYTTGPCFVNTGCEFDGQVVPNNVNVWIQSPSYVLIGFSEVFASVTGLSYAYERAPDEMKSTVMAIFLTMSAFGSALGFAFVPLSKDPHLVVLYIILSVIVAVAGFLLLFTLKRFDNEEQQEEEEQVDKSEE</Hsp_hseq>
+      <Hsp_midline>S+T G  DE++   PT E+  TL RVA  I I ++++   EL ERF+YYG++  F N++Q P P      +   GQ +GA+G GQ+ +T L  F          F A +AD Y GR+NTI    +I M+G  +L  +A P  IA   +  G+  V++II+G+GTG  KSN+SPL+A+Q    + YVK+  N ++V+VDP  T   +++WFYL INVG+L+  L   Y EK   FWLAF +P  +F     VL   K++Y +TPP GS L K+FR+L + F R        K+ D      PS  +  +   + + WDD F+ +V++  KAC+VF++ P+YW+CY Q+N+NL SQA+V+ T  +PND++ NL+P +LIIL+P  D  +YP LRR GI   P+ +MF GF+ ASL+M     +Q  IY T  C  +     +   +P   NVWIQ+PSYVL+  SE+FAS+T L YAY +AP  M+S VMA+ L M+A  +ALG AF+ LS DP L   Y   +VI  V G +  FT  + D EE    E +  K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14962</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9P380|2.A.17.2.1 2.A.17.2.1 Probable peptide transporter ptr2</Hit_def>
+  <Hit_accession>14962</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>5.74448e-132</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>591</Hsp_align-len>
+      <Hsp_qseq>ENSRAKNGKDDDGFVFEEKRAPSQTTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMT----------WDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGIIFWFTFSKLDKEEDSLNEIKEGKRSDDAEPKQV</Hsp_qseq>
+      <Hsp_hseq>DGSATINTADEQSSTDELQKSMSTGVLVNGDLYPSPTEEELATLPRVCGTIPWKAFIIIIVELCERFAYYGLTVPFQNYMQ--------FGPKDA--TPGALNLGESGADGLSNFFTFWCYVTPVGAALIADQFLGRYNTIVCSAVIYFIGILILTCTAIPSVI-DAGKSMGGFVVSLIIIGLGTGGIKSNVSPLMAEQLPKIPPYVKTKKNGSKVIVDPVVTTSRAYMIFYWSINVGSLS-VLATTSLESTKGFVYAYLLPLCVFVIPLIILAVSKRFYKHTPPSGSI-----------FVRVG--------QVFFLAAQNKFNLEKTKPSCTTTVGRVTLKDQWDDLFIDELKRALRACKTFLFYPIYWVCYGQMTNNLISQAGQMQTGNVSNDLFQAFDSIALIIFIPICDNIIYPLLRKYNIPFKPILRITLGFMFATASMIYAAVLQAKIYQRGPC--YANFTDTCVSNDISVWIQIPAYVLIAFSEIFASITGLEFAFTKAPPSMKSIITALFLFTNAFGAILSICISSTAVNPKLTWMYTGIAVTAFIAGIMFWVCFHHYDAMEDEQNQL-EFKRNDALTKKDV</Hsp_hseq>
+      <Hsp_midline>+ S   N  D+     E +++ S     + D   +PTEEE  TL RV G I   +F+I  +EL ERF+YYG T  F N++Q         G   A  T GAL +G+  + GL+ F  FW Y  P+  A IAD +LGR+NTI  + +I  IG ++L  +A+PSVI     ++G F V++II+G+GTG  KSN+SPL+AEQ+     YVKT KNG +V+VDP  TT+R Y  FY  INVG+L+  L     E   GF  A+ LP  VF +   +L   K  Y  TPP+GS            F R G          F++AA         KP+  T          WDD F+ E++R  +AC+ FL+ P+YW+CY Q+ NNL SQA  + T  + ND+    D  ALII IPI D  +YP LR+  I F P+ ++  GF+FA+ SM+ A  +QA IY    C  +A   D       +VWIQ P+YVL+A SEIFASIT LE+A+TKAP SM+S++ A+ LF  A  A L     + + +P LTW Y   AV +F+ GI+FW  F   D  ED  N++ E KR+D    K V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7508</Hit_id>
+  <Hit_def>gnl|TC-DB|P32901|2.A.17.2.2 PEPTIDE TRANSPORTER PTR2 (PEPTIDE PERMEASE PTR2) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7508</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>9.93023e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>DPTEASFEALSHRLDENSRAKNGKDDDGFVFEEKRAPSQTTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGIIFWFTFSKLDKEEDSLN</Hsp_qseq>
+      <Hsp_hseq>DEKQGDFPVIEEEKTQAVTLKDSYVSDDVANSTERYNLSPSPEDEDF-EGPTEEEMQTLRHVGGKIPMRCWLIAIVELSERFSYYGLSAPFQNYMEYG-PNDSP---------KGVLSLNSQGATGLSYFFQFWCYVTPVFGGYVADTFWGKYNTICCGTAIYIAGIFILFITSIPSV-GNRDSAIGGFIAAIILIGIATGMIKANLSVLIADQLPKRKPSIKVLKSGERVIVDSNITLQNVFMFFYFMINVGSLS-LMATTELEYHKGFWAAYLLPFCFFWIAVVTLIFGKKQYIQRPIGDKVIAKSFKVCWILTKN---------KFDF-NAAKPSVHPEKNYP----WNDKFVDEIKRALAACKVFIFYPIYWTQYGTMISSFITQASMMELHGIPNDFLQAFDSIALIIFIPIFEKFVYPFIRRY-TPLKPITKIFFGFMFGSFAMTWAAVLQSFVYKAGPWYNEPLGHNTPNHV--HVCWQIPAYVLISFSEIFASITGLEYAYSKAPASMKSFIMSIFLLTNAFGSAIGCALSPVTVDPKFTWLFTGLAVACFISGCLFWLCFRKYNDTEEEMN</Hsp_hseq>
+      <Hsp_midline>D  +  F  +     +    K+    D      +R     + +DED+ + PTEEE  TLR V G I +  +LI  +EL+ERFSYYG +  F N+++   P  S           G L +  Q +TGL+ F QFW Y  P+FG Y+ADT+ G++NTI     I + G  +L ++++PSV  + +SAIG F  AII++G+ TG  K+N+S LIA+Q+   +  +K LK+GERV+VD   T   ++ +FY +INVG+L+  +     E   GFW A+ LP   F +    L FGK +Y + P     + K+F++  I  K          + DF  AA PS       P    W+D FV E++R   AC+VF++ P+YW  Y  + ++  +QA+++  HG+PND L   D  ALII IPIF+  VYP +RR      P+ K+F GF+F S +M  A  +Q+ +Y            +    +  +V  Q P+YVL++ SEIFASIT LEYAY+KAP SM+S +M++ L   A  +A+G A   ++ DP  TW +   AV  F+ G +FW  F K +  E+ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13132</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8N697|2.A.17.3.11 Solute carrier family 15 member 4 OS=Homo sapiens GN=SLC15A4 PE=2 SV=1</Hit_def>
+  <Hit_accession>13132</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>8.31689e-43</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>553</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>507</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAH--------------PNSAIGVFAVA----IIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINF---KRAGFSPKAWKRSD-FWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNT----------HGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPF--IPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTW</Hsp_qseq>
+      <Hsp_hseq>ELLERAAFYGITSNLVLFLN---------GAPFCWE-------GAQASEALLLFMGLTYLGSP-FGGWLADARLGRARAILLSLALYLLGMLAFPLLAAPATRAALCGSARLLNCTAPGPDAAARCCSPATFAGLVLVGLGVATVKANITPFGADQVKDR---------------GPEATR-RFFNWFYWSINLGAILSLGGIAYIQQNVSFVTGYAIPTVCVGLAFVVFLCGQSVFITKPPDGSAFTDMFKILTYSCCSQKRSGERQSNGEGIGVFQQSSKQSLFDSCKMSHGGPFTEEKVEDVKALVKIVPVFLALIPYWTVYFQMQTTYVLQSLHLRIPEISNITTTPHTLPAAWLTMFDAVLILLLIPLKDKLVDPILRRHGLLPSSLKRIAVGMFFVMCSAFAAGILESKRLNLVKEKTINQTIGNVVYHAADLSLWWQVPQYLLIGISEIFASIAGLEFAYSAAPKSMQSAIMGLFFFFSGVGSFVGSGLLALVSIKAIGW</Hsp_hseq>
+      <Hsp_midline>EL ER ++YG T     F+          G+    +       G QAS  L  F        P FG ++AD  LGR   I  ++ + ++G +   + A P+  A               P++A    + A    ++++G+G    K+NI+P  A+QV                   P AT  R +NWFY  IN+GA+    G+ Y ++ V F   + +PTV   L   V   G++ +   PP GS+    F+IL  +    KR+G      +    F  ++  S F + +      + +  V +V+   K   VFL L  YW  Y Q+      Q+  L            H LP   L   D   +++LIP+ D  V P LRR G+  S +K++  G  F   S   A  +++         T   T   + +     ++W Q P Y+L+ +SEIFASI  LE+AY+ APKSM+S +M +  F + + + +G   LAL +   + W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14846</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9M390|2.A.17.3.7 Peptide transport-like protein OS=Arabidopsis thaliana GN=F24B22.100 PE=2 SV=1</Hit_def>
+  <Hit_accession>14846</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>4.40707e-39</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>516</Hsp_align-len>
+      <Hsp_qseq>FLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSA-LPSV--------IAHPNSA-IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKR------------------------SDFWMAALPSQ---FATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH-----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAGIN---FSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLAL</Hsp_qseq>
+      <Hsp_hseq>FILGN-ECCERLAYYGMGTNLVNYLESRLNQGNATAANNVTNWSGTC------------------YITPLIGAFIADAYLGRYWTIATFVFIYVSGMTLLTLSASVPGLKPGNCNADTCHPNSSQTAVFFVALYMIALGTGGIKPCVSSFGADQFDENDENEKIKKSS-------------FFNWFYFSINVGALIAATVLVWIQMNVGWGWGFGVPTVAMVIAVCFFFFGSRFYRLQRPGGSPLTRIFQVIVAAFRKISVKVPEDKSLLFETADDESNIKGSRKLVHTDNLKFFDKAAVESQSDSIKDGEVNPWRLCSVTQVEELKSIITLLPVWATGIVFATVYSQMSTMFVLQGNTMDQHMGKNFEIPSASLSLFDTVSVLFWTPVYDQFIIPLARKFTRNERGFTQLQRMGIGLVVSIFAMITAGVLE--VVRLDYVKTHNAYDQKQ--IHMSIFWQIPQYLLIGCAEVFTFIGQLEFFYDQAPDAMRSLCSALSLTTVALGNYLSTVLVTV</Hsp_hseq>
+      <Hsp_midline>F++G  E  ER +YYG      N+++  L +G+ T +++    SG                    Y  PL GA+IAD YLGR+ TIA  + I + G  LL +SA +P +          HPNS+   VF VA+ ++ +GTG  K  +S   A+Q   +    K  K+               +NWFY  INVGAL     +V+ +  VG+   F +PTV   +     FFG   Y    P GS L + F+++   F++        K                           F  AA+ SQ       E   W     T V E++       V+    ++   Y+Q++     Q   ++ H      +P+  L+  D  +++   P++D  + P  R+   N   F+ +++M  G + +  +M+ A  ++  +       TH A   +   I  +++ Q P Y+L+  +E+F  I  LE+ Y +AP +MRS+  A+ L   A+   L    + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12999</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8IY34|2.A.17.3.9 Solute carrier family 15 member 3 OS=Homo sapiens GN=SLC15A3 PE=1 SV=2</Hit_def>
+  <Hit_accession>12999</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.63444e-33</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>549</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>551</Hsp_align-len>
+      <Hsp_qseq>DYPDAPTEEEKMTLRRVAGPIN---IASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAH-----PNSAIG-------------------VFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLN---------------------THGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAH-IYATSACGTHAATCDEMPF--IPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADP</Hsp_qseq>
+      <Hsp_hseq>EQPRVPGERQPLLPRGARGPRRWRRAAGAAVLLVEMLERAAFFGVTANLVLYLN----------STNFNWT------GEQATRAALVFLGASYLLAPV-GGWLADVYLGRYRAVALSLLLYLAASGLLPATAFPDGRSSFCGEMPASPLGPACPSAGCPRSSPSPYCAPVLYAGLLLLGLAASSVRSNLTSFGADQVMDLG----------------RDATRRFFNWFYWSINLGAVLSLLVVAFIQQNISFLLGYSIPVGCVGLAFFIFLFATPVFITKPPMGSQVSSMLKLALQNC-----CPQLWQRHSARDRQCARVLADERSPQPGASPQEDIANFQVLVKILPVMVTLVPYWMVYFQMQSTYVLQGLHLHIPNIFPANPANISVALRAQGSSYTIPEAWLLLANVVVVLILVPLKDRLIDPLLLRCKLLPSALQKMALGMFFGFTSVIVAGVLEMERLHYIHHNETVSQQIGEVLYNAAPLSIWWQIPQYLLIGISEIFASIPGLEFAYSEAPRSMQGAIMGIFFCLSGVGSLLGSSLVALLSLP</Hsp_hseq>
+      <Hsp_midline>+ P  P E + +  R   GP      A   +  +E+ ER +++G T     ++           S++   T      G+QA+     F        P+ G ++AD YLGR+  +A ++L+ +    LL  +A P   +      P S +G                   V    ++++G+     +SN++   A+QV                       T R +NWFY  IN+GA+   L + + ++ + F L +++P     L  F+  F    +   PP GS +    ++   N       P+ W+R            A    P         +   +   K   V + L  YW+ Y Q+ +    Q   L+                     ++ +P   L   +   ++IL+P+ D  + P L R  +  S ++KM  G  F   S++ A  ++   ++      T +    E+ +   P ++W Q P Y+L+ +SEIFASI  LE+AY++AP+SM+  +M +   ++ + + LG + +AL + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14775</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LFB8|2.A.17.3.8 2.A.17.3.8 Peptide transporter PTR5</Hit_def>
+  <Hit_accession>14775</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.2051e-32</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>531</Hsp_align-len>
+      <Hsp_qseq>EKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSA-LPSVI-------AHPNSA-IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGF-----SPKAWKRSD-------------------FWMAALPSQF---ATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH-----GLPNDVLANLDPFALIILIPIFDLGVYPALRR---AGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLAL</Hsp_qseq>
+      <Hsp_hseq>KKPANKNKTGTWKACRFILG-TECCERLAYYGMSTNLINYLEKQMNMENVSASKSVSNWSGTC------------------YATPLIGAFIADAYLGRYWTIASFVVIYIAGMTLLTISASVPGLTPTCSGETCHATAGQTAITFIALYLIALGTGGIKPCVSSFGADQFDDTDEKEKESKSS-------------FFNWFYFVINVGAMIASSVLVWIQMNVGWGWGLGVPTVAMAIAVVFFFAGSNFYRLQKPGGSPLTRMLQVIVASCRKSKVKIPEDESLLYENQDAESSIIGSRKLEHTKILTFFDKAAVETESDNKGAAKSSSWKLCTVTQVEELKALIRLLPIWATGIVFASVYSQMGTVFVLQGNTLDQHMGPNFKIPSASLSLFDTLSVLFWAPVYDKLIVPFARKYTGHERGFTQLQRIGIGLVISIFSMVSAGILE--VARLNYVQTHNLYNEET--IPMTIFWQVPQYFLVGCAEVFTFIGQLEFFYDQAPDAMRSLCSALSLTAIAFGNYLSTFLVTL</Hsp_hseq>
+      <Hsp_midline>+K   +   G      F++G  E  ER +YYG +    N++++ +   + + S      SG                    Y  PL GA+IAD YLGR+ TIA  ++I + G  LL +SA +P +         H  +    +  +A+ ++ +GTG  K  +S   A+Q        K  K+               +NWFY +INVGA+     +V+ +  VG+     +PTV  A+     F G N Y    P GS L +  +++  + +++           ++  D                   F  AA+ ++      A+  +W     T V E++   +   ++    ++   Y+Q+      Q   L+ H      +P+  L+  D  +++   P++D  + P  R+       F+ ++++  G + +  SMV A  ++  +   +   TH    +E   IP  ++ Q P Y L+  +E+F  I  LE+ Y +AP +MRS+  A+ L   A    L    + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10307</Hit_id>
+  <Hit_def>gnl|TC-DB|Q2F800|2.A.17.4.5 Peptide transporter PEPT2 - Danio rerio (Zebrafish) (Brachydanio rerio).</Hit_def>
+  <Hit_accession>10307</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>8.52369e-32</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>431</Hsp_align-len>
+      <Hsp_qseq>DAPTEEEKMTLRRVAG---PINIASFLIGFIELAERFSYYGSTQVFTNFIQQPL--PEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL------GMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHG-----LPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>DAEKYEKAQRSPKLCGTNYPVSIAFIVVN--EFCERFSYYGMKAVLTLYFMNYLHWDKNLSTAIYHA-------------FSGLCYFT-------PLLGALIADSWLGKFKTIIYLSIVYVIGHVVKSVGAIPDV-GDSTVHIALSMVGLGLIALGTG----GIKPCVAAF------------GGDQFDEDNIDERRKFFSIFYMSINAGSVLSTIITPILRGDVQCFGGDCYALAFGVPAALMVIALVVFISGSGLYKKSPPEGNVLVRVCKCIGFAISNRWTNSKKSPKRSHWLDWAEEKYSKR-----------LIQEIKMVCRVLVLYIPLPMFWALFDQQGSRWTLQATRMNMDFGGGFIIKPDQMQMLNALLILVFIPIFDMGIYPLVGLCRIKLTPLKKMATGMILAALAFCAATAVEVYVIKT</Hsp_hseq>
+      <Hsp_midline>DA   E+     ++ G   P++IA  ++   E  ERFSYYG   V T +    L   +  +T   HA              +GL  F        PL GA IAD++LG+F TI +  ++ +IGH++  V A+P V       I +  V + ++ +GTG     I P +A               G++   D      + ++ FY+ IN G++   +      G V       + LAF +P  +  +   V   G   Y ++PP G+ L +  + +         + K   +   W+     +++              + E++   +   +++ LP++W  ++Q  +  T QA  +N        +  D +  L+   +++ IPIFD+G+YP +    I  +P+KKM  G I A+L+   ATAV+ ++  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.69124e-05</Hsp_evalue>
+      <Hsp_query-from>490</Hsp_query-from>
+      <Hsp_query-to>593</Hsp_query-to>
+      <Hsp_hit-from>594</Hsp_hit-from>
+      <Hsp_hit-to>707</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>QTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSAD--PLLTW-NYGTFAVISFVGGIIF-----WFTF------SKLDKEEDSLNEIKEGKRSD</Hsp_qseq>
+      <Hsp_hseq>QIPQYVFLTAGEVMFSITGLEFSYSQAPASMKSVLQA-GWLMT---VAFGNVIVLIVAEGAGMEQWVEFLLFAALLVAVSIIFSIMAYFYTYVDPDQLDKLFKEEGDGGKVESSKKDE</Hsp_hseq>
+      <Hsp_midline>Q P YV L   E+  SIT LE++Y++AP SM+S++ A G  MT    A G   + + A+   +  W  +  FA +     IIF     ++T+       KL KEE    +++  K+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8175</Hit_id>
+  <Hit_def>gnl|TC-DB|P46032|2.A.17.3.2 PEPTIDE TRANSPORTER PTR2-B (HISTIDINE TRANSPORTING PROTEIN) - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>8175</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>3.50518e-31</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>532</Hsp_align-len>
+      <Hsp_qseq>LRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVA------------IIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATA--------------EKPAWMTWDDTFVWEVRRGFKACQVF-------------LWLP--LYWLCYNQINNNLTSQAAVLN----THGLPNDVLANLDPFALIILIPIFDLGVYPALRR-AGIN--FSPVKKMFAGFIFASLSMVCATAVQ-AHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLAL</Hsp_qseq>
+      <Hsp_hseq>LKEKTGNWKACPFILGN-ECCERLAYYGIAGNLITYLTTKLHQGNVS-----------------AATNVTTW-QGTCYLTPLIGAVLADAYWGRYWTIACFSGIYFIGMSALTLSASVPALK-PAECIGDFCPSATPAQYAMFFGGLYLIALGTGGIKPCVSSFGADQFDD-------TDSRERV------RKASFFNWFYFSINIGALVSSSLLVWIQENRGWGLGFGIPTVFMGLAIASFFFGTPLYRFQKPGGSPITRISQVVVASFRKS--SVKVPEDATLLYETQDKNSAIAGSRKIEHTDDCQYLDKAAVISEEESKSGDYSNSWRLCTVTQVEELKILIRMFPIWASGIIFSAVYAQMSTMFVQQGRAMNCKIGSFQLPPAALGTFDTASVIIWVPLYDRFIVPLARKFTGVDKGFTEIQRMGIGLFVSVLCMAAAAIVEIIRLHMANDLGLVESGAP----VPISVLWQIPQYFILGAAEVFYFIGQLEFFYDQSPDAMRSLCSALALLTNALGNYLSSLILTL</Hsp_hseq>
+      <Hsp_midline>L+   G      F++G  E  ER +YYG       ++   L +G+ +                 A+T +TT+ Q   Y  PL GA +AD Y GR+ TIA    I  IG   L +SA    +  P   IG F  +            + ++ +GTG  K  +S   A+Q            + ERV        A  +NWFY  IN+GAL     +V+ ++  G+ L F +PTV   L     FFG   Y    P GS + +  +++  +F+++  S K  + +           A A              +K A ++ +++   +    ++ C V              +W    ++   Y Q++     Q   +N    +  LP   L   D  ++II +P++D  + P  R+  G++  F+ +++M  G   + L M  A  V+   ++  +  G   +       +P +V  Q P Y +L  +E+F  I  LE+ Y ++P +MRS+  A+ L   A+   L    L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9932</Hit_id>
+  <Hit_def>gnl|TC-DB|Q16348|2.A.17.4.8 Solute carrier family 15 member 2 OS=Homo sapiens GN=SLC15A2 PE=2 SV=2</Hit_def>
+  <Hit_accession>9932</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.9697e-31</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>EDYPDAPTEEEKMTLRRVAG---PINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLP--EGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSV---IAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL------GMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRIL----NINFK-RAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHI</Hsp_qseq>
+      <Hsp_hseq>EEVPPRPPSPPKKPSPTICGSNYPLSIAFIVVN--EFCERFSYYGMKAVLILYFLYFLHWNEDTSTSIYHA-------------------FSSLCYFT-PILGAAIADSWLGKFKTIIYLSLVYVLGHVIKSLGALPILGGQVVH--TVLSLIGLSLIALGTG------GIKPCVAAF------------GGDQFEEKHAEERTRYFSVFYLSINAGSLISTFITPMLRGDVQCFGEDCYALAFGVPGLLMVIALVVFAMGSKIYNKPPPEGNIVAQVFKCIWFAISNRFKNRSGDIPKRQHWLDWAAEKYPKQL---------------IMDVKALTRVLFLYIPLPMFWALLDQQGSRWTLQAIRMNRNLGFFVLQPDQMQVLNPLLVLIFIPLFDFVIYRLVSKCGINFSSLRKMAVGMILACLAFAVAAAVEIKI</Hsp_hseq>
+      <Hsp_midline>E+ P  P    K     + G   P++IA  ++   E  ERFSYYG   V   +    L   E ++T   HA                   F+    +T P+ GA IAD++LG+F TI +  L+ ++GH++  + ALP +   + H  + + +  +++I +G G       I P +A               G++     A    R ++ FYL IN G+L          G V       + LAF +P ++  +   V   G   YN+ PP G+ + + F+ +    +  FK R+G  PK     D+     P Q                + +V+   +   +++ LP++W   +Q  +  T QA  +N +     L  D +  L+P  ++I IP+FD  +Y  + + GINFS ++KM  G I A L+   A AV+  I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.94208e-05</Hsp_evalue>
+      <Hsp_query-from>471</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>592</Hsp_hit-from>
+      <Hsp_hit-to>655</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAI</Hsp_qseq>
+      <Hsp_hseq>GLQAWKIEDIPANKMSIAWQLPQYALVTAGEVMFSVTGLEFSYSQAPSSMKSVLQAAWLLTIAV</Hsp_hseq>
+      <Hsp_midline>G  A   +++P    ++  Q P Y L+   E+  S+T LE++Y++AP SM+S++ A  L   A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8176</Hit_id>
+  <Hit_def>gnl|TC-DB|P46059|2.A.17.4.9 Solute carrier family 15 member 1 OS=Homo sapiens GN=SLC15A1 PE=2 SV=1</Hit_def>
+  <Hit_accession>8176</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>8.37737e-30</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>IASFLIGFIELAERFSYYGSTQV----FTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAH-----PNSA---IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL--GMVYAE------KRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFK-RAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>LSIFFIVVNEFCERFSYYGMRAILILYFTNFISWD--DNLSTAIYH---TFVAL-----------------CYLTPILGALIADSWLGKFKTIVSLSIVYTIGQAVTSVSSINDLTDHNHDGTPDSLPVHVVLSLIGLALIALGTGGIKPCVSAFGGDQ----------FEEGQE------KQRNRFFSIFYLAINAGSLLSTIITPMLRVQQCGIHSKQACYPLAFGVPAALMAVALIVFVLGSGMYKKFKPQGNIMGKVAKCIGFAIKNRFRHRSKAFPKREHWLDWAKEKY-----------DERLISQIKMVTRVMFLYIPLPMFWALFDQQGSRWTLQATTMSGKIGALEIQPDQMQTVNAILIVIMVPIFDAVLYPLIAKCGFNFTSLKKMAVGMVLASMAFVVAAIVQVEIDKT</Hsp_hseq>
+      <Hsp_midline>++ F I   E  ERFSYYG   +    FTNFI     +  +T   H   T  AL                  Y  P+ GA IAD++LG+F TI    ++  IG  +  VS++  +  H     P+S    + +  + + ++ +GTG  K  +S    +Q           + G+           R ++ FYL IN G+L   +   M+  +      K+  + LAF +P  + A+   V   G   Y +  P G+ +GK  + +    K R     KA+ + + W+     ++           D+  + +++   +   +++ LP++W  ++Q  +  T QA  ++       +  D +  ++   ++I++PIFD  +YP + + G NF+ +KKM  G + AS++ V A  VQ  I  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>3.83747e-05</Hsp_evalue>
+      <Hsp_query-from>486</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>580</Hsp_hit-from>
+      <Hsp_hit-to>696</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>NVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTW-NYGTFAVISFVGGIIF-----WFTFSKLDKEEDSLNEIKEGKRSDDAEP</Hsp_qseq>
+      <Hsp_hseq>NMALQIPQYFLLTCGEVVFSVTGLEFSYSQAPSNMKSVLQA-GWLLTVAVGNIIVLIVAGAGQFSKQWAEYILFAALLLVVCVIFAIMARFYTYINPAEIEAQFDEDEKKNRLEKSNP</Hsp_hseq>
+      <Hsp_midline>N+ +Q P Y LL   E+  S+T LE++Y++AP +M+S++ A G  +T     +    +A +      W  Y  FA +  V  +IF     ++T+    + E   +E ++  R + + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8357</Hit_id>
+  <Hit_def>gnl|TC-DB|P51574|2.A.17.4.1 OLIGOPEPTIDE TRANSPORTER, SMALL INTESTINE ISOFORM (PEPTIDE TRANSPORTER 1) (INTESTINAL H+/PEPTIDE COTRANSPORTER) (PROTON-COUPLED DIPEPTIDE COTRANSPORTER) - Rattus norvegicus (Rat).</Hit_def>
+  <Hit_accession>8357</Hit_accession>
+  <Hit_len>710</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>8.42377e-30</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>419</Hsp_align-len>
+      <Hsp_qseq>IASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAH-----PNSA---IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAG----------QLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFK-RAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLN----THGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>LSIFFIVVNEFCERFSYYGMRALLVLYFRN------------------FLGWDDDLSTAIYHTFVALCYLTPILGALIADSWLGKFKTIVSLSIVYTIGQAVISVSSINDLTDHDHDGSPNNLPLHVALSMIGLALIALGTGGIKPCVSAFGGDQ----------FEEGQE------KQRNRFFSIFYLAINAGSLLSTIITPILRVQQCGI--HSQQACYPLAFGVPAALMAVALIVFVLGSGMYKKFQPQGNIMGKVAKCIRFAIKNRFRHRSKAFPKRNHWLDWAKEKY-----------DERLISQIKIMTKVMFLYIPLPMFWALFDQQGSRWTLQATTMTGKIGTIEIQPDQMQTVNAILIVIMVPIVDAVVYPLIAKCGFNFTSLKKMTVGMFLASMAFVVAAIVQVEIDKT</Hsp_hseq>
+      <Hsp_midline>++ F I   E  ERFSYYG   +   + +                    LG     ST +        Y  P+ GA IAD++LG+F TI    ++  IG  ++ VS++  +  H     PN+    + +  + + ++ +GTG  K  +S    +Q           + G+           R ++ FYL IN G+L            Q G+    ++  + LAF +P  + A+   V   G   Y +  P G+ +GK  + +    K R     KA+ + + W+     ++           D+  + +++   K   +++ LP++W  ++Q  +  T QA  +     T  +  D +  ++   ++I++PI D  VYP + + G NF+ +KKM  G   AS++ V A  VQ  I  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.91819e-05</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>574</Hsp_hit-from>
+      <Hsp_hit-to>630</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAI</Hsp_qseq>
+      <Hsp_hseq>EDIPPNTVNMALQIPQYFLLTCGEVVFSVTGLEFSYSQAPSNMKSVLQAGWLLTVAI</Hsp_hseq>
+      <Hsp_midline>+++P    N+ +Q P Y LL   E+  S+T LE++Y++AP +M+S++ A  L   AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4006</Hit_id>
+  <Hit_def>gnl|TC-DB|H2DJV9|2.A.17.4.6 Oligopeptide transporter PEPT1 OS=Fundulus heteroclitus macrolepidotus GN=SLC15A1b PE=2 SV=1</Hit_def>
+  <Hit_accession>4006</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.5448e-29</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>IASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVI------AHPNSA--IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL--GMVYAEK------RVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFK-RAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHG----LPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>LSIFFIVVNEFCERFSYYGMRAVLVLYFKYFL-KWDDDFSTTIYHTFVAL-----------------CYLSPILGAIVADSWLGKFKTIVYLSVVYAAGQVVMAVSAIHDITDGNKDGTPDNMALHIALSMVGLLLIALGTG----GIKPCVAAF------------GGDQFSEDQEKQRSTFFSIFYLSINAGSLLSTVITPILRAQKCGIHTKQQCYPLAFGVPAALMVVALIVFILGSSMYNKTAPSGNIMVKVCKCIFFAIKNRFRHRSSAYPKREHWMDWAEEKY-----------DKLLIAQVKMVLKVLFLYIPLPMFWALFDQQGSRWTLRATTMDGNFGLMVIQPDQMQTVNPILILIMVPVVDFIIYPLISKCKLNFTPLRKMTGGMFLAALAFVAAALVQLQIDAT</Hsp_hseq>
+      <Hsp_midline>++ F I   E  ERFSYYG   V   + +  L +     S+    T  AL                  Y  P+ GA +AD++LG+F TI +  ++   G +++ VSA+  +          N A  I +  V ++++ +GTG     I P +A               G++   D     +  ++ FYL IN G+L   +   ++ A+K      +  + LAF +P  +  +   V   G + YN+T P+G+ + K  + +    K R      A+ + + WM     ++           D   + +V+   K   +++ LP++W  ++Q  +  T +A  ++ +     +  D +  ++P  ++I++P+ D  +YP + +  +NF+P++KM  G   A+L+ V A  VQ  I AT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000200489</Hsp_evalue>
+      <Hsp_query-from>490</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>581</Hsp_hit-from>
+      <Hsp_hit-to>625</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>QTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAI</Hsp_qseq>
+      <Hsp_hseq>QIPQYFLMTSGEVFFSVTGLEFSYSQAPSNMKSVLQAGWLLTVAV</Hsp_hseq>
+      <Hsp_midline>Q P Y L+   E+F S+T LE++Y++AP +M+S++ A  L   A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14277</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9ES07|2.A.17.4.4 Solute carrier family 15 member 2 OS=Mus musculus GN=Slc15a2 PE=2 SV=1</Hit_def>
+  <Hit_accession>14277</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.78969e-29</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>EEKRAPSQTTGDDEDYPDAPTEEEKMTLRRVAG--PINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLP--EGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL------GMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKA-----FRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQA----AVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHI</Hsp_qseq>
+      <Hsp_hseq>ESKETLFSPVSTEEMLPGPPSPPKKSTPKLFGSSYPLSIAFIVVN--EFCERFSYYGMKAVLTLYFLYFLHWNEDTSTSVYHA-------------------FSSLCYFT-PILGAAIADSWLGKFKTIIYLSLVYVLGHVFKSLGAIPILGGKMLHTI-LSLVGLSLIALGTG----GIKPCVAAF------------GGDQFEEEHAEARTRYFSVFYLSINAGSLISTFITPMLRGDVKCFGEDCYALAFGIPGLLMVLALVVFAMGSKMYRKPPPEGNIVAQVTKCIWFAICNRFRNRSEDIPKRQHWLDW----------AAEK-----YPKHLIMDVKALTRILFLYIPLPMFWALLDQQGSRWTLQANKMDGDLGFFVLQPDQMQVLNPFLVLVFIPLFDLVIYRLISKCGVNFSSLRKMAVGMILACLAFAVAALVEIKI</Hsp_hseq>
+      <Hsp_midline>E K         +E  P  P+  +K T +      P++IA  ++   E  ERFSYYG   V T +    L   E ++T   HA                   F+    +T P+ GA IAD++LG+F TI +  L+ ++GH+   + A+P +       I +  V + ++ +GTG     I P +A               G++   + A    R ++ FYL IN G+L          G V       + LAF +P ++  L   V   G   Y + PP G+ + +      F I N    R+   PK     D+           AEK     +    + +V+   +   +++ LP++W   +Q  +  T QA      L    L  D +  L+PF +++ IP+FDL +Y  + + G+NFS ++KM  G I A L+   A  V+  I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.26667e-06</Hsp_evalue>
+      <Hsp_query-from>471</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>592</Hsp_hit-from>
+      <Hsp_hit-to>689</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTW-NYGTFAVISFVGGIIF</Hsp_qseq>
+      <Hsp_hseq>GLQAWKAEDIPANKLSIAWQLPQYVLVTAAEVMFSVTGLEFSYSQAPSSMKSVLQAAWLLTVAVGNII--VLIVAQFSGLVQWAEFVLFSCLLLVVCLIF</Hsp_hseq>
+      <Hsp_midline>G  A   +++P    ++  Q P YVL+  +E+  S+T LE++Y++AP SM+S++ A  L   A+   +    +      L+ W  +  F+ +  V  +IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15810</Hit_id>
+  <Hit_def>gnl|TC-DB|R7W971|9.A.43.1.9 Peptide transporter PTR3-A OS=Aegilops tauschii GN=F775_27357 PE=4 SV=1</Hit_def>
+  <Hit_accession>15810</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>7.78898e-29</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>547</Hsp_align-len>
+      <Hsp_qseq>GDDEDYPDAPTEE--EKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVS-ALPSV--------IAHPNS-------AIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRA------------GFSPKAWKRSDFWMAALPSQFATAEKPA-----------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAGIN---FSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLA</Hsp_qseq>
+      <Hsp_hseq>GSDGEYTQDGTTDLHGNPILRSKRGGWRACAFVVVY-EVFERMAYYGISSNLVLYLTTELHQGTVLSANNVTNWVGTIWM------------------TPVIGAYIADAHLGRYRTFMVASIIYLLGMILLTMAVSLPSLKPAKCGLGTADPNCDHKATSVQLGVFFLALYILAVGTGGTKPNISTIGADQFDEHEPRERKQK-------------LSFFNWWMFSIFFGPLFANTVLVYIQDKIGWTVGYALPTVGLAVSIAVFSAGTPFYRHKPTSESSFAKMAGVIVAAVRKCRVPAPVDPRDLHELDPNQYEKKKTSPLPHTPNFRVLSKAAVKMEGSRSASRWSLSTVTQVEETKQMLKMLPVLLITFVPSAMLAQINTLFVKQGTTLERRLHHFEIPPASLQGFVTISMLVSVVLYDRLFVPFMRRLTKNPRGISLLQRMGVGLVFHIVIMVIASLTERHRLRVAM--ENGIFESKGTTVPLSIFVLLPQFVLMGVADAFLEVAKIEFFYDQAPEGMKSLGTSYSMTSLGIGNFLSSFLLS</Hsp_hseq>
+      <Hsp_midline>G D +Y    T +      LR   G     +F++ + E+ ER +YYG +     ++   L +G+   +++     G + M                   P+ GAYIAD +LGR+ T   A +I ++G ILL ++ +LPS+         A PN         +GVF +A+ I+ VGTG  K NIS + A+Q   H    +  K                +NW+   I  G L     +VY + ++G+ + + LPTV  A++  V   G   Y   P + SS  K   ++    ++                P  +++           F    K A           W     T V E ++  K   V L   +      QIN     Q   L        +P   L      ++++ + ++D    P +RR   N    S +++M  G +F  + MV A+  + H    +    +     +   +P ++++  P +VL+ +++ F  +  +E+ Y +AP+ M+S+  +  +    I   L    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12811</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8EKT7|2.A.17.4.7 Proton/peptide symporter family protein OS=Shewanella oneidensis (strain MR-1) GN=SO_0002 PE=1 SV=1</Hit_def>
+  <Hit_accession>12811</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.07337e-27</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQF--WVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPP---------------------AGSSLGKAFRILN--------INFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQA-AVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALS</Hsp_qseq>
+      <Hsp_hseq>EACERFSFYGMRNILTPFLMTALL------LSIPEELRGAVAKD--------VFHSFVIGVYFFPLLGGWIADRFFGKYNTILWLSLIYCVGHAFLAIF---------EHSVQGFYTGLFLIALGSGGIKPLVSSFMGDQFDQSN----------------KSLAQKAFDMFYFTINFGSFFASLSMPLLLKNFGAAVAFGIPGVLMFVATVFFWLGRKRYIHMPPEPKDPHGFLPVIRSALLTKVEGKGNIGLVLALIGGVSAAYALVNIPTLGIVAGLCCAMVLVMGFVGAGASLQLERARKSHPDAAVDGVRSVLRILVLFALVTPFWSLFDQKASTWILQANDMVKPQWFEPAMMQALNPLLVMLLIPFNNFVLYPAIERMGVKLTALRKMGAGIAITGLSWIVVGTIQLMMDGGSA---------------LSIFWQILPYALLTFGEVLVSATGLEFAYSQAPKAMKGTIMS---FWT-LSVTVGNLWVLLA</Hsp_hseq>
+      <Hsp_midline>E  ERFS+YG   + T F+   L        S   +  GA+            F+ F   VY  PL G +IAD + G++NTI W  LI  +GH  L +            ++  F   + ++ +G+G  K  +S  + +Q                      +   + ++ FY  IN G+    L M    K  G  +AF +P V+  +     + G+ +Y   PP                        ++G    ++         +N    G            M  + +  +   + A  +  D  V  VR   +   +F  +  +W  ++Q  +    QA  ++        ++  L+P  +++LIP  +  +YPA+ R G+  + ++KM AG     LS +    +Q  +   SA                +++ Q   Y LL   E+  S T LE+AY++APK+M+  +M+   F T +S  +G  ++ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14366</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9FNL7|2.A.17.3.4 Peptide transporter PTR3-A - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>14366</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.20558e-27</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>96</Hsp_gaps>
+      <Hsp_align-len>587</Hsp_align-len>
+      <Hsp_qseq>QTTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSA--------------IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARM--YNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGF-------------SPKAWKRSDFWMAALPS-------QFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLN-----THGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGIN---FSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSM-------VMAVGLFMTA--------ISAALGEAFLALSA-DPLLTWNYGTFAVISFVGGIIF</Hsp_qseq>
+      <Hsp_hseq>EEVGDDYTKDGTVDLQGNPVRRSIRGRWKACSFVVVY-EVFERMAYYGISSNLFIYMTTKLHQGTVKSSNNVTNWVGTS------------------WLTPILGAYVGDALLGRYITFVISCAIYFSGMMVLTLSVTIPGIKPPECSTTNVENCEKASVLQLAVFFGALYTLAIGTGGTKPNISTIGADQFD---------------VFDPKEKTQKLSFFNWWMFSIFFGTLFANTVLVYVQDNVGWTLGYGLPTLGLAISITIFLLGTPFYRHKLPTGSPFTKMARVIVASFRKANAPMTHDITSFHELPSLEYERKGAFPIHPTPSLRFLDRASLKTGTNHKWNLCTTTEVEETKQMLRMLPVLFITFVPSMMLAQINTLFVKQGTTLDRKVTGSFSIPPASLSGFVTLSMLISIVLYDRVFVKITRKFTGNPRGITLLQRMGIGLIFHILIMIVASVTER--YRLKVAADHGLIHQTGVKLPLTIFALLPQFVLMGMADSFLEVAKLEFFYDQAPESMKSLGTSYSTTSLAIGNFMSSFLLSTVSEITKKRGRGWILNNLNESRLDYYYLFFAVLNLVNFVLF</Hsp_hseq>
+      <Hsp_midline>+  GDD         +     R + G     SF++ + E+ ER +YYG +     ++   L +G+   S++     G                    +  P+ GAY+ D  LGR+ T   +  I   G ++L +S     I  P  +              + VF  A+  + +GTG  K NIS + A+Q                 + DP   T ++  +NW+   I  G L     +VY +  VG+ L + LPT+  A++  +   G   Y    P GS   K  R++  +F++A               S +  ++  F +   PS          T     W     T V E ++  +   V     +  +   QIN     Q   L+     +  +P   L+     +++I I ++D       R+   N    + +++M  G IF  L M+ A+  +   Y       H         +P  ++   P +VL+ +++ F  +  LE+ Y +AP+SM+S+        +A+G FM++        I+   G  ++  +  +  L + Y  FAV++ V  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9950</Hit_id>
+  <Hit_def>gnl|TC-DB|Q17758|2.A.17.4.3 2.A.17.4.3 Peptide transporter family 2</Hit_def>
+  <Hit_accession>9950</Hit_accession>
+  <Hit_len>785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.18815e-26</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>DEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWV--YTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL-PSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFW------LAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDD----TFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLAN----LDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHI-----YATSACGTHAATCDEMPFIPTNVWIQT</Hsp_qseq>
+      <Hsp_hseq>DDPRPGSPVDHQPTTWGGIIKKWPKQTFLIVGNELCERFSFYGMRAVLTLYF------------------FNILNFSQSFSTVL--FHAFTVICYSSPLLGSILADGYIGKFWTIFFISIFYACGQILLAFSSIAPSGSSHHPL---LDLLGLLIVGLGTGGIKPCVSAFGGDQFPAH--YTRMI--------------SLFFSMFYFSINAGSLISMWLTPYFRSMSCFGHDSCYPLAFGIPAILMIVATLVFMAGSFWYKKVPPKENIIFKVIGTITTALRKKASSSSTHQRSHWLEYSLDGHDCALSTECKNLHGNCAQRRYIEDIKRLFRVIVMMIPVPMFWALYDQQGSTWVLQAVGMDAKVFGFEILPDQMGVLNAFLILFFIPIFQSIVYPTIEKLGFQMTMLRKMAGGGILTAVSFFVCGIVQLFVNPTLPYIPMANEAHLTIINTIPSCDFNVLIDS</Hsp_hseq>
+      <Hsp_midline>D+  P +P + +  T   +       +FLI   EL ERFS+YG   V T +                      L   Q  ST L  F+ F V  Y+ PL G+ +AD Y+G+F TI +  +    G ILL  S++ PS  +H      +  + ++I+G+GTG  K  +S    +Q  +H  Y + +              +  ++ FY  IN G+L       Y      F       LAF +P ++  +   V   G   Y + PP  + + K    +    ++   S    +RS +   +L                +     ++ +++R F+   + + +P++W  Y+Q  +    QA  ++      ++L +    L+ F ++  IPIF   VYP + + G   + ++KM  G I  ++S      VQ  +     Y   A   H    + +P    NV I +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>4.89151e-07</Hsp_evalue>
+      <Hsp_query-from>490</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>673</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>QTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALG------EAFLALSADPLLTWNYGTFAVISFVGGIIFWFTFSKLDKEEDSLNE</Hsp_qseq>
+      <Hsp_hseq>QIPQYVILTAGEVLFSITGLEFAYTEASPQLKSVVQALWLFTTAIGDLIVVVIFMLNIFSDVAVQMFVFGGIMLFVIFVFILLAVFYYEYADYSNESEVLTE</Hsp_hseq>
+      <Hsp_midline>Q P YV+L   E+  SIT LE+AYT+A   ++S+V A+ LF TAI   +         F  ++    +      F +  F+   +F++ ++    E + L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9101</Hit_id>
+  <Hit_def>gnl|TC-DB|P91679|2.A.17.4.2 OLIGOPEPTIDE TRANSPORTER 1 (YIN PROTEIN) - Drosophila melanogaster (Fruit fly).</Hit_def>
+  <Hit_accession>9101</Hit_accession>
+  <Hit_len>743</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.4881e-25</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVG-------FWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGL----PNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAV-----QAHIYAT--SACGTHAATCDEMP--FIPTNVWIQTPSYV--LLALSEIFASIT-SLEYAYTKAPKS</Hsp_qseq>
+      <Hsp_hseq>EFCERFNYYGMRTILVLYL------------------TNKLGYNEETATVLFHTFTMLVYIFPLIGALIADGWLGKYKTILYLSLVYSLGAMVVSFGAVP-LSGMPTKAVTV--VGLLLIAIGTGGIKPCVSAFGGDQFS---------------LPAQSFQLAKFFSLFYFAINAGSLISTTFTPILRADVHCFGDQDCFSLAFGVPAILMIFSVIIFMAGKRLYRCQPPAGNMIFGVSRCIADAF-------KGWQKRRH--SEPMESFLDYAKP---TVGSRMVQETKCLGRILRLFLPFPVFWALFDQQGSRWTFQATRMDGNVLGFQIKPDQMQVVNPLLILGFLPLFDYIIYPALARCGIR-RPLQKLTLGLLLAALGFFLSAGLEMKMEQAAYRATPIEPDMTHLRIYNGMPCRYEISSAVVQTPRVIEPLNVWEDLSLQMTESKEYTFNAQPVS</Hsp_hseq>
+      <Hsp_midline>E  ERF+YYG   +   ++                  +  LG  ++ +T L       VY  PL GA IAD +LG++ TI +  L+  +G +++   A+P +   P  A+ V  V ++++ +GTG  K  +S    +Q +               L   +   A+ ++ FY  IN G+L            V        F LAF +P ++   +  +   GK  Y   PPAG+ +    R +   F       K W++     +     F    KP   T     V E +   +  ++FL  P++W  ++Q  +  T QA  ++ + L      D +  ++P  ++  +P+FD  +YPAL R GI   P++K+  G + A+L    +  +     QA   AT      TH    + MP  +  ++  +QTP  +  L    ++   +T S EY +   P S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00015358</Hsp_evalue>
+      <Hsp_query-from>490</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>596</Hsp_hit-from>
+      <Hsp_hit-to>690</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>QTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGIIF-WF--TFSKLDKEED</Hsp_qseq>
+      <Hsp_hseq>QLPQIVVMTAAEVMFSVTGLEFSYSQSPPSMKSVLQACWLLSVAIGNMLVVVIAEFKFTSSQSGEFTLFASLMLVDMMIFLWLARSYQYKDQRED</Hsp_hseq>
+      <Hsp_midline>Q P  V++  +E+  S+T LE++Y+++P SM+S++ A  L   AI   L             +  +  FA +  V  +IF W   ++   D+ ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15193</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9SPU1|2.A.17.3.21 Nitrate transporter OS=Oryza sativa GN=NRT1 PE=2 SV=1</Hit_def>
+  <Hit_accession>15193</Hit_accession>
+  <Hit_len>584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>4.85886e-21</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>YTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSA-LPSVIAHPNSAIG----------VFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRIL---------------NINFKRAGFSPK-----------AWKRSDFWMAALPSQFAT-AEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRR---AGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLAL</Hsp_qseq>
+      <Hsp_hseq>YLAPLVGAFLADSYLGKYCTILIFCTIFIIGLMMLLLSAAVPLISTGPHSWIIWTDPVSSQNIIFFVGLYMVALGYGAQCPCISSFGADQFDDTDENERTKKSS-------------FFNWTYFVANAGSLISGTVIVWVQDHKGWIWGFTISALFVYLGFGTFIFGSSMYDFRNLEEAPLARICQVVVAAIHKRDKDLPCDSSVLYEFLGQSSAIEGSRKLEHTTGLKFFDRAAMVTPSDFESDGLLNTWKICTVTQVEELKILIRMFPVWATMILFAAVLDNMFSTFIEQGMVMEKHIGSFEIPAASFQSIDVIAVLILVPVYERVLVPVFRKFTGRANGITPLQRMGIGLFFSMLSMVSAALVESNRLRIAQ---DEGLVHRKVAVPMSILWQGPQYFLIGVGEVFSNIGLTEFFYQESPDAMRSLCLAFSLANVSAGSYLSSFIVSL</Hsp_hseq>
+      <Hsp_midline>Y  PL GA++AD+YLG++ TI     I +IG ++L++SA +P +   P+S I           +F V + ++ +G G     IS   A+Q        +T K+               +NW Y + N G+L     +V+ +   G+   FT+  +   L      FG + Y+      + L +  +++               ++ ++  G S               K  D      PS F +      W     T V E++   +   V+  + L+    + + +    Q  V+  H     +P     ++D  A++IL+P+++  + P  R+        +P+++M  G  F+ LSMV A  V+++    +              +P ++  Q P Y L+ + E+F++I   E+ Y ++P +MRS+ +A  L   +  + L    ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15232</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9SZY4|2.A.17.3.18 Nitrate transporter 1.4 OS=Arabidopsis thaliana GN=NRT1.4 PE=1 SV=1</Hit_def>
+  <Hit_accession>15232</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.47624e-20</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>535</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>94</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>SQTTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIG-HILLVVSALPSV---IAHPNSA--------IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDP--AATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINF-KRAGFSPKA-----WKRSDFWMAALPSQFATAEKPA-------------------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAV----LNTHGLPNDVLANLDPFALIILIPIFDLGVYPALR--RAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAIS</Hsp_qseq>
+      <Hsp_hseq>SWTVADAVDYKGRPADKSK------TGGWITAALILG-IEVVERLSTMGIAVNLVTYLMETMHLPSSTSANIVTDFMGTS------------------FLLCLLGGFLADSFLGRFKTIGIFSTIQALGTGALAVATKLPELRPPTCHHGEACIPATAFQMTILYVSLYLIALGTGGLKSSISGFGSDQFDDK---------------DPKEKAHMAFFFNRFFFFISMGTLLAVTVLVYMQDEVGRSWAYGICTVSMAIAIVIFLCGTKRYRYKKSQGSPVVQIFQVIAAAFRKRKMELPQSIVYLYEDNPEGIRIEHTDQFHLLDKAAIVAEGDFEQTLDGVAIPNPWKLSSVTKVEEVKMMVRLLPIWATTIIFWTTYAQMITFSVEQASTMRRNIGSFKIPAGSLTVFFVAAILITLAVYDRAIMPFWKKWKGKPGFSSLQRIAIGLVLSTAGMAAAALVEQKRLS-------VAKSSSQKTLPISVFLLVPQFFLVGAGEAFIYTGQLDFFITQSPKGMKT--MSTGLFLTTLS</Hsp_hseq>
+      <Hsp_midline>S T  D  DY   P ++ K       G    A+ ++G IE+ ER S  G       ++ + +   S+T ++      G                    + + L G ++AD++LGRF TI     I  +G   L V + LP +     H   A        + +  V++ ++ +GTG  KS+IS   ++Q                   DP   A  A  +N F+  I++G L     +VY +  VG   A+ + TV  A+   +   G  +Y      GS + + F+++   F KR    P++         +        QF   +K A                   W     T V EV+   +   ++    ++W  Y Q+      QA+     + +  +P   L      A++I + ++D  + P  +  +    FS ++++  G + ++  M  A  V+    +        A       +P +V++  P + L+   E F     L++  T++PK M++  M+ GLF+T +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10197</Hit_id>
+  <Hit_def>gnl|TC-DB|Q21219|2.A.17.4.11 Peptide transporter family 1 OS=Caenorhabditis elegans GN=pept-1 PE=2 SV=2</Hit_def>
+  <Hit_accession>10197</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>4.00774e-20</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWV--YTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSV--IAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQL--GMVYAEKRVG----FWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNI---NFKRAGFSPKA-W-----KRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVL-----NTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>EFCERFSYYGMRTVLTFYLLNVLKFTD--------------------SQSTIFFNGFTVLCYTTPLLGSIVADGYIGKFWTIFSVSILYAIGQVVLALASTKNFQSSVHPWMDLS----GLLIIAFGTGGIKPCVSAFGGDQFELGQ---------ERML-------SLFFSMFYFSINAGSMISTFISPIFRSQPCLGQDSCYPMAFGIPAILMIVATLVFMGGSFWYKKNPPKDNVFGEVSRLMFRAVGNKMKSGSTPKEHWLLHYLTTHDCALDAKCLELQAEKRNKNLCQKKKFIDDVRSLLRVLVMFLPVPMFWALYDQQGSVWLIQAIQMDCRLSDTLLLLPDQMQTLNAVLILLFIPLFQVIIYPVAAKC-VRLTPLRKMVTGGLLASLAFLITGFVQLQVNTT</Hsp_hseq>
+      <Hsp_midline>E  ERFSYYG   V T ++   L                        S     FN F V  YT PL G+ +AD Y+G+F TI    ++  IG ++L +++  +     HP   +      ++I+  GTG  K  +S    +Q    +         ER+L       +  ++ FY  IN G++       +  ++  +G    + +AF +P ++  +   V   G   Y + PP  +  G+  R++     N  ++G +PK  W        D  + A   +    ++   +     F+ +VR   +   +FL +P++W  Y+Q  +    QA  +     +T  L  D +  L+   +++ IP+F + +YP   +  +  +P++KM  G + ASL+ +    VQ  +  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000359831</Hsp_evalue>
+      <Hsp_query-from>461</Hsp_query-from>
+      <Hsp_query-to>598</Hsp_query-to>
+      <Hsp_hit-from>667</Hsp_hit-from>
+      <Hsp_hit-to>815</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>QAHIYATSACGTHA-ATCDEMPFIPTN----VWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGI------IFWFTFS-KLDKEEDSLNEIKEGKRSDDAEPK</Hsp_qseq>
+      <Hsp_hseq>QGGVFIYALTGTYENPKIHELQIVQSNSVSILW-QIPQIVVITAAEILFSITGYEFAYSQSAPSMKALVQALWLLTTAAGDSIIVVITILNLFENMAVEFFVYAAAMFVVIAIFALLSIFYYTYNYYTTDEEDGEIGVDDEEEIEDHNPR</Hsp_hseq>
+      <Hsp_midline>Q  ++  +  GT+      E+  + +N    +W Q P  V++  +EI  SIT  E+AY+++  SM+++V A+ L  TA   ++      L+    +   +  +A   FV         IF++T++     EED    + + +  +D  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5003</Hit_id>
+  <Hit_def>gnl|TC-DB|O01840|2.A.17.4.10 Peptide transporter 3 OS=Caenorhabditis elegans GN=pept-3 PE=1 SV=1</Hit_def>
+  <Hit_accession>5003</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.38484e-19</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>EEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVG-------FWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLG-KAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHG-----LPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYAT</Hsp_qseq>
+      <Hsp_hseq>EEKSLLQKLRSYPPAVFFMLGN-EFCERFSFYGMKTILFIYLI----------TEHEFSPSKA--------TFIYHLFTCIAYLTPLIGSIMADSVFGRFKVILYGSSIYVVGHVLLSLGAVP-FLSYPIRSSLDFS-GLFVIAFATGCIKPCVSAFAADQFTE----------------DQKDLRSQFFSFFYFAINGGSLFAIIITPILRGRVQCFGNAHCFPLAFGVPGVLMLLALILFLMGWSMYKKHPPSKENVGSKVVAVIYTSLRKMVGGASRDKPVTHWL-----DHAAPEHSQKM------IDSTRGLLNVAVIFCPLIFFWALFDQQGSTWVLQARRLDGRVGHFSILPEQIHA-INPVCVLILVPIFEGWVYPALRKI-TRVTPLRKMAVGGLLTAFSFAIAGVLQLKVNET</Hsp_hseq>
+      <Hsp_midline>EEK  L+++        F++G  E  ERFS+YG   +   ++           + H    S A        T +        Y  PL G+ +AD+  GRF  I +   I ++GH+LL + A+P  +++P  +   F+  + ++   TG  K  +S   A+Q                   D     ++ +++FY  IN G+L   +       RV        F LAF +P V+  L   +   G + Y + PP+  ++G K   ++  + ++        K    W+       A  E    M      +   R       +F  L  +W  ++Q  +    QA  L+        LP  + A ++P  ++IL+PIF+  VYPALR+     +P++KM  G +  + S   A  +Q  +  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000344302</Hsp_evalue>
+      <Hsp_query-from>492</Hsp_query-from>
+      <Hsp_query-to>593</Hsp_query-to>
+      <Hsp_hit-from>580</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>PSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLA---LSADPLLT-WNYGTFAVISFVGGIIFWFTFSKLDKEEDSLNEIKEGKRSD</Hsp_qseq>
+      <Hsp_hseq>PQYIIITLGEVLLSVTGLEFAYSQAAPNMKSVLTAMWL-LTVFAGNLIDMMISGTRLIPHPALEFFFYSTLMVIVMGVFILLAMQYTYVEDNDDEIT-ITESEKKD</Hsp_hseq>
+      <Hsp_midline>P Y+++ L E+  S+T LE+AY++A  +M+S++ A+ L +T  +  L +  ++   L   P L  + Y T  VI     I+    ++ ++  +D +  I E ++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13309</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8RX77|2.A.17.3.15 Nitrate transporter 1.7 OS=Arabidopsis thaliana GN=NRT1.7 PE=1 SV=1</Hit_def>
+  <Hit_accession>13309</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.49844e-18</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>596</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>92</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>PLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL-------------PSVIAHPNSA-IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKR------------AGFSPKAWKRSDFWMAALPSQFATAEKPA----------------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH-----GLPNDVLANLDPFALIILIPIFDLGVYPALRR-----AGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLA------------------LSADPLLTWNYGTFAVISFVGGIIFWFTFSKLD-KEEDSLNEIKEGKRSDDAE</Hsp_qseq>
+      <Hsp_hseq>PLVGAYISDTYVGRFKTIAFASFATLLGLITITLTASFPQLHPASCNSQDPLSCGGPNKLQIGVLLLGLCFLSVGSGGIRPCSIPFGVDQF-------------DQRTEEGVKGVASFFNWYYMTFTVVLIITQTVVVYIQDQVSWIIGFSIPTGLMALAVVMFFAGMKRYVYVKPEGSIFSGIAQVIVAARKKRKLKLPAEDDGTVTYYDPAIKSSVLSKLHRSNQFRCLDKAAVVIEGDLTPEGPPADKWRLCSVQEVEEVKCLIRIVPIWSAGIISLAAMTTQGTFTVSQALKMDRNLGPKFEIPAGSLSVISLLTIGIFLPFYDRVFVPFMRRITGHKSGITL--LQRIGTGIVFAIFSMIVAGIVERMRRIRS-----INAGDPTGMTPMSVFWLSPQLILMGLCEAFNIIGQIEFFNSQFPEHMRSIANSLFSLSFAGSSYLSSFLVTVVHKFSGGHDRPDWLNKNLNAGK-LDYFYYLIAVLGVVNLVYFWYCARGYRYKVGLPIEDFEEDKSSDDVE</Hsp_hseq>
+      <Hsp_midline>PL GAYI+DTY+GRF TIA+A    ++G I + ++A              P     PN   IGV  + +  + VG+G  +    P   +Q              ++   +     A  +NW+Y+   V  +  Q  +VY + +V + + F++PT + AL   + F G  +Y    P GS      +++    K+              +   A K S        +QF   +K A                W       V EV+   +   ++    +             SQA  ++ +      +P   L+ +    + I +P +D    P +RR     +GI    ++++  G +FA  SM+ A  V+      S         D     P +V+  +P  +L+ L E F  I  +E+  ++ P+ MRS+  ++     A S+ L    +                   L+A   L + Y   AV+  V  + FW+       K    + + +E K SDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15214</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9SX20|2.A.17.3.6 F24J5.19 protein (Peptide transporter like) (At1g68570/F24J5_7) OS=Arabidopsis thaliana GN=At1g68570 PE=2 SV=1</Hit_def>
+  <Hit_accession>15214</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>3.30374e-18</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>535</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>PLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHP------------NSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTA--RMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFK----RAGFSPKAWKRSDFWMAAL--------PSQFATAEKPAWMTWDDTF----------------VWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH-----GLPNDVLANLDPFALIILIPIFDLGVYPALRR-----AGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAIS</Hsp_qseq>
+      <Hsp_hseq>PLLGAFIADSFAGRFWTITFASIIYQIGMTLLTISAIIPTLRPPPCKGEEVCVVADTAQLSILYVALLLGALGSGGIRPCVVAFGADQFDES---------------DPNQTTKTWNYFNWYYFCMGAAVLLAVTVLVWIQDNVGWGLGLGIPTVAMFLSVIAFVGGFQLYRHLVPAGSPFTRLIQVGVAAFRKRKLRMVSDPSLLYFNDEIDAPISLGGKLTHTKHMSFLDKAAIVTEEDNLKPGQIPNHWRLSTVHRVEELKSVIRMGPIGASGILLITAYAQQGTFSLQQAKTMNRHLTNSFQIPAGSMSVFTTVAMLTTIIFYDRVFVKVARKFTGLERGITF--LHRMGIGFVISIIATLVAGFVE--VKRKSVAIEHGLLDKPHTIVPISFLWLIPQYGLHGVAEAFMSIGHLEFFYDQAPESMRS--TATALFWMAIS</Hsp_hseq>
+      <Hsp_midline>PL GA+IAD++ GRF TI +A +I  IG  LL +SA+   +  P             + + +  VA+++  +G+G  +  +    A+Q                   DP  TT     +NW+Y  +    L     +V+ +  VG+ L   +PTV   L+      G   Y    PAGS   +  ++    F+    R    P     +D   A +            +  +K A +T +D                  V E++   +   +     L    Y Q       QA  +N H      +P   ++     A++  I  +D       R+      GI F  + +M  GF+ + ++ + A  V+  +   S    H         +P +     P Y L  ++E F SI  LE+ Y +AP+SMRS   A  LF  AIS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14801</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LQL2|2.A.17.3.19 Nitrate transporter 1.5 OS=Arabidopsis thaliana GN=NRT1.5 PE=1 SV=2</Hit_def>
+  <Hit_accession>14801</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>7.97445e-18</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>VYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVI-------------AHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFF-GKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFW---------------MAALPSQFATAEKPAWMTWDD-----------------TFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNT----HGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGIN----FSPVKKMFAGFIFASLSMVCATAVQAH--IYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRS-------MVMAVGLFMTAI</Hsp_qseq>
+      <Hsp_hseq>VYIFSLVGAFLSDSYWGRYKTCAIFQVIFVIGLSSLSLSSYMFLIRPRGCGDEVTPCGSHSMMEITMFYFSIYLIALGYGGYQPNIATLGADQFDEEH-----PKEGYSKIA--------FFSYFYLALNLGSLFSNTILGYFEDE-GMWALGFWASTGSAIIGLILFLVGTPRYRYFKPTGNPLSRFCQVLVAATKKSSVEAPLRGREEMYDGDSEGKNASVNTGRRIVHTDEFKFLDKAAYITARDLDDKKQDSVNPWRLCPVTQVEEVKCILRLMPIWLCTIIYSVVFTQMASLFVEQGAAMNTSVSDFKIPPASMSSFDILSVALFIFLYRRVLEPVANRFKKNGSKGITELHRMGIGLVIAVIAMIAAGIVECYRLKYADKSC-TH---CDGSSSL--SIFWQAPQYSLIGASEVFMYVGQLEFFNAQTPDGLKSFGSALCMMSMSMGNFVSSL</Hsp_hseq>
+      <Hsp_midline>VY   L GA+++D+Y GR+ T A   +I +IG   L +S+   +I             +H    I +F  +I ++ +G G ++ NI+ L A+Q           K G   +          +++FYL +N+G+L     + Y E   G W      +   A+   +LF  G  +Y    P G+ L +  ++L    K++        R + +                     +F   +K A++T  D                 T V EV+   +   ++L   +Y + + Q+ +    Q A +NT      +P   +++ D  ++ + I ++   + P   R   N     + + +M  G + A ++M+ A  V+ +   YA  +C TH   CD    +  +++ Q P Y L+  SE+F  +  LE+   + P  ++S       M M++G F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11364</Hit_id>
+  <Hit_def>gnl|TC-DB|Q5M4H8|2.A.17.1.6 Di-or tripeptide:H+ symporter OS=Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311) GN=dtpT PE=3 SV=1</Hit_def>
+  <Hit_accession>11364</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.16176e-17</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>576</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNK-----YNR-TPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQF------ATAEKPAWMTWDDTFV----WEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAV-LNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGIIFWFTFSKL</Hsp_qseq>
+      <Hsp_hseq>EMWERFSYYGMRAILLYYMWFLI----STGDLHITRATAASIMAIYASM---------VYLSGTIGGFVADRIIGARPAVFWGGVLIMLGHI---------VLALPFGASALFG-SIILIIIGTGFLKPNVSTLVGTLYDEH---------------DRRRDAG--FSIFVFGINLGAFIAPLIVGAAQEAAGYHVAFSLAAIGMFIGLLVYYFGGKKTLDPHYLRPTDPLAPEEVKPL-LVKVSLAVAGFIAIIVVMNLVGWNSLPAYINLLTIVAIAIPVFYFAWMISSVKVTSTEHLRVVSYIPLFIAAVLFWAIEEQGSVVLATFAAERVDSSWFPVSWFQSLNPLFIMLYTPFF-AWLWTAWKKN--QPSSPTKFAVGLMFAGLSFL-LMAIPGALYGTSG-------------KVSPLWL-VGSWALVILGEMLISPVGLSVTTKLAPKAFNSQMMSMWFLSSSVGSALNAQLVTLYNAKSEVAYFSYFGLGSVVLGIVLVFLSKRI</Hsp_hseq>
+      <Hsp_midline>E+ ERFSYYG   +   ++   +    +TG  H  + + A  M   AS          VY     G ++AD  +G    + W  ++ M+GHI         V+A P  A  +F  +II++ +GTGF K N+S L+      H               D        ++ F   IN+GA    L +  A++  G+ +AF+L  +   +   V +FG  K     Y R T P      K   ++ ++   AGF       +     +LP+        A A    +  W  + V     E  R      +F+   L+W    Q +  L + AA  +++   P     +L+P  +++  P F   ++ A ++     S   K   G +FA LS +   A+   +Y TS                + +W+   S+ L+ L E+  S   L      APK+  S +M++    +++ +AL    + L         +  F + S V GI+  F   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14819</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LV10|2.A.17.3.20 Protein NRT1/ PTR FAMILY 2.11 OS=Arabidopsis thaliana GN=NPF2.11 PE=1 SV=1</Hit_def>
+  <Hit_accession>14819</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>7.06026e-16</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>540</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>AYIADTYLGRFNTIAWAILICMIGH-ILLVVSALPSVIAHPNSAIGVFA-----------VAIIIMG-----VGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALP----------SQFATAEKPAWMTWDDTF-----------------VWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAV----LNTHG--LPNDVLANLDPFALIILIPIFDLGVYPALRR-AGIN--FSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIP--------TNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLA</Hsp_qseq>
+      <Hsp_hseq>AFLCDTYFGRYKTLSVAVIACFLGSFVILLTAAVPQL--HP-AACGTAADSICNGPSGGQIAFLLMGLGFLVVGAGGIRPCNLAFGADQ------FNPKSESGKRGIDS-------FFNWYFFTFTFAQILSLTLVVYVQSNVSWTIGLTIPAVLMFLACLIFFAGDKLYVKIKASGSPLAGIAQVIAVAIKKRGLKPAKQPWLNLYNYYPPKYANSKLKYTDQFRFLDKAAILTPEDKLQPDGKPADPWKLCTMQQVEEVKCIVRVLPIWFASSIYYLTITQQMTYPVFQALQSDRRLGSGGFVIPAATYVVFLMTGMTVFIVVYDRVLVPTMRRITGLDTGITLLQRIGTGIFFATASLVVAGFVE------ERRRTFALTKPTLGMAPRKGEISSMSAMWL-IPQLSLAGVAEAFAAIGQMEFYYKQFPENMRSFAGSIFYVGGGVSSYLGSFLIA</Hsp_hseq>
+      <Hsp_midline>A++ DTY GR+ T++ A++ C +G  ++L+ +A+P +  HP +A G  A           +A ++MG     VG G  +       A+Q      +    ++G+R +          +NW++       +     +VY +  V + +  T+P V+  L   + F G   Y +   +GS L    +++ +  K+ G  P      + +    P           QF   +K A +T +D                   V EV+   +   ++    +Y+L   Q       QA      L + G  +P           + + I ++D  + P +RR  G++   + ++++  G  FA+ S+V A  V+          T A T   +   P        + +W+  P   L  ++E FA+I  +E+ Y + P++MRS   ++      +S+ LG   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9451</Hit_id>
+  <Hit_def>gnl|TC-DB|Q05085|2.A.17.3.1 NITRATE/CHLORATE TRANSPORTER - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>9451</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.72694e-15</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>109</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>SGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL----------PSVIAHPNSAIG----VFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPS-------------------------QFATAEKPA---------------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLN----THGLPNDVLANLDPFALIILIPIFD---LGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSM-------VMAVGLFMTAISAALGEAFLALS----ADPL-------LTWNYGTFAVISFVGGIIF--WFTFSK</Hsp_qseq>
+      <Hsp_hseq>TGTMHLGNATAANTVTNFLGTSFMLCLLGGFIADTFLGRYLTIAIFAAIQATGVSILTLSTIIPGLRPPRCNPTTSSHCEQASGIQLTVLYLALYLTALGTGGVKASVSGFGSDQF-------------DETEPKERSKMTYFFNRFFFCINVGSLLAVTVLVYVQDDVGRKWGYGICAFAIVLALSVFLAGTNRYRFKKLIGSPMTQVAAVI----------VAAWRNRKLELPADPSYLYDVDDIIAAEGSMKGKQKLPHTEQFRSLDKAAIRDQEAGVTSNVFNKWTLSTLTDVEEVKQIVRMLPIWATCILFWTVHAQLTTLSVAQSETLDRSIGSFEIPPASMAVFYVGGLLLTTAVYDRVAIRLCKKLFNYPHGLRPLQRIGLGLFFGSMAMAVAALVELKRLRTA--HAHGPT---VKTLPLGFYLLIPQYLIVGIGEALIYTGQLDFFLRECPKGMKGMSTGLLLSTLALGFFFSSVLVTIVEKFTGKAHPWIADDLNKGRLYNFYWLVAVLVALNFLIFLVFSKWYVYKE</Hsp_hseq>
+      <Hsp_midline>+G + +G   +    T      + + L G +IADT+LGR+ TIA    I   G  +L +S +          P+  +H   A G    V  +A+ +  +GTG  K+++S   ++Q              +       +     +N F+  INVG+L     +VY +  VG    + +      L   V   G N+Y      GS + +   ++            AW+     + A PS                         QF + +K A               W     T V EV++  +   ++    L+W  + Q+     +Q+  L+    +  +P   +A      L++   ++D   + +   L        P++++  G  F S++M  A  V+     T+    H  T   +  +P   ++  P Y+++ + E       L++   + PK M+ M        +A+G F +++   + E F   +    AD L         W       ++F+  ++F  W+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10638</Hit_id>
+  <Hit_def>gnl|TC-DB|Q43390|2.A.17.3.3 RCH2 PROTEIN - Brassica napus (Rape).</Hit_def>
+  <Hit_accession>10638</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>4.76099e-15</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>107</Hsp_gaps>
+      <Hsp_align-len>560</Hsp_align-len>
+      <Hsp_qseq>SQTTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL----------PSVIAHPNSAIG----VFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMY--NWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGF----SPKAWKRSDFWMAA---------LP--SQFATAEKPA---------------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAGINF----SPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSM-------VMAVGLFMTAISAALGE</Hsp_qseq>
+      <Hsp_hseq>TQTLLDAWDFQGRPADRSK-----TGGWASAAMILC--IEAVERLTTLGIGVNLVTYL---------TGTMHLGNATAANTVTNFLGTS---------FMLCLLGGFIADTFLGRYLTIAIFAAIQATGVSILTLSTIIPGLRPPRCDPTTSSHCVQANGIQLTVLYLALYLTALGTGGVKASVSGFGSDQFDD---------------TEPKERSQMTYFFNRFFFCINVGSLMAVTVLVYIQDDVGRKWGYGICALAIVLSLSIFLAGTNRYRFKKLIGSPMTQVGTVLVAAWRNRRLELPSDPSFLYDLDDVIAAEGSMKSKQKLPHTNQFRSLDKAAIKDQEMAMTQNVYNKWTLSTVTDIEEVKQIVRMLPIWATCILFWTVHAQLTTLSVAQSETMDRHIGSFEIPPAAMAVFYIGGLLLTTAVYDRLAIPLCKKL-FNYPHGLRPLQRIGLGLLLAAMGMAVAALVE--IKRLRTAHAHGPT---VKTLPLGFSLLIPQYLIVGIGEALIYTGQLDFFLRECPKGMKTMSTGLLLSTLALGFFFSSVLVTIVE</Hsp_hseq>
+      <Hsp_midline>+QT  D  D+   P +  K       G  + A  L   IE  ER +  G       ++         TG+ H G  + A  +     T          + + L G +IADT+LGR+ TIA    I   G  +L +S +          P+  +H   A G    V  +A+ +  +GTG  K+++S   ++Q                   +P   +   Y  N F+  INVG+L     +VY +  VG    + +  +   L+  +   G N+Y      GS + +   +L   ++         P      D  +AA         LP  +QF + +K A               W     T + EV++  +   ++    L+W  + Q+     +Q+  ++ H     +P   +A      L++   ++D    P  ++   N+     P++++  G + A++ M  A  V+  I        H  T   +  +P    +  P Y+++ + E       L++   + PK M++M        +A+G F +++   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13829</Hit_id>
+  <Hit_def>gnl|TC-DB|Q944G5|2.A.17.3.17 Probable peptide/nitrate transporter At3g47960 OS=Arabidopsis thaliana GN=At3g47960 PE=1 SV=3</Hit_def>
+  <Hit_accession>13829</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.61166e-14</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>584</Hsp_align-len>
+      <Hsp_qseq>LSHRLDENSRAKNGKDDDGF--VFEEKRAPSQ----TTGDDEDYPDAPTEEEKMTLRRVAGPINIASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIG-HILLVVSALPSVIAHP------NSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVA-SHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSP--KAWKR------SDFWMAAL--PSQFATAEKPAWMTWDDTF-----------------VWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAV----LNTHG--LPNDVLANLDPFALIILIPIFDLGVYPALRRA---GINFSPVKKMFAGFIFASLSMVCATAVQ---AHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLA</Hsp_qseq>
+      <Hsp_hseq>LNHR-DRRDKNHNNNNTNHYTQVDTMERKPLEVEPSTTTTNTDVVDSFEEEQRKIVYR---GWKVMPFIIGN-ETFEKLGIIGTLSNLLVYLTSVFNLKSYTAATIINAFSGTINFG--------TF----------IAAFLCDTYFGRYKTLSVAVIACFLGSFVILLTAAIPSL--HPVACGNKISCEGPSVGQILFLLMGLGFLVVGAGGIRPCNLAFGADQFNPKSESGKKGI-------NSFFNWYFFTFTFAQIISLTAVVYIQSNVSWTIGLIIPVALMFLACVIFFAGDRLYVKVKASGSPLAGIARVIAAAIKKRGLKPVKQPWVNLYNHIPSNYANTTLKYTDQFRFLDKAAIMTPEEKLNSDGTASDPWKLCTLQQVEEVKCIVRVIPIWFASTIYYLAITIQMTYPVFQALQSDRRLGSGGFRIPAATYVVFLMTGMTVFIIFYDRVLVPSLRRVTGLETGISLLQRIGAGFTFAIMSLLVSGFIEERRRNFALTKPTLGMAPRTGEISSM-SALWL-IPQLTLAGIAEAFAAIGQMEFYYKQFPENMKSFAGSIFYVGAGVSSYLASFLIS</Hsp_hseq>
+      <Hsp_midline>L+HR D   +  N  + + +  V   +R P +    TT  + D  D+  EE++  + R      +  F+IG  E  E+    G+      ++       S T ++     SG +  G        TF            A++ DTY GR+ T++ A++ C +G  ++L+ +A+PS+  HP       S  G     I+ + +G GF       +    +A     +    ++G++ +          +NW++       +     +VY +  V + +   +P  +  L   + F G   Y +   +GS L    R++    K+ G  P  + W        S++    L    QF   +K A MT ++                   V EV+   +   ++    +Y+L           QA      L + G  +P           + + I  +D  + P+LRR        S ++++ AGF FA +S++ +  ++    +   T      A    E+  + + +W+  P   L  ++E FA+I  +E+ Y + P++M+S   ++      +S+ L    ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14778</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LFX9|2.A.17.3.14 Nitrate transporter 1.6 OS=Arabidopsis thaliana GN=NRT1.6 PE=1 SV=2</Hit_def>
+  <Hit_accession>14778</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.32762e-13</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>100</Hsp_gaps>
+      <Hsp_align-len>537</Hsp_align-len>
+      <Hsp_qseq>GLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL-------PSVIAHPNSA-------IGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAG-------------FSPKAWKRSDFWMAALPSQFATAEKPA----------------WMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH-----GLPNDVLANLDPFALIILIPIFDLGVYPAL-RRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAV------------GLFMTAISAALGEA----FLALSAD-PLLTWNYGTFAVISFVGGIIFWFTFSKLD-KEEDSLNEIKEGKRSDDAEPKQ</Hsp_qseq>
+      <Hsp_hseq>GLTNF-------APLLGALISDAYIGRFKTIAYASLFSILGLMTVTLTACLPQLHPPPCNNPHPDECDDPNKLQLGILFLGLGFLSIGSGGIRPCSIPFGVDQ------FDQRTEQGLK-------GVASFFNWYYLTLTMVLIFSHTVVVYLQ-TVSWVIGFSIPTSLMACAVVLFFVGMRFYVYVKPEGSVFSGIARVIVAARKKRDLKISLVDDGTEEYYEPPV-KPGVLSKLPLTDQFKFLDKAAVILDGDLTSEGVPANKWRLCSIQEVEEVKCLIRVVPVWSAGIISIVAMTTQATFMVFQATKMDRHMGPHFEIPAASITVISYITIGIWVPIYEHLLVPFLWRMRKFRVTLLQRMGIGIVFAILSMFTAGFVE---------GVRRTRATEMTQMSV-FWLALP-LILMGLCESFNFIGLIEFFNSQFPEHMRSIANSLFPLSFAAANYLSSLLVTTVHKVSGTKDHPDWLNKDLDRGKLDYFYYLIAVLGVVNLVYFWYCAHRYQYKAGSQIEDFNEEKSLLDIEPNQ</Hsp_hseq>
+      <Hsp_midline>GLT F        PL GA I+D Y+GRF TIA+A L  ++G + + ++A        P    HP+         +G+  + +  + +G+G  +    P   +Q      + +  + G +         A  +NW+YL + +  +     +VY +  V + + F++PT + A    + F G   Y    P GS      R++    K+               + P   K        L  QF   +K A                W       V EV+   +   V+    +  +        +  QA  ++ H      +P   +  +    + I +PI++  + P L R      + +++M  G +FA LSM  A  V+         G       EM  +    W+  P  +L+ L E F  I  +E+  ++ P+ MRS+  ++             L +T +    G      +L    D   L + Y   AV+  V  + FW+   +   K    + +  E K   D EP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14854</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9M817|2.A.17.3.13 Probable peptide transporter At1g52190 OS=Arabidopsis thaliana GN=At1g52190 PE=1 SV=1</Hit_def>
+  <Hit_accession>14854</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>4.24699e-13</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>533</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>PLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSA-LPSVIAHP--------------NSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKY-NRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQF-ATAEK------------------------PAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNL-----TSQAAVLNTHG----LPNDVLANLDPFALIILIPIFDLGVYP---ALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVIS</Hsp_qseq>
+      <Hsp_hseq>PLLGAFLSDSYLGRFLTISIASLSSFLGMVLLWLTAMLPQVKPSPCDPTAAGSHCGSSTASQLALLYSAFALISIGSGGIRPCSLAFGADQLDN-----KENPKNERVL-------ESFFGWYYASSAVAVLIAFTGIVYIQEHLGWKIGFGVPAVLMLIAALLFILASPLYVTRGVTKSLFTGLAQAIVAAYKKRKLSLPDHHDSFDCYYHMKDSEIKAPSQKLRFLNKACLISNREEEIGSDGFALNPWRLCTTDKVEELKALIKV--IPIWSTGIMMSINTSQSSFQLLQATSMDRRLSRHGSSFQVPAGSFGMFTIIALALWVILYDRAVIPLASKIRGRPFRLSVKLRMGLGLFMSFLAMAISAMVESFRRKKAISQGYANNSNAVVDI-SAMWL-VPQYVLHGLAEALTAIGQTEFFYTEFPKSMSS--IAASLFGLGMAVASLLASVVLNAVNELTSRNGKESWVS</Hsp_hseq>
+      <Hsp_midline>PL GA+++D+YLGRF TI+ A L   +G +LL ++A LP V   P               S + +   A  ++ +G+G  +       A+Q+ +     K     ERVL          + W+Y    V  L    G+VY ++ +G+ + F +P V+  +   +       Y  R        G A  I+    KR    P      D +     S+  A ++K                          W       V E++   K   + +W     +  N   ++      TS    L+ HG    +P          AL + + ++D  V P    +R      S   +M  G   + L+M  +  V++     +    +A   + +  I + +W+  P YVL  L+E   +I   E+ YT+ PKSM S  +A  LF   ++ A   A + L+A   LT   G  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12941</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8H157|2.A.17.3.16 Nitrate transporter 1.2 OS=Arabidopsis thaliana GN=NRT1.2 PE=1 SV=1</Hit_def>
+  <Hit_accession>12941</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.65424e-12</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>538</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>YTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPN-----------SAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRIL---NINFKRAGFSPKAWKRSDFWMA------------------------ALPSQF-----------ATAEKPAWMTWDDTF--VWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTH----GLPNDVLANLDPFALIILIPIFDLGVYPALRRAG---INFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIP-TNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMV-------MAVGLFMTAISAAL</Hsp_qseq>
+      <Hsp_hseq>FLLALLGGFLSDAFFSTFQIFLISASIEFLGLIILTIQARTPSLMPPSCDSPTCEEVSGSKAAMLFVGLYLVALGVGGIKGSLASHGAEQ------FDESTPKGRK-------QRSTFFNYFVFCLACGALVAVTFVVWLEDNKGWEWGFGVSTIAIFVSILIFLSGSRFYRNKIPCGSPLTTILKVLLAASVKCCSSGSSSNAVASMSVSPSNHCVSKGKKEVESQGELEKPRQEEALPPRAQLTNSLKVLNGAADEKPVHRLLECTVQQVEDVKIVLKMLPIFACTIMLNCCLAQLSTFSVQQAASMNTKIGSLKIPPASLPIFPVVFIMILAPIYDHLIIPFARKATKTETGVTHLQRIGVGLVLSILAMAVAALVEIK---RKGVAKDSGLLDSKETLPVTFLWIAL-QYLFLGSADLFTLAGLLEYFFTEAPSSMRSLATSLSWASLAMGYYLSSVIVSI</Hsp_hseq>
+      <Hsp_midline>+ + L G +++D +   F     +  I  +G I+L + A    +  P+           S   +  V + ++ +G G  K +++   AEQ      + ++   G +         +  +N+F   +  GAL     +V+ E   G+   F + T+   ++  +   G   Y    P GS L    ++L   ++    +G S  A        +                        ALP +            A  EKP     + T   V +V+   K   +F    +   C  Q++     QAA +NT      +P   L       ++IL PI+D  + P  R+A       + ++++  G + + L+M  A  V+            +   D    +P T +WI    Y+ L  +++F     LEY +T+AP SMRS+        +A+G +++++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11348</Hit_id>
+  <Hit_def>gnl|TC-DB|Q5KYD1|2.A.17.1.7 Di-tripeptide ABC transporter (Permease) OS=Geobacillus kaustophilus (strain HTA426) GN=GK2020 PE=3 SV=1</Hit_def>
+  <Hit_accession>11348</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.01952e-11</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>568</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>515</Hsp_align-len>
+      <Hsp_qseq>FLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTV--VFALTPFVLFFGKN-----KYNRTPPAGSSLGKAFRILNIN-----FKRAGFSPKAWKRSDFWMA---ALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQ---INNNLTSQAAVLNTHG--LPNDVLANLDPFALIILIPIFD-LGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADPLLTWNYGTFAVISFVGGII</Hsp_qseq>
+      <Hsp_hseq>FTLFFTEFWERFSYYGMRAILVYYMYYEV-------------SKGGLGLDEHLALAIMSIYGALVYMSGIIGGWLADRVFGTSRAVFYGGLLIMAGHIALAI---------PGGVAALF-VSMALIVLGTGLLKPNVSSIVGDM----------YKPGD-------DRRDAGFSIFYMGINLGAFLAPLVVGTAGMKYNFHLGFGLAAVGMFLGLVVFVATRKKNLGLAGTYVPNPLTPAEKKKAAAIMAVGAVVIAVLLAILIPNGWFTVETFISLVGILGIIIPIIYFVVMYRSPKTTAEERSRVIAYIPLFVASAMFWAIQEQGSTILANYADKRTQLDVAGIHLSPAWFQSLNPLFIIILAPVFAWMWVKLGKRQPTI----PQKFALGLLFAGLSFI-VILVPGHLSGGG--------------LVHPIWL-VLSYFIVVLGELCLSPVGLSATTKLAPAAFSAQTMSLWFLSNAAAQAINAQLVRFYTPENETAYFGTIGGAALVLGLI</Hsp_hseq>
+      <Hsp_midline>F + F E  ERFSYYG   +   ++   +             + G LG+ +  +  + +     VY   + G ++AD   G    + +  L+ M GHI L +         P     +F V++ ++ +GTG  K N+S ++ +            K G+             ++ FY+ IN+GA    L +  A  +  F L F L  V     L  FV    KN      Y   P   +   KA  I+ +         A   P  W   + +++    L                 T   E  R      +F+   ++W    Q   I  N   +   L+  G  L      +L+P  +IIL P+F  + V    R+  I     +K   G +FA LS +    V  H+                  +   +W+   SY ++ L E+  S   L      AP +  +  M++     A + A+    +        T  +GT    + V G+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7683</Hit_id>
+  <Hit_def>gnl|TC-DB|P36837|2.A.17.1.3 Inner membrane transporter yhiP - Escherichia coli (strain K12).</Hit_def>
+  <Hit_accession>7683</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.21184e-10</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>549</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>86</Hsp_gaps>
+      <Hsp_align-len>493</Hsp_align-len>
+      <Hsp_qseq>FLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQF--WVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL-PSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGAL-AGQLGMVYAEKRVGFWLAFTL--PTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEV---RRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLA---------NLDPFALIILIPIFDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALSADP</Hsp_qseq>
+      <Hsp_hseq>FMIFFVELWERFGYYGVQGVLAVFFVK------------------QLGFSQEQA--FVTFGAFAALVYGLISIGGYVGDHLLGTKRTIVLGALVLAIGYFMTGMSLLKPDLI----------FIALGTIAVGNGLFKANPASLLSKCYPPK---------------DPRLDGA--FTLFYMSINIGSLIALSLAPVIAD-RFGYSVTYNLCGAGLIIALLVYIACRGMVKDIGSEPDFRPMSFSKLLYVLLGSVVMIFVCAWLMHNVEVANL-VLIVLSIVVTIIFFRQAFKLDKTGRNKMFVAFVLMLEAVVFYILYAQMPTSL-NFFAINNVH---HEILGFSINPVSFQALNPFWVVLASPIL-AGIYTHLGNKGKDLSMPMKFTLGMFMCSLGFL--TAAAAGMWFADAQGL------------TSPWFIVLVYLFQSLGELFISALGLAMIAALVPQHLMGFILGMWFLTQAAAFLLGGYVATFTAVP</Hsp_hseq>
+      <Hsp_midline>F+I F+EL ERF YYG   V   F  +                   LG  Q+ +    TF  F   VY +   G Y+ D  LG   TI    L+  IG+ +  +S L P +I           +A+  + VG G FK+N + L+++                    DP    A  +  FY+ IN+G+L A  L  V A+ R G+ + + L    ++ AL  ++   G  K   + P    +  +  +  +          AW   +  +A L      +     + +   F  +     + F A  + L   ++++ Y Q+  +L +  A+ N H   +++L           L+PF +++  PI   G+Y  L   G + S   K   G    SL  +  TA  A ++   A G             T+ W     Y+  +L E+F S   L       P+ +   ++ +     A +  LG      +A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14807</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LSE8|2.A.17.3.12 Putative peptide/nitrate transporter At3g25280 OS=Arabidopsis thaliana GN=At3g25280 PE=1 SV=1</Hit_def>
+  <Hit_accession>14807</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.08232e-09</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>YTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSAL-PSVIAHPNSAIGVFAVAIIIMG-----VGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFA--TAEKPAWM-------TWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNNLTSQAAVLN-----THGLPNDVLANLDPFALIILIPIFDL---GVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAVGLFMTAISAALGEAFLALS</Hsp_qseq>
+      <Hsp_hseq>FLLTLFGGFIADSFVTHFTTFIVFCCIELMGLILLTFQAHNPKLLPEKDKTPSTLQSAILFTGLYAMAIGTGGLKASLPSHGGDQID---------RRNPRLI-------SRFFDWLYFSICSGCLLAVTVVLWIEEKKGWIWSFNISVGILATALCIFTVGLPFYRFKRPNGSPLKK----IAIVIISAARNRNKSDLDEEMMRGLISIYKNNSHNKLKWIDKATLNKNISETEVEETRTFLGLLPIFGSTIVMSCCVAQLSTFSAQQGMLMNKKLFHSFEIPVPSLTAIPLIFMLLSIPLYEFFGKKISSGNNNRSSSFN-LKRIGLGLALSSVSMAVSAIVEAK-------RKHEVVHNN--FRISVLWLVF-QYLMLSVSDMLTLGGMLEFFYREAPSNMKSISTALGWCSTALGFFLSTTLVEVT</Hsp_hseq>
+      <Hsp_midline>+ + LFG +IAD+++  F T      I ++G ILL   A  P ++   +        AI+  G     +GTG  K+++     +Q+          +   R++       +R ++W Y  I  G L     +++ E++ G+  +F +   + A    +   G   Y    P GS L K    + I    A  +       +  M  L S +   +  K  W+          +T V E R       +F    +   C  Q++     Q  ++N     +  +P   L  +    +++ IP+++     +         +F+ +K++  G   +S+SM  +  V+A          H    +   F  + +W+    Y++L++S++      LE+ Y +AP +M+S+  A+G   TA+   L    + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6669</Hit_id>
+  <Hit_def>gnl|TC-DB|P0C2U2|2.A.17.1.1 Di-/tripeptide transporter - Lactococcus lactis subsp. lactis (Streptococcus lactis).</Hit_def>
+  <Hit_accession>6669</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.64752e-09</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKY</Hsp_qseq>
+      <Hsp_hseq>EFWERFSYYGMRAILVYYLY------ALTTADNAG-----LGLPKAQAMAIVSIYGALVYLSTIVGGWVADRLLGASRTIFLGGILITLGHIAL---------ATPFGLSSLF-VALFLIILGTGMLKPNISNMVG------HLYSKD---------DSRRDTG--FNIFVVGINMGSLIAPLIVGTVGQGVNYHLGFSLAAIGMIFALFAYWYGRLRH</Hsp_hseq>
+      <Hsp_midline>E  ERFSYYG   +   ++       + T + +AG     LG+ +  +  + +     VY   + G ++AD  LG   TI    ++  +GHI L         A P     +F VA+ ++ +GTG  K NIS ++        LY K          D    T   +N F + IN+G+L   L +    + V + L F+L  +      F  ++G+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8943</Hit_id>
+  <Hit_def>gnl|TC-DB|P77304|2.A.17.1.2 Tripeptide permease tppB - Escherichia coli (strain K12).</Hit_def>
+  <Hit_accession>8943</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>3.25515e-08</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>ASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQF--WVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALT</Hsp_qseq>
+      <Hsp_hseq>AFYLIFSIELWERFGYYGLQGIMAVYLVKQL--------------------GMSEADSITLFSSFSALVYGLVAIGGWLGDKVLGTKRVIMLGAIVLAIGYALVAWSGHDAGIVY----MGMAAIA-----VGNGLFKANPSSLLS------TCYEKN---------DPRLDGA--FTMYYMSVNIGSFFSMIATPWLAAKYGWSVAFALSVVGLLIT</Hsp_hseq>
+      <Hsp_midline>A +LI  IEL ERF YYG   +   ++ + L                    G   +  +T F+ F   VY +   G ++ D  LG    I    ++  IG+ L+  S   + I +    +G+ A+A     VG G FK+N S L++        Y K          DP    A  +  +Y+ +N+G+    +   +   + G+ +AF L  V   +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14615</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9JXB5|2.A.17.1.8 Peptide transporter OS=Neisseria meningitidis serogroup B (strain MC58) GN=NMB2136 PE=3 SV=1</Hit_def>
+  <Hit_accession>14615</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>5.55022e-08</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>IELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFG-KNKYNRTPPAGSSLGK</Hsp_qseq>
+      <Hsp_hseq>IELWERFSFYGMQGILLIYLYYTADKGG-------------LGIDKTLAGGIVGAYSGSVYLSTILGAWFADRVWGAEKTLFLSGIVVMLGHI--VLAAAPGLYG--------LLIGLIFIALGSGGVKSTASSMVGALYEQDEM---------RPLRDAG------FSIFYIAINIGGFLGPLLTGLLQENIGFHYGFGAAAVGMAFGLWRYSLGRKNLPHPTVPHPLSKGQ</Hsp_hseq>
+      <Hsp_midline>IEL ERFS+YG   +   ++     +G              LG+ +  + G+       VY   + GA+ AD   G   T+  + ++ M+GHI  V++A P +            + +I + +G+G  KS  S ++        +         R L D        ++ FY+ IN+G   G L     ++ +GF   F    V  A   +    G KN  + T P   S G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8847</Hit_id>
+  <Hit_def>gnl|TC-DB|P75742|2.A.17.1.4 Inner membrane transporter ybgH OS=Escherichia coli (strain K12) GN=ybgH PE=1 SV=1</Hit_def>
+  <Hit_accession>8847</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.2933e-07</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>ASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINF</Hsp_qseq>
+      <Hsp_hseq>AIYYVVALQIWEYFSFYGMRALLILYLTNQLKYNDT----HAYELFSAYCS--------------LVYVTPILGGFLADKVLGNRMAVMLGALLMAIGHVVLGASEI-----HPSFL--YLSLAIIVCGY--GLFKSNVSCLLGE------LYEPT---------DPRRDGG--FSLMYAAGNVGSIIAPIACGYAQEEYSWAMGFGLAAVGMIAGLVIFLCGNRHFTHTRGVNKKVLRATNFLLPNW</Hsp_hseq>
+      <Hsp_midline>A + +  +++ E FS+YG   +   ++   L    T    HA +   A                  VY  P+ G ++AD  LG    +    L+  IGH++L  S +     HP+      ++AII+ G   G FKSN+S L+ E      LY  T         DP       ++  Y   NVG++   +   YA++   + + F L  V       +   G   +  T      + +A   L  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14837</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9M1E2|2.A.17.3.5 Putative uncharacterized protein F9K21.230 - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>14837</Hit_accession>
+  <Hit_len>558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.43247e-07</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSA-LPSVIAHP------------NSAIGVFAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLPTVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKR----AGFSPKAWKRSDFWMAALPSQF---ATAEKPAWMTWDDTFVWEVRRGFKACQV--------------------FLWLPLYWLCYNQINNNLTSQAAVLNTHGLPNDVLANLDPFALIILIPIFDLGVYPALRR-AGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSACGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVMAV</Hsp_qseq>
+      <Hsp_hseq>VPAVAAIASDSFFGTIPVISVSAFISLMGVALLTLTASLDTLRPRPCETASILCQSPSKTQLGVLYTAITLASIGTGGTRFTLATAGANQ------YEKTKDQGS------------FFNWFFFTTYLAGAISATAIVYTEDNISWTLGFGLSVAANFFSFLVFVSGKRFYKHDKPLGSPFTSLLCVIFAALRKRKAVVSTNEKDYHNESITMPTKSFRFFNRAALKQEDEVKPDGT----IRNPWRLCSVQQVEDFKAVIRIIPLALATIFLSTPIAMQLSLTVLQGLVMDRRLGPSFKIPAGSLQVITLLSTCLFIIVNDRVLYPFYQKLTGKHLTPLQRVGIGHAFNILSMAVTAIVEAKRLKIVQKGHFLGSSSVADM--SVLWL-FPPLVIVGIGEAFHFPGNVALCYQEFPESMRSTATSI</Hsp_hseq>
+      <Hsp_midline>+P   A  +D++ G    I+ +  I ++G  LL ++A L ++   P             + +GV   AI +  +GTG  +  ++   A Q      Y KT   G              +NWF+    +        +VY E  + + L F L       +  V   GK  Y    P GS       ++    ++       + K +      M     +F   A  ++   +  D T    +R  ++ C V                    FL  P+       +   L     +  +  +P   L  +   +  + I + D  +YP  ++  G + +P++++  G  F  LSM     V+A        G    +        + +W+  P  V++ + E F    ++   Y + P+SMRS   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|621</Hit_id>
+  <Hit_def>gnl|TC-DB|A6NIM6|2.A.17.3.10 Solute carrier family 15 member 5 OS=Homo sapiens GN=SLC15A5 PE=3 SV=2</Hit_def>
+  <Hit_accession>621</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.71644e-06</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>525</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>PLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGV-----------FAVAIIIMGVGTGFFKSNISPLIAEQVASHRLYVKTLKNGERVLVDPAATTARMYNWFYLLINVGALAGQLGMVYAEKRVGFWLAFTLP-------TVVFALTPFVLFFGKNKYNRTPPAGSSLGKAFRILNINFKRAGFSPKAWKRSDFWMAALPSQFATAEKPAWMTWDDTFVWEVRRGFKACQVFLWLPLYWLCYNQINNN--LTSQAAVLNTHG--LPNDVLANLDPFALIILIPI---FDLGVYPALRRAGINFSPVKKMFAGFIFASLSMVCATAVQAHIYATSA----CGTHAATCDEMPFIPTNVWIQTPSYVLLALSEIFASITSLEYAYTKAPKSMRSMVM</Hsp_qseq>
+      <Hsp_hseq>PVFVRWLTDVYLGRNKLVYICLFLHFLGTALLSVVAFPLEDFYLGTYHAVNNIPKTEQHRLFYVALLTICLGIGGVRAIVCPLGAFGLQEYG----------------SQKTMSFFNWFYWLMNLNATIVFLGISYIQHSQAWALVLLIPFMSMLMAVITLHMIYYNLIYQSEKRCSLLTGVGVLVSALKTCHPQYCHLG-------------RDVTSQLDHAKEKNGGCYSELHVEDTTFFLTLLPLFIFQLLYRMCIMQIPSGYYLQTMNSNLNLDGFLLPIAVMNAISSLPLLILAPFLEYFSTCLFPS-KRVGSFLSTC--IIAGNLFAALSVMIAGFFEIHRKHFPAVEQPLSGKVLTVSSMP-----CFYLILQYVLLGVAETLVNPALSVISYRFVPSNVRGTSM</Hsp_hseq>
+      <Hsp_midline>P+F  ++ D YLGR   +   + +  +G  LL V A P    +  +   V           F VA++ + +G G  ++ + PL A  +  +                 +  T   +NWFY L+N+ A    LG+ Y +    + L   +P        +   +  + L +   K          L  A +  +  +   G               + SQ   A++     + +  V +         +F++  LY +C  QI +   L +  + LN  G  LP  V+  +    L+IL P    F   ++P+ +R G   S    + AG +FA+LS++ A   + H     A          T   MP      +     YVLL ++E   +      +Y   P ++R   M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7856</Hit_id>
+  <Hit_def>gnl|TC-DB|P39276|2.A.17.1.5 Probable dipeptide and tripeptide permease YjdL OS=Escherichia coli (strain K12) GN=yjdL PE=1 SV=1</Hit_def>
+  <Hit_accession>7856</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.72517e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>ASFLIGFIELAERFSYYGSTQVFTNFIQQPLPEGSTTGSSHAGQTSGALGMGQQASTGLTTFNQFWVYTMPLFGAYIADTYLGRFNTIAWAILICMIGHILLVVSALPSVIAHPNSAIGVF-AVAIIIMGVGTGFFKSNISPLIAE</Hsp_qseq>
+      <Hsp_hseq>AIYYIVAIQIWEYFSFYGMRALLILYLTHQL------------------GFDDNHAISLFSAYASLVYVTPILGGWLADRLLGNRTAVIAGALLMTLGHVVLGIDT--------NSTFSLYLALAIIICGY--GLFKSNISCLLGE</Hsp_hseq>
+      <Hsp_midline>A + I  I++ E FS+YG   +   ++   L                  G     +  L +     VY  P+ G ++AD  LG    +    L+  +GH++L +          NS   ++ A+AIII G   G FKSNIS L+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>102</Statistics_hsp-len>
+      <Statistics_eff-space>2835944500</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

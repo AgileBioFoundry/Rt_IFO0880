@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>14245 gm1.3059_g_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>626</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>14245 gm1.3059_g_mRNA</Iteration_query-def>
+  <Iteration_query-len>626</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8086</Hit_id>
+  <Hit_def>gnl|TC-DB|P43155|4.C.2.1.1 Carnitine O-acetyltransferase - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>8086</Hit_accession>
+  <Hit_len>626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>6.22554e-90</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>612</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>619</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>608</Hsp_align-len>
+      <Hsp_qseq>LPSLPVPTLEETAERYLASIRPYHTAQEPSASSEPLESWAKSEQAVKDFVQSPLVNE-LQQRLQKRAQEKDSWLSEWWNETAYFGWRGPVV----PGVNYYYAHKDDRSRRTGPAR-AAGLLRALLYFRRLCNTQQLEPEMARKTPLCMSSYKYLFNATRLPTSPSDT----AKIYDPETHNHIVVVRKNKFYEVPVVDEKGEWLSEKELEVLFKQVVDAAGSEADPHPVGALTAADRDTWTQARTNLIQHDAQNEKLLERIESAIIVVSLDSNSPYTREE-----------HSWGLWVGDGKDRWFDKH-QLIVFENGKSGFNGEHSCMDGTPTSRLNDWLLRSLDHGKIDLGSSTPRSASALPKITPLAFNLPESVKSAISSSISAHESTMSKHDLAVLEYAGYGKDQIKQYKTSPDSYAQLVMGLAYYKMEGKVAPTYESAQTRKYKLGRTEVIRSTSPEALEWYKAMEDPKRSSTECVELFRKAAAKHIKLAGEAADGRGVDRHLFGLK-KVLKEGENLPALYQDPTFAQSGNWILSTSQLSSEYFAGWGYGEVVDEGYGLAYAVNNRTLRFTITSMNRGKHNNVHAFRHYLEQACNEVREMME</Hsp_qseq>
+      <Hsp_hseq>LPRLPVPPLQQSLDHYLKALQPIVSEEE----------WAHTKQLVDEFQASGGVGERLQKGLERRARKTENWLSEWWLKTAYLQYRQPVVIYSSPGV---MLPKQDFVDLQGQLRFAAKLIEGVLDFKVMIDNETLPVEYLGGKPLCMNQYYQILSSCRVPGPKQDTVSNFSKTKKPPTH--ITVVHNYQFFELDVYHSDGTPLTADQIFVQLEKIWNSS-LQTNKEPVGILTSNHRNSWAKAYNTLIK-DKVNRDSVRSIQKSIFTVCLDATMPRVSEDVYRSHVAGQMLHGGGSRLNSG-NRWFDKTLQFIVAEDGSCGLVYEHAAAEGPPIVTLLDYVIEYTKKPELVRSPLVP-----LPMPKKLRFNITPEIKSDIEKAKQNLSIMIQDLDITVMVFHHFGKDFPKSEKLSPDAFIQMALQLAYYRIYGQACATYESASLRMFHLGRTDTIRSASMDSLTFVKAMDDSSVTEHQKVELLRKAVQAHRGYTDRAIRGEAFDRHLLGLKLQAIEDLVSMPDIFMDTSYAIAMHFHLSTSQVPAKTDCVMFFGPVVPDGYGVCYNPMEAHINFSLSAYNSCAETNAARLAHYLEKALLDMRALLQ</Hsp_hseq>
+      <Hsp_midline>LP LPVP L+++ + YL +++P  + +E          WA ++Q V +F  S  V E LQ+ L++RA++ ++WLSEWW +TAY  +R PVV    PGV      K D     G  R AA L+  +L F+ + + + L  E     PLCM+ Y  + ++ R+P    DT    +K   P TH  I VV   +F+E+ V    G  L+  ++ V  +++ +++  + +  PVG LT+  R++W +A   LI+ D  N   +  I+ +I  V LD+  P   E+           H  G  +  G +RWFDK  Q IV E+G  G   EH+  +G P   L D+++      ++      P     LP    L FN+   +KS I  +       +   D+ V+ +  +GKD  K  K SPD++ Q+ + LAYY++ G+   TYESA  R + LGRT+ IRS S ++L + KAM+D   +  + VEL RKA   H      A  G   DRHL GLK + +++  ++P ++ D ++A + ++ LSTSQ+ ++      +G VV +GYG+ Y      + F++++ N     N     HYLE+A  ++R +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8332</Hit_id>
+  <Hit_def>gnl|TC-DB|P50416|4.C.2.1.3 Carnitine O-palmitoyltransferase 1, liver isoform OS=Homo sapiens GN=CPT1A PE=1 SV=2</Hit_def>
+  <Hit_accession>8332</Hit_accession>
+  <Hit_len>773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>1.35349e-77</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>607</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>623</Hsp_align-len>
+      <Hsp_qseq>MYRFERTLPSLPVPTLEETAERYLASIRPYHTAQEPSASSEPLESWAKSEQAVKDFVQSPLVNELQQRLQKRAQEKDSWLSEWWNETAYFGWRGPVVPGVNYYYAHK-DDRSRRTGPARAAGLLRALLYFRRLCNTQQLEPE--MARKTPLCMSSYKYLFNATRLPTSPSDTAKIYDPETHNHIVVVRKNKFYEVPVVDEKGEWLSEKELEVLFKQVVDAAGSEADPHP----VGALTAADRDTWTQARTNLIQHDAQNEKLLERIESAIIVVSLDSNSPYTREE--------HSWGLWVGDGKDRWFDKH-QLIVFENGKSGFNGEHSCMDGTPTSRLNDWLLR--SLDHGKIDLGSSTPRSASALPKITPLAFNLPESVKSAISSSISAHESTMSKHDLAVLEYAGYGKDQIKQYKTSPDSYAQLVMGLAYYKMEGKVAPTYESAQTRKYKLGRTEVIRSTSPEALEWYKAMEDPKRSSTECVELFRKAAAKHIKLAGEAADGRGVDRHLFGLKKVLK----EGENLPALYQDPTFAQSGNWILSTSQL------------SSEYF-AGWGYGEVVDEGYGLAY-AVNNRTLRFTITSMNRGKHNNVHAFRHYLEQACNEV</Hsp_qseq>
+      <Hsp_hseq>LYSFQTSLPRLPVPAVKDTVNRYLQSVRPLMKE----------EDFKRMTALAQDFAVG-LGPRLQWYLKLKSWWATNYVSDWWEEYIYLRGRGPLMVNSNYYAMDLLYILPTHIQAARAGNAIHAILLYRRKLDREEIKPIRLLGSTIPLCSAQWERMFNTSRIPGEETDT--IQHMRDSKHIVVYHRGRYFKVWLYHD-GRLLKPREMEQQMQRILD---NTSEPQPGEARLAALTAGDRVPWARCRQAYFGR-GKNKQSLDAVEKAAFFVTLDETEEGYRSEDPDTSMDSYAKSLLHGRCYDRWFDKSFTFVVFKNGKMGLNAEHSWADAPIVAHLWEYVMSIDSLQLGYAEDGHCKGDINPNIPYPTRLQWDIPGECQEVIETSLNTANLLANDVDFHSFPFVAFGKGIIKKCRTSPDAFVQLALQLAHYKDMGKFCLTYEASMTRLFREGRTETVRSCTTESCDFVRAMVDPAQTVEQRLKLFKLASEKHQHMYRLAMTGSGIDRHLFCLYVVSKYLAVESPFLKEVLSEP-------WRLSTSQTPQQQVELFDLENNPEYVSSGGGFGPVADDGYGVSYILVGENLINFHISSKFSCPETDSHRFGRHLKEAMTDI</Hsp_hseq>
+      <Hsp_midline>+Y F+ +LP LPVP +++T  RYL S+RP              E + +     +DF    L   LQ  L+ ++    +++S+WW E  Y   RGP++   NYY              ARA   + A+L +RR  + ++++P   +    PLC + ++ +FN +R+P   +DT  I       HIVV  + ++++V +  + G  L  +E+E   ++++D   + ++P P    + ALTA DR  W + R        +N++ L+ +E A   V+LD      R E        ++  L  G   DRWFDK    +VF+NGK G N EHS  D    + L ++++   SL  G  + G         +P  T L +++P   +  I +S++      +  D     +  +GK  IK+ +TSPD++ QL + LA+YK  GK   TYE++ TR ++ GRTE +RS + E+ ++ +AM DP ++  + ++LF+ A+ KH  +   A  G G+DRHLF L  V K    E   L  +  +P       W LSTSQ             + EY  +G G+G V D+GYG++Y  V    + F I+S       + H F  +L++A  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15298</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9UKG9|4.C.2.1.2 Peroxisomal carnitine O-octanoyltransferase - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>15298</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.18637e-75</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>571</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>575</Hsp_align-len>
+      <Hsp_qseq>YRFERTLPSLPVPTLEETAERYLASIRPYHTAQEPSASSEPLESWAKSEQAVKDFVQSPLVNELQQRLQKRAQEKDSWLSEWWNETAYFGWRGPVVPGVNY-----YYAHKDDRSRRTGPARAAGLLRALLYFRRLCNTQQLEPEMARKTPLCMSSYKYLFNATRLPTSPSDTAKIY-----DPETHNHIVVVRKNKFYEVPVVDEKGEWLSEKELEVLFKQVVDAAGSEADPHPVGALTAADRDTWTQARTNLIQHDAQNEKLLERIESAIIVVSLDSNSPY-TREEHSW---GLWVGDGKDRWFDK-HQLIVFENGKSGFNGEHSCMDGTPTSRLNDWLLRSL--DHGKIDLGSSTPRSASALPKITPLAFNLPESVKSAISSSISAHESTMSKHDLAVLEYAGYGKDQIKQYKTSPDSYAQLVMGLAYYKMEGKVAPTYESAQTRKYKLGRTEVIRSTSPEALEWYKAMEDPKRSSTECVELFRKAAAKHIKLAGEAADGRGVDRHLFGLKKVLK-EGENLPALYQDPTFAQS---GNWILSTSQLSSEYFAGWGYGEVVDEGYGLAYAVNN</Hsp_qseq>
+      <Hsp_hseq>FQYQDSLPSLPVPSLEESLKKYLESVKPFANQEE----------YKKTEEIVQKF-QSGIGEKLHQKLLERAKGKRNWLEEWWLNVAYLDVRIPSQLNVNFAGPAAHFEHYWPPKEGTQLERGSITLWHNLNYWQLLRKEKVPVHKVGNTPLDMNQFRMLFSTCKVPGITRDSIMNYFRTESEGRSPNHIVVLCRGRAFVFDVIHE-GCLVTPPELLRQLTYIHKKCHSEPDGPGIAALTSEERTRWAKAREYLIGLDPENLALLEKIQSSLLVYSMEDSSPHVTPEDYSEIIAAILIGDPTVRWGDKSYNLISFSNGVFGCNCDHAPFDAMIMVNISYYVDEKIFQNEGRWK-GSEKVRD---IPLPEELIFIVDEKVLNDINQAKAQYLREASDLQIAAYAFTSFGKKLTKNKMLHPDTFIQLALQLAYYRLHGHPGCCYETAMTRHFYHGRTETMRSCTVEAVRWCQSMQDPSVNLRERQQKMLQAFAKHNKMMKDCSAGKGFDRHLLGLLLIAKEEGLPVPELFTDPLFSKSGGGGNFVLSTSLVGYLRVQG-VVVPMVHNGYGFFYHIRD</Hsp_hseq>
+      <Hsp_midline>++++ +LPSLPVP+LEE+ ++YL S++P+   +E          + K+E+ V+ F QS +  +L Q+L +RA+ K +WL EWW   AY   R P    VN+     ++ H       T   R +  L   L + +L   +++       TPL M+ ++ LF+  ++P    D+   Y     +  + NHIVV+ + + +   V+ E G  ++  EL      +     SE D   + ALT+ +R  W +AR  LI  D +N  LLE+I+S+++V S++ +SP+ T E++S     + +GD   RW DK + LI F NG  G N +H+  D      ++ ++   +  + G+   GS   R    +P    L F + E V + I+ + + +    S   +A   +  +GK   K     PD++ QL + LAYY++ G     YE+A TR +  GRTE +RS + EA+ W ++M+DP  +  E  +   +A AKH K+  + + G+G DRHL GL  + K EG  +P L+ DP F++S   GN++LSTS +      G     +V  GYG  Y + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>102</Statistics_hsp-len>
+      <Statistics_eff-space>2972069836</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

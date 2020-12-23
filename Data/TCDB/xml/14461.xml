@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>14461 fgenesh1_kg.5_#_2032_#_TRINITY_DN1961_c0_g2_i6_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>541</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>14461 fgenesh1_kg.5_#_2032_#_TRINITY_DN1961_c0_g2_i6_mRNA</Iteration_query-def>
+  <Iteration_query-len>541</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1237</Hit_id>
+  <Hit_def>gnl|TC-DB|B1PXD0|2.A.39.2.4 Cytosine-purine permease OS=Emericella nidulans GN=fcyB PE=2 SV=1</Hit_def>
+  <Hit_accession>1237</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>6.38125e-77</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>528</Hsp_align-len>
+      <Hsp_qseq>RSPSEVSSDADVDDEKLSTSTPSAVNGTTTDVEAADGTGRLARLTAYLAGIGIETRSLERVQEDQREQLPLWRLAMRQIFFWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINHSLSLIVGIVILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMTLTK---ESYVTALEEESLGGVVGEILIQGAGGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFRSSRGPLGASTNWDDVTDYSKLPPGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFIFRWIEIKVFKR</Hsp_qseq>
+      <Hsp_hseq>KNPPVVQSTAD-------NSSDGAVPGETFTY----GDSTYAKIQRLAAELNIEQRGIERVPAAEQTDTSVFNIGS----MWLAANMVVSSFAIGVLGKSVYSLGFVDAILTVLFFNLLGIMTVCFFSCFGP-FGLRQMVFSRLWFGWYVTKGFAVLNILACLGWSAANAIVGAQMLHAVNSDVPGFAAILIISICTLLVTFAGYKVVHLYEYWSWIPTFIVFMIILGTFAHSG---DFQNIPMGVGTSEMGSVLSFGSAVYGFATGWTSYAADYTVYQPANRSKRKIFLSTWLGLIVPLLFVEMLGVAVMTATDIKGSKYDVGYATSGNGGLIAAVL-QPLGGFGDFCLVILALSIVANNCPNFYSVALTVQVLSRYAQRVPRFIWTLFGTGVSIAIAIPGYSHFETVLENFMNFIAYWLAIYSAIAIMDHFVFK--RGFSGYVV--ENFDKREKLPVGIAATIAFGFGVAGMITGMSQPWYVGPIARHAA------GGDVGFELGFAFAAFSYLCLRPFEIKFFGR</Hsp_hseq>
+      <Hsp_midline>++P  V S AD        S+  AV G T       G    A++    A + IE R +ERV   ++    ++ +       W + N+  S+   G+LG   ++L F  +++ +     LG+      +  GP  GLR M  SR   GW  T  F++LN L  L ++   A+ GAQ L A+N  +     I+I+++  +++   GY+ +H++E W+WI  FI++ I+LG  A  G     +   M  G + +G VLSF   ++     W S AADY +  PA   K  I+ S ++G+ +P  F   +    MT T      Y         GG++  +L Q  GGFG F LV+LA S ++ N PN YS AL +Q L     ++PR  + +  T + + +AI G  HF  +L NF   +AY+ A  SAI  ++ F F+  RG  G     ++     KLP G A   +    +  ++  M++ WY GPIA+         GGD+GFE+    A  SY   R  EIK F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6940</Hit_id>
+  <Hit_def>gnl|TC-DB|P17064|2.A.39.2.1 PURINE-CYTOSINE PERMEASE (PCP) (CYTOSINE/PURINE TRANSPORT PROTEIN) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>6940</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>4.22205e-71</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>533</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>501</Hsp_align-len>
+      <Hsp_qseq>VEAADGTGRLARLTAYLAGIGIETRSLERVQEDQREQLPLWRLAMRQIFFWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAIN----HSLSLIVGIVILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSAT--FMTLTKESYVTALEEESLGGVVGEILIQGA-GGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFRSSRGPLGASTNWDDVTDYSKLPPGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFIFRWIEIKVFKR</Hsp_qseq>
+      <Hsp_hseq>VESSEAT-KLSWFHKFFASLNAETKGVEPVTEDEKTDDSILNAAS----MWFSANMVIASYALGALGPMVFGLNFGQSVLVIIFFNIMGLIFVAFFSVFGAELGLRQMILSRYLVGNVTARIFSLINVIACVGWGIVNTSVSAQLLNMVNEGSGHVCPIWAGCLIIIGGTVLVTFFGYSVIHAYEKWSWVPNFAVFLVIIAQLSRSG---KFKGGEWVGGATTAGSVLSFGSSIFGFAAGWTTYAADYTVYMPKSTNKYKIFFSLVAGLAFPLFFTMILGAASAMAALNDPTWKAYYDKNAMGGVIYAILVPNSLNGFGQFCCVLLALSTIANNIPNMYTVALSAQALWAPLAKIPRVVWTMAGNAATLGISIPATYYFDGFMENFMDSIGYYLAIYIAISCSEHFFYRRS----FSAYNIDDWDNWEHLPIGIAGTAALIVGAFGVALGMCQTYWVGEIGRLI----GKYGGDIGFELGASWAFIIYNILRPLELKYFGR</Hsp_hseq>
+      <Hsp_midline>VE+++ T +L+    + A +  ET+ +E V ED++    +   A      WFS N+  ++   G LG + F L+F  S+++I     +G+   A  ++ G + GLR M  SR+  G     IFSL+N +  + + +      AQ L  +N    H   +  G +I+    +++  +GY  +H +E+W+W+  F ++ +++   +R G     +      G    G VLSF   +F   A W + AADY + +P +T K+ I+ S   G+  P  F   + A      L   ++    ++ ++GGV+  IL+  +  GFG+F  VLLA STI+ NIPN Y+ AL  Q+L   L KIPRV + +A     + ++I    +F   + NF   + YY A   AI   E F++R S     ++ N DD  ++  LP G A  A++ V    V + M +T++ G I + +      YGGD+GFE+ A  A + Y I R +E+K F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11999</Hit_id>
+  <Hit_def>gnl|TC-DB|Q708J7|2.A.39.2.3 Putative purine-cytosine permease - Candida albicans (Yeast).</Hit_def>
+  <Hit_accession>11999</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.03287e-70</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>539</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>STSTPSAVNGTTTDVEAADGTGRLARLTAYLAGIGIETRSLERVQEDQREQLPLWRLAMRQIFFWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINH-SLSLIVGIVILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMT--LTKESYVTALEEESLGGVVGEILIQGA-GGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFRSSRGPLGASTNWDDVTDYSKLPPGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFIFRWIEIKVFK</Hsp_qseq>
+      <Hsp_hseq>SMDPSSSSSGADAEIE----TTKLNFIDRWAHKLNAETKGIELVTDEEKTDTSFWNLAT----MWLSANLVIATFSLGALGITVFGLAFGQAVLVIIFFSILGGFPVAFFSCFGSALGLRQMLLSKFLIGDLTTRLFAAINVVACVGWGAVNTMSSAQLLHIVNNGTLPPWAGCLIIVVCTVLVTFFGYHVIHAYEKWAWIPNLIIFIIII---VRFAMTNKFTSKSFEGGETTAGNVLSFGGTVFGFATGWTTYSSDYVVYHPRNTNSWKIFFSIFFGLLTPLMFTLILGAACATGIAGDPEWTRLYKEDSVGGLVYAILVHDSLHGFGQFCCVVLALSTVANNVPNMYSMALSAQTVWAGFRKIPRVAWTIAGNGATLAICIPAYYKFEAVMENFMNLISYYLSIYESIMFASHFIWNSGRFDGYDYERWNDKEAY---PVGYAGVFGFACGVAGVVLGMNQTWYSGVIGRRIGE----FGGDIGFELAIGFAFIGFNVARYFEKKYIR</Hsp_hseq>
+      <Hsp_midline>S    S+ +G   ++E    T +L  +  +   +  ET+ +E V ++++     W LA      W S NL  +    G LG   F L F  ++++I   + LG    A  +  G   GLR M  S+F  G   T +F+ +N +  + +     +S AQ L  +N+ +L    G +I+ V  +++  +GY  +H +E+WAWI   II+ I++    R        + S + G    G+VLSF G +F     W + ++DY +  P  T  W I+ S F G+  P  F   + A   T       +    +E+S+GG+V  IL+  +  GFG+F  V+LA ST++ N+PN YS AL  Q++     KIPRV + +A     + + I     F  ++ NF  +++YY +   +I+F   F + S R        W+D   Y   P GYA V      +  VV+ M +TWY+G I +++ E    +GGD+GFE++   A + + + R+ E K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8401</Hit_id>
+  <Hit_def>gnl|TC-DB|P53099|2.A.39.2.2 Tpn1 64.5 kDa protein in COX4-GTS1 intergenic region - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>8401</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.43396e-59</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>543</Hsp_align-len>
+      <Hsp_qseq>RLARLTAYLAGIGIETRSLERVQEDQREQLPLWRLAMRQIFFWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAI-NHSLSLIVGIVILTVIVMVLAVWGYQ-------FLHIWERWAWIACFII----YCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMTLTKESYVTALEEESLGGVVGEILIQGA---GGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFR----------------SSRGP--LGAST------------------------NWDDVTDYSKLPPGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFIFRWIEIKVFKR</Hsp_qseq>
+      <Hsp_hseq>RAAWLSKKVDAMGVESTGIQRISPYERGTSKKQFLHVAGL--WLSATGGLSSMSSFLLGPLLFGLSFRESVASSLISVTIGCLIAAYCSIMGPQSGCRQMVTARYLFGWWFVKLVALASIIGVMGWSVVNSVVGGEMLAAISNDKVPLWVGIVIVTVCSFLVAIFGIKQVIKVETYLSVPVLTAFLLLYISSSDKYSFVNAYVSKGNLDSSTRK----------GNWMSFFSLCYSITATWGSITADYYILFPEDTPYIQIFCLTFFGTFLPTCFVGILGLLLASVAMSYKPWSVEYDSHG--MGGLLWAGFQRWNGFGKFCVVVLVFSLVSNNIINTYSAAFSIQLSSVFCAKIPRWFWSIVCTIICLVCALIGRNHFSTILGNFLPMIGYWISMYFILLFEENLVFRRFFLHLYTKEFPTVTGEINGPELVGSSKEVEKDAVTNIHLLKRKHKVTKHRYNWDKWEDYEVLTHGYAATFAFIVGVAGVVVGMAQAYWIGPIAAKFGE----YGGDVAMWLSMAFSGVVYPPCRYLELRKFGR</Hsp_hseq>
+      <Hsp_midline>R A L+  +  +G+E+  ++R+   +R       L +  +  W S     S++ + +LG L F L FR S+    +   +G  ++A  +++GP++G R M  +R+  GW    + +L + +  + ++V  ++ G + L AI N  + L VGIVI+TV   ++A++G +       +L +    A++  +I     Y  V    ++G  D S+R           G+ +SF  + +S+ A+W SI ADY +  P  TP   I+   F G ++PT F   +     ++       ++E +S G  +G +L  G     GFGKF +V+L FS +S NI N+YS A  IQ       KIPR F+ +  T+I +V A++GR HFS IL NF  ++ Y+ +    ++F E   FR                   GP  +G+S                         NWD   DY  L  GYA   +  V +  VV+ MA+ ++ GPIA K  E    YGGD+   +S   + V Y   R++E++ F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9127</Hit_id>
+  <Hit_def>gnl|TC-DB|P94369|2.A.39.1.5 Putative purine-cytosine permease yxlA OS=Bacillus subtilis (strain 168) GN=yxlA PE=3 SV=1</Hit_def>
+  <Hit_accession>9127</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>8.60241e-21</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>529</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>476</Hsp_align-len>
+      <Hsp_qseq>IETRSLERVQEDQREQLPLWRLAMRQIF-FWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRA---INHSLSLIVGIVILTVIVMVLAVWGYQFLHIWER---WAWIACFIIYCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMTLTKESYVTALEEESLGGVVGEILIQGAGGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIP-----RVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFRSSRGPLGASTNWDDVTDYSKLP--PGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFI</Hsp_qseq>
+      <Hsp_hseq>VERRTIEYIPNEERHG------KAKDLFPVWFGANMHITTLVTGTIP-VAMGLNLFWSVAAIICGTLIGAIFMASHSAQGPQLGIPQMIQSRAQFGVIGAILPLFLVMFIYLGFFASSTILAAGTLSSFVPIPGSWSIIG----LSAVCFLLTIFGHDLIHKMQKILSWTSFAVFFAATILI-------FQLPIPAGSWIPGAIDLPIFLVAVSAVATWQLAYAPYVADYSRYLPVKTPASKTFWYSYAGT--------SVSSIWMMLLGALLTTSLPDFTANS--GSQIVQLFGPFSFIMLIIVLFGQMAINVFNLYGAFMSTTTTLEPFLKLKVTPKVRIIMILGVTLVGTVLSLLGQSNFMELFLNFIFFISYFLIPWTAINLVDYYFVR--HGKYQVKAMFDVNGPYGKVNWITTIAFVLSILLEIPFINTS----FYIGPLAKMFG------GGDIAWIIGLAVPSVLYYV</Hsp_hseq>
+      <Hsp_midline>+E R++E +  ++R          + +F  WF  N+  + L TG +  +   L+   S+  I  GT +G    A+ +  GP+ G+  M  SR   G  G  +   L     L +  ++ +  A  L +   I  S S+I     L+ +  +L ++G+  +H  ++   W   A F    I++       + +     S   G   +   L     + +   ++    ADY+  LP  TP    +  ++ G         SVS+ +M L      T+L + +     G  ++Q  G F   +L+++ F  ++ N+ N Y   +   +     +K+      R+  ++  TL+  V++++G+ +F E+  NF   ++Y+    +AI  ++ ++ R   G       +D    Y K+      A V SI + IP +  S    +Y GP+AK         GGD+ + +   V +V Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15679</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9ZBQ0|2.A.39.1.6 Putative transmembrane protein OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) GN=SCO5579 PE=4 SV=1</Hit_def>
+  <Hit_accession>15679</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.17869e-09</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>529</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>478</Hsp_align-len>
+      <Hsp_qseq>IETRSLERVQEDQREQLPLWRLAMRQIF-FWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINHSLSLIVGI---------VILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGARGGYDV--SSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMTLTKESYVTALEEESLGGVVGEILIQGAGGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFL---EIFYFRSSRGPLGASTNWDDVTDY-SKLPPGYACVASICVTIPPVVMSMAETWYTGPIAKKVTEPASPYGGDLGFEMSAVVATVSYFI</Hsp_qseq>
+      <Hsp_hseq>LETRGIEQVPDHERTA------RTRELFPTWVGANISVLLLTMGASLVVAYRLNFWQALVVAGAAPVVSYGLVGLIGIAGKRGGAPGMALSRAVFGQRGNLLPGSLIWVARWGWETINAVTGAYALLTV---LDIVFGIRANSVLDMVTLLAFVVATFAISGLGINAVQKCNKYAAYLFGAFSVLVL----GYLVVDTDWSAVFDRSAGSVAAMITGVGLIAAGGVSWIPSAPDFTRYLPRTASSKGIVGVTVGGAGI-VVLPMVLMGAVMAVSTPDLASAADPVSF---LGEILPTWIA--VPYLLIAL-IGMLLINSMSMYSAGFTAQTLG---FKVPRHWAVSVNAVISLVFGGVLMLVATSFMGSFIAFLSLLAVAFSAWVGVFGADMLRGREYDGEALADTGRTSAYWYRGGFSP--AAVVAWAVGLAAGLMFTTSDWFTGPLA--TDNFVGEYG--LGWVATVVISALLYAV</Hsp_hseq>
+      <Hsp_midline>+ETR +E+V + +R          R++F  W   N+S   L  G    + + L+F  ++V+      +   +   + + G + G   MA SR   G  G  +   L  + +  +    A++GA AL  +   L ++ GI          +L  +V   A+ G     + +   + A       VL L    GY V  +  ++  D     +  +++  G++ + G SW   A D+   LP T     I G    G  I       +    M ++     +A +  S    +GEIL         +LL+ L    +  N  + YS     Q+L     K+PR + V    +I +V   V     +  + +F A L+      SA V +   ++   R   G   A T       Y     P  A V +  V +   +M     W+TGP+A         YG  LG+  + V++ + Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3503</Hit_id>
+  <Hit_def>gnl|TC-DB|F8IKT4|2.A.39.1.4 Permease for cytosine/purines uracil thiamine allantoin OS=Alicyclobacillus acidocaldarius (strain Tc-4-1) GN=TC41_2961 PE=4 SV=1</Hit_def>
+  <Hit_accession>3503</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.19775e-09</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>IETRSLERVQEDQREQLPLWRLAMRQIFF-WFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGT----ALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINHSLSL--------IVGIVILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGA---RGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATFMTLTKESYVTALEEESLGGVVGEILIQGAGGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIPRVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILAYYTAFLSAIVFLEIFYFRSSRGPLGASTNWDDVTDYS</Hsp_qseq>
+      <Hsp_hseq>LETEGNGIIAEHRRHGMP------RELFYVWFAAVLTFTGVVTGQLFTGVFGLNVWESLLIVLLCSISFAALGLYVA-----TGPRAGTVTLTISRAAFGVHGGKIPAFFSWFTAVGWESVTMVLTVWAMLSLAQYVGLPSTGVGPTLVALVITLFLTYLVPILGHATLVVMQR--VLAIVLAACTVLVLFAVLPDVKWNFNPPASALAAHGVFPTFLLALSVGLASTFYGWANFAADYSRYLPKETKTSRMVWATFLGGGLANFIMMGLGVVLGTVISAKAFSANPVMAIAKAIPE---WAAIPF----LIVVVLGDICANYLNAYSSGMSFLSMGIRLKRHFAVALDGAICTAIGIYALFFSNNFVDFFENFLDLMITVMGPWAAIYIVHHF---AVRGRYAA----DDLVDAS</Hsp_hseq>
+      <Hsp_midline>+ET     + E +R  +P      R++F+ WF+  L+F+ + TG L    F L+   S++I+ L +    ALG+ V+      GP+ G  T+  SR A G  G  I +  +  T + +   T +    A+ ++   + L        +V +VI   +  ++ + G+  L + +R   +A  +  C VL L A      ++ +   S++         +L+ +  + S    W + AADY+  LP  T    +  + F+G  +       +     T+      +A    ++   + E     A  F    L+++    I AN  N+YS  +   S+   L +   V    A      + A+    +F +   NF  ++       +AI  +  F   + RG   A    DD+ D S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|247</Hit_id>
+  <Hit_def>gnl|TC-DB|A1KWE6|2.A.39.1.3 Putative permease OS=Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / FAM18) GN=NMC2048 PE=4 SV=1</Hit_def>
+  <Hit_accession>247</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.04943e-08</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>WFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINHSL----SLIVGIVILTVIVMVLAVWGYQFLHIWERWAWIACFIIYCIVLGLGARGGYDVSSRTSSMDTGRALIGDVLSFTGIMFSVGASWCSIAADYNMTLPATTPKWIIWGSAFIGMWIPTAFACSVSATF-MTLTK-ESYVTALEEESLGGVVGEILIQGAGGFGKFLLVLLAFSTISANIPNSYSGALCIQSLHPVLMKIP-RVFFVVAFTLIYMVVAIVGREHFSEILSNFSAILA</Hsp_qseq>
+      <Hsp_hseq>WFGAAVSIAEISTGTL---LAPLGWQRGLAALLLGHAVGGALFFAAAYIGALTGRSSMESVRLSFGKRGSVLFSVANMLQLAGWTAVMIYAGATVSSALGKVLWDGESFVWWALANGALIVLWLVFGARKTGGLKT---VSMLLMLLAVLWLSAEVFSTAGSTAAQVSDGMS-FGTAVELSAVM---PLSWLPLAADY--TRQARRP-----------------FAATLTATLAYTLTGCWMYALGLAAALFTGETDVAKILLGAGLGAAGILAVVLSTVTTTFLDAYSAGVSANNISAKLSETPIAVAVAVVGTLLAVLLPVTEYENFLLLIGSVFAPMA</Hsp_hseq>
+      <Hsp_midline>WF   +S + + TG L      L ++  +  + LG A+G  +    A +G  TG  +M + R + G  G+ +FS+ N L    +      +GA    A+   L    S +   +    ++++  V+G +     +    ++  ++   VL L A       S  + +  G +  G  +  + +M     SW  +AADY  T  A  P                 FA +++AT   TLT    Y   L      G      I    G G   ++ +  ST++    ++YS  +   ++   L + P  V   V  TL+ +++ +   E+F  ++ +  A +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6098</Hit_id>
+  <Hit_def>gnl|TC-DB|P02980|2.A.1.2.68 Tetracycline resistance protein, class B OS=Escherichia coli GN=tetA PE=1 SV=1</Hit_def>
+  <Hit_accession>6098</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000311179</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>QLP--LWRLAMRQIFFWFSVNLSFSALGTGMLGGLYFTLDFRTSMVIIWLGTALGVCVSATMALVGPKTGLRTMAASRFAGGWPGTAIFSLLNALTQLCYAVTTALSGAQALRAINHSLSLIVGIVI----LTVIV--MVLAVWGYQFLHIWERWAWIACFIIYCIVL</Hsp_qseq>
+      <Hsp_hseq>QIPATVWVLFTENRFGWNSMMVGFSLAGLGLLHSVF------QAFVAGRIATKWGEKTAVLLGFIADSSAFAFLAF--ISEGW---LVFPVLILLAGGGIALP-ALQGVMSIQTKSHQQGALQGLLVSLTNATGVIGPLLFAVIYNHSLPIWDGWIWIIGLAFYCIII</Hsp_hseq>
+      <Hsp_midline>Q+P  +W L     F W S+ + FS  G G+L  ++       + V   + T  G   +  +  +   +    +A    + GW    +F +L  L     A+  AL G  +++  +H    + G+++     T ++  ++ AV     L IW+ W WI     YCI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>101</Statistics_hsp-len>
+      <Statistics_eff-space>2502957600</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>14541 gm1.3336_g_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>1195</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>14541 gm1.3336_g_mRNA</Iteration_query-def>
+  <Iteration_query-len>1195</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7319</Hit_id>
+  <Hit_def>gnl|TC-DB|P29465|4.D.1.1.12 Chitin synthase 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CHS3 PE=1 SV=3</Hit_def>
+  <Hit_accession>7319</Hit_accession>
+  <Hit_len>1165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>582.793</Hsp_bit-score>
+      <Hsp_score>1501</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>902</Hsp_query-to>
+      <Hsp_hit-from>655</Hsp_hit-from>
+      <Hsp_hit-to>1159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>371</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>VCLVTCYSEGYDGIKTTLDSIAATNYSDARKLLFVVCDGMITGSGEKMSTPDIVVSMIERDARFGDP-QPMSYVAIADGAKAHNQAMVYAGHYTQVAG-------HRTPIIVVVKCGTPAEASEAKPGNRGKRDSQMVLMNFFGRVTYNDRMSPLDYDLFRKTQSLMGVTPDFFEVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMIQVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINSTIHNLMELVLVRNLCGTFCFSMQFITFIDLIGTVVLPIAICLTYTLIISSIINPPNSFGDAIPLVLLVGVLGLPGILILISTMKVVYVGWMLIYLLALPIWNCVLPLYAFSKFDDFSWGETRKVAGETKGGDDHGASGGVSAASAVPLRRWEDWEKSRLRKIRREE</Hsp_qseq>
+      <Hsp_hseq>ICFVTCYSEDEEGLRTTLDSLSTTDYPNSHKLLMVVCDGLIKGSGNDKTTPEIALGMMDDFVTPPDEVKPYSYVAVASGSKRHNMAKIYAGFYKYDDSTIPPENQQRVPIITIVKCGTPAEQGAAKPGNRGKRDSQIILMSFLEKITFDERMTQLEFQLLKNIWQITGLMADFYETVLMVDADTKVFPDALTHMVAEMVKDPLIMGLCGETKIANKAQSWVTAIQVFEYYISHHQAKAFESVFGSVTCLPGCFSMYRIKSPKGSDGYWVPVLANPDIVERYSDNVTNTLHKKNLLLLGEDRFLSSLMLKTFPKRKQVFVPKAACKTIAPDKFKVLLSQRRRWINSTVHNLFELVLIRDLCGTFCFSMQFVIGIELIGTMVLPLAICFTIYVIIFAIVSKPT---PVITLVLLAIILGLPGLIVVITATRWSYLWWMCVYICALPIWNFVLPSYAYWKFDDFSWGDTRTIAGGNKKAQDE--NEGEFDHSKIKMRTWREFEREDILN-RKEE</Hsp_hseq>
+      <Hsp_midline>+C VTCYSE  +G++TTLDS++ T+Y ++ KLL VVCDG+I GSG   +TP+I + M++      D  +P SYVA+A G+K HN A +YAG Y             R PII +VKCGTPAE   AKPGNRGKRDSQ++LM+F  ++T+++RM+ L++ L +    + G+  DF+E  LMVDADT  +P++L ++V  M  D ++MG+CGET+IANK QSWVT IQVFEY+ISHH AKAFESVFG VTCLPGCFSMYRIK+ K  DG W PVL +P I   YS +V  TLH+KNLLLLGEDRFL++++L+TFP RK +F PKA C+T+ PD FKVLLSQRRRWINST+HNL ELVL+R+LCGTFCFSMQF+  I+LIGT+VLP+AIC T  +II +I++ P      I LVLL  +LGLPG++++I+  +  Y+ WM +Y+ ALPIWN VLP YA+ KFDDFSWG+TR +AG  K   D   + G    S + +R W ++E+  +   R+EE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.97306e-09</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WSLFVEIVTFWAPRPLLRTFGMTDPVKQRAWKEKVALCEIAAFLMGIIGFITIGLNRTL</Hsp_qseq>
+      <Hsp_hseq>WQMYCYFITFWAPAPILAFCGMPKKERQMAWREKVALISVILYIGAIVAFLTFGFTKTV</Hsp_hseq>
+      <Hsp_midline>W ++   +TFWAP P+L   GM    +Q AW+EKVAL  +  ++  I+ F+T G  +T+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.83977e-06</Hsp_evalue>
+      <Hsp_query-from>237</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KRSVKCLASRYYAGHIDKITPGCFVSNLFLYVSLILIMGIVLARFFMALVFSWYLA</Hsp_qseq>
+      <Hsp_hseq>RKIARCLSEIIKVGEVDSKTVGCIASDVVLYVSLVFILSVVIIKFIIACYFRWTVA</Hsp_hseq>
+      <Hsp_midline>++  +CL+     G +D  T GC  S++ LYVSL+ I+ +V+ +F +A  F W +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13677</Hit_id>
+  <Hit_def>gnl|TC-DB|Q92839|4.D.1.1.10 Hyaluronan synthase 1 OS=Homo sapiens GN=HAS1 PE=1 SV=2</Hit_def>
+  <Hit_accession>13677</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>7.29412e-14</Hsp_evalue>
+      <Hsp_query-from>558</Hsp_query-from>
+      <Hsp_query-to>736</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MGVTPDFFEVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMIQVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINS</Hsp_qseq>
+      <Hsp_hseq>LGDSVDYVQVC---DSDTRLDPMALLELVRVLDEDPRVGAVGGDVRILNPLDSWVSFLSSLRYWVAFNVERACQSYFHCVSCISGPLGLYRNNLLQQFLEAW------------YNQKFLGT-----HCTFGDDRHLTNRMLSMGYATK--YTSRSRCYSETPSSFLRWLSQQTRWSKS</Hsp_hseq>
+      <Hsp_midline>+G + D+ +VC   D+DT   P +L  LVRV+  D  V  V G+ RI N   SWV+ +    Y+++ ++ +A +S F  V+C+ G   +YR    +Q    W            Y+Q  + T         G+DR LT  +L      K  +  ++RC +  P +F   LSQ+ RW  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8799</Hit_id>
+  <Hit_def>gnl|TC-DB|P72520|4.D.1.1.8 Synthase of the type 3 pneumococcal capsular polysaccharide OS=Streptococcus pneumoniae GN=cap3B PE=4 SV=1</Hit_def>
+  <Hit_accession>8799</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.58346e-10</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>855</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>EVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMI-QVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINSTIHNLMELV--LVRNLCGTFCFSMQFITFIDLIGTVVL---PIAICLTYTLIISSIINPPNSFGDAIPLVLLVGVLGLPG-ILILISTMKVVYVGWMLIYLLALPIWNCVLPLYAFSK-FDDFSWG</Hsp_qseq>
+      <Hsp_hseq>DITVLVDSDTVWTPRTLSELLKPFVCDKKIGGVTTRQKILDPERNLVTMFANLLEEIRAEGTMKAM-SVTGKVGCLPGRTIAFRTEILRE-------------CIHEFMNETFMGFHKE----VSDDRSLTNLTLK--KGYKTVMQDTSVVYTDAPTSWKKFIRQQLRWAEGSQYNNLKMTPWMIRNAPLMF-----FIYFTDMILPMLLISFGVNIFLLKILNITTIVYTA-SWWEIILYVLLGMIFSFGGRNFKAMSRMKWYYVFLIPVFIIVLSIIMCPIRLLGLMRCSDDLGWG</Hsp_hseq>
+      <Hsp_midline>++ ++VD+DT+  P +L  L++    D  + GV    +I +  ++ VTM   + E   +    KA  SV G V CLPG    +R +  ++                E+        H++    + +DR LT + L+     K +    +   T  P ++K  + Q+ RW   + +N +++   ++RN    F     FI F D+I  ++L    + I L   L I++I+    S+ + I  VLL  +    G     +S MK  YV  + ++++ L I  C + L    +  DD  WG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5489</Hit_id>
+  <Hit_def>gnl|TC-DB|O50201|4.D.1.1.5 Hyaluronan synthase OS=Streptococcus dysgalactiae subsp. equisimilis PE=4 SV=1</Hit_def>
+  <Hit_accession>5489</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.70823e-08</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>736</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>EVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMIQVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINS</Hsp_qseq>
+      <Hsp_hseq>DVFLTVDSDTYIYPDALEELLKTF-NDPTVFAATGHLNVRNRQTNLLTRLTDIRYDNAFGVERAAQSVTGNILVCSGPLSVYRRE------------VVVPNIDRYINQTFLGIP-----VSIGDDRCLTNYATDL---GKTVYQSTAKCITDVPDKMSTYLKQQNRWNKS</Hsp_hseq>
+      <Hsp_midline>+V L VD+DT  YP++L  L++   ND  V    G   + N++ + +T +    Y  +  + +A +SV G +    G  S+YR +            +V P I    +Q+ +        + +G+DR LT          K ++   A+C T VPD     L Q+ RW  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6644</Hit_id>
+  <Hit_def>gnl|TC-DB|P0C0H0|4.D.1.1.4 Hyaluronan synthase - Streptococcus pyogenes.</Hit_def>
+  <Hit_accession>6644</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>3.66211e-07</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>EVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMIQVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINSTIHNLMELVLVRNLCGTFCFSMQFITFIDLIGTVVLPIAICLTYTLIISSIINPPNSFGDAIPLVLLVGVLGLPGILILISTMKVVYVGWMLIYLLALPIWNCV-------LPLYAFSKFDDFSWGETRKV</Hsp_qseq>
+      <Hsp_hseq>DVFLTVDSDTYIYPNALEELLKSF-NDETVYAATGHLNARNRQTNLLTRLTDIRYDNAFGVERAAQSLTGNILVCSGPLSIYRRE------------VIIPNLERYKNQTFLGLP-----VSIGDDRCLTNYAIDL---GRTVYQSTARCDTDVPFQLKSYLKQQNRWNKSFFRE--SIISVKKILSNPIVALWTIFEVVMFMMLIVAIGNLL---------------FNQAIQLDLIKLFAFLSIIFIVALCRNVHYMVKHPASFLLSPLYGILHLFVLQPLKLYSLCTIKNTEWGTRKKV</Hsp_hseq>
+      <Hsp_midline>+V L VD+DT  YP +L  L++   ND  V    G     N++ + +T +    Y  +  + +A +S+ G +    G  S+YR +            ++ P +    +Q+ +        + +G+DR LT   +      + ++   ARC T VP   K  L Q+ RW  S       ++ V+ +      ++  I  + +   +++ I   L               F  AI L L+     L  I I+     V Y+       L  P++  +       L LY+     +  WG  +KV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10997</Hit_id>
+  <Hit_def>gnl|TC-DB|Q54066|4.D.1.1.2 Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) GN=icaA PE=1 SV=1</Hit_def>
+  <Hit_accession>10997</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.3805e-06</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>788</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>GVTPDFFEVCLMVDADTMCYPESLGYLVRVMQNDNMVMGVCGETRIANKRQSWVTMIQVFEYFISHHLAKAFESVFGGVTCLPGCFSMYRIKARKQDDGDWFPVLVSPTITSEYSQSVVTTLHQKNLLLLGEDRFLTTILLRTFPNRKMMFCPKARCRTVVPDTFKVLLSQRRRWINSTIHNLMELVLVRNLCGTF---CFSMQFITFIDLIGTVVLPIAICLTYTLIISSII</Hsp_qseq>
+      <Hsp_hseq>GIKQASYEYVMCLDADTVIDDDAPFYMIEDFKKNPKLGAVTGNPRIRNK-SSILGKIQTIEYASIIGCIKRSQSLAGAINTISGVFTLFK-KSALKDVGYWDTDMITEDIAVSWK-------------------------LHLF-DYEIKYEPRALCWMLVPETIGGLWKQRVRWAQGG-----HEVLLRDFWPTIKTKKLSLYILMFEQIASITWVYIVLCYLSFLVITANI</Hsp_hseq>
+      <Hsp_midline>G+    +E  + +DADT+   ++  Y++   + +  +  V G  RI NK  S +  IQ  EY       K  +S+ G +  + G F++++ K+  +D G W   +++  I   +                          L  F + ++ + P+A C  +VP+T   L  QR RW           VL+R+   T      S+  + F  +     + I +C    L+I++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15912</Hit_id>
+  <Hit_def>gnl|TC-DB|S7UI33|2.A.49.1.4 Chloride channel protein OS=Toxoplasma gondii GN=TGGT1_265500 PE=3 SV=1</Hit_def>
+  <Hit_accession>15912</Hit_accession>
+  <Hit_len>2075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000248046</Hsp_evalue>
+      <Hsp_query-from>1001</Hsp_query-from>
+      <Hsp_query-to>1169</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>SPLPGATYPHHGNGSGYSTPSEQAHLQPRQQGYGQQQHYQAPTRGWTLTDTPLSAPPMTKTASSASNLPLNASSSSLASSGRSSPRADDPFADANSPGGVQPPPLISPLSFAHDPSYTSLASSTATGFNTSVSSEQQHARRRSLTNSPQATRGDPLMGSGAGTPSPTKD</Hsp_qseq>
+      <Hsp_hseq>SPPPSSSPPPSSPPSPSSAPSSSTSPSP--------------------SSPPSSSPPSPSSAPSSSTSPSPSSPPPSSPPSSSSTSPSPSSAPSSSPPSPSPPPSSPPSSSSTSPSPSSAPSSSPPSSSPSSSSPPPSS---SPPPPSPPSSSPPSSSSPSSSPSPSAD</Hsp_hseq>
+      <Hsp_midline>SP P ++ P     S  S PS      P                    +  P S+PP   +A S+S  P  +S    +    SS       A ++SP    PPP   P S +  PS +S  SS+    + S SS    +   S       +   P   S + +PSP+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>107</Statistics_hsp-len>
+      <Statistics_eff-space>6080433792</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

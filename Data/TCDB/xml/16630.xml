@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>16630 fgenesh1_kg.9_#_1199_#_TRINITY_DN2056_c1_g1_i2_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>1191</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>16630 fgenesh1_kg.9_#_1199_#_TRINITY_DN2056_c1_g1_i2_mRNA</Iteration_query-def>
+  <Iteration_query-len>1191</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11627</Hit_id>
+  <Hit_def>gnl|TC-DB|Q6A1F6|3.B.1.1.6 Oxaloacetate decarboxylase OS=Vibrio cholerae GN=oadA-2 PE=1 SV=1</Hit_def>
+  <Hit_accession>11627</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>6.34809e-92</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>1185</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>626</Hsp_align-len>
+      <Hsp_qseq>IMDTTWRDAHQSLLATRLRTIDMANIAKETSHALQNAYSLECWGGATFDVAMRFLYEDPWERLRELRKLVPNIPFQALVRGANAVGYTSYPDNAIYEFSKRAVENGLDIFRVFDSLNYIENMRLGIDAAKQAGGVVEAVICYTGDVANPKGHSKYTLDYYLNFAQELVDCGIHVLAIKDMAGLLKPEAATMLVGALRKKFPDIPIHVHSHDTAGISVSSMLACAAAGADVIDVAIDSMSGTTSQPSMGAVCSALEQSGLGTGISYANIQALNLYWSNVRQLYQCFEANVRASDSGVFEHQMPGGQYTNLMFQSQQLGLSGQWKAVVKAYIEANELCGDIVKVTPSSKVVGDFAQFLVANKLSKQDILDQADKLDFPSSVVEFFQGYLGQPVGGFPEP----LRSKIIRDKERIDGRPGQNM---KPYPFAEVRQQLVDKYGSTISSC--DVLSYCMYPKVFEEFKEFNLKYGELSKLPTRYFLAKPPIGEEVQVEIEQGKMLIIKLIAVSPVNPVTGIREVLFELNGEARLVKIE---DRNAAIETVRREKA----TKEPGSIGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGDLIL</Hsp_qseq>
+      <Hsp_hseq>VTDVVLRDAHQSLFATRLRIDDMLPIAQQLDQI--GYWSLECWGGATFDSCIRFLGEDPWQRLRLLKQAMPNTPLQMLLRGQNLLGYRHYADDVVDTFVERAVKNGMDVFRVFDAMNDVRNMQQALQAVKKMGAHAQGTLCYTTSPV-------HNLQTWVDVAQQLAELGVDSIALKDMAGILTPYAAEELVSTLKKQV-DVELHLHCHSTAGLADMTLLKAIEAGVDRVDTAISSMSGTYGHPATESLVATLQGTGYDTGLDIAKLEQIAAYFRDVRKKYHAFEGMMKGSDARILVAQVPGGMLTNMESQLKQQNALDKLDLVLEEIPRVREELGFLPLVTPTSQIVGTQAVINV--------VLGERYK-----TITKETSGVLKGEYGKTPAPVNTELQARVLAGAEAITCRPADLIAAEMPTLQDRVLQQAKEQHITLAENAIDDVLTIALFDQVGWKFLANRHNPEAFEPAPQAISSACTP-----KAPTEKSK-----------VQPVESHGVYTITVNNQSYVVKVDEGGDLTHVAPTASTNHAPVPSAAEGENLAAPLSGNIWKIHASAGDEVAEGDVLLILEAMKMETEIRAPRAGVISAIEVNEGDAVQVGDALL</Hsp_hseq>
+      <Hsp_midline>+ D   RDAHQSL ATRLR  DM  IA++        +SLECWGGATFD  +RFL EDPW+RLR L++ +PN P Q L+RG N +GY  Y D+ +  F +RAV+NG+D+FRVFD++N + NM+  + A K+ G   +  +CYT           + L  +++ AQ+L + G+  +A+KDMAG+L P AA  LV  L+K+  D+ +H+H H TAG++  ++L    AG D +D AI SMSGT   P+  ++ + L+ +G  TG+  A ++ +  Y+ +VR+ Y  FE  ++ SD+ +   Q+PGG  TN+  Q +Q     +   V++      E  G +  VTP+S++VG  A   V        +L +  K     ++ +   G L    G  P P    L+++++   E I  RP   +    P     V QQ  +++ +   +   DVL+  ++ +V  +F             P     A  P     +   E+ K           V PV         +N ++ +VK++   D      T     A      E  ++ A +SG + +I    G +V  GD + ++ AMKME+ + +P +G +  + V  GD++  GD +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9366</Hit_id>
+  <Hit_def>gnl|TC-DB|Q03030|3.B.1.1.1 OXALOACETATE DECARBOXYLASE ALPHA CHAIN (EC 4.1.1.3) - Salmonella typhimurium.</Hit_def>
+  <Hit_accession>9366</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.35722e-90</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>1187</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>631</Hsp_align-len>
+      <Hsp_qseq>VLIMDTTWRDAHQSLLATRLRTIDMANIAKETSHALQNAYSLECWGGATFDVAMRFLYEDPWERLRELRKLVPNIPFQALVRGANAVGYTSYPDNAIYEFSKRAVENGLDIFRVFDSLNYIENMRLGIDAAKQAGGVVEAVICYTGDVANPKGHSKYTLDYYLNFAQELVDCGIHVLAIKDMAGLLKPEAATMLVGALRKKFPDIPIHVHSHDTAGISVSSMLACAAAGADVIDVAIDSMSGTTSQPSMGAVCSALEQSGLGTGISYANIQALNLYWSNVRQLYQCFEANVRASDSGVFEHQMPGGQYTNLMFQSQQLGLSGQWKAVVKAYIEANELCGDIVKVTPSSKVVGDFAQFLVANKLSKQDILDQADKLDFPSSVVEFFQGYLGQPVGGFPEPLRSKIIRDKERIDGRPGQNMKPYPF---AEVRQQLVDKYGSTISS---CDVLSYCMYPKVFEEFKEFNLKYGELSKLPTRYFLAKPPIGEEVQVEIEQGKMLIIKLIAVSPVNPVTGIREVLFELNGEARLVKIEDRN----------AAIETVRREKATKEPGS-IGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGDLILEI</Hsp_qseq>
+      <Hsp_hseq>IAITDVVLRDAHQSLFATRLRLDDMLPIAAALDDVGYG--SLECWGGATFDACIRFLGEDPWLRLRELKKAMPKTPLQMLLRGQNLLGYRHYADDVVERFVERAVKNGMDVFRVFDAMNDPRNMKAALQAVRSHGAHAQGTLSYTTSPA-------HTLQTWLDLTEQLLETGVDSIAIKDMSGILTPMAAYELVSEIKKRF-EVRLHLHCHATTGMAEMALLKAIEAGVDGVDTAISSMSATYGHPATEALVATLAGTEHDTGLDILKLENIAAYFREVRKKYHAFEGQLKGYDSRILVAQVPGGMLTNLESQLKQQNAADKLDQVLAEIPRVREDLGFIPLVTPTSQIVGTQA---VLNVLTGERYKTIAKE---TAGILKGEYGHTPVPVNA---ALQARVLEGGAPVTCRPADLLKPELAELEADVRRQAQEK-GITLAGNAIDDVLTVALFPQIGLKFLENRNNPAAFEPLP--------------QAEAAQP-------VAKAEKPAASGIYTV--EVEGKAFVVKVSDGGDISQLTAAVPAASSAPVQAAAPAGAGTPVTAPLAGNIWKVIATEGQTVAEGDVLLILEAMKMETEIRAAQAGTVRGIAVKSGDAVSVGDTLMTL</Hsp_hseq>
+      <Hsp_midline>+ I D   RDAHQSL ATRLR  DM  IA           SLECWGGATFD  +RFL EDPW RLREL+K +P  P Q L+RG N +GY  Y D+ +  F +RAV+NG+D+FRVFD++N   NM+  + A +  G   +  + YT   A       +TL  +L+  ++L++ G+  +AIKDM+G+L P AA  LV  ++K+F ++ +H+H H T G++  ++L    AG D +D AI SMS T   P+  A+ + L  +   TG+    ++ +  Y+  VR+ Y  FE  ++  DS +   Q+PGG  TNL  Q +Q   + +   V+       E  G I  VTP+S++VG  A   V N L+ +     A +    + +++   G+   PV      L+++++     +  RP   +KP      A+VR+Q  +K G T++     DVL+  ++P++  +F E          LP              Q E  Q        +A +     +GI  V  E+ G+A +VK+ D            AA     +  A    G+ + A ++G + ++   EGQ V  GD + ++ AMKME+ + +  +G V+ +AV++GD++  GD ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15345</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9V0A6|3.B.1.1.5 Methylmalonyl-CoA decarboxylase gamma chain - Pyrococcus abyssi.</Hit_def>
+  <Hit_accession>15345</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.47905e-11</Hsp_evalue>
+      <Hsp_query-from>1122</Hsp_query-from>
+      <Hsp_query-to>1187</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>IGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGDLILEI</Hsp_qseq>
+      <Hsp_hseq>VTAPMPGKVLKILVQEGQQVKLGQGLLILEAMKMENEIPAPRDGVVKRILVKEGDAVDTGTPLIEL</Hsp_hseq>
+      <Hsp_midline>+ A M G V++I V+EGQ VK G  + ++ AMKME+ + +P  G VKR+ V+ GD++D G  ++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15675</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9ZAA7|3.B.1.1.3 GLUTACONYL-COA DECARBOXYLASE GAMMA SUBUNIT (EC 4.1.1.70) - Acidaminococcus fermentans.</Hit_def>
+  <Hit_accession>15675</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.92275e-09</Hsp_evalue>
+      <Hsp_query-from>1121</Hsp_query-from>
+      <Hsp_query-to>1185</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>SIGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGDLIL</Hsp_qseq>
+      <Hsp_hseq>TVSAPMPGKILSVNVKPGDKVEAGDVLLILEAMKMQNEIMAPEDGTVSEVRVNAGDTVATGDVMV</Hsp_hseq>
+      <Hsp_midline>++ A M G ++ + VK G  V+AGD + ++ AMKM++ + +P  G V  V V AGD++  GD+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5064</Hit_id>
+  <Hit_def>gnl|TC-DB|O06930|3.B.1.1.4 BIOTIN PROTEIN - Malonomonas rubra.</Hit_def>
+  <Hit_accession>5064</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>3.77657e-07</Hsp_evalue>
+      <Hsp_query-from>1122</Hsp_query-from>
+      <Hsp_query-to>1184</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGDLI</Hsp_qseq>
+      <Hsp_hseq>IKSKMPGSIIEVKVSVGDNLEAGSLILIMEALKMKQEIRSQEGGVVKELKVNTGDRVSPGQVL</Hsp_hseq>
+      <Hsp_midline>I + M G ++E++V  G +++AG  + +M A+KM+  + S   G VK + V  GD +  G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11139</Hit_id>
+  <Hit_def>gnl|TC-DB|Q57111|3.B.1.1.2 GAMMA-SUBUNIT,METHYLMALONYL-COA DECARBOXYLASE - Veillonella parvula.</Hit_def>
+  <Hit_accession>11139</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.60466e-06</Hsp_evalue>
+      <Hsp_query-from>1121</Hsp_query-from>
+      <Hsp_query-to>1182</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>SIGASMSGVVVEIRVKEGQDVKAGDPVAVMSAMKMESNVSSPVSGKVKRVAVQAGDSLDQGD</Hsp_qseq>
+      <Hsp_hseq>TVKAPMPGKILSVAVSAGQAVKKGETLLILEAMKMQNEIAAPHDAVVSEVRVSANQTVSTGD</Hsp_hseq>
+      <Hsp_midline>++ A M G ++ + V  GQ VK G+ + ++ AMKM++ +++P    V  V V A  ++  GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>107</Statistics_hsp-len>
+      <Statistics_eff-space>6058079256</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>14869 estExt_Genemark1.C_6_t10362_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>582</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>14869 estExt_Genemark1.C_6_t10362_mRNA</Iteration_query-def>
+  <Iteration_query-len>582</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7216</Hit_id>
+  <Hit_def>gnl|TC-DB|P25568|9.A.15.1.1 Hypothetical 58.8 kDa protein in GLK1-SRO9 intergenic region - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7216</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>8.8279e-63</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>558</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>538</Hsp_align-len>
+      <Hsp_qseq>GVYAYSVASEVFPIVTGTLLLPVLLETYARQNGVLAPERVVACPPSGLGGAAAGEGEEAARCVVRLAG--VWLDTASFSLMTYSASVFVQALTVISMGGLGD---DPWMRHRLLTLFATSGSILCILFLFLPSASAIWPLCTLLALGANVAFGASIVCLNSYLPDLGRRHPTVLLAQAALLNARQSYARHRRESVSSSNTLLSASQHLARATDAYTAAKGKATGEISARAIAVGYGAGIAVLVALLPVLRWLGEGEVDGTWPLRVGVAISGMWWMVGTVPASIWLRPSTSI-VKFTNSTAKAT--------------SLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAFP-ILQHRLHLTTHRTLLLLVSLATIIPLWGLV-------ALRTSTQMYLLACVFGAIYGAFQALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPVLAKVDMRKGSEDAE</Hsp_qseq>
+      <Hsp_hseq>GWYAYSFSSEPFVVSAVSTYIPLLLQQFASINGVKVHDHSIPC--------LSETGSDSDKCVLGLFNNRIFVDTSSFALYVFSLSVLFQTIIVISVSGIVDLWGSVKFKGRILVWFGIVGALSTVAISKL-NDTQIYSLAGLYIV-ANGCFGVINVVGNSLLP---------IFVKDSL--KCQSQGAYEPDKVDSLTTV------------------------ISGRGASLGYSSALIVQI----VSMFLVASKKGSKQDVQVAVLFVGIWWFVWQLP-MIWLIDDVTIPIRVDDSTLASARSPYPGEQDALGQLNWKNYLSYGWVSLFESFKHARLLKDVMIFLIAWFIISDSITTINSTAVLFSKAELHMSTLNLIMISVLTVVNAMLGAFMIPQFLATKFRWTSSQTLMYIIIWASFIPFYGILGFFFNAFGLKHKFEMFLLAIWYGLSLGGLSAVSRSVFSLIVPPGKESTFFSMFSITDKGSSILGPFLVGLLTDKTHNIRYSFYFFFLLLMLSLPVLNCLDVKRGRREAE</Hsp_hseq>
+      <Hsp_midline>G YAYS +SE F +   +  +P+LL+ +A  NGV   +  + C         +  G ++ +CV+ L    +++DT+SF+L  +S SV  Q + VIS+ G+ D       + R+L  F   G++  +    L + + I+ L  L  + AN  FG   V  NS LP         +  + +L    QS   +  + V S  T+                        IS R  ++GY + + V +    V  +L   +      ++V V   G+WW V  +P  IWL    +I ++  +ST  +               + ++++  GW  L +  +  R L    +FL AWFI+SD   TI STA+LF+K  L++ T +L+++S+LT +  ++GA   P  L  +   T+ +TL+ ++  A+ IP +G++        L+   +M+LLA  +G   G   A+ R+ FS ++P  + + +F ++S+TDKGSS LGP LV  +T  T +IR+ F+   +LL+ SLPVL  +D+++G  +AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7215</Hit_id>
+  <Hit_def>gnl|TC-DB|P25568|2.A.1.24.1 Hypothetical 58.8 kDa protein in GLK1-SRO9 intergenic region - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7215</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>8.8279e-63</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>558</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>538</Hsp_align-len>
+      <Hsp_qseq>GVYAYSVASEVFPIVTGTLLLPVLLETYARQNGVLAPERVVACPPSGLGGAAAGEGEEAARCVVRLAG--VWLDTASFSLMTYSASVFVQALTVISMGGLGD---DPWMRHRLLTLFATSGSILCILFLFLPSASAIWPLCTLLALGANVAFGASIVCLNSYLPDLGRRHPTVLLAQAALLNARQSYARHRRESVSSSNTLLSASQHLARATDAYTAAKGKATGEISARAIAVGYGAGIAVLVALLPVLRWLGEGEVDGTWPLRVGVAISGMWWMVGTVPASIWLRPSTSI-VKFTNSTAKAT--------------SLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAFP-ILQHRLHLTTHRTLLLLVSLATIIPLWGLV-------ALRTSTQMYLLACVFGAIYGAFQALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPVLAKVDMRKGSEDAE</Hsp_qseq>
+      <Hsp_hseq>GWYAYSFSSEPFVVSAVSTYIPLLLQQFASINGVKVHDHSIPC--------LSETGSDSDKCVLGLFNNRIFVDTSSFALYVFSLSVLFQTIIVISVSGIVDLWGSVKFKGRILVWFGIVGALSTVAISKL-NDTQIYSLAGLYIV-ANGCFGVINVVGNSLLP---------IFVKDSL--KCQSQGAYEPDKVDSLTTV------------------------ISGRGASLGYSSALIVQI----VSMFLVASKKGSKQDVQVAVLFVGIWWFVWQLP-MIWLIDDVTIPIRVDDSTLASARSPYPGEQDALGQLNWKNYLSYGWVSLFESFKHARLLKDVMIFLIAWFIISDSITTINSTAVLFSKAELHMSTLNLIMISVLTVVNAMLGAFMIPQFLATKFRWTSSQTLMYIIIWASFIPFYGILGFFFNAFGLKHKFEMFLLAIWYGLSLGGLSAVSRSVFSLIVPPGKESTFFSMFSITDKGSSILGPFLVGLLTDKTHNIRYSFYFFFLLLMLSLPVLNCLDVKRGRREAE</Hsp_hseq>
+      <Hsp_midline>G YAYS +SE F +   +  +P+LL+ +A  NGV   +  + C         +  G ++ +CV+ L    +++DT+SF+L  +S SV  Q + VIS+ G+ D       + R+L  F   G++  +    L + + I+ L  L  + AN  FG   V  NS LP         +  + +L    QS   +  + V S  T+                        IS R  ++GY + + V +    V  +L   +      ++V V   G+WW V  +P  IWL    +I ++  +ST  +               + ++++  GW  L +  +  R L    +FL AWFI+SD   TI STA+LF+K  L++ T +L+++S+LT +  ++GA   P  L  +   T+ +TL+ ++  A+ IP +G++        L+   +M+LLA  +G   G   A+ R+ FS ++P  + + +F ++S+TDKGSS LGP LV  +T  T +IR+ F+   +LL+ SLPVL  +D+++G  +AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|965</Hit_id>
+  <Hit_def>gnl|TC-DB|A9WGR7|2.A.1.24.3 Permease of the major facilitator superfamily-like protein OS=Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl) GN=Caur_3034 PE=4 SV=1</Hit_def>
+  <Hit_accession>965</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.02082e-33</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>557</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GVWLDTASFSLMTYSASVFVQALTVISMGGLGDDPWMRHRLLTLFATSGSILCILFLFLPSASAIWPLCTLLALGANVAFGASIVCLNSYLPDLGRRHPTVLLAQAALLNARQSYARHRRESVSSSNTLLSASQHLARATDAYTAAKGKATGEISARAIAVGYGAGIAVLVALLPVLRWLGEGEVDGTWPLRVGVAISGMWWMVGTVPASIWLRPSTSIVKFTNSTAKATSLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAFPILQHRLHLTTHRTLL-------LLVSLATIIPLWGLVALRTSTQMYLLACVFGAIYGAFQALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPVLAKVDMRKGSEDA</Hsp_qseq>
+      <Hsp_hseq>GIPVAAGSFFPYMVSLSVLLQVFFLPILGAIADYSNARKQMLAIFAYVGAFATMGLYFLEGTNYL--LGGILFLIANLTFGASIVFYNAFLPDIA--------------------SPDRRDAVSSQGW-------------------------------ALGYLGGGLLLAANLVFFLNAGSFGVESGMAVRISLVSAGMWWAIFTLIPMWTLRNRGAVRRLPPG-------ENYLTVGFRQLAHTFRQMRGYPQTLLFLAAYLLYNDGIQAVIALAAQFGAEELGIGESTRIATILMVQFVAFFGALIFGALATRLG--SKRVLLGSLVIWTLVVSYAYIMPA------NNDVQFFALGAAIALVLGGSQAISRSLFSLMIPDGQEAEYFSLYEVGERGTSWLAPLLFGVAYQMTGSYRIAIVSLIIFFISGFILLLFVNVRRAAAEA</Hsp_hseq>
+      <Hsp_midline>G+ +   SF     S SV +Q   +  +G + D    R ++L +FA  G+   +   FL   + +  L  +L L AN+ FGASIV  N++LPD+                     +  RR++VSS                                  A+GY  G  +L A L      G   V+    +R+ +  +GMWW + T+     LR   ++ +            +++  G+R L    R+ R  P T +FL A+ + +D    + + A  F    L +  S+ +   ++       GAL F  L  RL   + R LL       L+VS A I+P           Q + L      + G  QA+ R+ FS +IP  Q A++F +Y V ++G+S+L PLL     Q+TG  R     ++I  ++   +L  V++R+ + +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9610</Hit_id>
+  <Hit_def>gnl|TC-DB|Q09812|2.A.1.24.2 Autophagy-related protein 22 OS=Schizosaccharomyces pombe (strain ATCC 38366 / 972) GN=atg22 PE=2 SV=1</Hit_def>
+  <Hit_accession>9610</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>3.51407e-26</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>534</Hsp_align-len>
+      <Hsp_qseq>DTPEESEAAYTRQLWGVYA---YSVASEVFPIVTGTLLLPVLLETYARQNGVLAPERVVACPPSGLGGAAAGEGEEAARCVVRLAG-VWLDTASFSLMTYSASVFVQALTVISMGGLGDDPWMRHRLLTLFATSGSILCILFLFLPSASAIWPLCTLLALGANVAFGASIVCLNSYLPDLGRRHPTV---LLAQAALLNARQ---SYARHRRESVSSSNTLLSASQHLARATDAYTAAKGKATGEISARAIAVGYGA--GIAVLVALL--PVLRWLGEGEVDGTWPLRVGVAISGMWWMVGTVPASIWLRPSTSIVKFTNSTAKATSLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAFPILQHRLHLTTHRTLLLLVSLATIIPLWGLVA---------LRTSTQMYLLACVFGAIYGAFQALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPV</Hsp_qseq>
+      <Hsp_hseq>NSPIQLHKKFSTTVWHVLSWILYAVGAGPTAIISMGVYVPLIVMKNAHDHGFLRTDHTIPC---------SLYPEEP--CSLNIVGPLWIDVSSIVFAASAISTFLQMAMMVSLGVICDYGNNRRYILFSCVIIGSISGIILSWSPSSFLLGKIVFLILVDLNFIISQS--CYDSFLPIFLRFYPITRGPITLESALQDETDDLDSYITNTTIDSSEEEPYLLEHSLILNESAPPADVEDEHKAKIAARLSSVGFGSFFGAAILFQIIFTPILYKTNNNPII----LPITVTVCSCWWLILSTPLCTIV---TLPVENHSSDAILTLLYNSVKESYHSFKHAMS----ISSIRLFLFSRLFINCGIQTSLSSAVIFGKARLNLSNFQLTLLGMGISSFALLGTVIIPYLTEYFQLNSLQVVMIISILLPMAPLYGLLGYIPGFENAGIRTSADVFRATLFFGFFLGGAHSYCRSVYAQLVPSGKETRFFALYALISQTGVLFSHISLTLISNYTSDLRAVY--IFVIVVMTLPL</Hsp_hseq>
+      <Hsp_midline>++P +    ++  +W V +   Y+V +    I++  + +P+++   A  +G L  +  + C         +   EE   C + + G +W+D +S      + S F+Q   ++S+G + D    R  +L      GSI  I+  + PS+  +  +  L+ +  N     S  C +S+LP   R +P     +  ++AL +      SY  +     S     L     +   +      + +   +I+AR  +VG+G+  G A+L  ++  P+L       +     L + V +   WW++ + P    +   T  V+  +S A  T L + + + +      +     + S  +FL +   ++    T  S+A++F K  LNL    L L+ +      L+G +  P L     L + + ++++  L  + PL+GL+          +RTS  ++     FG   G   +  R+ +++L+P+ +  ++F +Y++  +       + +  ++  T D+R  +  I ++++ +LP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10002</Hit_id>
+  <Hit_def>gnl|TC-DB|Q1CWQ3|2.A.1.24.4 Major facilitator family transporter OS=Myxococcus xanthus (strain DK 1622) GN=MXAN_7057 PE=4 SV=1</Hit_def>
+  <Hit_accession>10002</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>9.9704e-23</Hsp_evalue>
+      <Hsp_query-from>261</Hsp_query-from>
+      <Hsp_query-to>559</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>AKGKATGEISARAIAVGYGAGIAVLVALLPVL---RWLGEGEVDGTWPLRVGVAISGMWWMVGTVPASIWL---RPSTSIVKFTNSTAKATSLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAFPILQHRLHLTTHRTLLLLVSLATIIPLWGLVALRTSTQMYLLACVFGAIYGAFQALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPVLAKVDM---RKGSEDAEA</Hsp_qseq>
+      <Hsp_hseq>ARDDELDRVSTAGYALGYLGGGLLLAAQLVLLMKPQWFGLADAGAA--SRVAFASVAVWWALFSVPLFRRIPEPKPDVSIQR------PPLSLRGIFTQLAGTLGG-LRQHRQ---AFLLLVAYLLYSDGIGTIIRLSTLYG-TELGIGRGALIGALLLTQVVGVPCAVLFGRAAGRVGVK--RALMFALSVYVGVTFLGYF-MRTPVHFFALALLVGMVQGGSQALSRSLFAQMVPRDRAAEFFGLFSVFEKVTAVAGPLVFAATVELTGSSRQAVLSLLFFFVSGAAVLSRVDVAAGRRAAREAEA</Hsp_hseq>
+      <Hsp_midline>A+      +S    A+GY  G  +L A L +L   +W G  +       RV  A   +WW + +VP    +   +P  SI +         SLR    Q    LG  LR+ R+    F+ L A+ + SD   TI   + L+  T L +   +L+   +LT + G+  A+ F     R+ +   R L+  +S+   +   G   +RT    + LA + G + G  QAL R+ F++++P  ++A++FG++SV +K ++  GPL+ A   ++TG  R     +L   ++   VL++VD+   R+ + +AEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9633</Hit_id>
+  <Hit_def>gnl|TC-DB|Q0BZH6|2.A.1.24.6 Putative membrane protein OS=Hyphomonas neptunium (strain ATCC 15444) GN=HNE_2422 PE=4 SV=1</Hit_def>
+  <Hit_accession>9633</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.46168e-06</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LLSASQHLARATDAYTAAKGKATGEISARAIAVGYGAGIAVLVALLPVLRWLGEGEVDG-----TWPLRVGVAISGMWWMVGTVPASIWLRPSTSIVKFTNSTAKATSLRSHIVQGWRGLGKMLREWRRLPSTFVFLGAWFILSDCFATITSTAILFAKTTLNLPTSSLVLVSILTPLAGLVGALAF--------PILQHRLHLT-----------THRTLLLLVSLATIIPLWGLVALRTSTQMYLLACVFGAIYGAFQ----ALMRACFSELIPTSQSAQWFGVYSVTDKGSSFLGPLLVAYVTQVTGDIRHGFWVILILLLASLPVL</Hsp_qseq>
+      <Hsp_hseq>LLSCGEVLFSSMLPYAAAP-RMRPMASGLALSLGNVTSIILLVFILMALM-LPEQPLFGLSKENSEPDRMVPILVALTFALCAIPLFLFSKDAAK----SGGKADASSVRA----GVGSLISLIRNWKQNSDAMIYLLARTLAQDAGGVLLILCGVYAAGVMGWAGTEMLVYGLLGCVAGLIGGVLAGWLDETFGPRIAFQIEIAGSVIGLIGIIGAAPAQILFMPVADPQPIWNAPMFTTLPELVFV--FFGFLGFVFQIAAWSSSRTLLTRLAPASQMGAFFGLAALAGNSTSWLGPMFVGIFTAVFHSQQAGFIPVAVLFAAGFILL</Hsp_hseq>
+      <Hsp_midline>LLS  + L  +   Y AA  +     S  A+++G    I +LV +L  L  L E  + G     + P R+   +  + + +  +P  ++ + +      +   A A+S+R+    G   L  ++R W++     ++L A  +  D    +     ++A   +    + +++  +L  +AGL+G +          P +  ++ +                 +L + +A   P+W      T  ++  +   FG +   FQ    +  R   + L P SQ   +FG+ ++    +S+LGP+ V   T V    + GF  + +L  A   +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>101</Statistics_hsp-len>
+      <Statistics_eff-space>2736187740</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

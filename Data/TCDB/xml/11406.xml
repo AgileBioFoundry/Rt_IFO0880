@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>11406 e_gw1.16.76.1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>840</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>11406 e_gw1.16.76.1_mRNA</Iteration_query-def>
+  <Iteration_query-len>840</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2121</Hit_id>
+  <Hit_def>gnl|TC-DB|C7Z7K1|1.A.17.1.18 Predicted protein OS=Nectria haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 / MPVI) GN=NECHADRAFT_66456 PE=1 SV=1</Hit_def>
+  <Hit_accession>2121</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.451</Hsp_bit-score>
+      <Hsp_score>916</Hsp_score>
+      <Hsp_evalue>1.03317e-111</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>KVRSKRADQLRDEYAKLVEVLEGAGLKVTGRNGAEGTNTVLLFVK-AGEQRVREEVTRERISDWLHGLGSSRPSPREPSDFAAQPIEEAERIRVVYSILTSPRATQAASIRSSASTGPTCGLPVASQLPPTPANKVEFPHLIDMFPPHNAAYNKLWLRRWSHLPATQSGNTPATKNPLELLTIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTS-KTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYL</Hsp_qseq>
+      <Hsp_hseq>KVPAAERDEAEAGFVQLIRALTTVGLATEVRHGEN--ESLLVFVKVASPDLFAKQVYRARLGDWLHGVRVSAPHNDIAQALQDEPVVEAERLRLIYLMITKPHNEGGAGV--------------------TPTN-AKWKHVESIFPLHSHSFNKEWIKKWS-----------------SKYTLEQTDIDNIRDKFGESVAFYFAFLRSYFRFLVIPSAFGFGAWLLLGQFSYLYALLCGLWSVVFFEYWKKQEVDLAVQWGVRGVSSIQQSRPEFEWEHEAEDPITGEPVKVYPPMKRVKTQLLQIPFALACVVALGALIVTCNSLEVFINEVYSGPGKQYLGFLPTIFLVIGTPTISGVLMGAAEKLNAMENYATVDAHDAALIQKQFVLNFMTSYMALFFTAFVYIPFGHILHPF----LNFWRATAQTLTFSEKELPTREFQINPARISNQMFYFTVTAQIVNFATEVVVPYIKQQAF----QKAKQLKSGSKVQE-----DHEEEAEFLQRVREECTLEEYDVSGDYREMVMQFGYVAMFSVAWPLAACCFLVNNWVELRSDALKIAISSRRPIPWRTDSIGPWLTALSFLSWLGSITSSAIVYL</Hsp_hseq>
+      <Hsp_midline>KV +   D+    + +L+  L   GL    R+G     ++L+FVK A      ++V R R+ DWLHG+  S P          +P+ EAER+R++Y ++T P     A +                    TP N  ++ H+  +FP H+ ++NK W+++WS                    T+ Q+++D+++   GE VA YFAFL  YFR L+ PS  G   WLL   F  L  +    WSVVF E W+ +E  +AVQWG      ++  RP F  E +  DP++G   + +   + +   L  +P   A V  LG ++     +E  ++EVY+GP K++L  +PT+  V   P ++ +    A KL   EN+     H+A+L  K F LNF+ +Y  L  T++VYIPFG  L P     L    A A + T S K L +  F IN +++  Q+  +T+T QI     EV +PY++ +      +K     +  K +E     DHE+E +FL R+R+E  L   ++ G+Y+EM  QFGY+ +F+V WP++    L+NN+ E+RSDA K+   +RRPIP+RT SIGPWL  + FLS+LG++T+S+++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1196</Hit_id>
+  <Hit_def>gnl|TC-DB|B0YES0|1.A.17.1.17 Plasma membrane channel protein Ist2, putative OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 / FGSC A1163) GN=AFUB_100160 PE=4 SV=1</Hit_def>
+  <Hit_accession>1196</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>5.2797e-104</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>EYAKLVEVLEGAGLKVTGRNGAEGTNTVLLFVKAG-EQRVREEVTRERISDWLHGLGSSRPSPREPSDFAAQPIEEAERIRVVYSILTSPRATQAASIRSSASTGPTCGLPVASQLPPTPANKVEFPHLIDMFPPHNAAYNKLWLRRWSHLPATQSGNTPATKNPLELLTIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHI----LTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQE--KLHHTAA--ADKAREKAGTS--DHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYLY</Hsp_qseq>
+      <Hsp_hseq>KFEVLLLELSEVGLQTEVRQGDE--NSLFVFVRAASKKKLKRAVYQSRVRDWLYGVRNTEPEPAS----SAKPQSEAERLRVIYHLITVPKAEGGAGI--------------------TPRHG-EWKNVDAIFPLHDEETNRQCMREWS-----------------KKTFLSTEDLDRIRNTFGEHVGFYFAFLQSYFRFLMFPAAFGFSCWLLLGSFSIIYTVVNCLWCIVFIEYWKRQEEDLSCRWQTKGVSAVHEKRAEFKPEKEIRDESTGEVRGVFPATKRMYRQLLQVPFALLAAVALGAIIATCFAIEIFISEVYNGPLKGYLVFIPTILVSALIPTMSAVLLTVATKLNDYENYETQDAYKVALTQKIFVVNFITSYLPIILTAFVYVPFASRIVPYLDVFHLTVRP--FVSKEHATKART----EFSINPDRLRKQVIYFTVTAQIVGFALETIVPFVKQRVFREYKEYTKKQHAKAEPGNGAGEKKTVSLGDDEDEARFLTRVRNEAELEDYDVTDDLREMCIQFGYLALFSPVWPLVPVSFLINNWVELRSDFFKICVECKRPWPQRADTIGPWLDSLGFLSWVGSITSSALVYMF</Hsp_hseq>
+      <Hsp_midline>++  L+  L   GL+   R G E  N++ +FV+A  +++++  V + R+ DWL+G+ ++ P P      +A+P  EAER+RV+Y ++T P+A   A I                    TP +  E+ ++  +FP H+   N+  +R WS                 +   +   +LD ++   GE V  YFAFL  YFR L+FP+  G   WLL  SF  +  +    W +VFIE W+ +E+ ++ +W T     V  +R  F+ E +  D  +G  R  +   + + R L  +P        LG I++  + +E  +SEVYNGP K +L  IPT+L   L+P ++A+    A+KL  +EN+  Q  ++ +LT K F +NF+ +Y  ++LT++VY+PF S +VP++    LT  P    +   AT ++T     FSIN  +L  Q++ +T+T QI G  LE  +P+++ ++    +E  K  H  A   + A EK   S  D EDE  FL R+R E  L   ++  + +EM  QFGY+ LF+ +WP+ P+  LINN+ E+RSD FK+  + +RP P R  +IGPWLD +GFLS++G++T+S+L+Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1535</Hit_id>
+  <Hit_def>gnl|TC-DB|B6JZY0|1.A.17.1.15 Putative uncharacterized protein OS=Schizosaccharomyces japonicus (strain yFS275 / FY16936) GN=SJAG_01168 PE=4 SV=1</Hit_def>
+  <Hit_accession>1535</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.424</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>2.31023e-68</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>426</Hsp_align-len>
+      <Hsp_qseq>DLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYLYQPRKTF</Hsp_qseq>
+      <Hsp_hseq>NVKAHLGSEVSLYFAFMQFYFLNLVVPSAWGVFCYYFLGDYSFIFAFGILLWGIFFAQAWKVRERSLSQRWSINGCDRKEKCVQEFKPLSFKVDSFTGRARPFFPQWETVLRTLPTVPLLLVSGGVLLGLLAGIFALEVYLVELYNGPLKFLLTLLPTVAFQACTIPFFMIYRVAAKKLTDLENRRTEKEYAMSFSRKVFLFNFMVSYTALFLTAYVYGPFSKRIVAHYSSKL----------NVFSRFHTDSFQGNPLRLRSQFLYFLTNAQLINFITNLLVPAVLRAVKKLIKQK-------RKSVPSIVIQDDELEHEVLESYRAQSELPPYDSYTDYREMIIQFGYVVMFSPIFPLAPVFFLVNNFFEIRGDMAKITNEMQRPLPSLKDSIGLWNQCLQLLSWLGSMTLTSLCYYYTSNDAF</Hsp_hseq>
+      <Hsp_midline>++KAHLG +V+LYFAF+ +YF +L+ PS  G+F +     +  +   G + W + F + W++RE++++ +W     +R E     F+    +VD  +G  R  +    T+ R+L ++P      G L  +++ I+ +E  L E+YNGP K  LTL+PTV F         ++   A KLT  EN   + E+  S + K F  NF+ +Y  L LT+YVY PF   +V H  ++L                 + SF  N  +L +Q + +    Q+      + +P +   +  ++++K        K+       D E E + L   R +  LP  + + +Y+EM  QFGY+V+F+ I+P++P++ L+NNFFEIR D  K+T++ +RP+P    SIG W   +  LS+LG++T +SL Y Y     F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2246</Hit_id>
+  <Hit_def>gnl|TC-DB|D0NGF4|1.A.17.1.14 Anoctamin-like protein OS=Phytophthora infestans T30-4 GN=PITG_11203 PE=4 SV=1</Hit_def>
+  <Hit_accession>2246</Hit_accession>
+  <Hit_len>909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.19455e-36</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>410</Hsp_hit-from>
+      <Hsp_hit-to>814</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>453</Hsp_align-len>
+      <Hsp_qseq>TIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLL--------GLSFHPLLGIGF----VGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEAL--------------LSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLP--TNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>TMLYQPLHKIRYYFGEKIALYFAWLEFYTKMLVFPAVAGIITFVYIEARQAVTGTNQQGYILIAFAVFVVLWSSLFSELWKRKNGLLDSLWGLSGLQESFRYRPQFRGT-KSYHPVTDA--EEVTFESKAKRRRAFIVSVLVVTLMVGIVIVALFGLFVLKHWINDSDNLEHNNISAKYQTPLTFGVTVINAIQILVL----NTVYRNVARKLNEFENHRTDAEYENYLVIKVFLFQFCNSFA-----SFFYIAF------------VKRAAEGSCLYEDDCMQ---------ELRDQLLTLFIIRIVVGNTTEVAVPYLKYRYQLFAERKAANT------EEKTGHNYIEE---------QAKLVPYESNEAFEDYNEMVIQYGFINLFVVAFPLTPLLALANNVLEVHVDAVKLCFVHRRPFPHPAKDIGVWFYILRFMTYIALGTNSALI</Hsp_hseq>
+      <Hsp_midline>T+    L  ++ + GEK+ALYFA+L +Y + L+FP+V G+  ++         G +    + I F    V WS +F E W+ +   +   WG    +     RP FRG  K   PV+    E+ +F     R  A + +       +G ++ A++ +  L              +S  Y  P    +T+I  +  + L    N ++   A KL  FENH   +E+E  L IK F   F  ++      S+ YI F              R A          +Q         +L  QL+   +   + G   EV +PYL+ +     + K  +T       EK G +  E+         Q +L+P  +NE F +Y EM  Q+G+I LF V +P++P+ +L NN  E+  DA KL    RRP P+    IG W  ++ F++Y+   T S+LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1795</Hit_id>
+  <Hit_def>gnl|TC-DB|C0P286|1.A.17.1.9 Anoctamin OS=Caenorhabditis elegans GN=anoh-1 PE=3 SV=2</Hit_def>
+  <Hit_accession>1795</Hit_accession>
+  <Hit_len>822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.47043e-32</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>705</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>93</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVI-GLFFWLLG---------LSFHPLLGIGFVG------------------------------------------WSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGF--LGTIVSAIYVVEALLSEVYNGPFKKFLTL--------IPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPT--NEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>LNKIRDYFGEQIAYYFAWQGT-FLTLLWPAVIFGLVVFIYGFIDSISSAPLDWNHCKVVNFIGQTENVACGMRNGVTLFFSMVTQWFMSSFDTKMNAFFAVFMSIWGSVFVQIWKRNNSVLSYQWNSDDFHAIEPDRPEFRGSKVKEDPITG--EDIW-ISPALARYIKML-ASFVFVSFSMLVVVISLMLVTLLKIWMVYNFQCTKEYTFHCWLSAAFLPSILNTLSAMGLGAIYSNLVSRLNSWENHRTESEHNNSLIVKIFAFQMVNTYTSLFYVAFIR-PESHGLQPNGLFGLGTEFKDTCLDDTC-----------SSLLALQLLTHTLIKPFPKFFKDVVLPYF-VKLF-----RLRMYTSRTEARVEI---EDDDQANVLVR---EWLKPSAGDFVLWEMNEKIILFGTTMMFASLFPLAPLLALIIGFVDMRIDAHRLIWFNRKPIPIITNGIGIWLPILTFLQYCAVFTNAFIV</Hsp_hseq>
+      <Hsp_midline>L+ ++ + GE++A YFA+    F +LL+P+VI GL  ++ G         L ++    + F+G                                          W  VF++ W+     ++ QW +  +  +E +RP FRG   + DP++G   + W     L R +  L A F FV F  L  ++S + V    +  VYN    K  T         +P++L       + A++S   S+L ++ENH  +SEH  SL +K FA   V  Y +L   +++  P    L P+ L  L +         T            SS L  QL+ +TL       F +V LPY   KL      +L    +  +AR +    + +D+ + L R   E L P+  + +  E  E    FG  ++FA ++P++P+ +LI  F ++R DA +L    R+PIP  T+ IG WL ++ FL Y    T + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14937</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9NW15|1.A.17.1.26 Anoctamin-10 OS=Homo sapiens GN=ANO10 PE=1 SV=2</Hit_def>
+  <Hit_accession>14937</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.68293e-31</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>652</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLL---GLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYER-VEIERPGFRGEGKEVDPVSGITREKW-SFRRTLTRSLASLPAYFAFVGFLGTIVSAIYV---VEAL-LSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTL-TGQITGAFLEVGLPY-LQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYLY-QPRKTFPGATAGYI</Hsp_qseq>
+      <Hsp_hseq>IDSIRGYFGETIALYFGFLEYFTFALIPMAVIGLPYYLFVWEDYDKYVIFASFNLIWSTVILELWKRGCANMTYRWGTLLMKRKFEEPRPGFHGV-LGINSITGKEEPLYPSYKRQLRIYLVSLP-FVCLCLYFSLYVMMIYFDMEVWALGLHENSGSEWTSVLLYVPSIIYAIVIEIMNRLYRYAAEFLTSWENHRLESAYQNHLILKVLVFNFLNCFASLFYIAFV--------------------------------------LKDMKLLRQSLATLLITSQILNQIMESFLPYWLQRKHGVRVKRKVQALKA------------DIDATLYEQVILEKEMGTYLGTFDDYLELFLQFGYVSLFSCVYPLAAAFAVLNNFTEVNSDALKMCRVFKRPFSEPSANIGVWQLAFETMSVISVVTNCALIGMSPQVNAVFPESKADLI</Hsp_hseq>
+      <Hsp_midline>+D ++ + GE +ALYF FL Y+  +L+  +VIGL ++L        + +     + WS V +E W+     +  +WGT   +R  E  RPGF G    ++ ++G     + S++R L   L SLP +     +    V  IY    V AL L E     +   L  +P++++  ++  +N L+ + A  LT++ENH  +S ++  L +K    NF+  + +L   ++V                                      +   KL  Q +A  L T QI    +E  LPY LQ K    V+ K+    A              D   +   I ++++      F +Y E+  QFGY+ LF+ ++P++  ++++NNF E+ SDA K+    +RP    +++IG W      +S +  +T  +LI +  Q    FP + A  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12952</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8I4C3|1.A.17.1.10 Anoctamin OS=Caenorhabditis elegans GN=anoh-2 PE=3 SV=3</Hit_def>
+  <Hit_accession>12952</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>9.68253e-31</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>702</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>505</Hsp_align-len>
+      <Hsp_qseq>LLTIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLG-----------LSFHPLLG-IGFVG-------WSVVFIETWRLREKAIAVQWGTYRYER---VEIERPGFRGEGKEVDPVSGITREKW-SFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFK-KFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAAL-SATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHH----------------TAAADKAREKA-------GTSDHEDEKDFLARIRQEQLLPTNEI------------------------------FGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>VFSIDEQPIDQVKDYFGTEIAMYFAWLGHMTTALWFPSLLGILMWFLGGFKYKNSPGDKQDLYQLISDICFVLFAFFNCIWSTIYLEWWKRVQAELAFKWGTYDATQDSYLQDPRPAFQGDYLAPNPVSGRLEPFYPAWKHTVMRYVITYPITFLCVVGMFAAMLAIFTVQDLADFYFGDSWMLSWLCYFPMIFYALMIVISDKIYRRLALILNDLENYRTDDEYEDFLITKIVLFQFVTAFGSLF-----YIAF----VLRDMKRLQETLATLLITRQVTQNIMETVVPFMIEKLKLSSLTYKMTRSMSDGTLRRHVENVRNKRQNSVEQEEEEKSPRTPTTSFFTLGSPTTPETEVRQRKPNSDGTLATGDFKQLRTLSSIFREDFSLKTERLPLPEFKPCTDSNPELTQAELESVMSVYARPLDDFLEMFIQFGYVLLFSPAFPLAAVCALINNLIEIRVDAFKLCNTVQRPFGRRVKDIGAWQKAMEILGILGVIVNCALI</Hsp_hseq>
+      <Hsp_midline>+ +I +  +D +K + G ++A+YFA+L +   +L FPS++G+  W LG              + L+  I FV        WS +++E W+  +  +A +WGTY   +   ++  RP F+G+    +PVSG     + +++ T+ R + + P  F  V  +   + AI+ V+ L    +   +   +L   P + +  ++   + ++   A  L   EN+    E+E  L  K     FV A+G+L      YI F    V   + RL    A  L +   ++ +          KL    + Y +T  ++   L   +  ++ K    V+++                   T    + R++         T D +  +   +  R++  L T  +                                ++ EM  QFGY++LF+  +P++ + +LINN  EIR DAFKL +  +RP   R   IG W   +  L  LG +   +LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10835</Hit_id>
+  <Hit_def>gnl|TC-DB|Q4KMQ2|1.A.17.1.4 Anoctamin-6 OS=Homo sapiens GN=ANO6 PE=1 SV=2</Hit_def>
+  <Hit_accession>10835</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.46174e-30</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>743</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>109</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLF--------------------------------------FWLLGL------------SFHPLLGIGFVG-WSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREK-------WS--FRRTLTRSLASLPAYFAFVGFLGTIV---SAIYVVEALLSEVYNG--PFKKFLT------LIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF--GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEI--FGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>LDLIRKYYGEKIGIYFAWLGYYTQMLLLAAVVGVACFLYGYLNQDNCTWSKEVCHPDIGGKIIMCPQCDRLCPFWKLNITCESSKKLCIFDSFGTLVFAVFMGVWVTLFLEFWKRRQAELEYEWDTVELQQEEQARPEYEARCTHV-VINEITQEEERIPFTAWGKCIRITLCASAVFFWILLIIASVIGIIVYRLSVFIVFSAKLPKNINGTDPIQKYLTPQTATSITASIISFIIIMILNTIYEKVAIMITNFELPRTQTDYENSLTMKMFLFQFVNYY-----SSCFYIAFFKGKFV------GYPGDPVYWLGKYRNEECDPGGCLL---ELTTQLTIIMGGKAIWNNIQEVLLPWIMNLI-----GRFHRVSGSEKITPRW-------EQDY-------HLQPMGKLGLFYEYLEMIIQFGFVTLFVASFPLAPLLALVNNILEIRVDAWKLTTQFRRLVPEKAQDIGAWQPIMQGIAILAVVTNAMII</Hsp_hseq>
+      <Hsp_midline>LD ++ + GEK+ +YFA+L YY + LL  +V+G+                                       FW L +            SF  L+   F+G W  +F+E W+ R+  +  +W T   ++ E  RP +      V  ++ IT+E+       W    R TL  S             +G IV   S   V  A L +  NG  P +K+LT      +  +++   ++  +N ++   A  +T FE    Q+++E SLT+K F   FV  Y     +S  YI F  G F+        P      L    ++    G   +   +L TQL        I     EV LP++   +      + H  + ++K   +        E+D+        L P  ++  F EY EM  QFG++ LF   +P++P+ +L+NN  EIR DA+KLT+Q RR +P +   IG W  ++  ++ L  +T + +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3307</Hit_id>
+  <Hit_def>gnl|TC-DB|F2UIG4|1.A.17.1.7 Putative uncharacterized protein OS=Salpingoeca sp. (strain ATCC 50818) GN=PTSG_08258 PE=4 SV=1</Hit_def>
+  <Hit_accession>3307</Hit_accession>
+  <Hit_len>1153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>7.57123e-30</Hsp_evalue>
+      <Hsp_query-from>220</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>988</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>LKAHLGEKVALYFAFLSYYFRSLLFPSVIG---LFF------------------------------WLLGLS---------FHPLLGIGFVG----WSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKW-SFRR----TLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPT--VLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHED----EKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>VREYFGEKVAFYFAWLGFYTTWLIIPSVVGFLTLFYGVAQFQGRADTTQVCQSNVTMCAVCDTCEKWQLNSSCTAAEATYIFDNEATIAFAFFMSLWATVFTEYWKRSQAELSFDWNMVDHDDFEPLRPQFRASTTRKNLITDQNEPHYPAYRRYLKYILTASTVLTVCATVIIILISTIVYRIAVYTAYVTRQPDQQDQASLIASGTAAVINLILIITLSFFYRYLAVWLTDWENHKTTSKYEQHLTIKIFTFQFFNSFGSLF-----YIAF----FQHQDIGVPGDYDTFFGYQSDSCPAYGCLL----ELTIQLAVIMVGRQAFNNVLEIGLPLLKAWWR--------------KCRLRLKTTQHNDLLPWEEDYLLL----DAYPRLGLFDDYLEMCMQYGFITLFVASFPLAPFFALINNIFEIRVDASKFIGLWRRPIAERAAGLGLWRQVLEFLTLASVITNGMVI</Hsp_hseq>
+      <Hsp_midline>++ + GEKVA YFA+L +Y   L+ PSV+G   LF+                              W L  S         F     I F      W+ VF E W+  +  ++  W    ++  E  RP FR      + ++      + ++RR     LT S          +  + TIV  I V  A ++   +   +  L    T  V+ + L+  ++  + + A  LT +ENH   S++E  LTIK F   F  ++G+L      YI F      H    +P  +       +      G       +L  QL    +  Q     LE+GLP L+A                 K R +  T+ H D    E+D+L         P   +F +Y EM  Q+G+I LF   +P++P ++LINN FEIR DA K     RRPI  R + +G W  V+ FL+    +T   +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11702</Hit_id>
+  <Hit_def>gnl|TC-DB|Q6IWH7|1.A.17.1.27 Anoctamin-7 OS=Homo sapiens OX=9606 GN=ANO7 PE=1 SV=2</Hit_def>
+  <Hit_accession>11702</Hit_accession>
+  <Hit_len>933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>4.23002e-29</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>332</Hsp_hit-from>
+      <Hsp_hit-to>784</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>94</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLF-----------------------------------FWLL----------------GLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIE-RPGFRGEGKEV--DPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFL--------TLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF--GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>LDHVRRYFGEKVALYFAWLGFYTGWLLPAAVVGTLVFLVGCFLVFSDIPTQELCGSKDSFEMCPLCLDCPFWLLSSACALAQAGRLFDHGGTVFFSLF---MALWAVLLLEYWKRKSATLAYRWDCSDYEDTEERPRPQFAASAPMTAPNPITGEDEPYFPERSRARRMLAGSVVIVVMVAVVVMCLVSIILYRAIMAIVVSRSGNTLLAAWASRIASLTGSVVNLVFILILSKIYVSLAHVLTRWEMHRTQTKFEDAFTLKVFIFQFVNFY-----SSPVYIAFFKGRFV------GYPGNYHTLFGVRNEECAAGGCLI----ELAQELLVIMVGKQVINNMQEVLIPKLKGWW-----QKFRLRSKKRKAGASAGASQGPWEDDY-------ELVPCEGLFDEYLEMVLQFGFVTIFVAACPLAPLFALLNNWVEIRLDARKFVCEYRRPVAERAQDIGIWFHILAGLTHLAVISNAFLL</Hsp_hseq>
+      <Hsp_midline>LD ++ + GEKVALYFA+L +Y   LL  +V+G                                     FWLL                G  F  L       W+V+ +E W+ +   +A +W    YE  E   RP F         +P++G     +  R    R LA        V  +   + +I +  A+++ V +      L        +L  +V+ +  +  ++ ++   A  LT +E H  Q++ E + T+K F   FV  Y     +S VYI F  G F+        P  +         +    G       +L  +L+   +  Q+     EV +P L+        +K    +   KA   AG S    E D+       +L+P   +F EY EM  QFG++ +F    P++P+++L+NN+ EIR DA K   + RRP+  R   IG W  ++  L++L  ++ + L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7786</Hit_id>
+  <Hit_def>gnl|TC-DB|P38250|1.A.17.1.19 Increased sodium tolerance protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IST2 PE=1 SV=2</Hit_def>
+  <Hit_accession>7786</Hit_accession>
+  <Hit_len>946</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.71937e-28</Hsp_evalue>
+      <Hsp_query-from>227</Hsp_query-from>
+      <Hsp_query-to>659</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>KVALYFAFLSYYFRSLLFPSVIGLFFWLLG---LSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITR-EKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWS-FTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLH-HTAAADKAREKAGTSD-HEDEKDFLARIRQEQLLP---TNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARR-----PIPYRTSS--------IGPWLDVVGFLSYLGALTTSSLIYLYQPRKTFPGA---------TAGYIANLTHHN</Hsp_qseq>
+      <Hsp_hseq>KQSLYFAFLQNYIKWLIPFSFFGLSIRFLSNFTYEFNSTYSLFAILWTLSFTAFW------------LYKYEPFWSDRLSKYSSFSTIEFLQDKQKAQKKASSVIMLKKCCFIPVALLFGAILLSFQLYCFALEIFIKQIYNGPMISILSFLPTILICTFTPVLTVIYNKYFVEPMTKWENHSSVVNAKKSKEAKNFVIIFLSSYVPLLITLFLYLPMGHLLTAEIRTKVFN----AFSILARLPTHDSDFIIDTKRYEDQFFYFIVINQLIQFSMENFVP----SLVSIAQQKINGPNPNFVKAESEIGKAQLSSSDMKIWSKVKSYQTDPWGATFDLDANFKKLLLQFGYLVMFSTIWPLAPFICLIVNLIVYQVDLRKAVLYSKPEYFPFPIYDKPSSVSNTQKLTVGLWNSVLVMFSILGCVITATLTYMYQ-SCNIPGVGAHTSIHTNKAWYLANPINHS</Hsp_hseq>
+      <Hsp_midline>K +LYFAFL  Y + L+  S  GL    L      F+    +  + W++ F   W             Y+YE    +R         ++ +    + +K +    + +    +P    F   L +     + +E  + ++YNGP    L+ +PT+L  T  P +  +++ +    +T +ENH      + S   K F + F+++Y  LL+T ++Y+P G  L   I T++ +    A S           F I++ +   Q   + +  Q+    +E  +P     L+ + Q+K++       KA  + G +     +    ++++  Q  P   T ++   ++++  QFGY+V+F+ IWP++P   LI N    + D  K    ++      PI  + SS        +G W  V+   S LG + T++L Y+YQ     PG           A Y+AN  +H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|128</Hit_id>
+  <Hit_def>gnl|TC-DB|A0CIB0|1.A.17.1.13 Chromosome undetermined scaffold_19, whole genome shotgun sequence OS=Paramecium tetraurelia GN=GSPATT00007662001 PE=4 SV=1</Hit_def>
+  <Hit_accession>128</Hit_accession>
+  <Hit_len>1371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>2.34281e-28</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>862</Hsp_hit-from>
+      <Hsp_hit-to>1256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>443</Hsp_align-len>
+      <Hsp_qseq>HLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLL------GLS------FHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWS-FRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVE---------ALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQI----TGAFLEVGLPYLQAKLMPVVQEKLHHTAAAD-KAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFG---EYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>YFGEKVAIYFLFLTFYTKQLWYLSVVGVIFQGLQSLATPGLSDTLTVIFSSLIII----WSTFLIEYWRQEQVIFSLQYGQQNIEQVAAERPAFQGKFIRSITSDALNERFYSPFKRQITK-LCAFGVSLLIIGMVVGCVIAIFIFKNKMIEEDQSALLSQTLPG----IMMSAQINIFTTVYANVAKIFNF-------LENHKILQSFENSLVVKNFIFRFVNNFNSFFLVSFLSGFFPNLNICKV----------------NEEITNDCFLLLSNQLST-IFSSNLTGSIPKLITPFVKEFSMKQIKNKLF-VEKQNTHPFKYIDTQIEDQLGLDPYQDDKE--------------EVDGSVLDYLEISIQFSYLILFGVSFPACYIMAFGQNILKIQVDKLRFLKFVRRPFPEGASSIGNWLIILDIITFLGIFVNAGLI</Hsp_hseq>
+      <Hsp_midline>+ GEKVA+YF FL++Y + L + SV+G+ F  L      GLS      F  L+ I    WS   IE WR  +   ++Q+G    E+V  ERP F+G+         +    +S F+R +T+ L +       +G +   V AI++ +         ALLS+   G     +      +F T+   V  +++F        ENH      E SL +K F   FV  + +  L S++   F +  +  +                ++ + +  F + S++L T + +  LTG I    T    E  +  ++ KL  V ++  H     D +  ++ G   ++D+K+              E+ G   +Y E++ QF Y++LF V +P   I +   N  +I+ D  +     RRP P   SSIG WL ++  +++LG    + LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4467</Hit_id>
+  <Hit_def>gnl|TC-DB|K1PX34|1.A.17.1.8 Anoctamin OS=Crassostrea gigas GN=CGI_10007181 PE=3 SV=1</Hit_def>
+  <Hit_accession>4467</Hit_accession>
+  <Hit_len>942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.18813e-27</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>766</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>ELLTIPQSELDD-------------LKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSFH---------------------PLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAI-YVVEALLSEVYNGPFKKFL------TLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKD-----------FLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>ELETDPRKSLNDTWTVFYKFQPLWKIRNYFGEMIALYFAWVGEMTTSLWIPMLLGFAIFLYGLKVRLKYEVEALLTTFRSSFDNDVTPYFALIICIWGTMFLERWKRRNAQLAYEWDVDNFEHNEPDRPQFYGLKVKKDPVTQEPNWFYPFKRQILKFTVSVSTLLFMM--LIVLVSVVGVIVYRLVTTLEYCPGKSAIQCLITSTLLSAVLNAVSILLLGKLYEILAFKLTEWENHRTQTLYDDALVTKMFAFQFVNSYASCFYIAFFRGRFDVFGY--------SDECVGDSGTC------------MSQLSFQVLILMIIRPFPRIAKDLIIPLIRKLWRSRPNWCCRINACPCDCCNKINRISTEEAKDVFEANKRLLSNFLERERLKHPL-GDFTLNEYTEKVIQYGFLMLFAASFPLAPLMAILLNLIDIRIDAKRMLWSNRRPIAYIRQDIGKWFGILNFVNTVGVITNGFLI</Hsp_hseq>
+      <Hsp_midline>EL T P+  L+D             ++ + GE +ALYFA++     SL  P ++G   +L GL                        P   +    W  +F+E W+ R   +A +W    +E  E +RP F G   + DPV+      + F+R + +   S+      +  L  +VS +  +V  L++ +   P K  +      TL+  VL    +  +  L+   A KLT +ENH  Q+ ++ +L  K FA  FV +Y +    ++    F  F          S      S T              S+L  Q++   +         ++ +P ++              A       K      E+ KD           FL R R +  L  +    EY E   Q+G+++LFA  +P++P+ +++ N  +IR DA ++    RRPI Y    IG W  ++ F++ +G +T   LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15360</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9VDV4|1.A.17.1.22 Anoctamin OS=Drosophila melanogaster GN=subdued PE=2 SV=1</Hit_def>
+  <Hit_accession>15360</Hit_accession>
+  <Hit_len>1075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>3.70251e-26</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>780</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>1007</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>114</Hsp_gaps>
+      <Hsp_align-len>641</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIG----LFFWLLGLSFHPLLGIGFVG---------------------------------------------WSVVFIETWRLREKAIAVQWGTYRYE-RVEIERPGFRGEGKEVDP--VSGITREK------WSFRRTLTR---SLASLPAYFAFVGFLGTIVSAIYVVEAL---LSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPV---VQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI---------YLYQPRKTFPGATAGYIANLTHHNVSLPANGTAAFWTSRLSHAQSVSLPPLSDAPQLLGALPPATGSSDTISAIKNLLLTAAV-IALASSHAYLIIRAFTRWILTRLAWDGSIAQQFVKRRELELKRSWLDEQGMRIPPKEMARRA</Hsp_qseq>
+      <Hsp_hseq>LDDIKEYFGVKIGLYFAWLGYYTYMLLLASIVGVICFLYSWFSLKNYVPVKDICQSGNTNITMCPLCDWCNFWDLKETCNYAKVTYLIDNPSTVFFAVFMSFWATLFLELWKRYSAEITHRWDLTGFDVHEEHPRPQYLARLEHIPPTRVDYVTNIKEPTVPFWRMKLPATVFSFSVVLLLIALAFVALLAVVVYRMSMLAALKVGASPMTTSSAIVLATASAAFVNLCLLYILNYMYNHLAEYLTELEMWRTQTQFDDSLTLKIYLLQFVNYYASIFYIAF----FKGKFVGH-----PGEYNKLFDYRQEECSSGGCLT----ELCIQLAIIMVGKQAFNTILEVYLPMFWRKVLAIQVGLSRLFNNTPNPDKAKDERWMRDFK-LLDWGAR----------GLFPEYLEMVLQYGFVTIFVAAFPLAPFFALLNNILEMRLDAKKLLTHHKRPVSQRVRDIGVWYRILDCIGKLSVITNGFIIAFTSDMIPRLVYRHYVNKQGTLDGYL-NFTLSEFKVIDSPTLYSLAGDLSNITTCRYTDF--------RLPPSSPEKYTLSSMFYIILACRLGFVVVFENFVALVMILVRWCIP----DMSVELRDQIRREVYVTNEIIIDQEAHRARFERAKRS</Hsp_hseq>
+      <Hsp_midline>LDD+K + G K+ LYFA+L YY   LL  S++G    L+ W    ++ P+  I   G                                             W+ +F+E W+     I  +W    ++   E  RP +    + + P  V  +T  K      W  +   T    S+  L    AFV  L  +V  + ++ AL    S +         T     + + L+  +N +++  A  LT  E    Q++ + SLT+K + L FV  Y ++   ++    F    V H     P  +         +    G  +    +L  QL    +  Q     LEV LP    K++ +   +    ++T   DKA+++    D +   D+ AR           +F EY EM  Q+G++ +F   +P++P ++L+NN  E+R DA KL +  +RP+  R   IG W  ++  +  L  +T   +I          +Y+      G   GY+ N T     +  + T       LS+  +               LPP++    T+S++  ++L   +   +   +   ++    RW +     D S+  +   RRE+ +    + +Q       E A+R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9990</Hit_id>
+  <Hit_def>gnl|TC-DB|Q1AP37|1.A.17.1.23 Anoctamin OS=Strongylocentrotus purpuratus PE=2 SV=1</Hit_def>
+  <Hit_accession>9990</Hit_accession>
+  <Hit_len>921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>7.33407e-26</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>766</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>92</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLF-----------------------------------FWLLGLS-FHPLLGIGFVG------------WSVVFIETWRLREKAIAVQWGTYRYERVEIE-RPGFRGEG--KEVDPVSGITREKWSFRRTLTRSLASLPAY-----FAFVGFLGTIVSAIYVVEAL--LSEVYNGPFKKFLTLIP-TVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTG-QITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHED-EKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYL---YQPRKTF</Hsp_qseq>
+      <Hsp_hseq>LDLIRCYFGEKIGIYFCWLGFYTEMLTWAGFVGLIVFLYGCISLPSSVVVQEICAGTDIIMCPLCDKRCPYWTLSDSCFYSKLTYLFDNEATVFFACFMSLWATMFCEFWKRRQNTIDYDWDLFGFEEQEENIRPEFEAKAPDRRVSPITNLPEQYMKFSKRFPRFSTSVPTIAFMILLVMAAVMTVIVYRIVVKTAIFAIDQEFISSYASIITSVTASMISLILIMILQILYERIAVWLTNLELHRTETEYEDSFTFKMYLFAFVNYYST------------SFYIAFFKGRLPGTPADYGRVFGIWRQEECDPAGCTQELFINI-AITMCGKQFFNNFMELAMPVLMN----------FWRSRTGRKEEKSGKGRYEQWEQD--ADLAD---LGPRGLFKEYLEMVVQFGFSTIFVAAFPLAPLFALLNNLVEVRLDAYKFISQLRRPVAKRAQDIGAWYAILVTVGNLSVLTNALVIAFTSEFIPRQVF</Hsp_hseq>
+      <Hsp_midline>LD ++ + GEK+ +YF +L +Y   L +   +GL                                    +W L  S F+  L   F              W+ +F E W+ R+  I   W  + +E  E   RP F  +   + V P++ +  +   F +   R   S+P             +  IV  I V  A+  + + +   +   +T +  +++ + L+  +  L+   A  LT  E H  ++E+E S T K +   FV  Y              SF +     RLP   A           +    +  + +L   + A T+ G Q    F+E+ +P L               +   +  EK+G   +E  E+D  A +     L    +F EY EM  QFG+  +F   +P++P+++L+NN  E+R DA+K  SQ RRP+  R   IG W  ++  +  L  LT + +I     + PR+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14191</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9BYT9|1.A.17.1.20 Anoctamin-3 OS=Homo sapiens GN=ANO3 PE=1 SV=2</Hit_def>
+  <Hit_accession>14191</Hit_accession>
+  <Hit_len>981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.78767e-25</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>641</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>115</Hsp_gaps>
+      <Hsp_align-len>545</Hsp_align-len>
+      <Hsp_qseq>IDMFPPHNAAYNKLWLRRWSHLPATQSGNTPATKNPLELLT---------IPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGL---FFWLLGLS---------------FHPL------------------------------LGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIE-RPGFRGEGKE---VDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFL-----GTIVSAIYVVEALLSEVYN--GPFKKFLTLIPTVLF-VTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF--GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYL---YQPR</Hsp_qseq>
+      <Hsp_hseq>IAAFPPHEGAYK-----------SSQPIKTHGPQNNRHLLYERWARWGMWYKHQPLDLIRLYFGEKIGLYFAWLGWYTGMLIPAAIVGLCVFFYGLFTMNNSQVSQEICKATEVFMCPLCDKNCSLQRLNDSCIYAKVTYLFDNGGTVFFAIFMAIWATVFLEFWKRRRSILTYTWDLIEWEEEEETLRPQFEAKYYKMEIVNPITGKPEPHQPSSDKVTRLLVSVSGIFFMISLVITAVFGVVVYRLVVMEQFASFKWNFIKQYWQFATSAAAVCINFIIIMLLNLAYEKIAYLLTNLEYPRTESEWENSFALKMFLFQFVN-----LNSSIFYIAFFLGRF-VGH-----PGKYNKLFDRWRLEECHPSGCLID---LCLQMGVIMFLKQIWNNFMELGYPLIQNWW----------------SRHKIKRGIHDASIPQWENDWNLQPMNLHGLMDEYLEMVLQFGFTTIFVAAFPLAPLLALLNNIIEIRLDAYKFVTQWRRPLPARATDIGIWLGILEGIGILAVITNAFVIAITSDYIPR</Hsp_hseq>
+      <Hsp_midline>I  FPPH  AY            ++Q   T   +N   LL               LD ++ + GEK+ LYFA+L +Y   L+  +++GL   F+ L  ++                 PL                                I    W+ VF+E W+ R   +   W    +E  E   RP F  +  +   V+P++G           +TR L S+   F  +  +     G +V  + V+E   S  +N    + +F T    V     ++  +N  +   A  LT  E    +SE E S  +K F   FV      L +S  YI F  G F V H     P ++         +        I+   L  Q+       QI   F+E+G P +Q                   +R K     H+            Q +  + +  EY EM  QFG+  +F   +P++P+ +L+NN  EIR DA+K  +Q RRP+P R + IG WL ++  +  L  +T + +I +   Y PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|16604</Hit_id>
+  <Hit_def>gnl|TC-DB|xp_008873677|1.A.17.1.24 hypothetical protein H310_09397 [Aphanomyces invadans]</Hit_def>
+  <Hit_accession>16604</Hit_accession>
+  <Hit_len>2048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.48442e-25</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>1575</Hsp_hit-from>
+      <Hsp_hit-to>1974</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGL--------------------FFWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVV------EALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF-GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPT---NEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>IEEIRSYFGVKIGLYFAYLGHYTTWLMLSAVVGGGVFATQTLQKRYFPPEIAEGFNWVKVLAV-PIYGVFMVIWATLFLKYWIRKQWVFAMRWGMTDFHEEEQVRPQFQGSLMR-DPVTGARMRYFSDKQRRWRLMFSWFVLAILICIVLMCVAGIFMLRYAFKHSVLLEVPYFGNIGTQCASLANVAQIFMMSQV---YNYVCNWLNDFENHRTDSDYENHFVAKAIVFQFVNNFALLFYVAFLKKIFEGECVDNNCMTEL------AVSLT----------YVYASQL------------VIGNCQEVIMPLFWANV-----EYFRHEWVKK-------TDDHE----VVSAVETQFFMPEYGWAGTFWDYLEMIIQFGYSTFFVLACPLAPVFSFCNNIFEIRIDGSKISKFCRRPRPSGASTIGHWVKVLDVFGIITIVTNAWII</Hsp_hseq>
+      <Hsp_midline>+++++++ G K+ LYFA+L +Y   L+  +V+G                     F W+  L+  P+ G+  V W+ +F++ W  ++   A++WG   +   E  RP F+G     DPV+G     +S ++   R + S       +  +   V+ I+++        LL   Y G        +  V  + ++ QV   +++  + L  FENH   S++E     K     FV  +  L   +++   F G  +  + +T L      A+S T           + +S+L            + G   EV +P   A +     E   H            T DHE     ++ +  +  +P       F +Y EM  QFGY   F +  P++P++S  NN FEIR D  K++   RRP P   S+IG W+ V+     +  +T + +I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.59656e-12</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>531</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>499</Hsp_align-len>
+      <Hsp_qseq>VEFPHLIDMFPPHNAAYNKLWLRRWSHLPATQSGNTPATKNPLELLTIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSFHP-LLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSG-----ITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAI---------YVVEALLSEVYNGPFK--KFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTS--DHEDEKDFLA-RIRQEQLLPT-----------NEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTS</Hsp_qseq>
+      <Hsp_hseq>VQFGAISAFYPMHDDEYCR-------DIQSTWSTSLWLTHQPIEAT----------REYFGGQAALYLAYVAHITRWLLFPSIFSISLFFASERYLVWVFGFVMVFWATLFLKMWKRKLAVLGMKWGLTDFHAQDHDRPEYDESINRHMPSAHFGSMIFFRRVFCFMVTVVFLVAVL-ATKAGLFYVRWVSKAAPERFDFHVPFLDHDTISLSYAGQLKIVAVLNVLAIFFWSTLFARINGF-------LTDIEVHHTEMSAQQSFILKGVIFELVNNFAGI-----IYI---AFVKPHL--EGIDGNFAGPDVEAVEELSEYMLYIYGCQLLFHILLHVITPWIRHLCCLAKLPRTTKKVV------------ANRARLQTITSFDDKSVARDVEAVPIAQPKLLPVEVQHNLQEYGWKGLFQDYIAMIMQFGYATFFVVSCPYLPLMAFLYNLVSIRAHSISLVTMYRRLVPRSAQHIRLWAAFLEVFCVLAVVTNS</Hsp_hseq>
+      <Hsp_midline>V+F  +   +P H+  Y +        + +T S +   T  P+E            + + G + ALY A++++  R LLFPS+  +  +     +   + G   V W+ +F++ W+ +   + ++WG   +   + +RP +        P +        R  + F  T+   +A L A  A + ++  +  A          ++    +S  Y G  K    L ++    + TL  ++N         LT  E H  +   + S  +K      V  +  +     +YI   +F+ PH+       + A       + L      I   +L   ++ + +T  I        LP    K++            A++AR +  TS  D    +D  A  I Q +LLP              +F +Y  M  QFGY   F V  P  P+ + + N   IR+ +  L +  RR +P     I  W   +     L  +T S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12697</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8BHY3|1.A.17.1.25 Anoctamin-1 OS=Mus musculus GN=Ano1 PE=1 SV=2</Hit_def>
+  <Hit_accession>12697</Hit_accession>
+  <Hit_len>960</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>1.4412e-23</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>124</Hsp_gaps>
+      <Hsp_align-len>637</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLG-------------------LSFHPL------------------------------LGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVE--------------IERPGFRGEG--KEVDPVSGITREKW-SFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALL---SEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF--GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQ-ITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTS-----------SLIYLYQPRKTFPGATAGYIAN-LTHHNVSLPANGTAAFWTSRLSHAQSVSLPPLSDAPQLLGALPPATGSSDTISAIKNLLLTAAV-IALASSHAYLIIRAFTRWILTRLAWDGSIAQQFVKRRELELKRSWLDEQG</Hsp_qseq>
+      <Hsp_hseq>IDLVRKYFGEKVGLYFAWLGAYTQMLIPASIVGVIVFLYGCATVDENIPSMEMCDQRYNITMCPLCDKTCSYWKMSSACATARASHLFDNPATVFFSVFMALWAATFMEHWKRKQMRLNYRWDLTGFEEEEEAVKDHPRAEYEARVLEKSLRKESRNKETDKVKLTWRDRFPAYFTNLVSIIFMIAVTFAIV--LGVIIYRISTAAALAMNSSPSVRSNIRVTVTATAVIINLVVIILLDEVYGCIARWLTKIEVPKTEKSFEERLTFKAFLLKFVNSY-----TPIFYVAFFKGRFV------GRPGDYVYIFRSFRMEECAPGGCLM---ELCIQLSIIMLGKQLIQNNLFEIGIPKMKKFIRYL---KLRRQSPSD--REEYVKRKQRYEVDF-------NLEPFAGLTPEYMEMIIQFGFVTLFVASFPLAPLFALLNNIIEIRLDAKKFVTELRRPVAIRAKDIGIWYNILRGVGKLAVIINAFVISFTSDFIPRLVYLYMYSQN--GTMHGFVNHTLSSFNVSDFQNGTAP--NDPLDLGYEVQICRYKDYRE-----PPWSEHKYDISKDFWAVLAARLAFVIVFQNLVMFMSDFVDWVIPDIPKD--ISQQIHKEKVLMVELFMREEQG</Hsp_hseq>
+      <Hsp_midline>+D ++ + GEKV LYFA+L  Y + L+  S++G+  +L G                   ++  PL                                +    W+  F+E W+ ++  +  +W    +E  E              +     R E   KE D V    R+++ ++   L   +  +   FA V  LG I+  I    AL    S       +  +T    ++ + ++  ++ ++   A  LT  E    +   E  LT K F L FV +Y     T   Y+ F  G F+        P  +     +   +    G   +   +L  QL    L  Q I     E+G+P ++  +  +   KL   + +D  RE+        E DF        L P   +  EY EM  QFG++ LF   +P++P+++L+NN  EIR DA K  ++ RRP+  R   IG W +++  +  L  +  +            L+YLY   +   G   G++ + L+  NVS   NGTA      L     V +    D  +     PP +     IS     +L A +   +   +  + +  F  W++  +  D  I+QQ  K + L ++    +EQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3371</Hit_id>
+  <Hit_def>gnl|TC-DB|F4P699|1.A.17.1.6 Putative uncharacterized protein OS=Batrachochytrium dendrobatidis (strain JAM81 / FGSC 10211) GN=BATDEDRAFT_26005 PE=4 SV=1</Hit_def>
+  <Hit_accession>3371</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.90787e-23</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>606</Hsp_hit-from>
+      <Hsp_hit-to>1060</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYY-------------------FRSLLFP--------------SVIGLFFWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSG------ITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSE------------VYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLH-TQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNE--IFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>VNQLREYFGERIGFYFAWLGYYTIWCQSAAFFGIVTFVYGIYRSVSLPRSSIPDPNGSDTASEILIRAILLFDNEATPVYAFFMSIWAVLCLEFWKRQTQSIAFLWDVADYRKREKIRPQWCPSGTHISPITGKKENYESPRQKWTVR-FITGSIVTL-CILLILGFITGLIAFKEYFSSISSKTVTRSGSSIKRTIVDSLYAHLASFSVAIFAVIQILVIDPVYTYVARYLNDWDNYKTVSEYEDNLVLKGFLLSFLNNFSLIIHTAVIKALFRVY------------YEISQSPILDFGRWDGNCQIVSVKFGITNCMSDLIIQIATMFFFRQFFTQIVDTLWPLVSSRYSEIMSLNFDFD----NNNEDSNTLSQYVRDSKLAETSDEQFAGEFSSKVIQFGYLTMFSAAFPLAPVLAYVNNLVEMRIDIWKFITIYQRPFARRESSIGRWESIMRSVVTIGVLTNALII</Hsp_hseq>
+      <Hsp_midline>++ L+ + GE++  YFA+L YY                   +RS+  P               ++     L      P+       W+V+ +E W+ + ++IA  W    Y + E  RP +   G  + P++G        R+KW+ R  +T S+ +L      +GF+  +++      ++ S+            + +  +    +    +  V  +  ++ ++++ A  L  ++N+   SE+E +L +K F L+F+  +  ++ T+ +   F  +            +  + S         G+  I S K   T  M+  +    T  F       +   L P+V  +     + +   +    +++ED       +R  +L  T++    GE+     QFGY+ +F+  +P++P+ + +NN  E+R D +K  +  +RP   R SSIG W  ++  +  +G LT + +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4411</Hit_id>
+  <Hit_def>gnl|TC-DB|J9IU59|1.A.17.1.16 Anoctamin-like protein OS=Oxytricha trifallax GN=OXYTRI_16388 PE=4 SV=1</Hit_def>
+  <Hit_accession>4411</Hit_accession>
+  <Hit_len>1267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.14671e-22</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>920</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWL-----------------LGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLL--PTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIY</Hsp_qseq>
+      <Hsp_hseq>LNFIANYYGEKMSFYFAWLLFYTSWLMLPALPGIALFIYQMVNLYDQSQNDKKMTLDNPYNCLYCLILAVWSTVFIEMWKRRESEIAHMWNMKDFQDVDAEMPDYRAE-IVIDKKTQSIKKKNFSDPSSRRLMGELPSVITGVAIIVACFFGYYTIR----RDHNG--ETSYSVGSSVINAIVIIILGTIYRVLARVLANWENHKYAEDWENSLITKIFAFQFVNAYISLFSIAFVDQEF-------------------------------------NQLAQSLAIILAAKQVAMNCVDIIVPWIKVSMK---KKKLTQIFASD----FSGKAKNPEDLKLQFFVESQCILQSESNILVMKYSEVMIQLGYVVLFAQAFPLAPLFCILSNMLEMKGAMNLMAFYQKRTIAQGASGIGAWKGMAEILSYISIGVNMAIIY</Hsp_hseq>
+      <Hsp_midline>L+ +  + GEK++ YFA+L +Y   L+ P++ G+  ++                 L   ++ L  +    WS VFIE W+ RE  IA  W    ++ V+ E P +R E   +D  +   ++K     +  R +  LP+    V  +       Y +       +NG  +   ++  +V+   ++  +  ++   A  L  +ENH    + E SL  K FA  FV AY +L   ++V   F                                     ++L   L       Q+    +++ +P+++  +    ++KL    A+D     +G + + ++      +  + +L   +N +  +Y E+  Q GY+VLFA  +P++P++ +++N  E++     +    +R I    S IG W  +   LSY+      ++IY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12138</Hit_id>
+  <Hit_def>gnl|TC-DB|Q75V66|1.A.17.1.21 Anoctamin-5 OS=Homo sapiens GN=ANO5 PE=1 SV=1</Hit_def>
+  <Hit_accession>12138</Hit_accession>
+  <Hit_len>913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.12931e-21</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>654</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>779</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>125</Hsp_gaps>
+      <Hsp_align-len>530</Hsp_align-len>
+      <Hsp_qseq>QSELDDLKAHLGEKVALYFAFLSYYFRSLLFPS-------VIGLF-------------------------------FWLLGLS-----------------FHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIE---RPGFRGE---------GKEVDPVSGI-TREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALL-SEVYNGPFKKFLT------LIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMA-YTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI-------------YLYQPRKTFPGATAGYIAN</Hsp_qseq>
+      <Hsp_hseq>EQPLDLIKNYYGEKIGIYFVFLGFYTEMLFFAAVVGLACFIYGLLSMEHNTSSTEICDPEIGGQMIMCPLCDQVCDYWRLNSTCLASKFSHLFDNESTVFFAIFMGI----WVTLFLEFWKQRQARLEYEWDLVDFEEEQQQLQLRPEFEAMCKHRKLNAVTKEMEPYMPLYTRIPWYFLSGATVTLWMSLVVTSMVAVIVYRLSVFATFASFMESDASLKQVKSFLTPQITTSLTGSCLNFIVILILNFFYEKISAWITKMEIPRTYQEYESSLTLKMFLFQFVNFYSSCFYVAFFKGKFVGY---------PGKYTYLFNEWRSEECDPGGCLIELTTQLTIIMTGKQIFGNIKEAIYPLALNWWRRRKARTNSEKLYSRWEQDHDLESFGPLG---------------------LFYEYLETVTQFGFVTLFVASFPLAPLLALINNIVEIRVDAWKLTTQYRRTVASKAHSIGVWQDILYGMAVLSVATNAFIVAFTSDIIPRLVYYYAYSTNATQP--MTGYVNN</Hsp_hseq>
+      <Hsp_midline>+  LD +K + GEK+ +YF FL +Y   L F +       + GL                                +W L  +                 F   +GI    W  +F+E W+ R+  +  +W    +E  + +   RP F             KE++P   + TR  W F    T +L       + V  +   +S      + + S+      K FLT      L  + L   ++  +N  +   ++ +T  E      E+E+SLT+K F   FV  Y +    ++    F  +         P ++    +   S+    G   I  +   T +M    + G I  A   + L + + +      EKL+     D   E  G                        +F EY E   QFG++ LF   +P++P+ +LINN  EIR DA+KLT+Q RR +  +  SIG W D++  ++ L   T + ++             Y Y    T P    GY+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|169</Hit_id>
+  <Hit_def>gnl|TC-DB|A0MFS9|1.A.17.1.11 Anoctamin-like protein At1g73020 OS=Arabidopsis thaliana GN=At1g73020 PE=2 SV=1</Hit_def>
+  <Hit_accession>169</Hit_accession>
+  <Hit_len>665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.10018e-21</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>104</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MFPPHNAAYNKLWLRRWSHLPATQSGNTPATKNPLELLTIPQSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLF-----FWLLGLSFHPLLGIGFVGWSVVFIETWRLREKAIAVQWGT---------YRYERVEIERPGFRGE------GKEVDPVSGITREKW-SFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPT----------NEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI</Hsp_qseq>
+      <Hsp_hseq>MFPLHDELKRKELLQNWA----------------LNWWNCTNQPIDQIYSYFGAKIGVYFSFLGMYTQWLIFPALLGFIVQMVDFGSLQFLALPSFFVGTILWAALFLQFWKRKNAALLARWQINCLVGPSQGYRFLGMEWSSLPFPKELIKNLGNERAKEKEAYQRYEWFAYRKRFRNDVLVIMSIICLQ--LPFELAYAHIFEIITSDI--------IKYVLTAIYLLIIQYLTRLGGKVSVKLINREINESVEYRANSLIYKVFGLYFMQTY------------IGIFY--HVLLHR-----------------------NFMTLRQVLIQRLIISQVFWTLMDGSLPYL----------KYSYRKYRARTKKKMEDGSSTGKIQIASRVEKEYFKPTYSASIGVELEDGLFDDSLELALQFGMIMMFACAFPLAFALAAVSNVMEIRTNALKLLVTLRRPLPRAAATIGAWLNIWQFLVVMSICTNSALL</Hsp_hseq>
+      <Hsp_midline>MFP H+    K  L+ W+                L         +D + ++ G K+ +YF+FL  Y + L+FP+++G       F  L     P   +G + W+ +F++ W+ +  A+  +W           YR+  +E     F  E       +         R +W ++R+     +  + +       L   ++  ++ E + S++        +  + T +++ ++  +  L    + KL   E +        SL  K F L F+  Y             G F   H+L                          N   L   L+   +  Q+    ++  LPYL          K  +     + ++K        +    +R+ +E   PT          + +F +  E+A QFG I++FA  +P++   + ++N  EIR++A KL    RRP+P   ++IG WL++  FL  +   T S+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11470</Hit_id>
+  <Hit_def>gnl|TC-DB|Q5XXA6|1.A.17.1.1 Anoctamin-1 OS=Homo sapiens GN=ANO1 PE=1 SV=1</Hit_def>
+  <Hit_accession>11470</Hit_accession>
+  <Hit_len>986</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>2.46134e-20</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>809</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>976</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>157</Hsp_gaps>
+      <Hsp_align-len>705</Hsp_align-len>
+      <Hsp_qseq>LDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLG-------------------LSFHPL------------------------------LGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVE--------------IERPGFRGEGKEVDPVSGITRE---KWSFRRTLTRSLASL------------PAYFA------------FVGFLGTIVSAIYVVEALL---SEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPF--GSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQ-ITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQE-QLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTS-----------SLIYLYQPRKTFPGATAGYIAN-LTHHNVSLPANGTAAFWTSRLSHAQSVSLPPLSDAPQLLGALPPATGSSDTISAIKNLLLTAAV-IALASSHAYLIIRAFTRWILTRLAWDGSIAQQFVKRRELELKRSWLDEQGMRIPPKEMARRAMGWVGEDAREEQKREGHEGLKV--EEVGAPA</Hsp_qseq>
+      <Hsp_hseq>IDLVRKYFGEKIGLYFAWLGVYTQMLIPASIVGIIVFLYGCATMDENIPSMEMCDQRHNITMCPLCDKTCSYWKMSSACATARASHLFDNPATVFFSVFMALWAATFMEHWKRKQMRLNYRWDLTGFEEEEEAVKDHPRAEYEARVLEKSLKKESRNKEKRRHIPEESTNKWKQRVKTAMAGVKLTDKVKLTWRDRFPAYLTNLVSIIFMIAVTFAIVLGVIIYRISMAAALAMNSSPSVRSNIRVTVTATAVIINLVVIILLDEVYGCIARWLTKIEVPKTEKSFEERLIFKAFLLKFVNSY-----TPIFYVAFFKGRFV------GRPGDYVYIFRSFRMEECAPGGCLM---ELCIQLSIIMLGKQLIQNNLFEIGIPKMK-KLIRYLKLK------------QQSPPDHEECVKRKQRYEVDYNLEPFAGLTPEYMEMIIQFGFVTLFVASFPLAPLFALLNNIIEIRLDAKKFVTELRRPVAVRAKDIGIWYNILRGIGKLAVIINAFVISFTSDFIPRLVYLYMYSKN--GTMHGFVNHTLSSFNVSDFQNGTAP--NDPLDLGYEVQICRYKDYRE-----PPWSENKYDISKDFWAVLAARLAFVIVFQNLVMFMSDFVDWVIPDIPKD--ISQQIHKEKVLMVELFMREEQ-------DKQQLLETWMEKERQKDEPPCNHHNTKACPDSLGSPA</Hsp_hseq>
+      <Hsp_midline>+D ++ + GEK+ LYFA+L  Y + L+  S++G+  +L G                   ++  PL                                +    W+  F+E W+ ++  +  +W    +E  E              +     + E +  +    I  E   KW  R     +   L            PAY              F   LG I+  I +  AL    S       +  +T    ++ + ++  ++ ++   A  LT  E    +   E  L  K F L FV +Y     T   Y+ F  G F+        P  +     +   +    G   +   +L  QL    L  Q I     E+G+P ++ KL+  ++ K            +    DHE+      R   +  L P   +  EY EM  QFG++ LF   +P++P+++L+NN  EIR DA K  ++ RRP+  R   IG W +++  +  L  +  +            L+YLY   K   G   G++ + L+  NVS   NGTA      L     V +    D  +     PP + +   IS     +L A +   +   +  + +  F  W++  +  D  I+QQ  K + L ++    +EQ       +  +    W+ ++ ++++    H   K   + +G+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|207</Hit_id>
+  <Hit_def>gnl|TC-DB|A1A5B4|1.A.17.1.5 Anoctamin-9 OS=Homo sapiens GN=ANO9 PE=2 SV=2</Hit_def>
+  <Hit_accession>207</Hit_accession>
+  <Hit_len>782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>3.18786e-19</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>789</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>138</Hsp_gaps>
+      <Hsp_align-len>652</Hsp_align-len>
+      <Hsp_qseq>QSELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIGLFFWLLGLSF-------------HPLL-----------------------------------GIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLT-LIPTVLFVT----------LVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLL-PTN--EIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI-------------YLYQPRKTFPGATAGYIANLTHHNVSLPANGTAAFW-TSRLSHAQSVSLPPLSDAPQLLGALPPATGSSDTISAIKNLLLTAAVIALASSHAYLIIRAFTRWILTRLAWDGSIAQQFVKRRELELKRSWLDEQGMRIPPKEMARRAMGWVGEDAR</Hsp_qseq>
+      <Hsp_hseq>EQPVDEIRNYFGEKVALYFVWLGWYTYMLVPAALTGLLVFLSGFSLFEASQISKEICEAHDILMCPLGDHSRRYQRLSETCTFAKLTHLFDNDGTVVFAIFMALWATVFLEIWKRQRARVVLHWDLYVWDEEQ--------EEMALQLINCPDYKLRPYQHSYLRSTVILVLTLLMICLMIGMAHVLVVYRVLASALFSSSAVPFLEEQVTTAVVVTGALVHYVTIIIMTKINRC---VALKLCDFEMPRTFSERESRFTIRFFTLQFFTHFSSL-----IYIAF-------ILGRINGHPGKSTRLAGLWKLEECHASGCMMDLFVQMAIIMGLKQTLSNCVEYLVPWVTHKCRSL----------------RASESGHLPRDPELRDWRRNYLLNPVNTFSLFDEFMEMMIQYGFTTIFVAAFPLAPLLALFSNLVEIRLDAIKMVWLQRRLVPRKAKDIGTWLQVLETIGVLAVIANGMVIAFTSEFIPRVVYKYRYSPCLKEGNSTVDCLKGYVNH--SLSVFHTKDFQDPDGIEGSENVTLCRYRDYRN-----PPDYNFSEQFWF---LLAIRLAFVILFEHVALCIKLIAAWFVPDI-------PQSVKNKVLEVKYQRLREKMWH------GRQRLGGVGAGSR</Hsp_hseq>
+      <Hsp_midline>+  +D+++ + GEKVALYF +L +Y   L+  ++ GL  +L G S              H +L                                    I    W+ VF+E W+ +   + + W  Y ++  +        E   +  ++    +   ++ +  RS   L      +  +  +   + V   L S +++     FL   + T + VT          ++ ++N      A KL  FE     SE E+  TI+ F L F   + +L     +YI F       IL R+      +        L+    S     L  Q+       Q     +E  +P++  K   +                +A  S H      L   R+  LL P N   +F E+ EM  Q+G+  +F   +P++P+ +L +N  EIR DA K+    RR +P +   IG WL V+  +  L  +    +I             Y Y P      +T   +    +H  SL    T  F     +  +++V+L    D        PP    S+       LL       +   H  L I+    W +  +        Q VK + LE+K   L E+          R+ +G VG  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12133</Hit_id>
+  <Hit_def>gnl|TC-DB|Q75UR0|1.A.17.1.2 Anoctamin-5 OS=Mus musculus GN=Ano5 PE=2 SV=1</Hit_def>
+  <Hit_accession>12133</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>3.6031e-19</Hsp_evalue>
+      <Hsp_query-from>220</Hsp_query-from>
+      <Hsp_query-to>654</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>770</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>133</Hsp_gaps>
+      <Hsp_align-len>528</Hsp_align-len>
+      <Hsp_qseq>LKAHLGEKVALYFAFLSYYFRSLLFPS-------VIGLF-------------------------------FWLLGLS-----------------FHPLLGIGFVGWSVVFIETWRLREKAIAVQWGTYRYERVEIE---RPGFRG--EGKEVDPVSG--------ITREKWSF--RRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLT------LIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYL----QAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI-------------YLYQPRKTFPGATAGYIAN</Hsp_qseq>
+      <Hsp_hseq>IRNYFGEKIGIYFVFLGYYTEMLLFAALVGLACFIYGLLSMENNRTSTEICDPDIGGQMIMCPLCDEVCDYWRLNTTCLHSKFSHLFDNESTVFFALFMGI----WVTLFLEFWKQRQARLEYEWDLVDFEEEQQQLQLRPEFEAMCKHKKMNPVTKEMEPHMPLCHRIPWYFVSGTTVTFGMALLLSSMVSILIYRLSVFATFA-SFMESEATLQSVKSFFTPQLATALSGSCLNCIVILILNFFYEKISAWITKMEIPRTHQEYESSLTLKMFLFQFVNYYSSCFYVAFFKGKFVGY---------PGSYTYMFNIWRSEECGPAGCLI---ELTTQLTIIMIGKQIFGNIHEAFQPLIFNWWRRRRARTHSEKLY--------------SRWEQDHDL-------QVYGHRGLFYEYLETVIQFGFATLFVASFPLAPLFALMNNIMGIRVDAWKLTTQYRRPVAAKAHSIGVWQDILFGMAIVSVATNAFIVSFTSDIIPRLVYFYAYSTNSTEP--LSGYVNN</Hsp_hseq>
+      <Hsp_midline>++ + GEK+ +YF FL YY   LLF +       + GL                                +W L  +                 F   +GI    W  +F+E W+ R+  +  +W    +E  + +   RP F    + K+++PV+           R  W F    T+T  +A L +    +      V A +    + SE      K F T      L  + L   ++  +N  +   ++ +T  E      E+E+SLT+K F   FV  Y +    ++    F  +         P  +    +   S+        I   +L TQL    +  QI G   E   P +    + +      EKL+              S  E + D        Q+     +F EY E   QFG+  LF   +P++P+++L+NN   IR DA+KLT+Q RRP+  +  SIG W D++  ++ +   T + ++             Y Y    T P   +GY+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14904</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9NQ90|1.A.17.1.3 Anoctamin-2 OS=Homo sapiens GN=ANO2 PE=1 SV=2</Hit_def>
+  <Hit_accession>14904</Hit_accession>
+  <Hit_len>1003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.09586e-17</Hsp_evalue>
+      <Hsp_query-from>346</Hsp_query-from>
+      <Hsp_query-to>667</Hsp_query-to>
+      <Hsp_hit-from>555</Hsp_hit-from>
+      <Hsp_hit-to>864</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>GTIVSAIYVVEAL-LSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQ-ITGAFLEVGLPYLQAKLMPVVQEKLHHTAAADKAREKAGTSDHEDEKDFLARIRQEQLLPTNEIFGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLI---------YLYQPRKTFPGATAGYIAN-LTHHNVSLPANGT</Hsp_qseq>
+      <Hsp_hseq>GVIVYRITTAAALSLNKATRSNVRVTVTATAVIINLVVILILDEIYGAVAKWLTKIEVPKTEQTFEERLILKAFLLKFVNAYSPIF---YVAFFKGRFV------GRPGSYVYVFDGYRMEECAPGGCLM---ELCIQLSIIMLGKQLIQNNIFEIGVPKLKKLFRKLKDET--EAGETDSAHSK-----HPEQWDL-----DYSLEPYTGLTPEYMEMIIQFGFVTLFVASFPLAPVFALLNNVIEVRLDAKKFVTELRRPDAVRTKDIGIWFDILSGIGKFSVISNAFVIAITSDFIPRLVYQYSYSHNGTLHGFVNHTLSFFNVSQLKEGT</Hsp_hseq>
+      <Hsp_midline>G IV  I    AL L++      +  +T    ++ + ++  ++ ++   A  LT  E    +   E  L +K F L FV AY  +    YV    G F+        P  +         +    G   +   +L  QL    L  Q I     E+G+P L+     +  E        D A  K     H ++ D         L P   +  EY EM  QFG++ LF   +P++P+++L+NN  E+R DA K  ++ RRP   RT  IG W D++  +     ++ + +I          +YQ   +  G   G++ + L+  NVS    GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|127</Hit_id>
+  <Hit_def>gnl|TC-DB|A0CAP8|1.A.17.1.12 Chromosome undetermined scaffold_162, whole genome shotgun sequence OS=Paramecium tetraurelia GN=GSPATT00036646001 PE=4 SV=1</Hit_def>
+  <Hit_accession>127</Hit_accession>
+  <Hit_len>1610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.02996e-15</Hsp_evalue>
+      <Hsp_query-from>215</Hsp_query-from>
+      <Hsp_query-to>651</Hsp_query-to>
+      <Hsp_hit-from>714</Hsp_hit-from>
+      <Hsp_hit-to>1154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>94</Hsp_gaps>
+      <Hsp_align-len>486</Hsp_align-len>
+      <Hsp_qseq>SELDDLKAHLGEKVALYFAFLSYYFRSLLFPSVIG----LFFWLLGLSFHPLLGIGFVG---WSVVFIETWRLREKAIAVQWGTY----RYERVEIERPGFRGEGKEVDPVSGITREKWSFRRTLTRSLASLPAYFAFVGFLGTIVSAIYVVEALLSEVYNGPFKKFLTLIPTVLFVTLVPQVNALWSFTASKLTTFENHPRQSEHEASLTIKTFALNFVAAYGNLLLTSYVYIPFGSFLVPHILTRLPSRHAAALSATTSKTLQSGSFSINSSKLHTQLMAYTLTGQITGAFLEVGLPYLQ---AKLMPVVQEKLHHTAAADKAREKAGTSDH----------------EDEKDFLARIRQEQLLPTNEI-------------------FGEYQEMAQQFGYIVLFAVIWPISPIWSLINNFFEIRSDAFKLTSQARRPIPYRTSSIGPWLDVVGFLSYLGALTTSSLIYLYQPRKTFPGATAGY</Hsp_qseq>
+      <Hsp_hseq>SSITILRLYFGEKISFYFAWKSYITCALMVLAIPGAAIQIYILVTGDYFPSILPFWVCYVCLWSTLQVEFWKRKTSEITTRWGCLDLLDSKDKGEVRR-GFQGY-EEIYQVTGELTKHQKKTETFLKVVLSVLVVLIFL----TLCVLIFVGVNLMVKRFEGQI--IITTGLNIIQGVGIFILNLVYNHIVMFFAQYENHKYQEDYEQSIIYKNSAFT--------LLNSYLCIFYAAF------------------------VNNKSF----LDLFIQLVPVLITKQVQFAALKVLLPRVQYDYYEKQYFKQQQLNIQRQGQLNRNKEGFKDKVETLYEAIFKEKKYTIETCKRAVLKIHEKGKPPTLEMNLDADQVELNNLKLNYEGTLGYFMEGIIDLGYITLFAAAFPIGPAIAVVANVAEIRTKLISFLEVYKRPECQRCAGIGDWLNIMQWMGMGCVFSNFALLYVKYKVETV-GVIYGY</Hsp_hseq>
+      <Hsp_midline>S +  L+ + GEK++ YFA+ SY   +L+  ++ G    ++  + G  F  +L         WS + +E W+ +   I  +WG        ++ E+ R GF+G  +E+  V+G   +      T  + + S+     F+    T+   I+V   L+ + + G     +T    ++    +  +N +++        +ENH  Q ++E S+  K  A          LL SY+ I + +F                        + + SF      L  QL+   +T Q+  A L+V LP +Q    +     Q++L+        R K G  D                 E  K  + +I ++   PT E+                    G + E     GYI LFA  +PI P  +++ N  EIR+         +RP   R + IG WL+++ ++      +  +L+Y+    +T  G   GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>104</Statistics_hsp-len>
+      <Statistics_eff-space>4150000032</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

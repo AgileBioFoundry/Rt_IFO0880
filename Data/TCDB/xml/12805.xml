@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>12805 e_gw1.3.860.1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>723</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>12805 e_gw1.3.860.1_mRNA</Iteration_query-def>
+  <Iteration_query-len>723</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3578</Hit_id>
+  <Hit_def>gnl|TC-DB|F9X0Q3|1.A.23.4.9 Calcium channel OS=Mycosphaerella graminicola (strain CBS 115943 / IPO323) GN=MYCGRDRAFT_67398 PE=4 SV=1</Hit_def>
+  <Hit_accession>3578</Hit_accession>
+  <Hit_len>1025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>1.7814e-117</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>643</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>737</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>574</Hsp_align-len>
+      <Hsp_qseq>PTNWFSRMVFAIYNSHYIVRWTIYILPVLAILWIPAIVQWSSKHGATIWTVELVWWSIWLTVVWTGYWGAMLVGRLGPTLLNKTLGVVAPELRHYIAYVKAIRFYASLAGWALANWISFLPLIRRHEQSNKSDNT---LYLITQGLFGIFIILVILLIEKLIIQIIAHNFHKRSYEDRIIEQKFQIGALVNLYLNSRDIGRSDTLDGAFKRPRNKRQVSDPTLLIKKALKGAQKAAQTATTMIGTVASEIAGERVLQPNSPPSMVTSALQSTNKTRQLARRIYYSFTPQYREGMVITDIERCFPNREEAERAFAIFDRDLNGDATLDEVEMACLDIHRERLALGRSMRDIDSAVGRLDNIIMSIWYVVAILIMVGLLDASFQTMIAGAGTFILGLSWLIGTTAQEILASVIFLFIKHPYDVGDRVSI--------DAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRRSNSISETFTFDVDFGTSFEKIEALRSRMLEFLQQERRDFVPTIDITVQDFAAQGKLSLSAPINYKGNWQNGALKVQRRNKWVCALKVALAELQIFGP</Hsp_qseq>
+      <Hsp_hseq>PATGFAKFVKHIHHSNWLVRYFTYIVPVVLILLIPLLLGAYVFDDALVGGVELMWFMIWLQIVWLTLWCGRILAKCLPVPIGLVASLFTNNAKKWRDMGKQLELPGTIFFWWLAIEISFLPTMINHQRGRPSGTVRPWMNTMNKVLVSFFVGAVLNFLEKILIQFIAISFHLRTYADRIDINKFQIGSLTKLYTFSKRTIEMEDEEFEQKDEGGGSGARTPGQALADAAKTGKKALGKFGDVAGKVAGDFTGKTVVASTHPTQVVLALLHTTSGAQVLARRLYRTFAREETATVISDDLRPAFENDDEADAAFTMFDKDMNGDISMEELEAVCVEIGRERKSITASLKDLDSVVSKLDDVFMFIVVVIVILVFVSLISTSAAGVLTSAGSAVLALSWLFSATAQEFLQSVIFVFVKHPFDVGDRVGIYGNTGALMRGDDYFVKEISLLYTEFKKMEGHIVQAPNSYLNTLFILNQRRSGGLAEAVSITIKFGTTLEQIESLRNRLLEFVQSEKREYQNNILTELREIVEVHSLKLNVVFFYKSNWQNEGLRLARRNKFFCAMMVIIQELGIEGP</Hsp_hseq>
+      <Hsp_midline>P   F++ V  I++S+++VR+  YI+PV+ IL IP ++       A +  VEL+W+ IWL +VW   W   ++ +  P  +     +     + +    K +    ++  W LA  ISFLP +  H++   S      +  + + L   F+  V+  +EK++IQ IA +FH R+Y DRI   KFQIG+L  LY  S+     +  +   K          P   +  A K  +KA      + G VA +  G+ V+    P  +V + L +T+  + LARR+Y +F  +    ++  D+   F N +EA+ AF +FD+D+NGD +++E+E  C++I RER ++  S++D+DS V +LD++ M I  V+ IL+ V L+  S   ++  AG+ +L LSWL   TAQE L SVIF+F+KHP+DVGDRV I           DY V E+ LL T FKK++G + QAP+S LNT F++N RRS  ++E  +  + FGT+ E+IE+LR+R+LEF+Q E+R++   I   +++      L L+    YK NWQN  L++ RRNK+ CA+ V + EL I GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14779</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LH74|1.A.23.4.8 Mechanosensitive ion channel protein 5 OS=Arabidopsis thaliana GN=MSL5 PE=2 SV=1</Hit_def>
+  <Hit_accession>14779</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.67032e-31</Hsp_evalue>
+      <Hsp_query-from>346</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>551</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>LQSTNKTRQLARRIYYSFTPQYREGMVITDIERCFPNREEAERAFAIFDRDLNGDATLDEVEMACLD-----IHRERLALGRSMRDIDSAVGRLDNIIMSIWYVVAILIMVGLLDASFQTMIAGAGTFILGLSWLIGTTAQEILASVIFLFIKHPYDVGDRVSIDAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRRSNSISETFTFDVDFGTSFEKIEALRSRMLEFLQQERRDFVPTIDITVQDFAAQGKLSLSAPINYKGNWQNGALKVQRR</Hsp_qseq>
+      <Hsp_hseq>IRSEYEAKCAARKIFHNVTEPGSRYIYLEDFLR-FLCEEEAERAMALFE----GASESDKISKSCLKNWVVKAFRERRALALTLNDTKTAVDRLHRIINVVIGIIIIIIWLLILGIATTRFLLVLSSQLLLVAFVFGNSCKTIFEAIIFLFVMHPFDVGDRCEIDGVQLVVEEMNILTTVFLRYDNQKIIYPNSVLGTKPIANYYRSPDMGDAVEFCVHIATPPEKITAIKQRILSYVDNKKDYWYPAPMIVFLSMDDLNSVKIAVWLTHRMNHQDMGERYIRR</Hsp_hseq>
+      <Hsp_midline>++S  + +  AR+I+++ T      + + D  R F   EEAERA A+F+    G +  D++  +CL        RER AL  ++ D  +AV RL  II  +  ++ I+I + +L  +    +    + +L ++++ G + + I  ++IFLF+ HP+DVGDR  ID V  +V EM++L+TVF + D      P+S+L TK + NY RS  + +   F V   T  EKI A++ R+L ++  ++  + P   I          + ++  + ++ N Q+   +  RR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000204199</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>SGPAGGNSPYGRLGDSGPGTGTQTPNGGWSAASSNPNVQFADGDFIRPTNWFSRMVFAIYNSHYIVRWTIYILPVLAILWIPAIVQWSSKHGATIWTVELVWWSIWLTVVWTGYWGAMLVGRLGPTLLNKTLGVVAPELRHYIAYVKAIRFYASLAGWALANWISFLPLIRRHEQSNKSDNTLYLITQGLFGIFIILVILLIEKLIIQIIAHNFHKRSYEDRIIEQKF</Hsp_qseq>
+      <Hsp_hseq>SGRRSGIFKSGFLGKS-PKAGTPGRNGFEEEEEEDP---FLDEDLPEE---FKRDKLSFW---VFLEWISLVLIVTSLVCSLTIHNLQRK---TWWKLDLWKWEVTVLVLICGRLVSSWIVRIIVFLVEKNF----TWRKRVLYFVYGVRKSVQNCLWLGLVLLAWHFLFDKKVERETRSTALRYVTRVLVCLLVALIIWLVKTILVKVLASSFHMSTYFDRIQESLF</Hsp_hseq>
+      <Hsp_midline>SG   G    G LG S P  GT   NG       +P   F D D       F R   + +     + W   +L V +++    I     K   T W ++L  W + + V+  G   +  + R+   L+ K         +  + +V  +R       W     +++  L  +  +       L  +T+ L  + + L+I L++ ++++++A +FH  +Y DRI E  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3349</Hit_id>
+  <Hit_def>gnl|TC-DB|F4IME2|1.A.23.4.7 Mechanosensitive ion channel protein 8 OS=Arabidopsis thaliana GN=MSL8 PE=2 SV=2</Hit_def>
+  <Hit_accession>3349</Hit_accession>
+  <Hit_len>908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>3.61615e-30</Hsp_evalue>
+      <Hsp_query-from>343</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>876</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>TSALQSTNKTRQLARRIYYSFTPQYREGMVITDIERCFPNREEAERAFAIFD-RDLNGDATLDEVEMACLDIHRERLALGRSMRDIDSAVGRLDNIIMSIWYVVAILIMVGLLDASFQTMIAGAGTFILGLSWLIGTTAQEILASVIFLFIKHPYDVGDRVSIDAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRRSNSISETFTFDVDFGTSFEKIEALRSRMLEFLQQERRDFVPTIDITVQDFAAQGKLSLSAPINYKGNWQNGALKVQRRNKWVCALKVALAELQI</Hsp_qseq>
+      <Hsp_hseq>TRQIRSEKEAKAAARKIFKNVEQRGAKYIYLEDLMR-FLREDEAMKTMGLFEGAPENKRISKSALKNWLVNAFRERRALALTLNDTKTAVNKLHHMINIVTAIVIVVIWLVLLEIASSKVLLFVSSQVVLLAFIFGNTVKTVFESIIFLFIVHPYDVGDRCEIDSVQLVVEEMNILTTVFLRYDNLKIMYPNSLLWQKSINNYYRSPDMGDAIEFCVHITTPLEKISVIKQRISNYIDNKPEYWYPQAKIIVKDLEDLHIVRLAIWPCHRINHQDMAERWTRRAVLVEEVIKILLELDI</Hsp_hseq>
+      <Hsp_midline>T  ++S  + +  AR+I+ +   +  + + + D+ R F   +EA +   +F+    N   +   ++   ++  RER AL  ++ D  +AV +L ++I  +  +V ++I + LL+ +   ++    + ++ L+++ G T + +  S+IFLFI HPYDVGDR  ID+V  +V EM++L+TVF + D      P+SLL  K + NY RS  + +   F V   T  EKI  ++ R+  ++  +   + P   I V+D      + L+    ++ N Q+ A +  RR   V  +   L EL I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11180</Hit_id>
+  <Hit_def>gnl|TC-DB|Q58543|1.A.23.4.1 Hypothetical protein MJ1143 - Methanococcus jannaschii. </Hit_def>
+  <Hit_accession>11180</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.18392e-07</Hsp_evalue>
+      <Hsp_query-from>422</Hsp_query-from>
+      <Hsp_query-to>576</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>RSMRDIDSAVGRLDN-IIMSIWYVVAILIMVGLLDASFQTMIAGAGTFILGLSWLIGTTAQEILASVIFLFIKHPYDVGDRVSIDAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRRSNSISETFTFDVDFGTSFEKI----EALRSRMLE</Hsp_qseq>
+      <Hsp_hseq>KTKKDVDDQIVVLTKKLVRLVVWVVGLLLILSNLGYDIKTLLAGLGIGGLAVALASQNLVSNLIAGLIILTDK-PFKIGNWITFSGGSGIVEDIGIRSTKIRATDNSIIVVPNSKLIDEIIQNVPSKNKWKVSTTIGVTYNTPVEKIRKAEEIIKNILLE</Hsp_hseq>
+      <Hsp_midline>++ +D+D  +  L   ++  + +VV +L+++  L    +T++AG G   L ++         ++A +I L  K P+ +G+ ++      IV ++ + ST  +  D ++   P+S L  + + N    N    + T  V + T  EKI    E +++ +LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11158</Hit_id>
+  <Hit_def>gnl|TC-DB|Q57634|1.A.23.4.2 Hypothetical protein MJ0170 - Methanococcus jannaschii.</Hit_def>
+  <Hit_accession>11158</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.43348e-05</Hsp_evalue>
+      <Hsp_query-from>435</Hsp_query-from>
+      <Hsp_query-to>587</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>DNIIMSIWYVVAIL-IMVGLLDA------SFQTMIAGAGTFILGLSWLIGTTAQEILASVIFLFIKHPYDVGDRVSIDAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRRSNSISETFTFDVDFGTSFEKIEALRSRMLEFLQQERRDFVP</Hsp_qseq>
+      <Hsp_hseq>EHIIKPLKKVVKILTILLGILTALSSVGYDITALLAGLGVGGLALALAMQDTIKNFIAGILILIDK-PFSLGHWVKVKGAEGIVEEIGIRSTRIRTFDYTLITIPNSELLDSAIENLTVRDRRRVLMTIGLTYNTPVEKIKRAKEIIKEIVENHPATLPP</Hsp_hseq>
+      <Hsp_midline>++II  +  VV IL I++G+L A          ++AG G   L L+  +  T +  +A ++ L  K P+ +G  V +   + IV E+ + ST  +  D T+   P+S L    + N    +      T  + + T  EKI+  +  + E ++       P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5409</Hit_id>
+  <Hit_def>gnl|TC-DB|O34897|1.A.23.3.1 YKUT PROTEIN - Bacillus subtilis.</Hit_def>
+  <Hit_accession>5409</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000133212</Hsp_evalue>
+      <Hsp_query-from>430</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>AVGR---LDNIIMSIW-YVVAILIMVGLLDASF---QTMIAGAGTFILGLSWLIGTTAQEILASVI---FLFIKHPYDVGDRVSIDAVDYIVLEMHLLSTVFKKIDGTVTQAPHSLLNTKFVMNYRR</Hsp_qseq>
+      <Hsp_hseq>SIGRAHTLRSLTLNIFAYTLIFIFFVMVLDLFHYDPSALLAGAG--IVGLA--VGFGAQGLVSDIVTGFFILLEKQLDVGDYITVSTFDGIVEQVGLRTTQIRSFDGTLHYIPNR--NITNVSNHSR</Hsp_hseq>
+      <Hsp_midline>++GR   L ++ ++I+ Y +  +  V +LD        ++AGAG  I+GL+  +G  AQ +++ ++   F+ ++   DVGD +++   D IV ++ L +T  +  DGT+   P+   N   V N+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>103</Statistics_hsp-len>
+      <Statistics_eff-space>3506247560</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

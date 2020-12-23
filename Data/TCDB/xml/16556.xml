@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>16556 fgenesh1_kg.9_#_945_#_TRINITY_DN2935_c0_g1_i1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>1011</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>16556 fgenesh1_kg.9_#_945_#_TRINITY_DN2935_c0_g1_i1_mRNA</Iteration_query-def>
+  <Iteration_query-len>1011</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14389</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9GKE7|2.A.49.2.2 Outwardly rectifying chloride channel - Sus scrofa (Pig).</Hit_def>
+  <Hit_accession>14389</Hit_accession>
+  <Hit_len>746</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>1.02616e-141</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>969</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>732</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>595</Hsp_align-len>
+      <Hsp_qseq>YAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSEC----------YKSERLSGLCVTSPSQ-----VGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGLSLARAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKNRYLLYL</Hsp_qseq>
+      <Hsp_hseq>YACGSGIPEIKTILSGFIIRGYLGKWTLIIKTITLVLAVSSGLSLGKEGPLVHVACCCGNILCHCFNKYRKNEAKRREVLSAAAAAGVSVAFGAPIGGVLFSLEEVSYYFPLKTLWRSFFAALVAAFTLRSINPFGNSRLVLFYVEFHTPWHLFELVPFILLGIFGGLWGALFIRTNIAWCRK-RKTTQLGKYPVIEVLVVTAITAILAFPNEYTRMSTSELISELFNDCGLLDSSKLCDYENRFNTSKAAELPDRPAGAGVYSAMWQLALTLILKIVITIFTFGMKIPSGLFIPSMAVGAIAGRLLGVGMEQLAYYHHDWAIFNSWCSQGAD--------CITPGLYAMVGAAACLGGVTRMTVSLVVIMFELTGGLEYIVPLMAAAMTSKWVADALGREGIYDAHIRLNGYPFLEAKEEFAHKTLAMDVMKPRRNDPSLTVLTQDSMTVEDVETIISETTYSGFPVVVSRE--SQRLVGFVLRRDLI--ISIENARKKQDGVVSTSII-------YFTEHSPPMPP-----YTPPTLKLRNILDLSPFTVTDLTPMEIVVDIFRKLGLRQCLVT-HNGRLLGIITKKDVLKHI</Hsp_hseq>
+      <Hsp_midline>YA GSGIPEIKTILSGF+IRGYLG WTL +K++ L L+V+SGLSLGKEGP VH+A C  NI+   + KY +NE KRREVLSAA AAGV+V+FGAP+GGVLFSLEEVSYYFP +T+ RSF+ A++AA TL+  +PFG+ ++VLF V +   WH FEL+ F+ L IFGG++GA F R NIAW +  R  T L  +P++EV +VT +TA +AF N +++M  +ELIS LF++C          Y++   +      P +     V   +  L   L+LK  +T  TFG+K+P+G+FIP++AVGA+AGR+ G+G+E L   +    +F +    G          C+ PG++AM+GAAA L GVTR TVSL VI+FELTG L Y VP M A + +K VAD++    IYD  I +   P+L+AK E+ H +   D++       SL      S     +  + +  T SGFP+V S +  S R+ G++  ++L   +S+  A+   D    T  +          E S    P         T  L  + D +P TV+  +PME++ ++F KLG R  +V    G  LG I K   L ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.53136e-10</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YDNYTAIDWIHDTIKHSLRLRRLRRLKRTQGLRGQLINLWDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAV--EEGGECEAWTTWVDVWRRWTGEGEGA-GEAASYIAYIAIALVFAVLASVLTIYF</Hsp_qseq>
+      <Hsp_hseq>YDDFNTIDWVREKSRDRDRHREITN-KSKESTWALIHSVSDAFSGWLLMLLIGLLSGSLAGLIDISAHWMTDLKEGICTEGLWFNHEHCC-----------------WNSKHVTFKDRDKCPEWNSWSQL---IISADEGAFAYIVNYFMYVLWALLFAFLAVSLVKVF</Hsp_hseq>
+      <Hsp_midline>YD++  IDW+ +  +   R R +   K  +     + ++ D F GWLL+ ++G ++  +A  I  +  W+ DLKEG C  G       CC                 W    V  ++  +C  W +W  +        EGA     +Y  Y+  AL+FA LA  L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8362</Hit_id>
+  <Hit_def>gnl|TC-DB|P51792|2.A.49.2.3 Chloride channel protein 3 - Rattus norvegicus (Rat).</Hit_def>
+  <Hit_accession>8362</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>3.87767e-141</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>969</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>605</Hsp_align-len>
+      <Hsp_qseq>YAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLC---------------VTSPSQVG--PLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVF-EACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDIL---DAGAPIISLDTDN-TVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGLSLAR--AQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAES-ETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKNRYLLYL</Hsp_qseq>
+      <Hsp_hseq>YACGSGIPEIKTILSGFIIRGYLGKWTLMIKTITLVLAVASGLSLGKEGPLVHVACCCGNIFSYLFPKYSTNEAKKREVLSAASAAGVSVAFGAPIGGVLFSLEEVSYYFPLKTLWRSFFAALVAAFVLRSINPFGNSRLVLFYVEYHTPWYLFELFPFILLGVFGGLWGAFFIRANIAWCRR-RKSTKFGKYPVLEVIIVAAITAVIAFPNPYTRLNTSELIKELFTDCGPLES-SSLCDYRNDMNASKIVDDIPDRPAGVGVYSAIWQLCLALIFKIIMTVFTFGIKVPSGLFIPSMAIGAIAGRIVGIAVEQLAYYHHDWFIFKEWCEV---------GADCITPGLYAMVGAAACLGGVTRMTVSLVVIVFELTGGLEYIVPLMAAVMTSKWVGDAFGREGIYEAHIRLNGYPFLDAKEEFTHTTLAADVMRPRRSDPPLAVLTQDNMTVDDIENMI----NETSYNGFPVIMSKE--SQRLVGFALRRDLTIAIESARKKQEGVVGSSRVCF---------------AQHTPSL--PAESPRPLKLRSILDMSPFTVTDHTPMEIVVDIFRKLGLRQCLVT-HNGRLLGIITKKDILRHM</Hsp_hseq>
+      <Hsp_midline>YA GSGIPEIKTILSGF+IRGYLG WTL +K++ L L+VASGLSLGKEGP VH+A C  NI S  + KY  NE K+REVLSAA AAGV+V+FGAP+GGVLFSLEEVSYYFP +T+ RSF+ A++AA  L+  +PFG+ ++VLF V Y   W+ FEL  F+ L +FGG++GA F RANIAW +  R  T    +P++EV +V  +TA IAF NP++++  +ELI  LF++C   E  S LC                  P+ VG    +  L  AL+ K  +T  TFG+K+P+G+FIP++A+GA+AGRI G+ VE L   +   F+F E C +         G  C+ PG++AM+GAAA L GVTR TVSL VIVFELTG L Y VP M AV+ +K V D+     IY+  I +   P+LDAK E+ H +   D++    +  P+  L  DN TV  + + +       + +GFP++ S +  S R+ G+   ++L   +  AR   +G+  S+   F               A  TP L   AES     L  + D +P TV+  +PME++ ++F KLG R  +V    G  LG I K   L ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>8.73927e-15</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YDNYTAIDWIHDTIKHSLRLRRLRRLKRTQGLRGQLINLWDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAVEEGGECEAWTTWVDVWRRWTGEGEGAGE-AASYIAYIAIALVFAVLASVLTIYF</Hsp_qseq>
+      <Hsp_hseq>YDDFHTIDWVREKCKDRERHRRINSKKKESAWE-MTKSLYDAWSGWLVVTLTGLASGALAGLIDIAADWMTDLKEGICLSALWYNHEQCC---------------WGSNETTFEERDKCPQWKTWAEL---IIGQAEGPGSYIMNYIMYIFWALSFAFLAVSLVKVF</Hsp_hseq>
+      <Hsp_midline>YD++  IDW+ +  K   R RR+   K+         +L+D + GWL+VT+ G  +  +A  I  A  W+ DLKEG C +        CC                G   +  EE  +C  W TW ++     G+ EG G    +YI YI  AL FA LA  L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8363</Hit_id>
+  <Hit_def>gnl|TC-DB|P51793|2.A.49.2.8 Chloride channel protein 4 OS=Homo sapiens GN=CLCN4 PE=2 SV=2</Hit_def>
+  <Hit_accession>8363</Hit_accession>
+  <Hit_len>760</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>4.4906e-140</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>969</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>746</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>VAVPRTRKTLYYAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLC--VTSPSQVGPL---------------VLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEA-CRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDIL--DAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGLSLA--RAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKNRYLLYL</Hsp_qseq>
+      <Hsp_hseq>LAVSLVRVFAPYACGSGIPEIKTILSGFIIRGYLGKWTLLIKTVTLVLVVSSGLSLGKEGPLVHVACCCGNFFSSLFSKYSKNEGKRREVLSAAAAAGVSVAFGAPIGGVLFSLEEVSYYFPLKTLWRSFFAALVAAFTLRSINPFGNSRLVLFYVEYHTPWYMAELFPFILLGVFGGLWGTLFIRCNIAWCRR-RKTTRLGKYPVLEVIVVTAITAIIAYPNPYTRQSTSELISELFNDCGALES-SQLCDYINDPNMTRPVDDIPDRPAGVGVYTAMWQLALALIFKIVVTIFTFGMKIPSGLFIPSMAVGAIAGRMVGIGVEQLAYHHHDWIIFRNWCRP---------GADCVTPGLYAMVGAAACLGGVTRMTVSLVVIMFELTGGLEYIVPLMAAAVTSKWVADAFGKEGIYEAHIHLNGYPFLDVKDEFTHRTLATDVMRPRRGEPPLSVLTQDSMT--VEDVETLIKETDYNGFPVVVSRD--SERLIGFAQRRELILAIKNARQRQEGIVSNSIMYF---------------TEEPPELPANS-PHPLKLRRILNLSPFTVTDHTPMETVVDIFRKLGLRQCLVT-RSGRLLGIITKKDVLRHM</Hsp_hseq>
+      <Hsp_midline>+AV   R    YA GSGIPEIKTILSGF+IRGYLG WTL +K+V L L V+SGLSLGKEGP VH+A C  N  S  + KY +NEGKRREVLSAA AAGV+V+FGAP+GGVLFSLEEVSYYFP +T+ RSF+ A++AA TL+  +PFG+ ++VLF V Y   W+  EL  F+ L +FGG++G  F R NIAW +  R  T L  +P++EV +VT +TA IA+ NP+++   +ELIS LF++C   E  S LC  +  P+   P+               +  L  AL+ K  +T  TFG+K+P+G+FIP++AVGA+AGR+ G+GVE L   +    +F   CR          G  CV PG++AM+GAAA L GVTR TVSL VI+FELTG L Y VP M A + +K VAD+     IY+  I +   P+LD K E+ H +   D++    G P +S+ T ++++     +  L      +GFP+V S D  S R+ G+   +EL   +  A  R +G+  ++   F                   P L   +      L  + + +P TV+  +PME + ++F KLG R  +V    G  LG I K   L ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.19537e-10</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YDNYTAIDWIHDTIKHSLRLRRLRRLKRTQGLRGQLINLWDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAVEEGGECEAWTTWVDVWRRWTGEGEGAGE-AASYIAYIAIALVFAVLASVLTIYF</Hsp_qseq>
+      <Hsp_hseq>YEDFHTIDWLREKSRDTDRHRKITS-KSKESIWEFIKSLLDAWSGWVVMLLIGLLAGTLAGVIDLAVDWMTDLKEGVCLSAFWYSHEQCCWTSN---------------ETTFEDRDKCPLWQKWSEL---LVNQSEGASAYILNYLMYILWALLFAFLAVSLVRVF</Hsp_hseq>
+      <Hsp_midline>Y+++  IDW+ +  + + R R++   K  + +   + +L D + GW+++ ++G +   +A  I  A  W+ DLKEG C + +  +   CC   +                +  E+  +C  W  W ++      + EGA     +Y+ YI  AL+FA LA  L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|716</Hit_id>
+  <Hit_def>gnl|TC-DB|A7LKG1|2.A.49.1.2 CLC voltage-gated chloride channel - Fusarium oxysporum f. sp. lycopersici.</Hit_def>
+  <Hit_accession>716</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>1.16249e-129</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>968</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>352</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>588</Hsp_align-len>
+      <Hsp_qseq>YAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRN--GTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTDNTVSS-----LYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGL-SLARAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGL-GGGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKNRYLLY</Hsp_qseq>
+      <Hsp_hseq>YAAGSGISEIKCIIAGFVMKGFLGWWTLIIKSVCLPLAIASGLSVGKEGPSVHYAVCTGNVISRLFDKYKRNASKTREFLSASAAAGVAVAFGSPIGGVLFSLEEMSNQFPLKTLWRSYFCALIATAVLAAMNPFRTGQLVMFQVEYKNDWHFFELLFYVLIGIFGGLYGAFV----IKWNLRVQSFRKKYLKEYAVLEATLLAAGTAIIAYPNAFLRIDMTESMEILFSECGRGESYHGLC--EPDKRWWNIISLFLATFLRLFLVILSYGCKVPAGIFVPSMAIGASFGRTIGILVQAIHEANPTSVFFSACKPD---------EPCITPGTYALLGAAAALSGIMHITISVVVIMFELTGALNYILPTMIVVGVTKAVSELFGKGGIADRMIWFSGMPFLDSKEEH----------NFGVPVSAVMRTSVVSMPAHGLTLGEVQSLLADDRYQGFPVV--EDKHTKVLVGYIGSTELRYAIDKMSRTSPLSETAKCTFAPS-------SANLSSTSLNNIHGDSSHSSTLDFSRYVDATPVTAHPRLPLETVMELFQKIGPR-VILIEYHGKLTGLVTVKDCLKY</Hsp_hseq>
+      <Hsp_midline>YAAGSGI EIK I++GFV++G+LG WTL +KSV L L++ASGLS+GKEGP VH A C  N++SR + KY RN  K RE LSA+ AAGVAV+FG+P+GGVLFSLEE+S  FP +T+ RS++CA+IA   L   +PF +G++V+F V Y  DWH FELL ++ + IFGG+YGA      I W   V++    +LK + ++E  L+   TA IA+ N + ++  TE +  LFSEC + E   GLC   P +    ++SL  A  L+  L  +++G K+PAGIF+P++A+GA  GR  G+ V+ +H   P S  F AC+ D         + C+ PG +A++GAAAAL+G+   T+S+ VI+FELTG L Y +PTM+ V + K V++      I D +I  + +P+LD+K E+          + G P+ ++   + VS         ++ +L A     GFP+V  +D  +  + GYIGS EL + +  ++R   LS++  CTF  +       +A +S+ +   + G  + S T D S   D  P+T   R P+E + E+F K+G R V++++  G   G +     L Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.86868e-10</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>EREGRGLSRARSSFFGSRRGSLSRLRTGGGGYDGEFKAELEGEAGNGVRSWYDNYTAIDWIHDTIKHSLRLRRLRRL------KRTQGLRGQLINLWDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAVEEGGECEAWTTWVDVWRRWTGEGEGAGEAASYIAYIAIALVFAVLASVLTIYF</Hsp_qseq>
+      <Hsp_hseq>ERRPSVVSRLSSVFSNADQEAGSAARTGAGLIEEEI-AEIKR---------YE----VDWVQDAAREQAKRKARRKQAAGLYDKGQPGWRYQLWRSYDAAQAWIVVTIIGIAIGLNAALLNIITEWLSDVKMGYCETGFYLNENFCC-----------------WG----EENG--------CDQWHRWTG-----FEPLNYFIYFTL---FACVAGTLVKSF</Hsp_hseq>
+      <Hsp_midline>ER    +SR  S F  + + + S  RTG G  + E  AE++          Y+    +DW+ D  +   + +  R+       K   G R QL   +D  Q W++VTI+G      A  +     WL D+K GYC  G+   + FCC                 W     EE G         D W RWTG      E  +Y  Y  +   FA +A  L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12628</Hit_id>
+  <Hit_def>gnl|TC-DB|Q874K8|2.A.49.1.3 Voltage-gated chloride channel - Cryptococcus neoformans var. grubii (Filobasidiella neoformans var. grubii).</Hit_def>
+  <Hit_accession>12628</Hit_accession>
+  <Hit_len>864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.941</Hsp_bit-score>
+      <Hsp_score>964</Hsp_score>
+      <Hsp_evalue>1.22783e-115</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>952</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>582</Hsp_align-len>
+      <Hsp_qseq>YAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTD--NTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGL-SLARAQGLSDSTTCTFRVAQGARRG----------LAAEMSAAATPGLG------GGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDE</Hsp_qseq>
+      <Hsp_hseq>YAAGSGISEIKCILGGFIINGFLSVETFFIKGLTLPLAIASGLAVGKEGPSVHVACSVGNVVAKWFNRYERSHLKMREIVTASSAAGVAVAFGSPIGGVLFSIEEMNQTYSNRTMWRSFVCALVATFTLASMDPFRTGKLVIFNVSYDRDWHYFEIPAYVLIGIFGGLYGAFVIKFNVQMAAFRRK--HLSGHGIFEAVALASITAIIGYLNGFLRIDMTEMLSVLFRECEGGGDYNGLC--QASSQWRMVNSLLLATIIRTVFIIVSYGCKVPAGIFVPSMAVGATFGRMIGILVKAMYNSYPSAPWFAACAPDA---------PCITPGTYAFLGAAAAMGGITRLTVTVVVIMFELTGALTYILPTMIVLLVTKAVSDQFGGGGISDHMIKFNGYPFLE--KEDKEDPTDHAFIEPIANVMKKDLIILEATGVPLNHVVDIVQHTNYQGFPVVKSHE--DQTIVGFVRKNELRIALEKTRRVRNLSFNATCTFQCIRAIPEDAHELLERPDILIPNREGRMTANTGTENREDDGGEISHVDFGQYVDDIPLTVAPKMPLEIVMQLFRRMGPRVILVSDQ</Hsp_hseq>
+      <Hsp_midline>YAAGSGI EIK IL GF+I G+L   T  +K + L L++ASGL++GKEGP VH+A  V N+V++++ +Y+R+  K RE+++A+ AAGVAV+FG+P+GGVLFS+EE++  +  RTM RSF CA++A  TL   DPF +GK+V+F V+YD+DWH FE+  ++ + IFGG+YGA   + N+      R    L  H I E   +  +TA I + N + ++  TE++S LF EC      +GLC    S    +V SL  A +++     +++G K+PAGIF+P++AVGA  GR+ G+ V+ ++  YP +  F AC  D           C+ PG +A +GAAAA+ G+TR TV++ VI+FELTG LTY +PTM+ +L+ K V+D      I D +I+    P+L+   E   D T H  ++  A ++  D           + +  +       GFP+V S +     + G++   EL   L    R + LS + TCTF+  +               L        T   G       G E    D     D  PLTV+ + P+E++ ++F ++G R ++V D+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>6.52128e-10</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>EFKAELEGEAGNGVRSWYDNYTAIDWIHDTIKHSL------RLRRLRRLKRTQGLRGQLINL----WDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAVEEGGECEAWTTWVDVWRRWTGEGEGAGEAASYIAYIAIALVFAVLASVLTIYF</Hsp_qseq>
+      <Hsp_hseq>ERNSKLEDEEELDLIRRYEDFSTVDWIQDSLHERTFQNKAPRSRVIAQLDRSDGAIGYLWRLIRRTLEEGEAYVVISLVGVIIGVSAALISIITTWLSDIKLGHCTTGWWLSRKFCCLEVS-------------------DELEACAEWKNW------------GGVEPFRWIAYVLFAAAFSFSAAYLVKNF</Hsp_hseq>
+      <Hsp_midline>E  ++LE E    +   Y++++ +DWI D++          R R + +L R+ G  G L  L     +  + ++++++VG +    A  I     WL D+K G+C  GW  +++FCC   S                   +E   C  W  W            G  E   +IAY+  A  F+  A+ L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7690</Hit_id>
+  <Hit_def>gnl|TC-DB|P37020|2.A.49.1.1 GEF1 protein (Voltage-gated chloride channel) (ClC-Y1) (ClC-A) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7690</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.02915e-83</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>977</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>745</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>604</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVI-RGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEV--SYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLS----GLCV----TSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTV-ADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTS---SGFPLVASDD--GGSPRMFGYIGSKELEHGLSLARAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKNRYLLYLRWLEKRIH</Hsp_qseq>
+      <Hsp_hseq>ATGSGISEIKVWVSGFEYNKEFLGLLTLVIKSVALPLAISSGLSVGKEGPSVHYATCCGYLLTKWLLRDTLTYSTQYEYLTAASGAGVAVAFGAPIGGVLFGLEEIASANRFNSSTLWKSYYVALVAITTLKYIDPFRNGRVILFNVTYDRDWKVQEIPIFIALGIFGGLYGKYISKWNINFI-HFRK-MYLSSWPVQEVLFLATLTALISYFNEFLKLDMTESMGILFHECVKNDNTSTFSHRLCQLDENTHAFEFLKIFTSLCFATVIRALLVVVSYGARVPAGIFVPSMAVGATFGRAVSLLVE--------RFI---------SGP-----SVIIPGAYAFLGAAATLSGITNLTLTVVVIMFELTGAFMYIIPLMIVVAITRIILSTSGISGGIADQMIMVNGFPYLEDEQDEEEEETLEKYTAEQLMSSKLITINETIYLSELESLLYDSASEYSVHGFPITKDEDKFEKEKRCIGYVLKRHLASKIMMQSVNSTKAQTTLVYFNKSNEEL----------------GHRENCIGFKDIMNESPISVKKAVPVTLLFRMFKELGCK-TIIVEESGILKGLVTAKDILRFKRIKYREVH</Hsp_hseq>
+      <Hsp_midline>A GSGI EIK  +SGF   + +LG  TL +KSV L L+++SGLS+GKEGP VH A+C   +++++  +       + E L+AA  AGVAV+FGAP+GGVLF LEE+  +  F   T+ +S++ A++A  TLK  DPF +G+++LF VTYD+DW   E+  F+ L IFGG+YG    + NI +  H R   +L S P+ EV  +  +TA I+++N + K+  TE +  LF EC K++  S     LC     T   +   +  SL  A V++A L  +++G ++PAGIF+P++AVGA  GR   L VE         F+         SGP     + ++PG +A +GAAA L+G+T  T+++ VI+FELTG   Y +P M+ V + + + + S     I D +I V   PYL+ + +   + T             L T N    L    + LY S +     GFP+   +D      R  GY+  + L   + +         TT  +                        G          + +++P++V    P+ L+  MF +LG +  ++V+E G   G +     L + R   + +H</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>7.68653e-05</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LWDGFQGWLLVTIVGFVTACIAFSIIRAEMWLFDLKEGYCAAGWTRAKRFCCRAESAPEKAFGTFVLRGWAPSAVEEGGECEAWTTWVDVWRRWTGEGEGAGEAASYIAYIAIALVFAVLASVLTIY</Hsp_qseq>
+      <Hsp_hseq>IWDRAKTFITLSSTAIVIGCIAGFLQVFTETLVNWKTGHCQRNWLLNKSFCCNGVVNEVTSTSNLLLK-------RQEFECEAQGLWI-AWK---------GHVSPFIIFMLLSVLFALISTLLVKY</Hsp_hseq>
+      <Hsp_midline>+WD  + ++ ++    V  CIA  +      L + K G+C   W   K FCC        +    +L+        +  ECEA   W+  W+         G  + +I ++ ++++FA+++++L  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8364</Hit_id>
+  <Hit_def>gnl|TC-DB|P51798|2.A.49.3.3 Chloride channel protein 7 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>8364</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.76346e-54</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>974</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>799</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>634</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWR----------KYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTL---------KMFDPFGSGKIVLFAVTYDKDWHSF-ELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSK------MGGT---------------ELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYV-HDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVA-SDDGGSPRMFGYIGSKE----LEHGLSLARAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAESETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEKN---RYLLYLRWLEK</Hsp_qseq>
+      <Hsp_hseq>AAGSGIPQIKCFLNGVKIPHVVRLKTLVIKVSGVILSVVGGLAVGKEGPMIHSGSVIAAGISQGRSTSLKRDFKIFEYFRRDTEKRDFVSAGAAAGVSAAFGAPVGGVLFSLEEGASFWNQFLTWRIFFASMISTFTLNFVLSIYHGNMWDLSSPGLINFGRFDSEKMAYTIHEIPVFIAMGVVGGVLGAVFNALNYWLTMFRIRYIHRPCLQVIEAVLVAAVTATVAFVLIYSSRDCQPLQGGSMSYPLQLFCADGEYNSMAAAFFNTPEKS--VVSLFHDPPGSYNP--LTLGLFTLVYFFLACWTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYL------------------TGAAIWAD----PGKYALMGAAAQLGGIVRMTLSLTVIMMEATSNVTYGFPIMLVLMTAKIVGD-VFIEGLYDMHIQLQSVPFLHWEAPVTSHSLTAREVM--STPVTCLRRREKVGVIVDVLSD--TASNHNGFPVVEHADDTQPARLQGLILRSQLIVLLKHKVFVER----SNLGLVQRRLRLKDFRDAYPRFPPIQSIHVSQDERECTMDLSEFMNPSPYTVPQEASLPRVFKLFRALGLRHLVVVDNRNQVVGLVTRKDLARYRLGKRGLEE</Hsp_hseq>
+      <Hsp_midline>AAGSGIP+IK  L+G  I   +   TL +K  G+ LSV  GL++GKEGP +H  S +A  +S+             +Y R + ++R+ +SA  AAGV+ +FGAPVGGVLFSLEE + ++      R F+ +MI+  TL          M+D    G I       +K  ++  E+  F+ + + GGV GA F   N   T             ++E  LV  VTA +AF   +S        GG+                + ++ F+   KS  +  L    P    P  L+LG   ++   L   T+GL + AG+FIP+L +GA  GR+ G+ +  L                  +G   +      PG +A++GAAA L G+ R T+SL VI+ E T  +TY  P ML ++ AK V D +    +YD+ I++  +P+L  +A    H  T  +++    P+  L     V  +   L+    +   +GFP+V  +DD    R+ G I   +    L+H + + R    S+      R+     R          +  +       T DLS   + +P TV   + +  + ++F  LG R++VVVD R   +G + +    RY L  R LE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7628</Hit_id>
+  <Hit_def>gnl|TC-DB|P35525|2.A.49.2.6 Chloride channel protein 2 - Rattus norvegicus (Rat).</Hit_def>
+  <Hit_accession>7628</Hit_accession>
+  <Hit_len>907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.01265e-53</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>571</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYD---RNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAV-----TYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRN----GTFLKSHPIVEVALVTLVTACIAFYNPW-----SKMGGTELISSLFSE--CYKSERLSGLCVTSPSQV-----GPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL</Hsp_qseq>
+      <Hsp_hseq>AVGSGIPEMKTILRGVVLKEYLTLKTFVAKVIGLTCALGSGMPLGKEGPFVHIASMCAALLSKFLSLFGGIYENESRNTEMLAAACAVGVGCCFAAPIGGVLFSIEVTSTFFAVRNYWRGFFAATFSAFIFRVLAVWNRDEETITALFKTRFRLDFPFDLQELPAFAVIGIASGFGGALFVYLNRKIVQVMRKQKTINRFLMKKRLLFPALVTLLISTLTFPPGFGQFMAGQLSQKETLVTLFDNRTWVRQGLVEDLGAPSTSQAWSPPRANVFLTLVIFILMKFWMSALATTIPVPCGAFMPVFVIGAAFGRLVG---ESMAAWFP-----DGIHTDSST-------YRIVPGGYAVVG-AAALAGAVTHTVSTAVIVFELTGQIAHILPVMIAVILANAVAQSLQP-SLYDSIIRIKKLPYL</Hsp_hseq>
+      <Hsp_midline>A GSGIPE+KTIL G V++ YL   T   K +GL  ++ SG+ LGKEGPFVHIAS  A ++S+F   +     NE +  E+L+AACA GV   F AP+GGVLFS+E  S +F  R   R F+ A  +A   ++   +   +  + A+       D  +   EL  F  + I  G  GA F   N    + +R       FL    ++  ALVTL+ + + F   +      ++   E + +LF      +   +  L   S SQ        + L+L   +++K  ++ +   + +P G F+P   +GA  GR+ G   E + A +P     +    D  +         ++PG +A++G AAALAG    TVS AVIVFELTG + + +P M+AV+LA  VA S++P S+YD +I +  LPYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8361</Hit_id>
+  <Hit_def>gnl|TC-DB|P51788|2.A.49.2.12 Chloride channel protein 2 OS=Homo sapiens GN=CLCN2 PE=1 SV=2</Hit_def>
+  <Hit_accession>8361</Hit_accession>
+  <Hit_len>898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>5.41065e-53</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYD---RNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAV-----TYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRN----GTFLKSHPIVEVALVTLVTACIAFYNPW-----SKMGGTELISSLFSE--CYKSERLSGLCVTSPSQV-----GPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL</Hsp_qseq>
+      <Hsp_hseq>AVGSGIPEMKTILRGVVLKEYLTLKTFIAKVIGLTCALGSGMPLGKEGPFVHIASMCAALLSKFLSLFGGIYENESRNTEMLAAACAVGVGCCFAAPIGGVLFSIEVTSTFFAVRNYWRGFFAATFSAFIFRVLAVWNRDEETITALFKTRFRLDFPFDLQELPAFAVIGIASGFGGALFVYLNRKIVQVMRKQKTINRFLMRKRLLFPALVTLLISTLTFPPGFGQFMAGQLSQKETLVTLFDNRTWVRQGLVEELEPPSTSQAWNPPRANVFLTLVIFILMKFWMSALATTIPVPCGAFMPVFVIGAAFGRLVG---ESMAAWFP-----DGIHTDSST-------YRIVPGGYAVVG-AAALAGAVTHTVSTAVIVFELTGQIAHILPVMIAVILANAVAQSLQP-SLYDSIIRIKKLPYL</Hsp_hseq>
+      <Hsp_midline>A GSGIPE+KTIL G V++ YL   T   K +GL  ++ SG+ LGKEGPFVHIAS  A ++S+F   +     NE +  E+L+AACA GV   F AP+GGVLFS+E  S +F  R   R F+ A  +A   ++   +   +  + A+       D  +   EL  F  + I  G  GA F   N    + +R       FL    ++  ALVTL+ + + F   +      ++   E + +LF      +   +  L   S SQ        + L+L   +++K  ++ +   + +P G F+P   +GA  GR+ G   E + A +P     +    D  +         ++PG +A++G AAALAG    TVS AVIVFELTG + + +P M+AV+LA  VA S++P S+YD +I +  LPYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14146</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9BMK9|2.A.49.2.13 Chloride channel protein clh-3 OS=Caenorhabditis elegans GN=clh-3 PE=1 SV=1</Hit_def>
+  <Hit_accession>14146</Hit_accession>
+  <Hit_len>1001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>1.28012e-52</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>863</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>610</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>516</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYD----RNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWH------SFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNG-----TFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELIS----SLFSEC---------YKSERLSGLCVTSPS-----------QVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVH-DSTPHDILDAG---APIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELE</Hsp_qseq>
+      <Hsp_hseq>AIGSGIPEMKTILRGVILKEYLSVRTLLSKMIGLTLSLGSGLPMGKEGPFVHVASVVASQLTRLVHGSSGGIFENESRSGEMLAAGCAVGVACTFSAPIGGVLFSIEVTSVYFAVRNYWRGFFAATCSATLFRILRMFSVSAAVTVEAHYQTNFPPQNVFLPQELPIFALIGLVCGLAGSIFVYLHRRTVLFLRRNWLAKMIFQKYWLIYPIFIATFISSLSFPLGLGKFMGGEERFSHTMKEFFVDCAWTAPPNDSYACPMPTSNATSSDSFDIRHWKGDNYDYSPFV-TLSSFQVVYFFLAILASTLPVPSGIFMPVFVLGAAFGRLVGEGVFSLD---PYGHI---------SGDIQF---FVRPGVYAVVGAAAFCGAVTH-TVSVAVIVFELTGQLCHLLPVMIAVLIANAVASYLQP-SIYDSIIRIKNLPYL---PDIPHTTSLYHQMLIEQFMISPLVYIAKDSTVGDI---KRALETKTRIRAFPLVENME--SLALVGSVSRSQLQ</Hsp_hseq>
+      <Hsp_midline>A GSGIPE+KTIL G +++ YL   TL  K +GL LS+ SGL +GKEGPFVH+AS VA+ ++R           NE +  E+L+A CA GVA +F AP+GGVLFS+E  S YF  R   R F+ A  +A   ++   F     V     Y  ++         EL  F  + +  G+ G+ F   +      +R        F K   I  + + T +++          MGG E  S      F +C         Y     +    +S S              P V +L +  V+   L  +   L +P+GIF+P   +GA  GR+ G GV  L    P   +         SG + F    V PGV+A++GAAA    VT  TVS+AVIVFELTG L + +P M+AVL+A  VA  ++P SIYD +I + +LPYL    +  H  S  H +L      +P++ +  D+TV  +     AL        FPLV + +  S  + G +   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15547</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9XF71|2.A.49.3.2 CLC-NT2 PROTEIN - Nicotiana tabacum (Common tobacco).</Hit_def>
+  <Hit_accession>15547</Hit_accession>
+  <Hit_len>786</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>5.20778e-52</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>868</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>652</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>529</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSR----------FWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMF---------DPFGSGKIVLFAVT-YDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFL----KSHPIVEVALVTLVTACIAFYNPW---------------SKMGGTELISSL-FSECYKSERLSGLCVTSPSQVGPL----------VLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAE-YVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGLSL</Hsp_qseq>
+      <Hsp_hseq>AAGPGIPEIKAYLNGVDTPNMYGATTLFVKIIGSIAAVSASLDLGKEGPLVHIGACFASLLGQGGPDNYRLRWRWLRYFNNDRDRRDLITCGSSSGVCAAFRSPVGGVLFALEEVATWWRSALLWRTFFSTAVVVVILRAFIEYCKSGNCGLFGRGGLIMFDVSGVSVSYHVVDIIPVVVIGIIGGLLGSLY---NHVLHKILRLYNLINEKGKLHKVLLALSVSLFTSICMYGLPFLAKCKPCDPSLPGSCPGTGGTGNFKQFNCPDGYYNDLATLLLTTNDDAVRNIFSINTPGEFQVMSLISYFVLYCILGLITFGIAVPSGLFLPIILMGSAYGRLLAIAM----GSYTK----------------------IDPGLYAVLGAASLMAGSMRMTVSLCVIFLELTNNLLLLPITMLVLLIAKSVGDCFN-LSIYEIILELKGLPFLDANPEPWMRNITAGELADVKPPVVTLCGVEKVGRIVEAL----KNTTYNGFPVV--DEGVVPPVGLPVGATEL-HGLVL</Hsp_hseq>
+      <Hsp_midline>AAG GIPEIK  L+G       G+ TL VK +G   +V++ L LGKEGP VHI +C A+++ +           W +Y  N+  RR++++   ++GV  +F +PVGGVLF+LEEV+ ++    + R+F+   +  + L+ F           FG G +++F V+     +H  +++  + + I GG+ G+ +   N    K +R    +    K H ++    V+L T+   +  P+                  GGT         + Y ++  + L  T+   V  +          V+SL +  VL   L  ITFG+ +P+G+F+P + +G+  GR+  + +      Y +                      + PG++A++GAA+ +AG  R TVSL VI  ELT  L     TML +L+AK+V D     SIY++++E+  LP+LDA  E ++ + T  ++ D   P+++L     V  +   L     + T +GFP+V  D+G  P +   +G+ EL HGL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7627</Hit_id>
+  <Hit_def>gnl|TC-DB|P35523|2.A.49.2.1 Chloride channel protein, skeletal muscle (Chloride channel protein 1) (ClC-1) - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>7627</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>6.70376e-52</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>863</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>658</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>499</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKY---DRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAV-----TYDKDWHSFELLGFLFLAIFGGVYGACFC----RANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTEL-----ISSLF------SECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL-DAKAEYVHDST--PHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELE</Hsp_qseq>
+      <Hsp_hseq>AVGSGIPEMKTILRGVVLKEYLTMKAFVAKVVALTAGLGSGIPVGKEGPFVHIASICAAVLSKFMSVFCGVYEQPYYYSDILTVGCAVGVGCCFGTPLGGVLFSIEVTSTYFAVRNYWRGFFAATFSAFVFRVLAVWNKDAVTITALFRTNFRMDFPFDLKELPAFAAIGICCGLLGAVFVYLHRQVMLGVRKHKALSQFLAKHRLLYPGIVTFVIASFTFPPGMGQFMAGELMPREAISTLFDNNTWVKHAGDPESLGQSAVWIHPRVN-VVIIIFLFFVMKFWMSIVATTMPIPCGGFMPVFVLGAAFGRLVG---EIMAMLFPDGILFDDIIYK------------ILPGGYAVIG-AAALTGAVSHTVSTAVICFELTGQIAHILPMMVAVILANMVAQSLQP-SLYDSIIQVKKLPYLPDLGWNQLSKYTIFVEDIMVRDVKFVS------ASYTYGELRTLLQTTTVKTLPLVDSKD--SMILLGSVERSELQ</Hsp_hseq>
+      <Hsp_midline>A GSGIPE+KTIL G V++ YL       K V L   + SG+ +GKEGPFVHIAS  A ++S+F   +           ++L+  CA GV   FG P+GGVLFS+E  S YF  R   R F+ A  +A   ++   +    + + A+       D  +   EL  F  + I  G+ GA F     +  +   KH     FL  H ++   +VT V A   F     +    EL     IS+LF            E L    V    +V  +V+ +    V+K  ++ +   + +P G F+P   +GA  GR+ G   E++   +P   +F+                 +LPG +A+IG AAAL G    TVS AVI FELTG + + +P M+AV+LA  VA S++P S+YD +I+V  LPYL D     +   T    DI+      +S       S  Y +L  L  + T    PLV S D  S  + G +   EL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13883</Hit_id>
+  <Hit_def>gnl|TC-DB|Q96325|2.A.49.3.1 VOLTAGE-GATED CHLORIDE CHANNEL - Arabidopsis thaliana (Mouse-ear cress). </Hit_def>
+  <Hit_accession>13883</Hit_accession>
+  <Hit_len>773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.17794e-48</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>847</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>506</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSR----------FWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMF---------DPFGSGKIVLFAVTY-DKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTAC---IAFYNPW----------SKMGGTELISSLFSEC-----YKSERLSGLCVTSPSQVGPLVL----------SLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAE-YVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDD</Hsp_qseq>
+      <Hsp_hseq>AAGPGIPEIKAYLNGIDTPNMFGFTTMMVKIVGSIGAVAAGLDLGKEGPLVHIGSCIASLLGQGGPDNHRIKWRWLRYFNNDRDRRDLITCGSASGVCAAFRSPVGGVLFALEEVATWWRSALLWRTFFSTAVVVVVLRAFIEICNSGKCGLFGSGGLIMFDVSHVEVRYHAADIIPVTLIGVFGGILGSLY---NHLLHKVLRLYNLINQKGKIHKVLLSLGVSLLHQLLFGLPFLANEACDPTIDEICPTNGRSGNFKQFNCPNGYYNDLSTLLLTTNDDAVRKHFLFKHSYEFGMVSLWIFFGLYCILGLITFGIATPSGLFLPIILMGSAYGRMLGTAM----GSYTN----------------------IDQGLYAVLGAASLMAGSMRMTVSLCVIFLELTNNLLLLPITMFVLLIAKTVGDSFN-LSIYEIILHLKGLPFLEANPEPWMRNLTVGELNDAKPPVVTLNGVEKVANIVDVL----RNTTHNAFPVLDGAD</Hsp_hseq>
+      <Hsp_midline>AAG GIPEIK  L+G       G  T+ VK VG   +VA+GL LGKEGP VHI SC+A+++ +           W +Y  N+  RR++++   A+GV  +F +PVGGVLF+LEEV+ ++    + R+F+   +  + L+ F           FGSG +++F V++ +  +H+ +++    + +FGG+ G+ +   N    K +R    +     +   L++L  +    + F  P+           ++  T   S  F +      Y ++  + L  T+   V    L          SL     L   L  ITFG+  P+G+F+P + +G+  GR+ G  +      Y                        +  G++A++GAA+ +AG  R TVSL VI  ELT  L     TM  +L+AKTV DS    SIY++++ +  LP+L+A  E ++ + T  ++ DA  P+++L+    V+++   L     + T + FP++   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7626</Hit_id>
+  <Hit_def>gnl|TC-DB|P35522|2.A.49.2.11 Chloride channel protein OS=Torpedo californica PE=1 SV=3</Hit_def>
+  <Hit_accession>7626</Hit_accession>
+  <Hit_len>810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>2.22806e-48</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>910</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>635</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>542</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFW----RKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAV-----TYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTF----LKSHPIVEVALVTLVTACIAFYNPWSKMGGT-----ELISSLFSECYKSERLS--GLCVTSPSQVGPLVLSLGAAL--VLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGLSLARAQGLSDSTTCTFRVAQGARRGLAAEMSAAATPGLGGGAES</Hsp_qseq>
+      <Hsp_hseq>AVGSGIPELKTIIRGAVLHEYLTLRTFVAKTVGLTVALSAGFPLGKEGPFVHIASICATLLNQLLCFISGRREEPYYLRADILTVGCALGISCCFGTPLAGVLFSIEVTCSHFGVRSYWRGFLGGAFSAFIFRVLSVWVKDTVTLTALFKTNFRGDIPFDLQELPAFAIIGIASGFFGALFVYLNRQIIVFMRKKNFVTKILKKQRLIYPAVVTFVLATLRFPPGVGQFFGAGLMPRETINSLFDNYTWTKTIDPRGLGNSAQWFIPHLNIFIVMALYFVMHFWMAALAVTMPVPCGAFVPVFNLGAVLGRFVG---ELMALLFPDGLV--------SNGNLYH----ILPGEYAVIGAAAMTGAVTH-AVSTAVICFELTGQISHVLPMMVAVILANMVAQGLQP-SLYDSIIQIKKLPYL---PELSWSSANKYNIQVGDIMVRDVTSIASTSTYGDLLHVLRQTKLKFFPFV--DTPETNTLLGSIERTEVE-GLLQRRISAYRRQPATAAEAEEEGRNG---ERGASFTGDVPGEAET</Hsp_hseq>
+      <Hsp_midline>A GSGIPE+KTI+ G V+  YL   T   K+VGL +++++G  LGKEGPFVHIAS  A ++++       + +     R ++L+  CA G++  FG P+ GVLFS+E    +F  R+  R F     +A   ++   +    + L A+       D  +   EL  F  + I  G +GA F   N      +R   F    LK   ++  A+VT V A + F     +  G      E I+SLF     ++ +   GL  ++   +  L + +  AL  V+   +  +   + +P G F+P   +GA+ GR  G   E++   +P   V         +G L      +LPG +A+IGAAA    VT   VS AVI FELTG +++ +P M+AV+LA  VA  ++P S+YD +I++  LPYL    E    S     +  G  ++   T    +S Y  L  +        FP V  D   +  + G I   E+E GL   R               +  R G   E  A+ T  + G AE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9485</Hit_id>
+  <Hit_def>gnl|TC-DB|Q06393|2.A.49.2.4 Chloride channel protein ClC-Ka - Rattus norvegicus (Rat).</Hit_def>
+  <Hit_accession>9485</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.0814e-42</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>YAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASG--LSLGKEGPFVHIASCVANIVSRFWRKY---DRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAV-----TYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTF----LKSHPIVEVALVTLVTACIAFYNPW------SKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVL-------------SLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL</Hsp_qseq>
+      <Hsp_hseq>FSGGSGLPELKTMLSGVVLEDYLDIKNFGAKVVGLSCTLATGSTIFLGKVGPFVHLSVMISAYLGRVRAKTIGETENKAKEIEMLSAAAAVGVATVFAAPFSGVLFSIEVMSSHFSVWNYWRGFFAATCGAFMFRLLGVFNSEQETITSIYKTRFRVDVPFDLPEIFFFVALGFICGVLSCAYLFCQRTFLRFIKTNRYTSRLLATSKPSYAALVALVLASIT-YPPGVGRFMASRLSMAEHLHSLFDNNSWALMTRNSSPPWPAEPDPQNLWLEWCHPRFTIFGTLAFFLVMKFWMLILATTIPMPAGYFMPIFIIGAAIGRLLG---EALSVAFPEGIV-----AGREVNP-------IMPGGYALAGAAAFSGAVTH-TISTALLAFELTGQIVHALPVLMAVLAANAISQNCQP-SFYDGTIMAKKLPYL</Hsp_hseq>
+      <Hsp_midline>++ GSG+PE+KT+LSG V+  YL     G K VGL+ ++A+G  + LGK GPFVH++  ++  + R   K      N+ K  E+LSAA A GVA  F AP  GVLFS+E +S +F      R F+ A   A   ++   F S +  + ++       D  +   E+  F+ L    GV    +      + + ++   +    L +      ALV LV A I  Y P       S++   E + SLF     +          P++  P  L             +L   LV+K  +  +   + +PAG F+P   +GA  GR+ G   E L   +P   V        E  P       ++PG +A+ GAAA    VT  T+S A++ FELTG + +++P ++AVL A  ++ + +P S YD  I    LPYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5430</Hit_id>
+  <Hit_def>gnl|TC-DB|O35454|2.A.49.3.4 Chloride transport protein 6 OS=Mus musculus GN=Clcn6 PE=1 SV=1</Hit_def>
+  <Hit_accession>5430</Hit_accession>
+  <Hit_len>870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>6.57995e-42</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>848</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFW----RK------YDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFD---PFGS-GKIVLFAV-------TYDKD-----WHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSH--PIVEVALVTLVTACIAF-----------YNPWSKMGGTELISSLFSECYKSERLSGLCVTSP----------SQVGPLV-----------LSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDS-TPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDG</Hsp_qseq>
+      <Hsp_hseq>AAGSGIPEIKCYLNGVKVPGIVRLRTLLCKVFGVLFSVSGGLFVGKEGPMIHSGAVVGAGLPQFQSISLRKIQFNFPYFRSDRDKRDFVSAGAAAGVAAAFGAPIGGTLFSLEEGSSFWNQGLTWKVLFCSMSATFTLNFFRSGIQFGSWGSFQLPGLLNFGEFKCSDSDKKCHLWTAMDLGFFVVMGVIGGLLGATFNCLNKRLAKYRMRNVHPKPKLVRVLESLLVSLVTTVVVFVASMVLGECRQMSSTSQTGNGSFQLQVTSEDVNSTIKAFFCPNDTYNDMATLFFNSQESAILQLFHQDGTFSPVTLALFFILYFLLACWTFGTSVPSGLFVPSLLCGAAFGRLV--------ANVLKSYI---------------GLGHLYSGTFALIGAAAFLGGVVRMTISLTVILIESTNEITYGLPIMVTLMVAKWTGDLFN-KGIYDVHIGLRGVPLLEWETDVEMDKLRASDIMEPNLTYVYPHT------RIQSLVSILRTTVHHAFPVVTENRG</Hsp_hseq>
+      <Hsp_midline>AAGSGIPEIK  L+G  + G +   TL  K  G+  SV+ GL +GKEGP +H  + V   + +F     RK      Y R++  +R+ +SA  AAGVA +FGAP+GG LFSLEE S ++      +  +C+M A  TL  F     FGS G   L  +         D D     W + +L  F+ + + GG+ GA F   N    K+       K     ++E  LV+LVT  + F            +  S+ G       + SE   S   +  C              SQ   ++           ++L    +L   L   TFG  +P+G+F+P+L  GA  GR+         A   +S++               G   +  G +A+IGAAA L GV R T+SL VI+ E T  +TY +P M+ +++AK   D    + IYD+ I +  +P L+ + +   D     DI++     +   T          L ++  +     FP+V  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4802</Hit_id>
+  <Hit_def>gnl|TC-DB|M1UVK6|2.A.49.2.9 Probable CLC-type chloride channel OS=Cyanidioschyzon merolae strain 10D GN=CYME_CMQ133C PE=4 SV=1</Hit_def>
+  <Hit_accession>4802</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>4.4342e-41</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>962</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>102</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFV--IRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRF--WRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGF----------LFLAIFG---GVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFS--ECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL-----DAKAEYVHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFP--LVASDDGGSPRMFGYIGSKE----LEHGLSLARAQGLSDSTTCTFRVAQGAR--RGLAAEMSAAATPGLGGGAES---ETFDLSWLTDQAPLTVSARSPMELIHEMFVKLGSRYVVVVDERGCYLGPIEK</Hsp_qseq>
+      <Hsp_hseq>AEGSGLPQMKSILSGFYDKMRSALELRVLFAKALGLICAIGGGLPVGWEGPNVHIACIIAHQFYRLGVFKELCTDRALRLQTLAAACAVGLASSFGAPLGGVLYSIETIASFY----LVQAFWKGVLSAL---------SGAIVYELLYTTPLVEAFEGTNFDASDVSRTQTLLYAILGALMGVLGALFIRC-VRSIYELRMRHYPGTNRYFLVGVVALFASALQYPFRLFALDPRATINDLFKAVPLYQTDHFGW-------------TELILMPIIKFILVALSIGLPLPAGVFVPSFLIGAGFGRLYGELMRVV-----------------------FGNA-IVPGSYAVVGAAAFTAGVTR-ALSCAVIIFEVTGQIRHLVPVLISVLLAVIVGNAFN-RSLYETLVLMKHLPYMPILRRDRSPEMTAREIMHPI--EGEPHLFPDSE-----------PQHIKGILEKFPNRLVFPVIDANGYLLGAISRKEIVDRLQHVLEDVPEPIAGHRTLVLLDAADLSENIEGLVDETPSGEHSSKGKRTATVLEPTSSLVVPCDVSPIVVTSYSLVRQLHFLFVML-MPSMIYVTERGKLVGIVER</Hsp_hseq>
+      <Hsp_midline>A GSG+P++K+ILSGF   +R  L    L  K++GL  ++  GL +G EGP VHIA  +A+   R   +++   +   R + L+AACA G+A SFGAP+GGVL+S+E ++ ++    ++++FW  +++A+         SG IV   +       +FE   F          L  AI G   GV GA F R  +     +R   +  ++    V +V L  + + +      +     I+ LF     Y+++                   L    ++K  L  ++ GL LPAG+F+P+  +GA  GR+ G  + V+                       FG A ++PG +A++GAAA  AGVTR  +S AVI+FE+TG + + VP +++VLLA  V ++   RS+Y+ ++ +  LPY+     D   E       H I   G P +  D++             +  G    FP  LV      +  + G I  KE    L+H L           T      A  +    GL  E  +      G    +    T  L    D +P+ V++ S +  +H +FV L    ++ V ERG  +G +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8365</Hit_id>
+  <Hit_def>gnl|TC-DB|P51802|2.A.49.2.5 Chloride channel protein ClC-Kb - Rattus norvegicus (Rat).</Hit_def>
+  <Hit_accession>8365</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.47425e-40</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASG--LSLGKEGPFVHIASCVANIVSRFWRKY---DRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGK---IVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVE----------VALVTLVTACIAFYNPW------SKMGGTELISSLF---SECYKSERLSGLCVTSPSQVG-------PLVLSLGAA---LVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL</Hsp_qseq>
+      <Hsp_hseq>SGGSGIPEVKTILTGVILEDYLDIKNFGAKVVGLSCTLATGSTIFLGKLGPFVHLSVMIAAYLGRVRTKTVGEPENKTKEMELLAAGAAVGVATVFAAPISGVLFSIEVMSSHFSVWDYWRGFFAATCGAFMFHLLAVFNSEQETITSIYKTSFPVD-IPFDLPEIFFFVALGAICGILSCGYNYCQRTSL---FFLKSNGFTSKLLATSKPLYSALAAVVLASIT-YPPGVGRFMASRLSMSEYLETLFDNNSWALMTKNSSPPWSAEPDPQNLWLEWCHPQMTVFGTLVFFLVMKFWMLILATTIPIPAGYFLPIFVYGAAIGRLFG---EVLSLAFPEGIV-----AGGKVSP-------IMPGAYALAGAAAFSGAVTH-TLSTALLAFEVSGQIVHALPVLMAVLAANAICQSYQP-SFYDGTIIVKKLPYL</Hsp_hseq>
+      <Hsp_midline>+ GSGIPE+KTIL+G ++  YL     G K VGL+ ++A+G  + LGK GPFVH++  +A  + R   K      N+ K  E+L+A  A GVA  F AP+ GVLFS+E +S +F      R F+ A   A    +   F S +     ++  ++  D   F+L    F    G + G   C  N      +    FLKS+               AL  +V A I  Y P       S++  +E + +LF   S    ++  S      P           P +   G     LV+K  +  +   + +PAG F+P    GA  GR+ G   EVL   +P   V       G+  P       ++PG +A+ GAAA    VT  T+S A++ FE++G + +++P ++AVL A  +  S +P S YD  I V  LPYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15925</Hit_id>
+  <Hit_def>gnl|TC-DB|S8F3F6|2.A.49.2.10 Chloride transporter, chloride channel (ClC) family protein OS=Toxoplasma gondii ME49 GN=TGME49_290330 PE=4 SV=1</Hit_def>
+  <Hit_accession>15925</Hit_accession>
+  <Hit_len>1604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>3.86826e-40</Hsp_evalue>
+      <Hsp_query-from>370</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>567</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>452</Hsp_align-len>
+      <Hsp_qseq>TALQGHAEPVAVPRTRKTLYY--AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRF--WRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVT----YDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKS-HPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFS-ECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYL-DAKAEYVHDSTPHDILDAGA</Hsp_qseq>
+      <Hsp_hseq>TAIFAYSVACAVVATACCLLVPQSQGSGIPELRTVLSGSFLPDFCAWPTFFARCVGLLACICGGLSVGKEGPVVHLSAILATQLCRLRPLQALTASPSKLLSILDVAVAAGVTATFGTPFGGVLFSIEVTATFFLVHALWKSYFCCIFCVLTFRLLHERLSPIEQLYQGTQLPSFDVSW---EVLSFAILGAVCGCLGGLFVWAASKVFQLSRKHVYPSAGRKILFVSAVMLALNVLSHHSVVLKSEDRLKLGEFFDVESLDTNKWSS----------HVFLSLFLFVLFKFAATILSVACPVPAGIFTPIFVCGAALGRLYG--------KILRHFV----------------PTLSSPAAYALVGAASLAAGTTRT-ISVSVIVFELTGKLSHMIPVLLAVLIAYGV-NGFFTISIYDVMLLIKDLPYVPKLKSMHAYNLQAKDIMAATA</Hsp_hseq>
+      <Hsp_midline>TA+  ++   AV  T   L    + GSGIPE++T+LSG  +  +    T   + VGL   +  GLS+GKEGP VH+++ +A  + R    +    +  K   +L  A AAGV  +FG P GGVLFS+E  + +F    + +S++C +   +T ++     S    L+  T    +D  W   E+L F  L    G  G  F  A     +  R   +  +   I+ V+ V L    ++ ++   K      +   F  E   + + S            + LSL   ++ K A T ++    +PAGIF P    GA  GR+ G        K  R FV                     P  +A++GAA+  AG TRT +S++VIVFELTG L++ +P +LAVL+A  V +     SIYD+++ + DLPY+   K+ + ++    DI+ A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12008</Hit_id>
+  <Hit_def>gnl|TC-DB|Q70S43|2.A.49.2.7 Chloride channel type CLC - Entamoeba histolytica.</Hit_def>
+  <Hit_accession>12008</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.80393e-27</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>814</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSR--FWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLK-MFDPFG-SGKIVLFAVTYDKDWHSFEL---LGFLFLAIFGGVYGACFCR--ANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIA--FYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPL-----VLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADS-IEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIIS</Hsp_qseq>
+      <Hsp_hseq>ANGSGVPEMKVTLLGNRIPNLLTFKTLIAKVIGLVFVLGGGMWAGKEGPFIHISSCIASQLTRLPIFRFLRNSNELFMQMLSTATSCGVSSNFGTAIGGLLFSVEVTATYFSVRNYWFGTFSSVIAAFTFRAIFNTYSHSPSLYSGLLSIDYSFPSLQIKDSLISILLGVICGLFAVLFVMSVSTIFKTRQYLRKYKLGRIPYLYLVIVALFTGVVTAPWYGELSPFGYPTY--TTLSQMYTN-----------SSVKPLFGKHYLFALFLLFIARFTITAMSISMPVPVGLFSTNIVVGSVLGR----------------FIGECFSVWGISNNLG-------PSGMAIIGGACFVGSITQ-TFSAAVIMIELIDDISILVPMLIATVI--TICFSRFFTVCVYDKIAIDKKLPYI-PDIQYSSNQTAEMVMDTNLVLIS</Hsp_hseq>
+      <Hsp_midline>A GSG+PE+K  L G  I   L   TL  K +GL   +  G+  GKEGPF+HI+SC+A+ ++R   +R    +     ++LS A + GV+ +FG  +GG+LFS+E  + YF  R      + ++IAA T + +F+ +  S  +    ++ D  + S ++   L  + L +  G++   F    + I  T+       L   P + + +V L T  +   +Y   S  G      +  S+ Y +           S V PL     + +L    + +  +T ++  + +P G+F   + VG++ GR                F+ E   + G S  L        P   A+IG A  +  +T+ T S AVI+ EL   ++  VP ++A ++  T+  S      +YD +     LPY+    +Y  + T   ++D    +IS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8830</Hit_id>
+  <Hit_def>gnl|TC-DB|P74477|2.A.49.6.1 Chloride channel protein - Synechocystis sp. (strain PCC 6803).</Hit_def>
+  <Hit_accession>8830</Hit_accession>
+  <Hit_len>899</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.16783e-26</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>843</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGFVIRGYLGSWTLGV-KSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILD--AGAPIISLDTDNTVSSL-YSQLAALYASGTSSGFPLV</Hsp_qseq>
+      <Hsp_hseq>AGGGGIPQVKAALARYPIPL---DWRVAVVKLLGTVLVLGGGMTLGRRAPTVHIGAALAAQLSRW---FPTSPEHRRQMIAAGAAAGLAAGFTTPIAGVLFVVEELMRDVSSLTLETAIVASFVGAVTSLVFQSSDLNLAHSLSNSPTVRFTTGEIPFYLLLGILAGILGVLLNRSILSLQNWQRKQNLSL---VIRIGVVGLISGV-----------AIALLPSFFRD---NAGLREFVTSGELSWHQVVLTLVAHFIL----TILAYSTDAPGGLFAPALVMGSALGYLVG-----------------------EFGS--YWQDQVTQTTFALAGMGAFFTSVVRVPVTAIIIVFELTGNFNVVLPLMVACATSYLVAESLFPRSLYDHLLETKGIFLAEEKPD-------HDFLADIRAGQVMKTEVESLEQSLTLAQVLPIMSNSHHRGFPVV</Hsp_hseq>
+      <Hsp_midline>A G GIP++K  L+ + I      W + V K +G  L +  G++LG+  P VHI + +A  +SR+   +  +   RR++++A  AAG+A  F  P+ GVLF +EE+       T+  +   + + A+T  +F           + +    + + E+  +L L I  G+ G    R+ ++     R         ++ + +V L++                L+ S F +   +  L     +       +VL+L A  +L    T + +    P G+F P L +G+  G + G                       E G   + Q  V    +A+ G  A    V R  V+  +IVFELTG     +P M+A   +  VA+S+ PRS+YD ++E   +   + K +       HD L       ++  + ++   SL  +Q+  + ++    GFP+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14494</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9HPN8|2.A.49.6.4 Chloride channel OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) GN=clc PE=4 SV=1</Hit_def>
+  <Hit_accession>14494</Hit_accession>
+  <Hit_len>792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>2.84046e-20</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>847</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>678</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>474</Hsp_align-len>
+      <Hsp_qseq>RKTLYYAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPR---TMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSH--PIVEVALV---TLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAAL-VLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADS-IEPRSIYDLVIEVADLPYLDAKAEYVHDSTPHDILDAGAPIISLDTDN-TVSSLYSQLAALYASGTSSGFPLVASDD</Hsp_qseq>
+      <Hsp_hseq>RRTTTAIRGHGVPEVLESL--MVHNGQIDPKIAVYKTVSSSIAIASGASLGREGPIVQIGSAAGSYFGAF-----VHSRYTRTLVAAGAGSGIAATFNTPLAGVMFALEILLSEYALTNVVTVVLSAVTATAVARSVLAFTAVPGVREFLVPITYHIVTPSLEFPLYAGLGVVAAGIGAAVVRLLYASEHLFQDRWDLPGYLTPAIGGALLGVSVLLTAVLLDASP------LQSATWLFGVGYGT--------IHSSIAGDLTLLVLVALAVLKVVGFSLSIGSGNSGGVFSPTLYVGAMAGGAFGVLVNAAFA----------------------GTASA--GAYALVGTAGVFAATASAPLTATLIIFELTGQYTIILPLLAVTVIGSEVAQGLLDNGTIYTEALRDKGITVQERRIGSLEDLAAKDVM-------STDVDTVTVGTSAMDALRVFQQRSHRGLPIVDADD</Hsp_hseq>
+      <Hsp_midline>R+T     G G+PE+   L   V  G +       K+V  ++++ASG SLG+EGP V I S   +    F      +    R +++A   +G+A +F  P+ GV+F+LE +   +      T++ S   A   A ++  F      +  L  +TY     S E   +  L +     GA   R   A     ++   L  +  P +  AL+    L+TA +   +P       +  + LF   Y +           S  G L L +  AL VLK    +++ G     G+F PTL VGA+AG   G+ V    A                      G A    G +A++G A   A      ++  +I+FELTG  T  +P +   ++   VA   ++  +IY   +    +   + +   + D    D++       S D D  TV +       ++   +  G P+V +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7689</Hit_id>
+  <Hit_def>gnl|TC-DB|P37019|2.A.49.5.1 Voltage-gated ClC-type chloride channel eriC - Escherichia coli.</Hit_def>
+  <Hit_accession>7689</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>6.64317e-17</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>782</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>RKTLYYAAGSGIPEIKTILSGFVIRGYLGSW-TLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAW---TKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVI</Hsp_qseq>
+      <Hsp_hseq>RKYAPEAGGSGIPEIEGALED---QRPVRWWRVLPVKFFGGLGTLGGGMVLGREGPTVQIGGNIGRMVLDIFRL--KGDEARHTLLATGAAAGLAAAFNAPLAGILFIIEEMRPQF--RYTLISIKAVFIGVIMSTIMYRIFNHEVALIDVGKLSDAPLNTLWLYLILGIIFGIFGPIFNKWVLGMQDLLHRVHGGNITKW--VLMGGAIGGLCGLLGFVAPATSGGGFNLIP--------------IATAGNFSMGMLVF----IFVARVITTLLCFSSGAPGGIFAPMLALGTVLGTAFGMVAVELFPQYH----LEA-------------------GTFAIAGMGALLAASIRAPLTGIILVLEMTDNYQLILPMIITGLGATLLAQFTGGKPLYSAIL</Hsp_hseq>
+      <Hsp_midline>RK    A GSGIPEI+  L     +  +  W  L VK  G   ++  G+ LG+EGP V I   +  +V   +R   + +  R  +L+   AAG+A +F AP+ G+LF +EE+   F  R  L S     I  +   +     + ++ L  V    D     L  +L L I  G++G  F +  +        V  G   K   ++    +  +   + F  P +  GG  LI               +       +G LV       V +   T + F    P GIF P LA+G + G   G+    L  +Y      EA                   G +A+ G  A LA   R  ++  ++V E+T      +P ++  L A  +A     + +Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15912</Hit_id>
+  <Hit_def>gnl|TC-DB|S7UI33|2.A.49.1.4 Chloride channel protein OS=Toxoplasma gondii GN=TGGT1_265500 PE=3 SV=1</Hit_def>
+  <Hit_accession>15912</Hit_accession>
+  <Hit_len>2075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.61511e-16</Hsp_evalue>
+      <Hsp_query-from>583</Hsp_query-from>
+      <Hsp_query-to>872</Hsp_query-to>
+      <Hsp_hit-from>1448</Hsp_hit-from>
+      <Hsp_hit-to>1771</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>PIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKS-----ERLSGLCVTSPSQVGPLV-------------------------------------LSLGAA--------LVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELT-------GTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVIEVADLPYLDAKAEY-VHDSTPHDILDAGAPIISLDTDNTVSSLYSQLAALYASGTSSGFPLVASDDGGSPRMFGYIGSKELEHGL-SLARAQ</Hsp_qseq>
+      <Hsp_hseq>PIADCVCVAACTALVNFVFPMVGASSGDLLVNLFSRCSSTAGHPVDRF-GMCAPAPASFPPSVPISSFSESLHAPALFVSPLGVETAGEASTPPGLPGSAYRLDAAVLGELFLLLLLKFSLAVATFGLALPAGIFVPALIIGSAYGRLVGLLVLKLNMAY------------------PFMTVNPSPSSYALVGAVSFLCGITRMNLSLVLLMMEISSQAQGSPNSSAFGLPFLLALGVAKGVSGALCGYSLYDGLLVCKRYPFMFHTQEVSFANLRAADVMERNVVFLAVNERRTLGDLLH----LVSKHPFEGFPVVL--DSESRVVLGYVCSHRLRDVLEELLRSQ</Hsp_hseq>
+      <Hsp_midline>PI +   V   TA + F  P       +L+ +LFS C  +     +R  G+C  +P+   P V                                       L AA        L+LK +L   TFGL LPAGIF+P L +G+  GR+ GL V  L+  Y                  PF      P  +A++GA + L G+TR  +SL +++ E++        +  + +P +LA+ +AK V+ ++   S+YD ++     P++    E    +    D+++     ++++   T+  L      L +     GFP+V   D  S  + GY+ S  L   L  L R+Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>6.16415e-10</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>1068</Hsp_hit-from>
+      <Hsp_hit-to>1131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>AAGSGIPEIKTILSGF-VIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSR</Hsp_qseq>
+      <Hsp_hseq>AAGSGIAEVKVLLNGFRSLPHVLSATVLIVKIFGLSLAVGSGLVLGKEGPMVHVACCWAHLLLR</Hsp_hseq>
+      <Hsp_midline>AAGSGI E+K +L+GF  +   L +  L VK  GL+L+V SGL LGKEGP VH+A C A+++ R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.12022e-08</Hsp_evalue>
+      <Hsp_query-from>453</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>1218</Hsp_hit-from>
+      <Hsp_hit-to>1343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>RFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTL---------------KMFDPFGSGKIVLFAVTYDKDWHSF---ELLGFLFLAIFGGVYGACF</Hsp_qseq>
+      <Hsp_hseq>RFLRS--REESVQKPLLAAASAAGMSCAFGSPIAGVLFAFEEMGASDLPGSALWLCCCACVSASTVLEILNSQATPKDSKTGFFSPFSRGGPSRWLRDSADFFHTFEVVELLPFALLGLLGGVLGPVF</Hsp_hseq>
+      <Hsp_midline>RF R   R E  ++ +L+AA AAG++ +FG+P+ GVLF+ EE+     P + L    CA ++A T+                 F PF  G    +       +H+F   ELL F  L + GGV G  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|763</Hit_id>
+  <Hit_def>gnl|TC-DB|A8ALD3|2.A.49.5.5 H(+)/Cl(-) exchange transporter ClcA OS=Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696) GN=clcA PE=3 SV=1</Hit_def>
+  <Hit_accession>763</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>4.80032e-16</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>782</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>RKTLYYAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEV--SYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIV----LFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIYDLVI</Hsp_qseq>
+      <Hsp_hseq>RKFAPEAGGSGIPEIEGALEE--LRPVRWWRVLPVKFVGGMGTLGAGMVLGREGPTVQIGGNIGRMVLDLFRM--RSAEARHTLLATGAAAGLSAAFNAPLAGILFIIEEMRPQFRYNLISIKAVFTGVIMSSIVFRIFN--GEAPIIEVGKLSNAPVNTLW-LYLILGMIFGCV-GPLFNHLVLRTQDMFQRF--HGGEIKKWVLMGGAIGGL-CGILGLIEPEAAGGGFNLIP--------------IAAAGNYSVGLLLF----IFIARVLTTLLCFSSGAPGGIFAPMLALGTLLGTAFGMAA-------------AAC----------FPQYHLEAGTFAIAGMGALLAASVRAPLTGIVLVLEMTDNYQLILPMIITCLGATLLAQFMGGKPLYSTIL</Hsp_hseq>
+      <Hsp_midline>RK    A GSGIPEI+  L    +R       L VK VG   ++ +G+ LG+EGP V I   +  +V   +R   R+   R  +L+   AAG++ +F AP+ G+LF +EE+   + +   ++   F   +++++  ++F+  G   I+    L     +  W  + +LG +F  + G ++     R    + +   +G  +K   ++  A+  L    +    P +  GG  LI               +       VG L+       + +   T + F    P GIF P LA+G L G   G+                AC          F Q  +  G +A+ G  A LA   R  ++  V+V E+T      +P ++  L A  +A  +  + +Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|762</Hit_id>
+  <Hit_def>gnl|TC-DB|A8AGW0|2.A.49.5.4 Voltage-gated ClC-type chloride channel ClcB OS=Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696) GN=clcB PE=3 SV=1</Hit_def>
+  <Hit_accession>762</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>5.40691e-12</Hsp_evalue>
+      <Hsp_query-from>419</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>VKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTF--LKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIY</Hsp_qseq>
+      <Hsp_hseq>VKSLASLLVVASGSAIGREGAMILLAALAASCFAQ--RCTPREEWKLW--IACGAAAGMASAYHAPLAGSLFIAEILFGTLMLASLGPVVISAVVALLTTHLLS---GGNALLYTVHLSLDLHVREYAMIISTGLVAGVCGPLFM-----WLMTTTHNGFIRLKLSPPWQLALGGFIVGLLSLLTPAVWGNGYSVVQSF--------------LLSP----PLLSVIAGIFICKLLAVLASSGSGAPGGVFTPTLFIGLSIGMLYG-------------------RMWGFWLPGADEMAILL----GLTGMATLLAATTHAPMMSTLMICEMTGEYRLLPGLLIACVVASVLSRTLREDSVY</Hsp_hseq>
+      <Hsp_midline>VKS+   L VASG ++G+EG  + +A+  A+  ++  R   R E K    ++   AAG+A ++ AP+ G LF  E +       ++      A++A +T  +      G  +L+ V    D H  E    +   +  GV G  F      W     +  F  LK  P  ++AL   +   ++   P     G  ++ S               + SP    PL+  +    + K      + G   P G+F PTL +G   G + G                   RM G   P     A +L     + G A  LA  T   +   +++ E+TG        ++A ++A  ++ ++   S+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12879</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8FHC1|2.A.49.5.3 Voltage-gated ClC-type chloride channel ClcB OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=clcB PE=3 SV=2</Hit_def>
+  <Hit_accession>12879</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.22031e-11</Hsp_evalue>
+      <Hsp_query-from>419</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>VKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMT-LKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPT----LAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPRSIY</Hsp_qseq>
+      <Hsp_hseq>VKSLASLLVVTSGSAIGREGAMILLAALAASCFAQ--RFTPRQEWKLW--IACGAAAGMAAAYRAPLAGSLF-IAEVLF---GTMMLASLGPVIISAVVALLISNLINHSDALLYSVQLSVTVQARDYALIISTGVLAGLCGPLLLTLMNACH---RGFVSLKLAPPWQLALGGLIVGLLSLFTPAVWGNGYSTVQSF--------------LTAP----PLLMIIAGIFLCKLCAVLASSGSGAPGGVFTPTLFIGLAIGMLYGRSLGLWLP-----------------DGEEITLLLG----------LTGMATLLAATTHAPIMSTLMICEMTGEYQLLPGLLIACVIASVISRTLHRDSIY</Hsp_hseq>
+      <Hsp_midline>VKS+   L V SG ++G+EG  + +A+  A+  ++  R   R E K    ++   AAG+A ++ AP+ G LF + EV +      ML S    +I+A+  L + +       +L++V       + +    +   +  G+ G        A     R    LK  P  ++AL  L+   ++ + P     G   + S               +T+P    PL++ +    + K      + G   P G+F PT    LA+G L GR  GL +                  DGE   L  G          + G A  LA  T   +   +++ E+TG        ++A ++A  ++ ++   SIY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12933</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8GX93|2.A.49.6.3 Chloride channel protein CLC-e OS=Arabidopsis thaliana GN=CLC-E PE=2 SV=2</Hit_def>
+  <Hit_accession>12933</Hit_accession>
+  <Hit_len>710</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.92972e-11</Hsp_evalue>
+      <Hsp_query-from>419</Hsp_query-from>
+      <Hsp_query-to>775</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>VKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEV----SYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHS-FELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHP-IVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVADSIEPR</Hsp_qseq>
+      <Hsp_hseq>LKTVAACVTLGTGNSLGPEGPSVEIGASIAKGVNSLFNKSPQT---GFSLLAAGSAAGISSGFNAAVAGCFFAVESVLWPSSSTDSSTSLPNTTSMVILSAVTASVVSEIGLGSEPAFKVP-DYDFRSPGELPLYLLLGALCGLVSLALSRCTSSMTSAVDSLNKDAGIPKAVFPVMGGLSVGIIALVYPEVLYWGFQNVDILLE---KRPFVKGLS-------ADLLLQL---VAVKIAATAWCRASGLVGGYYAPSLFIGGAAGMAYGKFIGLALAQNPD---FNLSILEVAS-----------PQAYGLVGMAATLAGVCQVPLTAVLLLFELTQDYRIVLPLLGAVGMSSWITSGQSKR</Hsp_hseq>
+      <Hsp_midline>+K+V   +++ +G SLG EGP V I + +A  V+  + K  +       +L+A  AAG++  F A V G  F++E V    S      ++  +    +++A+T  +    G G    F V  D D+ S  EL  +L L    G+      R   + T  V +       P  V   +  L    IA   P     G + +  L     K   + GL          L+L L   + +K A T       L  G + P+L +G  AG   G  + +  A+ P    F    ++  S           P  + ++G AA LAGV +  ++  +++FELT      +P + AV ++  +      R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1980</Hit_id>
+  <Hit_def>gnl|TC-DB|C5D215|2.A.49.6.2 Chloride channel core OS=Variovorax paradoxus (strain S110) GN=Vapar_6375 PE=4 SV=1</Hit_def>
+  <Hit_accession>1980</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.20754e-10</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>GSGIPE-IKTILSGFVIRGYLGSWTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSYYFPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALV-LKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPG----VWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLA</Hsp_qseq>
+      <Hsp_hseq>GHGIPEAIEAILFG---KSKMSPKVALLKPLSSGIVIGSGGPFGAEGPIIMTGGAIGSLIAQH---FHLTAAERKALLVAGATAGMTAVFGTPVAAVLLAVELLLFELRPRSLLPVAVACAVAGFTRPLLMDAGPLFPLQTAVPGP--------LAMLSCVAAGLLCGALSASLSISLYKVEDLFGKLPIHWMWWPAIGGLAVGIGGYFEPRALGVGYDVIGDLLH-------------------NHLALGVVAALLAVKAVIWVISLGSGTSGGVLAPLLMMG------AGLGVVLSH---------------------------VLPGNDPMLWPLVCMAATLGGVMRAPLTATIFAFGLTHDSNALLPLLTTSAVA</Hsp_hseq>
+      <Hsp_midline>G GIPE I+ IL G   +  +      +K +   + + SG   G EGP +     + +++++    +     +R+ +L A   AG+   FG PV  VL ++E + +   PR++L       +A  T  +    G    +  AV           L  L     G + GA     +I+  K       L  H +   A+  L      ++ P +   G ++I  L                       L L + AAL+ +KA +  I+ G     G+  P L +G      AGLGV + H                           VLPG    +W ++  AA L GV R  ++  +  F LT      +P +    +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4849</Hit_id>
+  <Hit_def>gnl|TC-DB|M2XWR6|2.A.49.8.2 Chloride channel/carrier, ClC family OS=Galdieria sulphuraria GN=Gasu_46780 PE=4 SV=1</Hit_def>
+  <Hit_accession>4849</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.19337e-08</Hsp_evalue>
+      <Hsp_query-from>427</Hsp_query-from>
+      <Hsp_query-to>769</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>SVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVS----YYFPPRTMLRSFWCAMIAAMT-----------LKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTFLKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAGLGVEVLHAKYPRSFVFEACRMDGESGPLPFGQACVLPGVWAMIGAAAALAGVTRTTVSLAVIVFELTGTLTYSVPTMLAVLLAKTVA</Hsp_qseq>
+      <Hsp_hseq>TVVGAMSLGPEAPIVTMCGMFSGVLSRRWFQVRDTDSCRRYVLSGM-ASGFSVFFGAPLGGSLFALEVLHRDGYEYF--EHMIYAAWSGSISALISLSLSGRSFNGVWQFPPFGTCSV--SSVAYGA---LLGLLGSLVAVLLGKM--VKLLRKSIQETRLTYNPVLLALLGALSNTLIGVLFPQTSFWGEMEIGRLIQLQNQQWNYYFPSQHSITLDNSNPTFAYYVSLGFAKFLCIAIAITSSYRG-----GFIFPVMFVGVCFGRAFSIAI-------PQLSVETAC----------------------LCCAAGINVTLTRTVFATPLVLAQLSN----SMEAFPAVLLASLVA</Hsp_hseq>
+      <Hsp_midline>+V   +SLG E P V +    + ++SR W +    +  RR VLS   A+G +V FGAP+GG LF+LE +      YF    M+ + W   I+A+            +  F PFG+  +   +V Y        LLG L   + G +      R +I  T+   N   L     +   L+ ++    +F+         +L +  ++  + S+    L  ++P+    + L     L +  A+T+   G     G   P + VG   GR   + +       P+  V  AC                      +  AA     +TRT  +  +++ +L+     S+    AVLLA  VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11159</Hit_id>
+  <Hit_def>gnl|TC-DB|Q57753|2.A.49.4.1 Hypothetical protein MJ0305 - Methanococcus jannaschii.</Hit_def>
+  <Hit_accession>11159</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>6.96289e-08</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>682</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>LYYAAGSGIPEIKTILSGFVIRGYLGSWTLGVKSVGLALSV-ASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRRE-VLSAACAAGVAVSFGAPVGGVLFSLEEVSYY-FPPRTMLRSFWCAMIAAMTLKMFDPFGSGKIVLFAVTYDKDWHSFELLGFLFLAIFGGVYGACFCRANIAWTKHVRNGTF--LKSHPIVEVALVTLVTACIAFYNPWSKMGGTELISSLFSECYKSERLSGLCVTSPSQVGPLVLSLGAALVLKAALTTITFGLKLPAGIFIPTLAVGALAGRIAG</Hsp_qseq>
+      <Hsp_hseq>IYELKGSGIDRVLKALN----TNEKLTWIRGLLKVLLAGAVIAVGGSAGKEGPCVQSSASFADELYRLLKL------KNRELVIITGIAGGLGGAFSAPLGTAILACEIIEHENFNYINLIPPIIASVVGYLIFYLI----TGRKHLFNITLSYTINIHDFLLFILGAFFCSLIAHCYIK-----TYRKISSTFDNLKIPYCIKTLIGGILVAVISYFIPEVMGMGLTLTKELF-------------IMEFSLVFLVLLLIGKILA-----TSFTVGSGTPGGLVFPSMCIGAISGIIFG</Hsp_hseq>
+      <Hsp_midline>+Y   GSGI  +   L+         +W  G+  V LA +V A G S GKEGP V  ++  A+ + R  +       K RE V+    A G+  +F AP+G  + + E + +  F    ++     +++  +   +     +G+  LF +T     +  + L F+  A F  +   C+ +     T    + TF  LK    ++  +  ++ A I+++ P     G  L   LF             +   S V  ++L +G  L      T+ T G   P G+  P++ +GA++G I G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2344</Hit_id>
+  <Hit_def>gnl|TC-DB|D2QXG0|2.A.49.9.1 Chloride channel core OS=Pirellula staleyi (strain ATCC 27377 / DSM 6068 / ICPB 4128) GN=Psta_1470 PE=4 SV=1</Hit_def>
+  <Hit_accession>2344</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000185667</Hsp_evalue>
+      <Hsp_query-from>415</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>WTLGVKSVGLALSVASGLSLGKEGPFVHIASCVANIVSRFWRKYDRNEGKRREVLSAACAAGVAVSFGAPVGGVLFSLEEVSY</Hsp_qseq>
+      <Hsp_hseq>WMAPLVLLGTLATHVTGGSAGREGTAVQMGGSLAHSVGQ-WLGIERSE--QRTFLMAGMAAGFGAVFGTPVAGAIFAIEVLTH</Hsp_hseq>
+      <Hsp_midline>W   +  +G   +  +G S G+EG  V +   +A+ V + W   +R+E  +R  L A  AAG    FG PV G +F++E +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>106</Statistics_hsp-len>
+      <Statistics_eff-space>5072782925</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

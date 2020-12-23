@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>13340 CE501180_711_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>358</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>13340 CE501180_711_mRNA</Iteration_query-def>
+  <Iteration_query-len>358</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|680</Hit_id>
+  <Hit_def>gnl|TC-DB|A6ZSQ7|8.A.92.1.3 G protein alpha subunit OS=Saccharomyces cerevisiae (strain YJM789) GN=GPA1 PE=4 SV=1</Hit_def>
+  <Hit_accession>680</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>5.08469e-62</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>DVGNAIATVWAFD-GAKEAVEMSHEFQLNDSASYYFDNIARLVQAGYVPSDLDILRSRVKTTGITEIKLDIHGTIYRMMDVGGQRSERKKWINCFQDCQVLLFVLAISEYNQMLYEDETVSRISEATTLWQSIANSKWFAMASIILFLNKIDIYRQKLELYKLSEYIPEYTG-PNTYEATTRFLAHRFSELYTNPTRPLIMHLTCATDTSQIRTVLAAVQEQILANNLLASG</Hsp_qseq>
+      <Hsp_hseq>DIAKAIKQLWNNDKGIKQCFARSNEFQLEGSAAYYFDNIEKFASPNYVCTDEDILKGRIKTTGITETEFNIGSSKFKVLDAGGQRSERKKWIHCFEGITAVLFVLAMSEYDQMLFEDERVNRMHESIMLFDTLLNSKWFKDTPFILFLNKIDLFEEKVKSMPIRKYFPDYQGRVGDAEAGLKYFEKIFLSL-NKTNKPIYVKRTCATDTQTMKFVLSAVTDLIIQQNLKKSG</Hsp_hseq>
+      <Hsp_midline>D+  AI  +W  D G K+    S+EFQL  SA+YYFDNI +     YV +D DIL+ R+KTTGITE + +I  + ++++D GGQRSERKKWI+CF+    +LFVLA+SEY+QML+EDE V+R+ E+  L+ ++ NSKWF     ILFLNKID++ +K++   + +Y P+Y G     EA  ++    F  L     +P+ +  TCATDT  ++ VL+AV + I+  NL  SG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.91798e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MGCGASTPV-----DPEAQARSA--AIEKTLAQDREKMRREMKLLFLGAGESGKSTIMKQFQLAYGRPFTTEERDEYRDVIFDNAVRSMQVVIDAFDLLSIEI</Hsp_qseq>
+      <Hsp_hseq>MGCTVSTQTIGDESDPFLQNKRANDVIEQSLQLEKQRDKNEIKLLLLGAGESGKSTVLKQLKLLHQGGFSHQERLQYAQVIRADAIQSMKILIIQARKLGIQL</Hsp_hseq>
+      <Hsp_midline>MGC  ST       DP  Q + A   IE++L  ++++ + E+KLL LGAGESGKST++KQ +L +   F+ +ER +Y  VI  +A++SM+++I     L I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8654</Hit_id>
+  <Hit_def>gnl|TC-DB|P63092|8.A.92.1.1 Guanine nucleotide-binding protein G(s) subunit alpha isoforms short OS=Homo sapiens GN=GNAS PE=1 SV=1</Hit_def>
+  <Hit_accession>8654</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.06973e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>MGCGASTPVDPEAQARSAA------IEKTLAQDREKMRREMKLLFLGAGESGKSTIMKQFQLAYGRPFTTEERDEYRDV---------------IFDNAVRSMQVVIDAFDLL--SIEIPESLNE-HIELLMSIGDNPELSTDTGELKPDVGNAIATVWAFDGAKEAVEMSHEFQLNDSASYYFDNIARLVQAGYVPSDLDILRSRVKTTGITEIKLDIHGTIYRMMDVGGQRSERKKWINCFQDCQVLLFVLAISEYNQMLYEDETVSRISEATTLWQSIANSKWFAMASIILFLNKIDIYRQKL--ELYKLSEYIPEYTGPNTYEATT-------------RFLAHRFSELYT---NPTRPLIMHLTCATDTSQIRTV</Hsp_qseq>
+      <Hsp_hseq>MGCLGNSKTEDQRNEEKAQREANKKIEKQLQKDKQVYRATHRLLLLGAGESGKSTIVKQMRILHVNGFNGEGGEEDPQAARSNSDGEKATKVQDIKNNLKEAIETIVAAMSNLVPPVELANPENQFRVDYILSVMNVPDF-----DFPPEFYEHAKALWEDEGVRACYERSNEYQLIDCAQYFLDKIDVIKQADYVPSDQDLLRCRVLTSGIFETKFQVDKVNFHMFDVGGQRDERRKWIQCFNDVTAIIFVVASSSYNMVIREDNQTNRLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGKSKIEDYFPEFARYTTPEDATPEPGEDPRVTRAKYFIRDEFLRISTASGDGRHYCYPHFTCAVDTENIRRV</Hsp_hseq>
+      <Hsp_midline>MGC  ++  + +     A       IEK L +D++  R   +LL LGAGESGKSTI+KQ ++ +   F  E  +E                   I +N   +++ ++ A   L   +E+    N+  ++ ++S+ + P+      +  P+       +W  +G +   E S+E+QL D A Y+ D I  + QA YVPSD D+LR RV T+GI E K  +    + M DVGGQR ER+KWI CF D   ++FV+A S YN ++ ED   +R+ EA  L++SI N++W    S+ILFLNK D+  +K+     K+ +Y PE+    T E  T              F+   F  + T   +       H TCA DT  IR V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6968</Hit_id>
+  <Hit_def>gnl|TC-DB|P18064|8.A.92.1.2 Guanine nucleotide-binding protein alpha-1 subunit OS=Arabidopsis thaliana GN=GPA1 PE=1 SV=1</Hit_def>
+  <Hit_accession>6968</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>5.21565e-56</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>DPEAQARSAAIEKTLAQDREKMRREMKLLFLGAGESGKSTIMKQFQLAYGRPFTTEERDEYRDVIFDNAVRSMQVVIDAFDLLSIEIPESLNEHIELLMS---IGDNPELST-----DTGELKPDVGNAIATVWAFDGAKEAVEMSHEFQLNDSASYYFDNIARLVQAGYVPSDLDILRSRVKTTGITEIKLDI------HGTIYRMMDVGGQRSERKKWINCFQDCQVLLFVLAISEYNQMLYEDETVSRISEATTLWQSIANSKWFAMASIILFLNKIDIYRQKLELYKLS------EYIPEYTGPNTYEATTRFLAHRFSELYTNPTRP------LIMHLTCATDTSQIRTVLAAVQEQILANNLLASG</Hsp_qseq>
+      <Hsp_hseq>DTDENTQAAEIERRIEQEAKAEKHIRKLLLLGAGESGKSTIFKQIKLLFQTGFDEGELKSYVPVIHANVYQTIKLLHDG----TKEFAQNETDSAKYMLSSESIAIGEKLSEIGGRLDYPRLTKDIAEGIETLWKDPAIQETCARGNELQVPDCTKYLMENLKRLSDINYIPTKEDVLYARVRTTGVVEIQFSPVGENKKSGEVYRLFDVGGQRNERRKWIHLFEGVTAVIFCAAISEYDQTLFEDEQKNRMMETKELFDWVLKQPCFEKTSFMLFLNKFDIFEKKVLDVPLNVCEWFRDYQPVSSGKQEIEHAYEFVKKKFEELYYQNTAPDRVDRVFKIYRTTALDQKLVKKTFKLVDETLRRRNLLEAG</Hsp_hseq>
+      <Hsp_midline>D +   ++A IE+ + Q+ +  +   KLL LGAGESGKSTI KQ +L +   F   E   Y  VI  N  ++++++ D     + E  ++  +  + ++S   I    +LS      D   L  D+   I T+W     +E     +E Q+ D   Y  +N+ RL    Y+P+  D+L +RV+TTG+ EI+          G +YR+ DVGGQR+ER+KWI+ F+    ++F  AISEY+Q L+EDE  +R+ E   L+  +     F   S +LFLNK DI+ +K+    L+      +Y P  +G    E    F+  +F ELY   T P        ++ T A D   ++     V E +   NLL +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>97</Statistics_hsp-len>
+      <Statistics_eff-space>1502092584</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

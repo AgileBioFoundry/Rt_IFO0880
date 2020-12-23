@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>11923 CE366609_14136_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>259</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>11923 CE366609_14136_mRNA</Iteration_query-def>
+  <Iteration_query-len>259</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15912</Hit_id>
+  <Hit_def>gnl|TC-DB|S7UI33|2.A.49.1.4 Chloride channel protein OS=Toxoplasma gondii GN=TGGT1_265500 PE=3 SV=1</Hit_def>
+  <Hit_accession>15912</Hit_accession>
+  <Hit_len>2075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.21989e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>702</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>GKKAEPAAQA-----PNRAPPSSPACPSFRSDRWRRTFHEPRRTRPQTLSHPAPLSPPCSFSSPPSSLRSLVCQRVRPASSLAILPLGRQSTSSCTDWKHTDLEAGHLSVFPPL-----------LPYSPP---PPFWGRQMARAVDVPTNEPPSLRLCPSSHPD------QPSLRLLACLPASLLLRS---PSSNTSSPLPPLPVPPLS---------SFDLFSKPRYPAPGRHDPLNSFAALRRRALRPRQEVWLCHGDAASSRLISSAAHERRANQS</Hsp_qseq>
+      <Hsp_hseq>GPTSEPFVHADLKMRPFLSPPSSSSSSPSSS--------------PSTSTSPSPSSPPS--SSPPSSSPS----SSSPPPSSSPPPSSPPSPSSAPSSSTSPSPSSPPSSSPPSPSSAPSSSTSPSPSSPPPSSPPSSSSTSPSPSSAPSSSPPSPSPPPSSPPSSSSTSPSPSSAPSSSPPSSSPSSSSPPPSSSPPPPSPPSSSPPSSSSPSSSPSPSADLSERAQGPANEAPEKRNESAEVDKTS-HPRENA--SNGSPASGRLSGS---EKEATQN</Hsp_hseq>
+      <Hsp_midline>G  +EP   A     P  +PPSS +     S              P T + P+P SPP   SSPPSS  S       P  S +  P    S SS      +   +   S  PP             P SPP   PP            P++ PPS    PSS P        PS    +  P+S    S   PSS+   P PP   PP S         S DL  + + PA    +  N  A + + +  PR+     +G  AS RL  S   E+ A Q+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000903192</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>853</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>PAAQAPNRAPPSSPACPSFRSDRWRRTFHEPRRTRPQTLSHPAPLSPPCSFSSPPSSLRSLVCQRVRPASSL-AILPLGRQSTSSCTDWKHTDLEAGHLSVFPPLLPYSPPPPFWGRQMARAVDVPT--NEPPSLRLCPSSHPDQPSLRLLACLPASLLLRSPSSNTSSPLPPLPVPPLSSFDLFSKPRYP------APGRHDPLNSF</Hsp_qseq>
+      <Hsp_hseq>PSPHQPKQ-PSFSPVHPS-----------SPYSSSPSVPVPPSSPSMPLLPSSPPSV--PVPPSSPSPSSSLSAPVPPSPSSSSS-----HSSSSPSVLPL-PPHVPSSPSP---SSASSPSMPLPTLSSSPP-----PSPSPSSPS-------PSSPSV--PLSSSSPSVPPSPSSPVSV--LFSRSSSPSFSPDSAPSFSESLSSF</Hsp_hseq>
+      <Hsp_midline>P+   P + P  SP  PS            P  + P     P+  S P   SSPPS    +      P+SSL A +P    S+SS     H+      L + PP +P SP P       + ++ +PT  + PP     PS  P  PS       P+S  +  P S++S  +PP P  P+S   LFS+   P      AP   + L+SF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13585</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8YUK6|2.A.7.3.75 Alr2338 protein - Anabaena sp. (strain PCC 7120).</Hit_def>
+  <Hit_accession>13585</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000605626</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>PAAQAPNRAPPSSPACPSFRSDRWRRTFHEPRRTRPQTLSHPAPLSPPCSFSSPPSSLR---SLVCQRVRPASSLAILPLGRQSTSSCTDWKHTDLEAGHLSVFPPLLPYSPPPPFWGRQMARAVDVPTNEPPSLRLCPSSHPDQPSLRLLACLPASLLLRSPSSNTSSPLPPLPVPPLSSFDLFSKPR</Hsp_qseq>
+      <Hsp_hseq>PDQQSPNPLQASTP-------------LEETSTTKPSVSITPPEKSTPVTIVPPPQETRPETKSVIPKVSPDSETK-LQSSQEKAAEPSSVINRELSAG--AAKSPLTPEKPPEPI---STSKTKFSPSSEKPPEPISTSKTKFSPSSEKPP-EPVSVLSRDSSASKASTPPPAPVVRRGSTPSSSRSR</Hsp_hseq>
+      <Hsp_midline>P  Q+PN    S+P               E   T+P     P   S P +   PP   R     V  +V P S    L   ++  +  +   + +L AG  +   PL P  PP P      ++    P++E P   +  S     PS       P S+L R  S++ +S  PP PV    S    S+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>94</Statistics_hsp-len>
+      <Statistics_eff-space>957841005</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

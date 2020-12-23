@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>13463 estExt_Genewise1.C_3_t30059_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>613</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>13463 estExt_Genewise1.C_3_t30059_mRNA</Iteration_query-def>
+  <Iteration_query-len>613</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8623</Hit_id>
+  <Hit_def>gnl|TC-DB|P61011|3.A.5.9.1 Signal recognition particle 54 kDa protein (SRP54) - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>8623</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>4.61345e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>610</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>373</Hsp_positive>
+      <Hsp_gaps>116</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>MVLQDLGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKGEFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGM-SEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDS-DGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQHQMFAKMAKRMGGKNGLMGKLAARGGAGGRPGGMPGLGGAGMPPLGPGGMPDLSK-LSPSQMRAMQSMLPPGAREMMSRPGAMEEMQKMMSGAGGLGGLGNLMGGMGGGMGDMLKGMMG</Hsp_qseq>
+      <Hsp_hseq>MVLADLGRKITSALRSLSNATIINEEVLNAMLKEVCTALLEADVNIKLVKQLRENVKSAI--DLEEMAS----------GLNKRKMIQHAVFKELVKLVDPG---VKAWTPTKGKQNVIMFVGLQGSGKTTTCSKLAYYYQRKGWKTCLICADTFRAGAFDQLKQNATKARIPFYGSYTEMDPVIIASEGVEKFKNENFEIIIVDTSGRHKQEDSLFEEMLQVANAIQPDNIVYVMDASIGQACEAQAKAFKDKVDVASVIVTKLDGHAKGGGALSAVAATKSPIIFIGTGEHIDDFEPFKTQPFISKLLGMGDIEGLIDKVNELKL---DDNEALIEKLKHGQFTLRDMYEQFQNIMKM----------------------------GPFSQILGMIPGFGTDFMSKGNEQESMARLKKLMTIMDSMNDQELDSTDGA---------------KVFSKQPG----------RIQRVARGSGVSTRDVQELLTQYTKFAQMVKKMGGIKGLF-----KGG-------------------------DMSKNVSQSQMAKLNQQM-----AKMMDPRVLHHM-------GGMAGLQSMMRQFQQGAAGNMKGMMG</Hsp_hseq>
+      <Hsp_midline>MVL DLG+++ +A+ SL+  + I+E+ L+A+LK VC ALLE+DVN+ LVK+LR+ VK  +   LEE+ +          G   +++IQ A++ ELV LVDPG     A+ P KGK  VIM VGLQG+GKTTTC+KLA +YQR+G K  L+CADTFRAGAFDQLKQNATKA++PF+GSYTE DPV I+ +GV KF++E F++IIVDTSGRH+QE  LF+EM Q+ +A++P+ +V V+D +IGQA EAQ++AFK+  +  ++IVTKLDGHAKGGGA+SAVAAT +PIIFIGTGEH+ D E F  QPFISK+LGMGD++GL+++  E+ L   +  E +++KL+ G+FT+RD+ +Q   +M M                            GP S +  MIPG  ++ M  G E++   R+K++  I DSM  +ELDS DG+               K   K P           R+ RVARGSG S ++V+ELL Q+  FA+M K+MGG  GL      +GG                         D+SK +S SQM  +   +       M  P  +  M       GG+ GL ++M     G    +KGMMG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13415</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8U070|3.A.5.7.2 Signal recognition particle 54 kDa protein OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) GN=srp54 PE=1 SV=1</Hit_def>
+  <Hit_accession>13415</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>3.619e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>518</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>MVLQDLGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKGEFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQHQMFAKMAKRMGGKNGLMGKLAARGG</Hsp_qseq>
+      <Hsp_hseq>MVLDNLGKALANTLKKIARASSVDEALIKELVRDIQRALIQADVNVRLVLQLTREIQRRALEEKPPA------------GISKKEHIIKIVYEELTKFL--GTEAKPI--EIKEKPTILLMVGIQGSGKTTTVAKLARYFQKRGYKVGVVCSDTWRPGAYHQLRQLLDRYHIEVFGNPQEKDAIKLAKEGVDYFKSKGVDIIIVDTAGRHKEDKALIEEMKQISNVIHPHEVILVIDGTIGQQAYNQALAFKEATPIGSIIVTKLDGSAKGGGALSAVAATGAPIKFIGTGEKIDDIEPFDPPRFVSRLLGLGDIQGLLEKFKELE-KEVEIKEEDIERFLRGKFTLKDMYAQLEAMRKM----------------------------GPLKQILRMIPGLGYSLPDDVISIGEERLKKFKVIMDSMTEEEL---------------------------LNPEIIN--YSRIKRIARGSGTSTKDVKELLDQYRQMKKLFKSMNKRQ--LSRLARRFG</Hsp_hseq>
+      <Hsp_midline>MVL +LGK L   +  + + S++DE  +  +++ +  AL+++DVNV LV +L  +++ + L +                G   K+ I K +Y+EL   +  G  A P    +K K  +++MVG+QG+GKTTT  KLA ++Q+RG KV +VC+DT+R GA+ QL+Q   +  +  FG+  E D + ++ +GV  F+S+  D+IIVDT+GRH+++  L +EM+QI + + P+ V+LV+DG IGQ A  Q+ AFKEA+  G+IIVTKLDG AKGGGA+SAVAAT  PI FIGTGE + D+E F P  F+S++LG+GD+QGL+E+ +E+     E +E+ +++  +G+FT++D+  QL  +  M                            GPL  +  MIPG+   +          R+K+   I DSMT EEL                            NP  +     R+ R+ARGSGTS ++V+ELL Q++   K+ K M  +   + +LA R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11435</Hit_id>
+  <Hit_def>gnl|TC-DB|Q5UY20|3.A.5.7.1 Signal recognition particle 54 kDa protein OS=Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) GN=srp54 PE=3 SV=1</Hit_def>
+  <Hit_accession>11435</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>1.22322e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>538</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>100</Hsp_gaps>
+      <Hsp_align-len>553</Hsp_align-len>
+      <Hsp_qseq>MVLQDLGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMM--KKLEKGEFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEED---------VSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQHQMFAKMAKRMGGKNG----LMGKLAARGGAGGRPGGMPGLGGAGMPPLG</Hsp_qseq>
+      <Hsp_hseq>MVLDDLGSSLRGTLDDLRGKSRLSEEDIEDIVKEIQRSLLQADVDVGLVQDLSNSIETRAL------------DEEPPAGTTPRDWVLRIVYEELVDLVGESTELPL-------EEQTIMLAGLYGSGKTTTAAKMAWWFSTKGLRPAIIQTDTDRPGAYDQSKEMAERAEVDFYGDPDEDDPVKIARDGLEA--TENADVRIVDTAGRDGLNEELIEQIERIEQEVQPDRDLLVLDAAMGQSAKSQAADFEAAIGIDGVVITKLDGTAKGGGALAAVNETDSTIAFLGSGETVKDIERFEPSGFISRLLGMGDLKQLTERVERAMEETQEGDEEDWDPEDMLEGQFTLKDMRKQMQTMNNM----------------------------GPLDQVMDMIPGL-----GGGLMDQLPDDAMDVTQERMQDFDVIMDSMTEEELEN---------PRVVGQSRTK--------------------RICRGSGKPEERVRELLQQHKQMEQMLKQFQGMGDGDMERMMKQMQQGGGGG--GGMGGMGGGGMGPFG</Hsp_hseq>
+      <Hsp_midline>MVL DLG  L   ++ L  +S + E+ ++ ++K +  +LL++DV+V LV+ L + ++ + L            D +   G   +  + + +Y+ELV LV      P        + Q IM+ GL G+GKTTT  K+A  +  +GL+ A++  DT R GA+DQ K+ A +A+V F+G   E DPV I+  G+    +E  DV IVDT+GR     EL +++ +I+  V+P+  +LVLD A+GQ+A++Q+  F+ A     +++TKLDG AKGGGA++AV  T++ I F+G+GE + D+E+F P  FIS++LGMGD++ L ER +       E  E+    + + +G+FT++D++ Q+ T+  M                            GPL  +  MIPG+     GGG  D            RM+    I DSMT EEL++         P   G+ + K                    R+ RGSG   + V ELL QH+   +M K+  G        M K   +GG GG  GGM G+GG GM P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8696</Hit_id>
+  <Hit_def>gnl|TC-DB|P66844|3.A.5.2.2 Signal recognition particle protein OS=Mycobacterium tuberculosis GN=ffh PE=3 SV=1</Hit_def>
+  <Hit_accession>8696</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>2.65282e-70</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>120</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>VLQDLGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFF----GSYTET---DPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKGEFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQ----HQMFAKMAKRMG--------------GKNGLMGKLAARGGAGGRP---------GGMPGLGGAGMPPLGPGGMPDLSKLSPSQMRAMQSMLPPG</Hsp_qseq>
+      <Hsp_hseq>MFESLSDRLTAALQGLRGKGRLTDADIDATTREIRLALLEADVSLPVVRAFIHRIKER---------ARGAEVSSAL--NPAQQVV-KIVNEELISILG-GETRELAF--AKTPPTVVMLAGLQGSGKTTLAGKLAARLRGQGHTPLLVACDLQRPAAVNQLQVVGERAGVPVFAPHPGASPESGPGDPVAVAAAGLAEARAKHFDVVIVDTAGRLGIDEELMAQAAAIRDAINPDEVLFVLDAMIGQDAVTTAAAFGEGVGFTGVALTKLDGDARGGAALSVREVTGVPILFASTGEKLEDFDVFHPDRMASRILGMGDVLSLIEQAEQVFDA--QQAEEAAAKIGAGELTLEDFLEQMLAVRKM----------------------------GPIGNLLGMLPGAAQMKDALAEVD-DKQLDRVQAIIRGMTPQER-ADPKIINAS----------------------------RRLRIANGSGVTVSEVNQLVERFFEARKMMSSMLGGMGIPGIGRKSATRKSKGAKGKSGKKSKKGTRGPTPPKVKSPFGVPGMPGLAGL------PGGLPDL-----SQMPKGLDELPPG</Hsp_hseq>
+      <Hsp_midline>+ + L  RL  A+  L  +  + +  +DA  + +  ALLE+DV++ +V+    ++K +         A+  + + A+  N A+Q++ K + +EL++++  G+    AF   K    V+M+ GLQG+GKTT   KLA   + +G    LV  D  R  A +QL+    +A VP F    G+  E+   DPV+++  G+ + R++ FDV+IVDT+GR   + EL  +   I+DA+ P+ V+ VLD  IGQ A   + AF E   F  + +TKLDG A+GG A+S    T  PI+F  TGE L D + F P    S++LGMGD+  L+E+A+++  A  ++ E+   K+  GE T+ D  +Q+  V  M                            GP+ NL  M+PG ++M     E D  +++ RV  I   MT +E  +D  +   S                            R LR+A GSG +V EV +L+ +     +M + M   MG              G  G  GK + +G  G  P          GMPGL G       PGG+PDL     SQM      LPPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7696</Hit_id>
+  <Hit_def>gnl|TC-DB|P37107|3.A.5.1.2 Signal recognition particle 54 kDa protein, chloroplastic OS=Arabidopsis thaliana GN=FFC PE=1 SV=1</Hit_def>
+  <Hit_accession>7696</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>5.81018e-55</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>518</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>510</Hsp_align-len>
+      <Hsp_qseq>LNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKGEFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQ-HQMFAKMAKRMGGKNGLMGKLAARGG</Hsp_qseq>
+      <Hsp_hseq>LEAAWSKLKGEEVLTKDNIAEPMRDIRRALLEADVSLPVVRRFVQSV------------SDQAVGMGVIRGVKPDQQLVKIVHDELVKLMG-GEVSELQF--AKSGPTVILLAGLQGVGKTTVCAKLACYLKKQGKSCMLIAGDVYRPAAIDQLVILGEQVGVPVYTAGTDVKPADIAKQGLKEAKKNNVDVVIMDTAGRLQIDKGMMDELKDVKKFLNPTEVLLVVDAMTGQEAAALVTTFNVEIGITGAILTKLDGDSRGGAALSVKEVSGKPIKLVGRGERMEDLEPFYPDRMAGRILGMGDVLSFVEKATE--VMRQEDAEDLQKKIMSAKFDFND----------------FLKQT------------RAVAKMGSMTRVLGMIPGMGKVSPAQIREAEKNLLVMEAMI-EVMTPEERE---------------------------RPELLAESPERRKRIAKDSGKTEQQVSALVAQIFQMRVKMKNLMGVMEG--GSIPALSG</Hsp_hseq>
+      <Hsp_midline>L  A + L  +  + +  +   ++ +  ALLE+DV++ +V+R    V            + Q      ++G K  Q + K ++DELV L+  G+ +   F   K    VI++ GLQG GKTT C KLA + +++G    L+  D +R  A DQL     +  VP + + T+  P  I+ QG+ + +    DV+I+DT+GR + +  + DE++ ++  + P  V+LV+D   GQ A A    F         I+TKLDG ++GG A+S    +  PI  +G GE + DLE F P     ++LGMGD+   VE+A E  +   E  E + KK+   +F   D                FL+ +            RA A  G ++ +  MIPGM ++      E     +   A I + MT EE +                            P  L E  +R  R+A+ SG + Q+V  L+AQ  QM  KM   MG   G  G + A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10524</Hit_id>
+  <Hit_def>gnl|TC-DB|Q3C2E8|9.B.76.1.1 Goadsporin biosynthetic protein - Streptomyces sp. TP-A0584.</Hit_def>
+  <Hit_accession>10524</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>2.35595e-54</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>97</Hsp_gaps>
+      <Hsp_align-len>588</Hsp_align-len>
+      <Hsp_qseq>LGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTET---DPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKG--EFTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQHQMFAKMAKRMGGKNGLMGKLAARGGAGGRPGGMPGLGGAGMPPLGPGGMPDLSKLSPSQMRAMQSMLPPGAREMMSRPGAMEEMQKMMSGAGGLG</Hsp_qseq>
+      <Hsp_hseq>LSDRLAATFKNLRGKGRLSEADIDATAREIRIALLEADVALPVVRAFIKQVKERAL----------GAEVSGAL-NPAQQVI-KIVNEELISILG-GETRRLKY--AKTGPTVIMLAGLQGAGKTTLAGKLGHWLKQQKHTPLLVACDLQRPNAVNQLNVVADRAGVAFYGPEPGNGVGDPVKVARDSIEYAKQRQYDVFIVDTAGRLGIDAEMMQQASDIRAAVQPDEVLFVVDAMVGQDAVTTAQAFLDGVDFTGVVLSKLDGDARGGAALSVAHVTGRQIMFASNGEKVDDFDAFHPDRMASRILGMGDVLSLIEKAEQ--TFSQAEAEKMAAKLQGGGKDFTLDDFLAQLEQVQKM----------------------------GSISKLLGMLPGMGQIREQINNID-DRDVNRLGAIIKSMTPA------------------------ERADPKIINGSRR-----LRIAKGSGVQVGEVKNLVERFFDTRKMMSVMASGKGM--------------PGIPGMGGGGKKSAKKAPAAKGRKKSGNPLKRAQEEAAAAQRRALRAGG---QQQPAPGGAFGLG</Hsp_hseq>
+      <Hsp_midline>L  RL     +L  +  + E  +DA  + +  ALLE+DV + +V+    +VK + L          G +      N A+Q+I K + +EL++++  G+     +   K    VIM+ GLQGAGKTT   KL    +++     LV  D  R  A +QL   A +A V F+G        DPV ++   +   +  ++DV IVDT+GR   ++E+  +   I+ AV+P+ V+ V+D  +GQ A   ++AF +  +F  ++++KLDG A+GG A+S    T   I+F   GE + D + F P    S++LGMGD+  L+E+A++    +    EKM  KL+ G  +FT+ D   QL  V  M                            G +S L  M+PGM ++       D  R + R+  I  SMT                          E  DP    G R      LR+A+GSG  V EV+ L+ +     KM   M    G+               G+PG+GG G             K S + ++  Q       R  +   G   + Q    GA GLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6630</Hit_id>
+  <Hit_def>gnl|TC-DB|P0AGD7|3.A.5.1.1 Signal recognition particle protein - Escherichia coli.</Hit_def>
+  <Hit_accession>6630</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>3.08349e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>535</Hsp_align-len>
+      <Hsp_qseq>VLQDLGKRLNTAINSLTQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGD------AAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHY-QRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGDMQGLVERAQEMALANPERQEKMMKKLEKGE-FTVRDLKDQLATVMGMCVAGSFLRSSRSTAFELLTGKCRAYAYRGPLSNLASMIPGMSEMMGGGGEEDVSRRMKRVAFIFDSMTTEELDSDGSLFRDSVPSAKGKEKEKDEEKDPSNPMGLREPNKRVLRVARGSGTSVQEVEELLAQHQMFAKMAKRMGGKNGLMGKLAARGGAGGRPGGMPG</Hsp_qseq>
+      <Hsp_hseq>MFDNLTDRLSRTLRNISGRGRLTEDNVKDTLREVRMALLEADVALPVVREFINRVKEKAVGHEVNKSLTPGQE------------FVKIVRNELVAAMGEENQTLNLAAQPPA---------VVLMAGLQGAGKTTSVGKLGKFLREKHKKKVLVVSADVYRPAAIKQLETLAEQVGVDFFPSDVGQKPVDIVNAALKEAKLKFYDVLLVDTAGRLHVDEAMMDEIKQVHASINPVETLFVVDAMTGQDAANTAKAFNEALPLTGVVLTKVDGDARGGAALSIRHITGKPIKFLGVGEKTEALEPFHPDRIASRILGMGDVLSLIEDIE--SKVDRAQAEKLASKLKKGDGFDLNDFLEQLRQMKNM----------------------------GGMASLMGKLPGMGQIPDNVKSQMDDKVLVRMEAIINSMTMKE--------RAKPEIIKGSRKR---------------------RIAAGCGMQVQDVNRLLKQFDDMQRMMKKM--KKGGMAKM-MRSMKGMMPPGFPG</Hsp_hseq>
+      <Hsp_midline>+  +L  RL+  + +++ +  + E  +   L+ V  ALLE+DV + +V+   ++VK K +          GQ+              K + +ELVA +   +      A PPA         V++M GLQGAGKTT+  KL     ++   KV +V AD +R  A  QL+  A +  V FF S     PV I    + + + + +DV++VDT+GR   +  + DE++Q+  ++ P   + V+D   GQ A   ++AF EA     +++TK+DG A+GG A+S    T  PI F+G GE    LE F P    S++LGMGD+  L+E  +  +  +  + EK+  KL+KG+ F + D  +QL  +  M                            G +++L   +PGM ++      +   + + R+  I +SMT +E        R      KG  K                      R+A G G  VQ+V  LL Q     +M K+M  K G M K+  R   G  P G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13413</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8U051|3.A.5.7.2 Signal recognition particle receptor FtsY OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) GN=ftsY PE=1 SV=1</Hit_def>
+  <Hit_accession>13413</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.20841e-46</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>IDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLG</Hsp_qseq>
+      <Hsp_hseq>IKEKDVDKALDELEIDLLEADVALEVVDALREKIKQKLVGKKVRIGTDKGKIIEEAVKEAVSEILETSRRIDLIEEIRKAE-----------KPYVIMFVGFNGSGKTTTIAKLANWLKNHGFSVVIAASDTFRAGAIEQLEEHAKRIGVKVIKHSYGADPAAVAYDAIQHAKARGIDVVLIDTAGRSETNRNLMDEMKKIARVTKPNLVIFVGDALAGNAIVEQARQFNEAVKIDGIILTKLDADARGGAALSISYVIDAPILFVGVGQGYDDLRPFEKEWFLERIFG</Hsp_hseq>
+      <Hsp_midline>I E+ +D  L  +   LLE+DV + +V  LR+K+K K++ +   I   +G+  +        +I++ +   +L+  +   +           K  VIM VG  G+GKTTT  KLA   +  G  V +  +DTFRAGA +QL+++A +  V         DP +++   +   ++   DV+++DT+GR      L DEM++I    +PN+V+ V D   G A   Q+R F EA     II+TKLD  A+GG A+S     + PI+F+G G+   DL  F  + F+ ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11436</Hit_id>
+  <Hit_def>gnl|TC-DB|Q5UY25|3.A.5.7.1 Signal recognition particle receptor FtsY OS=Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) GN=dpa PE=3 SV=1</Hit_def>
+  <Hit_accession>11436</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.18701e-39</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>TQQSAIDEQALDAVLKSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDEL-VALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLG</Hsp_qseq>
+      <Hsp_hseq>TGKTVIEEEDLQSHLDDLELALLSSDVEMSVANEILDGVKENLTGQTRRRLSSTG--------NLVRDALRESLYDVINVGQFDFDERVQQADKPV-----TIVFTGVNGVGKTTSIAKLAQYFEDRGLSTVLANGDTYRAGANEQLEKHAENLDKKIITHEQGSDPTAVVYDAVEYAKANDIDVVLGDTAGRLHTSDDLMAQLEKIDRNIDPDMTLFVDEAVAGQDAVNRAREFNDAAEIDGAILTKADADPQGGAAISVAHVTGKPILFLGTGQDYDDLDPFDPEEIVDSLIG</Hsp_hseq>
+      <Hsp_midline>T ++ I+E+ L + L  +  ALL SDV + +   + D VK  +  Q     +  G        N  +  +++++YD + V   D  +    A  PV      I+  G+ G GKTT+  KLA +++ RGL   L   DT+RAGA +QL+++A             +DP ++    V   ++   DV++ DT+GR     +L  ++ +I   ++P+M + V +   GQ A  ++R F +A+     I+TK D   +GG AIS    T  PI+F+GTG+   DL+ F P+  +  ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6709</Hit_id>
+  <Hit_def>gnl|TC-DB|P10121|3.A.5.1.1 CELL DIVISION PROTEIN FTSY - Escherichia coli.</Hit_def>
+  <Hit_accession>6709</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.99761e-37</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>KSVCAALLESDVNVLLVKRLRDKVKGKVLPQLEE-IQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQ-VIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQI------QDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLGMGD</Hsp_qseq>
+      <Hsp_hseq>KKIDDDLFEELEEQLLIADVGVETTRKIITNLTEGASRKQLRDAEALYG------LLKEEMGEILAKVDE------PLN-VEGKAPFVILMVGVNGVGKTTTIGKLARQFEQQGKSVMLAAGDTFRAAAVEQLQVWGQRNNIPVIAQHTGADSASVIFDAIQAAKARNIDVLIADTAGRLQNKSHLMEELKKIVRVMKKLDVEAPHEVMLTIDASTGQNAVSQAKLFHEAVGLTGITLTKLDGTAKGGVIFSVADQFGIPIRYIGVGERIEDLRPFKADDFIEALFARED</Hsp_hseq>
+      <Hsp_midline>K +   L E     LL+  +  +   K++  L E    KQ +DA+A+ G      + K    E++A VD         N V+GK   VI+MVG+ G GKTTT  KLA  ++++G  V L   DTFRA A +QL+    +  +P    +T  D  S+    +   ++   DV+I DT+GR + +S L +E+++I       D   P+ V+L +D + GQ A +Q++ F EA     I +TKLDG AKGG   S       PI +IG GE + DL  F    FI  +    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5776</Hit_id>
+  <Hit_def>gnl|TC-DB|O80842|3.A.5.1.2 Cell division protein FtsY homolog, chloroplastic OS=Arabidopsis thaliana GN=CPFTSY PE=1 SV=2</Hit_def>
+  <Hit_accession>5776</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.19403e-33</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>DAVLKSVCAALLESD----VNVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFF-GSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAV------EPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFIS</Hsp_qseq>
+      <Hsp_hseq>DRVLDELEEALLVSDFGPKITVRIVERLREDIMSGKLKSGSEIK-------DALKESVLEMLAKKNSKTELQL----------GFR----KPAVIMIVGVNGGGKTTSLGKLAHRLKNEGTKVLMAAGDTFRAAASDQLEIWAERTGCEIVVAEGDKAKAATVLSKAVKRGKEEGYDVVLCDTSGRLHTNYSLMEELIACKKAVGKIVSGAPNEILLVLDGNTGLNMLPQAREFNEVVGITGLILTKLDGSARGGCVVSVVEELGIPVKFIGVGEAVEDLQPFDPEAFVN</Hsp_hseq>
+      <Hsp_midline>D VL  +  ALL SD    + V +V+RLR+ +    L    EI+       DA++ +  + + +K    EL             F     K  VIM+VG+ G GKTT+  KLA   +  G KV +   DTFRA A DQL+  A +           +    ++  + V + + E +DV++ DTSGR      L +E+   + AV       PN ++LVLDG  G     Q+R F E      +I+TKLDG A+GG  +S V     P+ FIG GE + DL+ F P+ F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8695</Hit_id>
+  <Hit_def>gnl|TC-DB|P66842|3.A.5.2.2 Cell division protein ftsY homolog OS=Mycobacterium tuberculosis GN=ftsY PE=3 SV=1</Hit_def>
+  <Hit_accession>8695</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.06874e-32</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>NVLLVKRLRDKVKGKVLPQLEEIQAKQGQDADAMQGNKAKQIIQKAIYDELVALVDPGDAAPPAFNPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAV----EPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHLHDLEKFSPQPFISKMLG</Hsp_qseq>
+      <Hsp_hseq>DTLLVADLGPAATASVVSQLRSRLASGNVRTEA----DARAVLRDVLINEL----QPGMDRSIRALPHAGHPSVLLVVGVNGTGKTTTVGKLARVLVADGRRVVLGAADTFRAAAADQLQTWAARVGAAVVRGPEGADPASVAFDAVDKGIAAGADVVLIDTAGRLHTKVGLMDELDKVKRVVTRRASVDEVLLVLDATIGQNGLAQARVFAEVVDISGAVLTKLDGTAKGGIVFRVQQELGVPVKLVGLGEGPDDLAPFEPAAFVDALLG</Hsp_hseq>
+      <Hsp_midline>+ LLV  L       V+ QL    A      +A     A+ +++  + +EL     PG        P  G   V+++VG+ G GKTTT  KLA      G +V L  ADTFRA A DQL+  A +            DP S++   V K  +   DV+++DT+GR   +  L DE+ +++  V      + V+LVLD  IGQ   AQ+R F E  +    ++TKLDG AKGG           P+  +G GE   DL  F P  F+  +LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7513</Hit_id>
+  <Hit_def>gnl|TC-DB|P32916|3.A.5.8.1 Signal recognition particle receptor alpha subunit homolog (SR-alpha) (Docking protein alpha) (DP-alpha) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7513</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.56742e-18</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>611</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQN--------------ATKAK---------VPFFGSYTETDPVS-ISLQGVTKFRSERFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEA----SNFGAIIVTKLDGHAKG-GGAISAVAATNTPIIFIGTGEHLHDLEKFS</Hsp_qseq>
+      <Hsp_hseq>VFSIVGVNGVGKSTNLSKLAFWLLQNNFKVLIVACDTFRSGAVEQLRVHVENLAQLMDDSHVRGSKNKRGKTGNDYVELFEAGYGGSDLVTKIAKQAIKYSRDQNFDIVLMDTAGRRHNDPTLMSPLKSFADQAKPDKIIMVGEALVGTDSVQQAKNFNDAFGKGRNLDFFIISKCDTVGEMLGTMVNMVYATGIPILFVGVGQTYTDLRTLS</Hsp_hseq>
+      <Hsp_midline>V  +VG+ G GK+T  +KLA    +   KV +V  DTFR+GA +QL+ +               +K K           F   Y  +D V+ I+ Q +   R + FD++++DT+GR   +  L   ++   D  +P+ +++V +  +G  +  Q++ F +A     N    I++K D   +  G  ++ V AT  PI+F+G G+   DL   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1571</Hit_id>
+  <Hit_def>gnl|TC-DB|B7HI79|3.A.5.7.3 Flagellar biosynthesis protein FlhF OS=Bacillus cereus (strain B4264) GN=flhF PE=4 SV=1</Hit_def>
+  <Hit_accession>1571</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.27109e-14</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NPVKGKTQVIMMVGLQGAGKTTTCTKLATHYQRRGLKVALVCADTFRAGAFDQLKQNATKAKVPFFGSYTETDPVSISLQGVTKFRSE-RFDVIIVDTSGRHRQESELFDEMRQIQDAVEPNMVVLVLDGAIGQAAEAQSRAFKEASNFGAIIVTKLDGHAKGGGAISAVAATNTPIIFIGTGEHL</Hsp_qseq>
+      <Hsp_hseq>NVFEKEVQTIALIGPTGVGKTTTLAKMAWQFHGKNKTVGFITTDHSRIGTVQQLQDNVKTIGSEVIAVRDE----AAMTRALTYFKEEARVDYILIDTAGKNYRTSETVEEMIETMGQVEPDYICLTLSASMKSKDMIEIITNFKDIHIDGIVFTKFDETASSGELLKIPAVSSAPIVLMTDGQDI</Hsp_hseq>
+      <Hsp_midline>N  + + Q I ++G  G GKTTT  K+A  +  +   V  +  D  R G   QL+ N             E    +   + +T F+ E R D I++DT+G++ + SE  +EM +    VEP+ + L L  ++      +     +  +   I+ TK D  A  G  +   A ++ PI+ +  G+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1454</Hit_id>
+  <Hit_def>gnl|TC-DB|B4Y105|3.E.1.7.3 Channelrhodopsin-2 OS=Volvox carteri f. nagariensis PE=2 SV=1</Hit_def>
+  <Hit_accession>1454</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000157642</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GSGTSVQEVEELLAQHQMFAKMAKRMGGKNGLMGK--LAARGGAG----GRPGGMPGLGGAGMPPLGPGGMPDLSKLSPSQMRAMQSMLPPGA---REMMSRPGAMEEMQKMMSGAGGLG</Hsp_qseq>
+      <Hsp_hseq>GLGISLPNLASLVLRMQHARKMAAMLGGMGGMLGSNLMSGSGGVGLMGAGSPGGGGGAMGVGMTGMGMVGTNAMGRGAVGNSVANASMGGGSAGMGMGMMGMVGAGVGGQQQM-GANGMG</Hsp_hseq>
+      <Hsp_midline>G G S+  +  L+ + Q   KMA  +GG  G++G   ++  GG G    G PGG  G  G GM  +G  G   + + +     A  SM    A     MM   GA    Q+ M GA G+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12161</Hit_id>
+  <Hit_def>gnl|TC-DB|Q79FV6|9.B.96.1.1 PE-PGRS FAMILY PROTEIN OS=Mycobacterium tuberculosis GN=PE_PGRS14 PE=4 SV=1</Hit_def>
+  <Hit_accession>12161</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000847956</Hsp_evalue>
+      <Hsp_query-from>504</Hsp_query-from>
+      <Hsp_query-to>611</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>GGKNGLMGKLAARGGAGGRPG-----------GMPGLGGAGMPPLGPGGMPDLSKLSPSQMRAMQSMLPPGAREMMSRPG-------AMEEMQKMMSGAGGLGGLGNLMGGMG--GGMGDMLKGMMGG</Hsp_qseq>
+      <Hsp_hseq>GGAGGLGGAATGAGGTGGTGGVGAGGFAALGVGVGGAGGAGGAATETGGIGGAGGLGVGLLGGAGGAGGPGGAASAGSGGHGGTGGDALGLIGAGIGGVGGVGGAATDTGGNGGAGGSGTGLLGGVGG</Hsp_hseq>
+      <Hsp_midline>GG  GL G     GG GG  G           G+ G GGAG      GG+     L    +        PG        G       A+  +   + G GG+GG     GG G  GG G  L G +GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>102</Statistics_hsp-len>
+      <Statistics_eff-space>2898335279</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

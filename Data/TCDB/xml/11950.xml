@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>11950 fgenesh1_kg.2_#_173_#_TRINITY_DN1705_c0_g1_i1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>662</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>11950 fgenesh1_kg.2_#_173_#_TRINITY_DN1705_c0_g1_i1_mRNA</Iteration_query-def>
+  <Iteration_query-len>662</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9811</Hit_id>
+  <Hit_def>gnl|TC-DB|Q12324|1.A.4.4.1 Calcium channel YVC1 - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>9811</Hit_accession>
+  <Hit_len>675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>1.81336e-76</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>675</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>654</Hsp_align-len>
+      <Hsp_qseq>PKTVLRIVTRIQALTLELLPIQVDLDDITSPTSSIITKDVIE-AYSSITGD---------FSDCLPFALLEARRYFARQQRINPSDADENAGRKLACEALARKIVARTPMQDQY----GLLSRRFTIVESDGDESLPLSALESAVDQHATFFLSSNEAQRCVFALWKGLLIQTQKGNENIEYQIYKVDADQQGFLAHFDPARISVPRYQFFIRIALWIVFLACYTIALQTPD----RGFGPEDVLLFVQVVGYVVEDVVKVWKIGWWACVSFWQIINILIYTFATVAFVFRCFDLATKDPA-QQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGLDIADERRDSTHAVVHSLIQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLVELCILPLEFCLSKESYARLNRVLMTGLFFLPLGFIALWET-HLSPLRQKDMRDLLVEPDEYQQPEEDPEPFRTEDGEEDEYDHEGEPEGMQISKVK------------------------FEELKKKLPNLER-------SVAGETLYQLLELKKELASLRAEVASL--RNDEQKRKE</Hsp_qseq>
+      <Hsp_hseq>PRQILRVTLNLKYLIDKVVPIVYDPNDIVCDHSEILSPKVVKLAYEACGGNPKDKANKRKYQSVIIFSLLKVCEWYSILATMEVHNAKLYETRNLASQQLCKLLIEREETRDLQFLFMQLLLRRYVINENDEDQE-PLNALELATDMHCTTVIGSSGFQRCLKWIWRGWIVQN--GLDPTTF-IKDDSLAEVSLISHFNPVRLKAPVYQNYLQMIFSFLFLGLYTLVVNGKDSERVQSFDLLESIFYVFNTGFILDELTKLYYIGY-AHLSFWNLFNDTTYLIITFAMGFRAMSVTPLNAKYSSEDWDKISYRVLSCAAPFVWSRLLLYLESQRFIGIMLVILKHMMKESIVFFFLLFLIMIGFTQGFLGLDSADGKRDITGPILGNLTITVLGLGSFDVFEEFAP--PYAAILYYGYYFIVSVILLNILIALYSTAYQKVIDNADDEYMALMSQKTLRYIRAPDEDVYVSPLNLIEVFMTPIFRILPPKRAKDLSYTVMTIVYSPFLLLISVKETREARRIKYNRMKRLNDDANEYDTPWDLTDGYLDDD---DGLFSDNRNSGMRATQLKNSRSLKLQRTAEQEDVHFKVPKKWYKNVKKCSPSFEQYDNDDTEDDAGEDKDEVKELTKKVENLTAVITDLLEKLDIKDKKE</Hsp_hseq>
+      <Hsp_midline>P+ +LR+   ++ L  +++PI  D +DI    S I++  V++ AY +  G+         +   + F+LL+   +++    +   +A     R LA + L + ++ R   +D       LL RR+ I E+D D+  PL+ALE A D H T  + S+  QRC+  +W+G ++Q   G +   + I      +   ++HF+P R+  P YQ ++++    +FL  YT+ +   D    + F   + + +V   G++++++ K++ IG+ A +SFW + N   Y   T A  FR   +   +     + +   +++ LS AAP VW++LL   +  RF G+  +++  M+KES VF  LL +  IGF Q   GLD AD +RD T  ++ +L   VLG  +FD ++  A   P+  ILYY +     VILLN+L+AL+S+AY++ +D ++  ++A  + KT+  IRAPDE VY +P NL+E+ + P+   L  +    L+  +MT ++   L  I++ ET     ++   M+ L  + +EY  P +  + +  +D   D    +    GM+ +++K                        ++ +KK  P+ E+         AGE   ++ EL K++ +L A +  L  + D + +KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2701</Hit_id>
+  <Hit_def>gnl|TC-DB|D8LH97|1.A.4.3.4 Ankyrin Repeat Transient Receptor Potential Channel OS=Ectocarpus siliculosus GN=Esi_0019_0113 PE=4 SV=1</Hit_def>
+  <Hit_accession>2701</Hit_accession>
+  <Hit_len>1240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.95174e-11</Hsp_evalue>
+      <Hsp_query-from>294</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>984</Hsp_hit-from>
+      <Hsp_hit-to>1211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>WQIINILIYTFATVAFVFRCFDLATKDPAQQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGL----------------DIADERRDSTHAVVHSLI---QAVLGSPNFDFYDSDAAS----------YPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLVEL</Hsp_qseq>
+      <Hsp_hseq>WNFMDTSTICCIFVAFIFR---MIARFDSEFDLF-YAQF-FYALSAPLLFSRLLVLSQIDATLGPMTQVIWRMMSHMLRFSAFIAMVMLSFALAFHAVFHTCGEHSEPQCTLDDDDAFPLRDAFGTFGDSLLTVFSSALGGPEFDLFD-DAGSDCRCNLPRGARSAGISMMVVYTITMSVVLLNLLIAVLSTAHDEVYVNAEKEFHLARARLVVQSARSVAHRRPPPPLNLVKL</Hsp_hseq>
+      <Hsp_midline>W  ++        VAF+FR   +  +  ++ D + YA F + +L+APL++++LL +  +    G    VIWRM+     F   +A+  + F  A   +                D A   RD+      SL+    + LG P FD +D DA S             GI +   ++I   V+LLN+L+A+ S+A++E    +E  F    A   V + R+      P P NLV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2702</Hit_id>
+  <Hit_def>gnl|TC-DB|D8LH99|1.A.4.3.5 Ankyrin Repeat Transient Receptor Potential Channel OS=Ectocarpus siliculosus GN=Esi_0019_0117 PE=4 SV=1</Hit_def>
+  <Hit_accession>2702</Hit_accession>
+  <Hit_len>1724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.52859e-08</Hsp_evalue>
+      <Hsp_query-from>294</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1119</Hsp_hit-from>
+      <Hsp_hit-to>1345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>WQIINILIYTFATVAFVFRCFDLATKDPAQQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGL----------------DIADERRDSTHAVVHSLIQA---VLGSPNFDFY---------DSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLVEL</Hsp_qseq>
+      <Hsp_hseq>WNFLDTSTIGCILVAFIFRMIALDDKFFLFHAQFFYA------LSAPLLFSRLLVLSQIDATLGPMTQVIWRMMSHTLRFSAFIAMVMLSFALAFHAVFHTCGEYSEPQCTLDDDDAFPLRDAFGTFGDSFVTVFTYALGGPDFEAFQLAGSDCRCDLPEGARNAGIFLLVVYMITMTVVLLNLLIAVLSTTHGKVYANAEKEFHHARARLIYQSARVVSRSRPPPPLNLIKL</Hsp_hseq>
+      <Hsp_midline>W  ++        VAF+FR   L  K      ++ YA      L+APL++++LL +  +    G    VIWRM+  +  F   +A+  + F  A   +                D A   RD+      S +      LG P+F+ +         D    +   GI L   + I   V+LLN+L+A+ S+ + +    +E  F    A     + R       P P NL++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15262</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9uBN4|1.A.4.1.12 Short transient receptor potential channel 4 OS=Homo sapiens GN=TRPC4 PE=1 SV=1</Hit_def>
+  <Hit_accession>15262</Hit_accession>
+  <Hit_len>977</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>5.99145e-07</Hsp_evalue>
+      <Hsp_query-from>228</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>ISVPRYQFFIRIALWIVFLACYTIALQTPDRGF----GPEDVL----LFVQVVGYVVEDVVKVWKIG-------WWACVSF-WQIINILIYTFATVAFVFRCFDLATKDPAQQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRML----KESAVFCLLLAIFAIGFLQ---------ALTGLDIADERRDSTHAVV----HSLIQAVLGSPNFDFYDSDAASYPF----GIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLV</Hsp_qseq>
+      <Hsp_hseq>IRKPFIKFICHTASYLTFLFLLLLASQHIDRSDLNRQGPPPTIVEWMILPWVLGFIWGEIKQMWDGGLQDYIHDWWNLMDFVMNSLYLATISLKIVAFV-KYSALNPRESWDMWHPTLVAEALFAIANIFSSLRLISLFTANSHLGPLQISLGRMLLDILKFLFIYCLVLLAFANGLNQLYFYYEETKGLTCKGIRCEKQNNAFSTLFETLQSLFWSIFGLINL-YVTNVKAQHEFTEFVGATMFGTYNVISLVVLLNMLIAMMNNSYQLIADHADIEWK--FARTKLWMSYFEEGGTLPTPFNVI</Hsp_hseq>
+      <Hsp_midline>I  P  +F    A ++ FL    +A Q  DR      GP   +    +   V+G++  ++ ++W  G       WW  + F    + +   +   VAFV +   L  ++          A    ++A      +L+++F      G  QI + RML    K   ++CL+L  FA G  Q          LT   I  E++++  + +     SL  ++ G  N  +  +  A + F    G  ++  +++ ++V+LLN+L+A+ +++Y+   D ++  +   FA   +      +    P PFN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4401</Hit_id>
+  <Hit_def>gnl|TC-DB|J9ESM1|1.A.4.10.2 Uncharacterized protein OS=Oxytricha trifallax GN=OXYTRI_10260 PE=4 SV=1</Hit_def>
+  <Hit_accession>4401</Hit_accession>
+  <Hit_len>962</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>7.8448e-07</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGLDIADERRDSTHAVVHSLIQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAI-RAPDEFVYPA------PFNLVELCILPLEFCL-SKESYARLNRVLM</Hsp_qseq>
+      <Hsp_hseq>LAVHTSFLWMKVMLLLKLTRSFGPLLKIIEHMVHDFIYFCIIWGINLIFFTFLGMLLFSEIELFKSFQNTLIMLIQSSLGQWDLTMYDDLSFGEIFGKIYHLVFLIVNLVMLLNLMIAILSTTF----TNMHQLKLALYYDEIIEAIPQYKYDKVYGSLICSIPPFNILMLPTSIIYFFIKDKDKLARINSFLV</Hsp_hseq>
+      <Hsp_midline>L++    +W K++ +  L R FG    +I  M+ +   FC++  I  I F      L    E   S    +  LIQ+ LG  +   YD  +    FG I +  + I  +V+LLN+++A+ S+ +           LA +  + + AI +   + VY +      PFN++ L    + F +  K+  AR+N  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12444</Hit_id>
+  <Hit_def>gnl|TC-DB|Q7Z2B5|1.A.5.2.3 Polycystic kidney disease protein 2 OS=Strongylocentrotus purpuratus GN=PKD2 PE=1 SV=1</Hit_def>
+  <Hit_accession>12444</Hit_accession>
+  <Hit_len>907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.19054e-05</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>FDPARISVPRYQF-FIRIALWIVFLACYTIALQTPDRGFGPEDVLLFVQVVGYVVEDVVKVWKIGWWACVSFWQIINILIYTFAT--VAF-VFRCFDLAT------KDPAQQDRYRYAAFQW-------LSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQA---LTGLDIADERRDSTHAVVHSLIQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEE</Hsp_qseq>
+      <Hsp_hseq>YPPTGGAIPSYKFRTVKLLRYVTAFDYFILACEG----------IFCLYIMYYMGEEILEIKRHRWAYFKSSWNCLDVIIIMISVGCVAFSVYRYLTVANLIEGLLAEPDIYPDFEYMGY-WQDLFNNIIAVNVFLAWIKTFKYISFNKTMTQLSSTLSRCAKDVGGFTVMFAIIFMAYAQLGYLVFGTQIKDF--SSIGSCIYTLFRIVLG--DFNFHELEAANRFMGPIFFLTYVFVVFFVLLNMFLAIINDTYSE</Hsp_hseq>
+      <Hsp_midline>+ P   ++P Y+F  +++  ++     + +A +           +  + ++ Y+ E+++++ +  W    S W  ++++I   +   VAF V+R   +A        +P     + Y  + W       +++   L W K        +        + R  K+   F ++ AI  + + Q    + G  I D    S  + +++L + VLG  +F+F++ +AA+   G I +  +      +LLN+ +A+ +  Y E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9855</Hit_id>
+  <Hit_def>gnl|TC-DB|Q13507|1.A.4.1.4 Short transient receptor potential channel 3 (TrpC3) (Htrp-3) (Htrp3) - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>9855</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.0229e-05</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>598</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>397</Hsp_align-len>
+      <Hsp_qseq>DVLLFVQVVGYVVEDVVKVWKIGWWACV-SFWQIINILIYTFATVAFV--FRCFDLATKDPAQQDRY------------------RYAAFQWL------------SLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQAL-------------TGLDIADERRDSTHAVVHSL--IQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESE--------PTFLAFF-AGKTVAAIRAPDEFVYPAPFNLVELCILPLEFCLSKESYARLNRVLMTGLFFLPLGFIALWETHLSPLRQKDMRDLLVEPDEYQQPEE---DPEPFRTEDGEEDEYDHEGEPEGMQ--ISKVKFEELKKK</Hsp_qseq>
+      <Hsp_hseq>EMLIMVWVLGMMWSECKELWLEGPREYILQLWNVLDFGMLSIFIAAFTARFLAFLQATKAQQYVDSYVQESDLSEVTLPPEIQYFTYARDKWLPSDPQIISEGLYAIAVVLSFSRIAYILPANESFGPLQISLGRTVKDIFKFMVLFIMVFFAFMIGMFILYSYYLGAKVNAAFTTVEESFKTLFWSIFGLSEVTSVVLKYDHKFIEN------IGYVLYGIYNVTMVVVLLNMLIAMINSSYQEIEDDSDVEWKFARSKLWLSYFDDGKTL----PPPFSLVPSPKSFVYFIMRIVNF--PKCRRRRLQKDIEMGMGNSKSRLNLFTQSNSRVFESHSFNSILNQPTRYQQIMKRLIKRYVLKAQVDKENDEVNEGELKEIKQDISSLRYELLEDK</Hsp_hseq>
+      <Hsp_midline>++L+ V V+G +  +  ++W  G    +   W +++  + +    AF   F  F  ATK     D Y                   YA  +WL            ++A  L ++++  +      FG  QI + R +K+   F +L  +    F+  +                   +E   +    +  L  + +V+   +  F ++       G +LY  +++  +V+LLN+L+A+ +S+Y+E  D+S+          +L++F  GKT+     P   + P+P + V   +  + F   K    RL + +  G+           +++           +L +P  YQQ  +        + +  +E++  +EGE + ++  IS +++E L+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10286</Hit_id>
+  <Hit_def>gnl|TC-DB|Q27GV1|1.A.4.1.9 Protein TRP-1, isoform b OS=Caenorhabditis elegans GN=trp-1 PE=2 SV=1</Hit_def>
+  <Hit_accession>10286</Hit_accession>
+  <Hit_len>1047</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>3.66381e-05</Hsp_evalue>
+      <Hsp_query-from>266</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLFVQVVGYVVEDVVKVWKIG-------WWACVSFWQIINILIYTFATVAFVFRCFDLATKDPAQQDRYRYAAFQWLSLAAPLV-------------WAKLLTVFDLYRFFGVTQIVIWRMLKESAVFC----LLLAIFAIGFLQALTGLD-----------------IADERRDSTHAVVHSLIQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDE-FVYPAPFNLV</Hsp_qseq>
+      <Hsp_hseq>LVFTWVIGMLWSEIKQLWEEGFKRYMRQWWNWLDFLMICLYL----CTISIRLSAYYIFTY---REDPYRYTVRTYWTSEEPMLVAEALFAVGNVFSFARIIYLFQTNPYLGPLQISLGCMLVDVAKFCFIFVLIISSFSIGLAQLYWYYDPNTDVCLPGATCKHSSNVFSSIADSYLTLLWSLF-SITKPEDTDVVENHKITQWVGQGMFIMYHCTSIIVLLNMLIAMMSHSFQIINDHAD---LEWKFHRTKLWMAHFDEGSSLPPPFNII</Hsp_hseq>
+      <Hsp_midline>L+F  V+G +  ++ ++W+ G       WW  + F  I   L     T++     + + T    ++D YRY    + +   P++             +A+++ +F    + G  QI +  ML + A FC    L+++ F+IG  Q     D                 +     DS   ++ SL  ++    + D  ++   +   G  ++  +   +I++LLN+L+A+ S +++   D ++   L +   +T   +   DE    P PFN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13164</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8NET8|1.A.4.2.9 1.A.4.2.9 Transient receptor potential cation channel subfamily V member 3</Hit_def>
+  <Hit_accession>13164</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>5.93321e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>543</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>567</Hsp_align-len>
+      <Hsp_qseq>ADVEAPASDLFTRHGYRKHHEGHKYHPKTVLRIVTRIQALTLELLPIQVDLDDITSPTSSIITKDVIEAYSSITGDFSDCLPFA-------LLEARRYFARQQRINPSDADENAGRKLACEALARKIVARTPMQDQYGLLSRRFTIVESDGDESLPLSALESAVDQHATFFLSSNEAQRCVFALWKGLLIQTQKGNENIEYQIYKVDADQQGFLAHFDPARISV-------PRYQFFIRIALWIVFLACYT-IALQTPDRGFGPEDVLLFVQVVGYVVEDVVKVWKIGWWACVSFWQIINILIYT-------FATVAFVFRCFDLATKDPAQQDRYRYAAFQWLS---LAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAV-FCLLLAIFAIGFLQALTGL--DIADERRD-----STHAVVHSLIQAVLGSPNFDFYDSDAASYPF-GIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLVELCIL---PLEFCLSKESYARLNRVLMTGLFFLPLGFIALWETHLSPLRQ</Hsp_qseq>
+      <Hsp_hseq>ADVNAHAKGAFFNPKYQ--HEGF-YFGETPLALAACTNQPEIVQLLMEHEQTDITSRDSR--GNNILHALVTVAEDFKTQNDFVKRMYDMILLRSGNWELETTRNNDGLTPLQLAAKMGKAEILKYILSREIKEKRLRSLSRKFTDWAYG-----PVSS-----------------------SLYDLTNVDTTTDNSVLEITVYNTNIDNRHEMLTLEPLHTLLHMKWKKFAKHMFFLSFCFYFFYNITLTLVSYYRPREEEAIPHPLALTHKMGWL-QLLGRMFVLIWAMCISVKEGIAIFLLRPSDLQSILSDAWFHFVFFIQAVLVILSVFLYLFAYKEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDNKDCSSYGSFSDAVLELFKLTIGLGDLNIQQN--SKYPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERIWRLQRARTILEFEKMLPEWL-RSRFRMGELCKVAEDDFRLCL------RINEVKWTE-----------WKTHVSFLNE</Hsp_hseq>
+      <Hsp_midline>ADV A A   F    Y+  HEG  Y  +T L +        +  L ++ +  DITS  S     +++ A  ++  DF     F        LL +  +     R N          K+    + + I++R   + +   LSR+FT          P+S+                       +L+    + T   N  +E  +Y  + D +  +   +P    +        ++ FF+    +  +    T ++   P         L     +G++ + + +++ + W  C+S  + I I +          +   F F  F  A         Y +A  ++L+   LA  L WA +L     ++  G+  ++I +++    + F  +  +F +GF  AL  L      + +D     S    V  L +  +G  + +   +  + YP   + L   + I T V+LLN+L+AL     E    ESE  +    A   +   +   E++  + F + ELC +       CL      R+N V  T            W+TH+S L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15573</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9Y210|1.A.4.1.5 Short transient receptor potential channel 6 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>15573</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>8.11443e-05</Hsp_evalue>
+      <Hsp_query-from>336</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>767</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>SLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKE----SAVFCLLLAIFAIGFLQALTGLDIADERRDSTHAVVHSL------------IQAVLGSPNFDFYDSDAASYPFGIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLV</Hsp_qseq>
+      <Hsp_hseq>AIAVVLSFSRIAYILPANESFGPLQISLGRTVKDIFKFMVIFIMVFVAFMIGMFN-LYSYYIGAKQNEAFTTVEESFKTLFWAIFGLSEVKSVVINYNHKFIEN------IGYVLYGVYNVTMVIVLLNMLIAMINSSFQEIEDDADVEWK--FARAKLWFSYFEEGRTLPVPFNLV</Hsp_hseq>
+      <Hsp_midline>++A  L ++++  +      FG  QI + R +K+      +F ++   F IG    L    I  ++ ++   V  S             +++V+ + N  F ++       G +LY  +++  +++LLN+L+A+ +S+++E  D+++  +   FA   +      +    P PFNLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12321</Hit_id>
+  <Hit_def>gnl|TC-DB|Q7T1G6|1.A.4.7.1 Ion channel NompC - Danio rerio (Zebrafish) (Brachydanio rerio).</Hit_def>
+  <Hit_accession>12321</Hit_accession>
+  <Hit_len>1614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000200337</Hsp_evalue>
+      <Hsp_query-from>297</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>1295</Hsp_hit-from>
+      <Hsp_hit-to>1506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>INILIYTFATVAFVFRCFDLATKD-PAQQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGLD---IADERRDSTHAVVHS--------LIQAVLGSPNFDFYDSDAASYPFGIIL----YYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNL</Hsp_qseq>
+      <Hsp_hseq>IRLLLLGFSAAALLCHLLAVFTQWWPPTHLHCLFARNVLLAVAMTLGFIQLLEFLTFHHLFGPWAIIIRDLIKDLCRFAVILMLFHTAFTLSLTALCQPLYPQEQHNTTTEVTVPGPLNMSVLLFFALFGLTEPDKIPDVDRSPPATAVLAKMVFGVYLVVTFIVLINLLIAMMSDTYQRIQAQSDTEWK---FGRAVLIRDMSRKSGIPSPFNL</Hsp_hseq>
+      <Hsp_midline>I +L+  F+  A +     + T+  P       +A    L++A  L + +LL     +  FG   I+I  ++K+   F ++L +F   F  +LT L       E+ ++T  V           L  A+ G    D       S P   +L    +  + + T ++L+N+L+A+ S  Y+    +S+  +     G+ V       +   P+PFNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15305</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9UL62|1.A.4.1.7 Short transient receptor potential channel 5 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>15305</Hit_accession>
+  <Hit_len>973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00042146</Hsp_evalue>
+      <Hsp_query-from>228</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>ISVPRYQFFIRIALWIVFLACYTIALQ----TPDRGFGPEDV----LLFVQVVGYVVEDVVKVWKIG-------WWACVSF-WQIINILIYTFATVAFVFRCFDLATKDPAQQDRYRYAAFQWLSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRML----KESAVFCLLLAIFAIG-----FLQALTGLD-------IADERRDSTHAVV----HSLIQAVLGSPNFDFYDSDAASYPF----GIILYYAWSIATIVILLNVLVALFSSAYEECVDESEPTFLAFFAGKTVAAIRAPDEFVYPAPFNLV</Hsp_qseq>
+      <Hsp_hseq>IKKPFIKFICHTASYLTFLFMLLLASQHIVRTDLHVQGPPPTVVEWMILPWVLGFIWGEIKEMWDGGFTEYIHDWWNLMDFAMNSLYLATISLKIVAYV-KYNGSRPREEWEMWHPTLIAEALFAISNILSSLRLISLFTANSHLGPLQISLGRMLLDILKFLFIYCLVLLAFANGLNQLYFYYETRAIDEPNNCKGIRCEKQNNAFSTLFETLQSLFWSVFGLLNL-YVTNVKARHEFTEFVGATMFGTYNVISLVVLLNMLIAMMNNSYQLIADHADIEWK--FARTKLWMSYFDEGGTLPPPFNII</Hsp_hseq>
+      <Hsp_midline>I  P  +F    A ++ FL    +A Q    T     GP       ++   V+G++  ++ ++W  G       WW  + F    + +   +   VA+V +      ++  +       A    +++  L   +L+++F      G  QI + RML    K   ++CL+L  FA G     F      +D       I  E++++  + +     SL  +V G  N  +  +  A + F    G  ++  +++ ++V+LLN+L+A+ +++Y+   D ++  +   FA   +      +    P PFN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5915</Hit_id>
+  <Hit_def>gnl|TC-DB|O94759|1.A.4.5.5 Long transient receptor potential channel 2 (LTrpC2) (Transient receptor potential channel 7) (TrpC7) - Homo sapiens (Human). </Hit_def>
+  <Hit_accession>5915</Hit_accession>
+  <Hit_len>1503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000590155</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>899</Hsp_hit-from>
+      <Hsp_hit-to>1060</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LSLAAPLVWAKLLTVFDLYRFFGVTQIVIWRMLKESAVFCLLLAIFAIGFLQALTGLDIADERRDS---THAVVHSLIQAVLG----------------SPN-FDFY-----DSDAA----SYP--FGIILYYAWSIATIVILLNVLVALFSSAYEECVDESE</Hsp_qseq>
+      <Hsp_hseq>LSLDFILFCLRLMHIFTISKTLGPKIIIVKRMMKDVFFFLFLLAVWVVSFGVAKQAILIHNERRVDWLFRGAVYHSYL-TIFGQIPGYIDGVNFNPEHCSPNGTDPYKPKCPESDATQQRPAFPEWLTVLLLCLYLLFTNILLLNLLIAMFNYTFQQVQEHTD</Hsp_hseq>
+      <Hsp_midline>LSL   L   +L+ +F + +  G   I++ RM+K+   F  LLA++ + F  A   + I +ERR       AV HS +  + G                SPN  D Y     +SDA     ++P    ++L   + + T ++LLN+L+A+F+  +++  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10126</Hit_id>
+  <Hit_def>gnl|TC-DB|Q1K949|1.Q.1.1.1 Uncharacterized protein OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) GN=NCU02972 PE=4 SV=1</Hit_def>
+  <Hit_accession>10126</Hit_accession>
+  <Hit_len>763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0006907</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>659</Hsp_query-to>
+      <Hsp_hit-from>479</Hsp_hit-from>
+      <Hsp_hit-to>571</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RTEDGEEDEYDHEGEPEGMQISKVKFEELKKKLPNLERSVAGETLYQLLELKKELASLRAEVASLRNDEQKRKEEEE-------KAKEAGKAAREERETD</Hsp_qseq>
+      <Hsp_hseq>RLEREEEEERKQKKLEEELELRKAK-EELDRMRREKEKKEEEERLRREYELKRLEEERKAE------EERKRKQEEEEAAVARWKAKEAERLAKEQEEKE</Hsp_hseq>
+      <Hsp_midline>R E  EE+E   +   E +++ K K EEL +     E+    E L +  ELK+     +AE      +E+KRK+EEE       KAKEA + A+E+ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>102</Statistics_hsp-len>
+      <Statistics_eff-space>3176257840</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>13282 e_gw1.3.411.1_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>574</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>13282 e_gw1.3.411.1_mRNA</Iteration_query-def>
+  <Iteration_query-len>574</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15602</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9Y5S8|5.B.1.1.3 NADPH OXIDASE HOMOLOG 1 (NOX-1) (NOH-1) (NADH/NADPH MITOGENIC OXIDASE SUBUNIT P65-MOX) (MITOGENIC OXIDASE 1) (MOX1) - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>15602</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>9.76775e-79</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>131</Hsp_gaps>
+      <Hsp_align-len>605</Hsp_align-len>
+      <Hsp_qseq>HILVFIYGWLKQAR-DARLAGLNTLKYSVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPVFG---RLI--PLDENLWMHRQFAYSLLFWTIVHTTGHYVNM--YN---------------------------VELTQIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALP-----GQPVRCLGYY---------------------SWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPSFRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQ-QNRLGALRRVQLVLVVRNTADMSWFHSLFRQLEESSTD---PDFFTIRIYLTQPVSSAMLANIAIQSDE-VDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASS---ETVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>NVFLFVDAFLKYEKADKYYYTRKILGSTLACARASALCLNFNSTLILLPVCRNLLSFLRGTCSFCSRTLRKQLDHNLTFHKLVAYMICLHTAIHIIAHLFNFDCYSRSRQATDGSLASILSSLSHDEKKGGSWLNPIQSRNTTVEYVTFTSIAGLTGVIMTIALILMVTSATEFIRRSYFEVFWYTHHLFIFYILGLGIHGIGGIVRGQTEESMNESHPRKCAESFEMWDDRDSHCRRPKFEGHPPESWKWILAPVILYICERILRFYRSQQKVVITKVVMHPSKVLELQMNKRGFSMEVGQYIFVNCPSISLLEWHPFTLTSAPEEDFFSIHIRAAGDWTENL----------IRAFEQQY------------SP---------------------------IPRIEVDGPFGTASEDVFQYEVAVLVGAGIGVTPFASILKSIWYKFQCADHNLKTKKIYFYWICRETGAFSWFNNLLTSLEQEMEELGKVGFLNYRLFLT-GWDSNIVGHAALNFDKATDIVTGLKQKTSFGRPMWDNEFSTIAT------------SHPKSVVGVFLCGPRTLAKSLRKCCHRYSSLDPRKVQFYFNKENF</Hsp_hseq>
+      <Hsp_midline>++ +F+  +LK  + D        L  ++  +R + LCL  +  +++LPV RN + F+R       R +   LD NL  H+  AY +   T +H   H  N   Y+                           +   Q R      + FT   G TG +M + ++L+ T+A   IR+  FE FWYTHHL    +  L IH +G  VRG          P +C   +                     SW W +   I  + ERI+R  RS++   +  V++HP   LEL+  K  F  + GQ++F+N P++S  +WHPFT++SAPE+ + S+HIR  GDWT  L          +      Y            SP                           +P I +DGPFG  ++DVF++EVAVL+GAGIG+TPFAS+LK+IWYK Q  +     +++    + R T   SWF++L   LE+   +     F   R++LT    S ++ + A+  D+  D V+GL  +T FGRP +D  F  + T            S   + VGVF CGP  LAK L+    + SS     V+F F KE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6160</Hit_id>
+  <Hit_def>gnl|TC-DB|P04839|5.B.1.1.1 Cytochrome b-245 heavy chain - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>6160</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>1.29712e-75</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>135</Hsp_gaps>
+      <Hsp_align-len>608</Hsp_align-len>
+      <Hsp_qseq>VFIYGWLKQARDARLAGLNTLKY---SVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPVFGRLIP-----LDENLWMHRQFAYSLLFWTIVHTTGHYVNM-------------YNVELTQI------------RKEV-----AWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYS-----------------------------WTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPSFRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLG-ALRRVQLVLVVRNTADMSWFHSLFRQLE---ESSTDPDFFTIRIYLTQPVSSAMLANIAIQSDEVDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASSET----VRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>VFLFVWYYRVYDIPPKFFYTRKLLGSALALARAPAACLNFNCMLILLPVCRNLLSFLRGSSACCSTRVRRQLDRNLTFHKMVAWMIALHSAIHTIAHLFNVEWCVNARVNNSDPYSVALSELGDRQNESYLNFARKRIKNPEGGLYLAVTLLAGITGVVITLCLILIITSSTKTIRRSYFEVFWYTHHLFVIFFIGLAIHGAERIVRG----QTAESLAVHNITVCEQKISEWGKIKECPIPQFAGNPPMTWKWIVGPMFLYLCERLVRFWRSQQKVVITKVVTHPFKTIELQMKKKGFKMEVGQYIFVKCPKVSKLEWHPFTLTSAPEEDFFSIHIRIVGDWTEGLFNACGCDKQ-----------------------------------EFQDAWK--------LPKIAVDGPFGTASEDVFSYEVVMLVGAGIGVTPFASILKSVWYKYCNNATNLKLKKIYFYWLCRDTHAFEWFADLLQLLESQMQERNNAGFLSYNIYLTGWDESQANHFAVHHDEEKDVITGLKQKTLYGRPNWDNEFKTIASQ------------HPNTRIGVFLCGPEALAETL-SKQSISNSESGPRGVHFIFNKENF</Hsp_hseq>
+      <Hsp_midline>VF++ W  +  D       T K    ++  +R    CL  + ++++LPV RN + F+R             LD NL  H+  A+ +   + +HT  H  N+             Y+V L+++            RK +        +  T   G TG V+ + ++L+ T++   IR+  FE FWYTHHL  +    L IH     VRG    Q    L  ++                             W W +      L ER+VR  RS++   +  V+ HP   +EL+  K  F+ + GQ++F+  P VS  +WHPFT++SAPE+ + S+HIR VGDWT  L    GCD                                     +F D           LP I +DGPFG  ++DVF +EV +L+GAGIG+TPFAS+LK++WYK   N     L+++    + R+T    WF  L + LE   +   +  F +  IYLT    S          +E D ++GL  +T +GRP++D  F+ + ++               T +GVF CGP  LA+ L SK   ++SE+    V F+F KE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14467</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9HBY0|5.B.1.1.4 NADPH oxidase 3 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>14467</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>1.60913e-67</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>127</Hsp_gaps>
+      <Hsp_align-len>574</Hsp_align-len>
+      <Hsp_qseq>SRGAGLCLGVDGLILVLPVLRNAIRFVRPVFGRLI--------PLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELTQIRKEVAWAILFTQPG---------------------------GFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQP-----VRCLGYYS--------------------WTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPSFRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLG-ALRRVQLVLVVRNTADMSWFHSLFRQLEESSTD---PDFFTIRIYLTQPVSSAMLANIAIQSDE-VDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKA---KKASSETVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>ARASALCLNFNCMLILIPVSRNLISFIR---GTSICCRGPWRRQLDKNLRFHKLVAYGIAVNATIHIVAHFFNLERYHWSQSEEAQGLLAALSKLGNTPNESYLNPVRTFPTNTTTELLRTIAGVTGLVISLALVLIMTSSTEFIRQASYELFWYTHHVFIVFFLSLAIHGTGRIVRGQTQDSLSLHNITFCRDRYAEWQTVAQCPVPQFSGKEPSAWKWILGPVVLYACERIIRFWRFQQEVVITKVVSHPSGVLELHMKKRGFKMAPGQYILVQCPAISSLEWHPFTLTSAPQEDFFSVHIRAAGDWTAALLEAFGAEGQ-------------------------------------------ALQEPWSLPRLAVDGPFGTALTDVFHYPVCVCVAAGIGVTPFAALLKSIWYKCSEAQTPLKLSKVYFYWICRDARAFEWFADLLLSLETRMSEQGKTHFLSYHIFLTGWDENQAL-HIALHWDENTDVITGLKQKTFYGRPNWNNEFKQI------------AYNHPSSSIGVFFCGPKALSRTLQKMCHLYSSADPRGVHFYYNKESF</Hsp_hseq>
+      <Hsp_midline>+R + LCL  + +++++PV RN I F+R   G  I         LD+NL  H+  AY +     +H   H+ N+     +Q  +        ++ G                           G TG V+ + ++L+ T++   IR+ S+E FWYTHH+  +    L IH  G  VRG             C   Y+                    W W +   +    ERI+R  R ++   +  V+ HP G LEL   K  F+   GQ++ +  PA+S  +WHPFT++SAP++ + SVHIR  GDWT AL +  G +                                             AL    SLP + +DGPFG    DVF + V V + AGIG+TPFA++LK+IWYK  + +    L +V    + R+     WF  L   LE   ++     F +  I+LT    +  L +IA+  DE  D ++GL  +T +GRP+++  F+++              +  ++ +GVF+CGP  L++ L+        A    V F + KE F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5478</Hit_id>
+  <Hit_def>gnl|TC-DB|O48538|5.B.1.1.9 Respiratory burst oxidase homolog protein F OS=Arabidopsis thaliana GN=RBOHF PE=1 SV=1</Hit_def>
+  <Hit_accession>5478</Hit_accession>
+  <Hit_len>944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>4.63451e-63</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>944</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>118</Hsp_gaps>
+      <Hsp_align-len>610</Hsp_align-len>
+      <Hsp_qseq>LWNVFFYIGHILVFIYGWLKQARDARLAGLNTLKYSVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPV-FGRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYV--------------NMYNVELTQIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQ------------SFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRR-ATKLIAVLLHPQGALELRFVKPS-FRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIW---YKMQQN-------------------------RLGALRRVQLVLVVRNTADMSWFHSLFRQLEE----SSTDPDFFTIRIYLTQPVSSAMLANIAI---QSDEVDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASSE-TVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>IWVLSLWI-MIMIGLFLW-KFFQYKQKDAFHVMGYCLLTAKGAAETLKFNMALILFPVCRNTITWLRSTRLSYFVPFDDNINFHKTIAGAIVVAVILHIGDHLACDFPRIVRATEYDYNRYLFHYFQT-KQPTYFDLVKGPEGITGILMVILMIISFTLATRWFRRNLVKLPKPFDRLTGFNAFWYSHHLFVIVYILLILH--GIFLYFAKPWYVRTTWMYLAVPVLLYGG-----ERTLRYFRSGSYSVRLLKVAIYPGNVLTLQMSKPTQFRYKSGQYMFVQCPAVSPFEWHPFSITSAPEDDYISIHIRQLGDWTQEL-----------KRVFSEVCEPPVGGKS------GLLRA---------DETTKK-----SLPKLLIDGPYGAPAQDYRKYDVLLLVGLGIGATPFISILKDLLNNIVKMEEHADSISDFSRSSEYSTGSNGDTPRRKRILKTTNAYFYWVTREQGSFDWFKGVMNEVAELDQRGVIEMHNYLTSVYEEGDARSALITMVQALNHAKNGVDIVSGTRVRTHFARPNWKKVLTKLSSK------------HCNARIGVFYCGVPVLGKELSKLCNTFNQKGSTKFEFHKEHF</Hsp_hseq>
+      <Hsp_midline>+W +  +I  I++ ++ W K  +  +    + + Y + T++GA   L  +  +++ PV RN I ++R       +P D+N+  H+  A +++   I+H   H                N Y     Q  K+  +  L   P G TG +M++LM++ +T A    R+              F AFWY+HHL  ++   L +H  G F+  A P        Y +    ++GG     ER +R  RS   + +L+ V ++P   L L+  KP+ FRYKSGQ++F+  PAVSPF+WHPF+I+SAPED Y+S+HIRQ+GDWT+ L            R+ +      +G K+      G L A         D T+       SLP + IDGP+GAP QD  +++V +L+G GIG TPF S+LK +     KM+++                         R+          V R      WF  +  ++ E       +   +   +Y      SA++  +       + VD VSG   +THF RP++     +L +K                 +GVFYCG P L KEL       + + + +F F KEHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14910</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9NRD9|5.B.1.1.6 Dual oxidase 1 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>14910</Hit_accession>
+  <Hit_len>1551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.08024e-58</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>541</Hsp_query-to>
+      <Hsp_hit-from>1077</Hsp_hit-from>
+      <Hsp_hit-to>1530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>97</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>NTLKYSVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPVF-GRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELT------------------QIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPS-FRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMSWFHSLFRQLEESSTDPDFFTIRIYLTQPVSSAMLANIAIQSDE--------VDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELK</Hsp_qseq>
+      <Hsp_hseq>DTTRVGIILSRGTAASISFMFSYILLTMCRNLITFLRETFLNRYVPFDAAVDFHRLIASTAIVLTVLHSVGHVVNVYLFSISPLSVLSCLFPGLFHDDGSELPQKYYWWFFQTVPG-LTGVVLLLILAIMYVFASHHFRRRSFRGFWLTHHLYILLYVLLIIH--GSFALIQLPRFHI----FFLVPAIIYGG-----DKLVSLSRKKVEISVVKAELLPSGVTHLRFQRPQGFEYKSGQWVRIACLALGTTEYHPFTLTSAPHEDTLSLHIRAAGPWTTRLREI-------------------------YSAPTG--------------------DRCARYPKLYLDGPFGEGHQEWHKFEVSVLVGGGIGVTPFASILKDLVFKSSVSCQVFCKKIYFIWVTRTQRQFEWLADIIREVEEND-HQDLVSVHIYITQLAEKFDLRTTMLYICERHFQKVLNRSLFTGLRSITHFGRPPFEPFFNSLQ-----------EVHPQVRKIGVFSCGPPGMTKNVE</Hsp_hseq>
+      <Hsp_midline>+T +  +  SRG    +      ++L + RN I F+R  F  R +P D  +  HR  A + +  T++H+ GH VN+Y   ++                  ++ ++  W    T PG  TG V+L+++ ++Y  A    R++SF  FW THHL  L+   L IH  G F    LP   +    ++     I+GG     +++V   R +    ++   L P G   LRF +P  F YKSGQW+ +   A+   ++HPFT++SAP +  +S+HIR  G WT  L ++                           +P G                    D     P + +DGPFG   Q+  + EV+VL+G GIG+TPFAS+LK + +K   +     +++  + V R      W   + R++EE+    D  ++ IY+TQ      L    +   E            +GL S THFGRP F+ FF  L+           +       +GVF CGPPG+ K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13947</Hit_id>
+  <Hit_def>gnl|TC-DB|Q96PH1|5.B.1.1.5 NADPH oxidase 5 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>13947</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.72908e-57</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>100</Hsp_gaps>
+      <Hsp_align-len>555</Hsp_align-len>
+      <Hsp_qseq>SVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPVF-GRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELTQIRKEVAWAILFTQPGGF---------TGHVMLVLMLLVYTTAHAKIRKQS-FEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIA-VLLHPQGALELRFVKPSF-RYKSGQWLFLNVPAVSPFQWHPFTISSAPED-PYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSAD-LGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIR--IDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGA----------------LRRVQLVLVVRNTADMSWFHSLFRQLE----ESSTDPDFFTIRIYLTQPVSSAMLANIAIQ--------SDEVDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASSETVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>SVMVAKGCGQCLNFDCSFIAVLMLRRCLTWLRATWLAQVLPLDQNIQFHQLMGYVVVGLSLVHTVAHTVNFVLQAQAEASPFQFWELLLTTRPGIGWVHGSASPTGVALLLLLLLMFICSSSCIRRSGHFEVFYWTHLSYLLVWLLLIFH------------------GPNFWKWLLVPGILFFLEKAIGLAVSRMAAVCIMEVNLLPSKVTHLLIKRPPFFHYRPGDYLYLNIPTIARYEWHPFTISSAPEQKDTIWLHIRSQGQWTN--------------RLYESFKASDPLGRGSKRLS-----RSVTMRKSQRSSKGSEILLEKHKFCNIKCYIDGPYGTPTRRIFASEHAVLIGAGIGITPFASILQSIMYRHQKRKHTCPSCQHSWIEGVQDNMKLHKVDFIWINRDQRSFEWFVSLLTKLEMDQAEEAQYGRFLELHMYMTSALGKNDMKAIGLQMALDLLANKEKKDSITGLQTRTQPGRPDWSKVFQKV-------------AAEKKGKVQVFFCGSPALAKVLKGHCEKFG-----FRFFQENF</Hsp_hseq>
+      <Hsp_midline>SV  ++G G CL  D   + + +LR  + ++R  +  +++PLD+N+  H+   Y ++  ++VHT  H VN       +      W +L T   G          TG  +L+L+LL++  + + IR+   FE F++TH    L+   L  H                  G   W W +  GI   LE+ +    SR A   I  V L P     L   +P F  Y+ G +L+LN+P ++ ++WHPFTISSAPE    + +HIR  G WT               RL  S+K++D LG  +K  S      +V           S  L        I+  IDGP+G PT+ +F  E AVLIGAGIGITPFAS+L++I Y+ Q+ +                   L +V  + + R+     WF SL  +LE    E +    F  + +Y+T  +    +  I +Q         ++ D+++GL ++T  GRPD+   F+++              +     V VF+CG P LAK LK   +K       F F +E+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14909</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9NRD8|5.B.1.1.7 NADPH THYROID OXIDASE 2 - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>14909</Hit_accession>
+  <Hit_len>1548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>4.58644e-56</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>1548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>102</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>FIYGWLKQARDARLAGLNTLKYSVWTSRGAGLCLGVDGLILVLPVLRNAIRFVRPVF-GRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELT------------------QIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPS-FRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMSWFHSLFRQLEESSTDPDFFTIRIYLTQPVSSAMLANIAIQSDE--------VDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKAS-SETVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>YYYGFASPPSDIA----QTTLVGIILSRGTAASVSFMFSYILLTMCRNLITFLRETFLNRYVPFDAAVDFHRWIAMAAVVLAILHSAGHAVNVYIFSVSPLSLLACIFPNVFVNDGSKLPQKFYWWFFQTVPG-MTGVLLLLVLAIMYVFASHHFRRRSFRGFWLTHHLYILLYALLIIH--GSYALIQLPTFHI----YFLVPAIIYGG-----DKLVSLSRKKVEISVVKAELLPSGVTYLQFQRPQGFEYKSGQWVRIACLALGTTEYHPFTLTSAPHEDTLSLHIRAVGPWTTRLREI-------------------------YSSPKG--------------------NGCAGYPKLYLDGPFGEGHQEWHKFEVSVLVGGGIGVTPFASILKDLVFKSSLGSQMLCKKIYFIWVTRTQRQFEWLADIIQEVEEND-HQDLVSVHIYVTQLAEKFDLRTTMLYICERHFQKVLNRSLFTGLRSITHFGRPPFEPFFNSLQ-----------EVHPQVRKIGVFSCGPPGMTKNVEKACQLVNRQDRAHFMHHYENF</Hsp_hseq>
+      <Hsp_midline>+ YG+     D       T    +  SRG    +      ++L + RN I F+R  F  R +P D  +  HR  A + +   I+H+ GH VN+Y   ++                  ++ ++  W    T PG  TG ++L+++ ++Y  A    R++SF  FW THHL  L+   L IH  G +    LP   +    Y+     I+GG     +++V   R +    ++   L P G   L+F +P  F YKSGQW+ +   A+   ++HPFT++SAP +  +S+HIR VG WT  L ++                           SP G                    +     P + +DGPFG   Q+  + EV+VL+G GIG+TPFAS+LK + +K         +++  + V R      W   + +++EE+    D  ++ IY+TQ      L    +   E            +GL S THFGRP F+ FF  L+           +       +GVF CGPPG+ K ++   +  +  +   F+   E+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5781</Hit_id>
+  <Hit_def>gnl|TC-DB|O81209|5.B.1.1.8 RESPIRATORY BURST OXIDASE PROTEIN A - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>5781</Hit_accession>
+  <Hit_len>902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.14793e-54</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>902</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>121</Hsp_gaps>
+      <Hsp_align-len>603</Hsp_align-len>
+      <Hsp_qseq>WLKQARDARLAGLNTLKYSVWTSRGA----GLC----------LGVDGLILVLPVLRNAIRFVRPV--FGRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYV-----------NMYNVELTQIRKEVAWAILFTQP-GGFTGHVMLVLMLLVYTTAHAKIRKQS------------FEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSR-RATKLIAVLLHPQGALELRFVKPS-FRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLV-------------------------LVVRNTADMSWFHSLFRQLEESST----DPDFFTIRIYLTQPVSSA---MLANIAIQSDEVDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASSET-VRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>WVMALWIGAMAGLFTWKFMEYRKRSAYEVMGVCVCIAKGAAETLKLNMAMILLPVCRNTITWLRTKTKLSAIVPFDDSLNFHKVIAIGISVGVGIHATSHLACDFPRLIAADEDQYEPMEKYFGPQTKRYLDFVQSVEGVTGIGMVVLMTIAFTLATTWFRRNKLNLPGPLKKITGFNAFWYSHHLFVIVYSLLVVH--GFYVYLIIEPWYKKT----TWMYLMVPVVLYLCERLIRAFRSSVEAVSVLKVAVLPGNVLSLHLSRPSNFRYKSGQYMYLNCSAVSTLEWHPFSITSAPGDDYLSVHIRVLGDWTKQLRSLFS-------------------EVCKPRPPDEHR---------LNRADSKHWDYIPDFPRILIDGPYGAPAQDYKKFEVVLLVGLGIGATPMISIVSDIINNLKGVEEGSNRRQSPIHNMVTPPVSPSRKSETFRTKRAYFYWVTREQGSFDWFKNVMDEVTETDRKNVIELHNYCTSVYEEGDARSALITMLQSLNHAKHGVDVVSGTRVMSHFARPNWRSVFKRIAV------------NHPKTRVGVFYCGAAGLVKELRHLSLDFSHKTSTKFIFHKENF</Hsp_hseq>
+      <Hsp_midline>W+       +AGL T K+  +  R A    G+C          L ++  +++LPV RN I ++R       ++P D++L  H+  A  +     +H T H             + Y         +    + F Q   G TG  M+VLM + +T A    R+              F AFWY+HHL  ++   L +H  G +V   +     +     +W + +   +  L ER++R  RS   A  ++ V + P   L L   +PS FRYKSGQ+++LN  AVS  +WHPF+I+SAP D Y+SVHIR +GDWT+ L  L                     E  K   P  +           +   S   D +   P I IDGP+GAP QD  + EV +L+G GIG TP  S++  I   ++    G+ RR   +                          V R      WF ++  ++ E+      +   +   +Y      SA   ML ++      VD VSG    +HF RP++   F+ +              +   T VGVFYCG  GL KEL+  +   S +T  +F+F KE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14898</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9NPH5|5.B.1.1.2 KIDNEY SUPEROXIDE-PRODUCING NADPH OXIDASE (NADPH OXIDASE 4) (RENAL NAD(P)H-OXIDASE RENOX) - Homo sapiens (Human).</Hit_def>
+  <Hit_accession>14898</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>7.08196e-49</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>561</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>141</Hsp_gaps>
+      <Hsp_align-len>584</Hsp_align-len>
+      <Hsp_qseq>SRGAGLCLGVDGLILVLPVLRNAIRFVRPVFGRLIP-------LDENLWMHRQFAYSLLFWTIVHTTGHYVNMYN---------VELT--QIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHL--VALILFCLYI-------------HAVGCFVRGALPGQPVRCLGYYS---------------------------------------WTWTIWGGIALLL-ERIVREIRSRRATKLIAVLLHPQGALELRFVKPSFRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVS--VHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMSWFHSLFRQLEE---SSTDPDFFTIRIYLTQPVSSAMLANIAIQSDEVDAVSGLTSQTHFGRPDFDVFFRELRTKIDVGMYLPGQESSLTTDVGVFYCGPPGLAKELKSKAKKASSETVRFVFKKEHF</Hsp_qseq>
+      <Hsp_hseq>SRASASVLNLNCSLILLPMCRTLLAYLRG--SQKVPSRRTRRLLDKSRTFHITCGVTICIFSGVHVAAHLVNALNFSVNYSEDFVELNAARYRDEDPRKLLFTTVPGLTGVCMVVVLFLMITASTYAIRVSNYDIFWYTHNLFFVFYMLLTLHVSGGLLKYQTNLDTHPPGCISLNRTSSQNISLPEYFSEHFHEPFPEGFSKPAEFTQHKFVKICMEEPRFQANFPQTWLW-ISGPLCLYCAERLYRYIRSNKPVTIISVMSHPSDVMEIRMVKENFKARPGQYITLHCPSVSALENHPFTLTMCPTETKATFGVHLKIVGDWTERFRDLLLPPSSQDSEILPFIQSRNY-------------------------------------PKLYIDGPFGSPFEESLNYEVSLCVAGGIGVTPFASILNTL---LDDWKPYKLRRLYFIWVCRDIQSFRWFADLLCMLHNKFWQENRPDYVNIQLYLSQ--------TDGIQKIIGEKYHALNSRLFIGRPRWKLLFDE------IAKYNRGK------TVGVFCCGPNSLSKTLHKLSNQNNSYGTRFEYNKESF</Hsp_hseq>
+      <Hsp_midline>SR +   L ++  +++LP+ R  + ++R    + +P       LD++   H     ++  ++ VH   H VN  N         VEL   + R E    +LFT   G TG  M+V++ L+ T +   IR  +++ FWYTH+L  V  +L  L++             H  GC        Q +    Y+S                                       W W I G + L   ER+ R IRS +   +I+V+ HP   +E+R VK +F+ + GQ++ L+ P+VS  + HPFT++  P +   +  VH++ VGDWT     LL   S+  + +    +S +                                      P + IDGPFG+P ++   +EV++ +  GIG+TPFAS+L T+   +   +   LRR+  + V R+     WF  L   L         PD+  I++YL+Q           IQ    +    L S+   GRP + + F E      +  Y  G+       VGVF CGP  L+K L   + + +S   RF + KE F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14348</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9FGS9|5.B.1.4.1 FRO1 and FRO2-like protein - Arabidopsis thaliana (Mouse-ear cress).</Hit_def>
+  <Hit_accession>14348</Hit_accession>
+  <Hit_len>713</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.76885e-31</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>ILVLPVLRNAIRFVRPVFGRLIPLD--ENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELTQIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVK-PSFRYKSGQWLFLNVPAVSPFQWHPFTI--SSAPEDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMS</Hsp_qseq>
+      <Hsp_hseq>LLLFPVLRGLSMF------RLLNIEFAASVKYHVWFGTGLIFFSLVHGGS---TLFIWTITHHIEEEIWKWQRTGRVYVAGLISLVTGLLMWITSLPQIRRKNFEVFYYTHHLYIVFLVAFLFHA-----------------GDRHFYWVLPGMFLFGLDKILRIVQSRSESCILSANLFSCKAIELVLPKDPMLNYAPSSFIFLNIPLVSRFQWHPFSIISSSSVDKHSLSIMMKCEGDWTNSVYN-------------------------KIEEAANCENKINN-------------------IIVRVEGPYGPASVDFLRYDNLFLVAGGIGITPFLSILKEL---ASKNRLKSPKRVQLVFAVRTFQDLN</Hsp_hseq>
+      <Hsp_midline>+L+ PVLR    F      RL+ ++   ++  H  F   L+F+++VH       ++   +T   +E  W    T      G + LV  LL++ T+  +IR+++FE F+YTHHL  + L     HA                 G   + W + G     L++I+R ++SR  + +++  L    A+EL   K P   Y    ++FLN+P VS FQWHPF+I  SS+ +   +S+ ++  GDWT ++                           K++        +N+                     +R++GP+G  + D  R++   L+  GIGITPF S+LK +     +NRL + +RVQLV  VR   D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9108</Hit_id>
+  <Hit_def>gnl|TC-DB|P92949|5.B.1.4.4 Ferric reduction oxidase 2 OS=Arabidopsis thaliana GN=FRO2 PE=1 SV=2</Hit_def>
+  <Hit_accession>9108</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.62172e-26</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>SVWTSR--GAGLCLGVDGLI----LVLPVLRNAIRFVRPVFGRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELTQIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVKPS-FRYKSGQWLFLNVPAVSPFQWHPFTISSAP--EDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMS</Hsp_qseq>
+      <Hsp_hseq>SLWQAKLESAALRLGLIGNICLAFLFLPVARGSS--LLPAMG--LTSESSIKYHIWLGHMVMALFTVHGLCYII--YWASMHEISQMIMWDTKGVS--NLAGEIALAAGLVMWATTYPKIRRRFFEVFFYTHYLYIVFMLFFVLHVGISFSFIALP-------GFY----------IFLVDRFLRFLQSRENVRLLAARILPSDTMELTFSKNSKLVYSPTSIMFVNIPSISKLQWHPFTITSSSKLEPEKLSIVIKKEGKWSTKLHQ----------RLSSS-------------------------------------DQIDRL-AVSVEGPYGPASADFLRHEALVMVCGGSGITPFISVIRDL-IATSQKETCKIPKITLICAFKKSSEIS</Hsp_hseq>
+      <Hsp_midline>S+W ++   A L LG+ G I    L LPV R +   + P  G  +  + ++  H    + ++    VH   + +  Y   + +I + + W           G + L   L+++ T + KIR++ FE F+YTH+L  + +    +H    F   ALP       G+Y            L++R +R ++SR   +L+A  + P   +EL F K S   Y     +F+N+P++S  QWHPFTI+S+   E   +S+ I++ G W+  L Q          RLS+S                                     D +  L  + ++GP+G  + D  RHE  V++  G GITPF SV++ +     Q     + ++ L+   + ++++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11666</Hit_id>
+  <Hit_def>gnl|TC-DB|Q6EMC0|5.B.1.4.3 Ferric-chelate reductase - Solanum lycopersicum (Tomato) (Lycopersicon esculentum).</Hit_def>
+  <Hit_accession>11666</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>6.54165e-25</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>VWTSR--GAGLCLGVDGLI----LVLPVLRNAIRFVRPVFGRLIPLDENLWMHRQFAYSLLFWTIVHTTGHYVNMYNVELTQIRKEVAWAILFTQPGGFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGALELRFVK-PSFRYKSGQWLFLNVPAVSPFQWHPFTISSAP--EDPYVSVHIRQVGDWTRALGQLLGCDSATVARLSTSYKSADLGEKAKLDSPPGYLEAVNDGSGDFHDVTSGALDAVGSLPTIRIDGPFGAPTQDVFRHEVAVLIGAGIGITPFASVLKTIWYKMQQNRLGALRRVQLVLVVRNTADMS</Hsp_qseq>
+      <Hsp_hseq>VWEAKLEDSGLRLGLVGNICLTFLFVPVTRGSS--VLQVFG--LTSEASVKYHIWLGHIVM--TLFSAHGICYIIYWASTHQLSEMLKWGK--TDISNLAGELALLSGLVLWIATFPKIRRKMFELFFYTHHFYILFVVFFVFHVGVSYACIMLP-----------------GFFLFMVGRFLRFLQSRSNVRLVSARVLPCETLELNFSKTKGLSYTPTSIMFVNVPSISKLQWHPFTITSSSNLEPEKISVAIKGEGSWSKKLYQMI--------------------------SSPNSVDRLN----------------------VSVEGPYGPPSTHFLRHDLLVMISGGSGITPFISIIRELIHTSESQKC-KTPEILLISVFKNSEDLT</Hsp_hseq>
+      <Hsp_midline>VW ++   +GL LG+ G I    L +PV R +   V  VFG  +  + ++  H    + ++  T+    G    +Y     Q+ + + W    T      G + L+  L+++     KIR++ FE F+YTHH   L +     H    +    LP                 G    ++ R +R ++SR   +L++  + P   LEL F K     Y     +F+NVP++S  QWHPFTI+S+   E   +SV I+  G W++ L Q++                          S P  ++ +N                      + ++GP+G P+    RH++ V+I  G GITPF S+++ + +  +  +      + L+ V +N+ D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14669</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9KN15|5.B.1.2.1 OXIDOREDUCTASE, PUTATIVE - Vibrio cholerae.</Hit_def>
+  <Hit_accession>14669</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.96409e-07</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GFTGHVMLVLMLLVYTTAHAKIRKQSFEAFWYTHHLVALILFCLYIHAVGCFVRGALPGQPVRCLGYYSWTWTIWGGIALLLERIVREIRSRRATKLIAVLLHPQGA-LELRFVKPSFRYKSGQWLFLNVPAVSPFQWHPFTISSAPEDPYVSVHIRQVGDWTRALGQLL</Hsp_qseq>
+      <Hsp_hseq>GEWGFYALIVLLVVSLWSAIK-----YKPFRLTHRLMAVVYLLIALHSV-ILLKKAYWGEPIYWLTMLFIVVGSWAACYSLLGLVGRQSRYPAHVKAFHYCPNSQTLDLTIQLDKPWLGHKAGQFAYLKFAGEEP---HPFTIACAHQGSQLRFLIKELGDFTTGLHQRL</Hsp_hseq>
+      <Hsp_midline>G  G   L+++L+V   +  K     ++ F  TH L+A++   + +H+V   ++ A  G+P+  L         W     LL  + R+ R     K      + Q   L ++  KP   +K+GQ+ +L      P   HPFTI+ A +   +   I+++GD+T  L Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>101</Statistics_hsp-len>
+      <Statistics_eff-space>2690679420</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

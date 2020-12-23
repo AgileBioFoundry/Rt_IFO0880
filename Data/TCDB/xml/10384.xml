@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>10384 gm1.6442_g_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>926</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>10384 gm1.6442_g_mRNA</Iteration_query-def>
+  <Iteration_query-len>926</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|692</Hit_id>
+  <Hit_def>gnl|TC-DB|A7EIH8|4.D.3.2.1 Putative uncharacterized protein OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) GN=SS1G_05121 PE=4 SV=1</Hit_def>
+  <Hit_accession>692</Hit_accession>
+  <Hit_len>875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.081</Hsp_bit-score>
+      <Hsp_score>1468</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>914</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>866</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>488</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>835</Hsp_align-len>
+      <Hsp_qseq>KQFLMSEHIYRRCEALGWFPDADWGNIVAVRATVGTAGSSSYASYPPANEVDGADVLLEGLATINAEAAVIVSSHVVRSILQTIDDSQERITLNDDVSIQILDTLEDLKCAKRHQYAAFIRSNLALVLWSDDVSTLIPNGQTISELMLEYIWKQQDEPTDVEDEAEKEDAAKKDDVDLEAAEEAQAEAFKRRPVGLLSPLHVGLALGINIFVSLNTLRILITEYLTDGYWPRLLIALAIPFQFCVSQFFCVIVVAIILQLLGPVKQMSMCNRYYSGVKPPR-MKGPLPDFTILMPVYKEGLESVLQPTIRSLQEAIKTYELQGGSVSILVCDDGMQLLNERDFATRKAFYEANAIAYVARPGHGKHYKRAGRFKKSSNLNVALELSIDVEKRMKA-RRPSRTPENPWTHEEEQALYEVCLREAVAETQRVIPAETEEEKEKPRTLGVWAAGNIRIGELILIIDSDTRVPADCFLDAASEMHWSPECSIIQHVSDVMIVANNFFENGIAFFTRLVNTSISWVVANGDVGCFVGHNAFIRWSALQEIAEWKEEEKRWQIWSESHVSEDFDCALRMLVAGYDVRWATYSNGGFQEGVSLSADDEINRWQKYAFGVSELLLHRFKDWPTKGPFTPMAKHFFWSSNLPIHYKFSSWAYMMSYYGISVAFPLSVAGYILYGLYIPSLDNAYLPSWKVNVSLFVVFGCASAFAFAILRYRSGQCGLHIAMWEQLKWTPFNTLFFMGLSIPVAQALLAHPIGYDMTWAATVKEATYATIFTELPAIFRKFRTTFALCFACIVMVVVFA---FIPIMEYQILDWVSLVPLLLVVLGHILYPFLL</Hsp_qseq>
+      <Hsp_hseq>KHEVMVNYLYQQQCSHLWVSDGS-GEIEGVLLR---KSRNTYMACPPQL---GTSPFAAACAALNVQCAMTVNSRVIKTFLQCSPNAVD-VPLLNGLRIQILPTVEDLPRARKLQFAAFVASEALLVVWDDEALHLVQRAKAIESELMELVWKTDEE---IEDEKKSPNTAT-----LEVDEESGRPLPETRGLHLQNTVLVALTIILIITTLGAGVRQVAIETDVDQNYTRLALLILTPVQVFFTLFFAQVIVGCLAQLFGPVQQMSINSKFYSANPPPRILDGNLPHITIQCPVYKEGLHSVIAPTVKSIKQAISTYELQGGSANMFINDDGLQIIDADERQARIDFYADHSIGWVARPKHGDNFTRKGKFKKASNMNFGLHISCMVEEKLALIQRPL-----DWTQADEAQAYGRCLTEALEDNGRA-----------------WADGNIRIGDYILLIDSDTRVPEDCLLDACSEMEQSPEVGIMQFSSGVMQVVNTYFENGITFFTNLIYTAIRYTVSNGDVAPFVGHNAILRWSAIQQVS-YEDEDGYEKFWSESHVSEDFDMSLRLQVNGYIIRLAAWAGEGFKEGVSLTVYDELARWEKYAYGCNELLFHPLRMWFYKGPFTPLFRSFLF-SNIRFTSKVTIISYIGTYYAIGAAWILTTANYFAIGWYNGYLDKYYVDSWKVWFSIVIVFNGLGNIALAVMRYRIGERSLGYALYENFKWTLMLAIFLGGLSLHVSQALLAHMFEIDMTWGATSKEAEFSNFFIEVPKVLKSFKFSMIFSLLGIIGIIVMATASFIP-YDWRIQDFVAILPMATVTTSHLLLPLAL</Hsp_hseq>
+      <Hsp_midline>K  +M  ++Y++  +  W  D   G I  V         ++Y + PP     G        A +N + A+ V+S V+++ LQ   ++ + + L + + IQIL T+EDL  A++ Q+AAF+ S   LV+W D+   L+   + I   ++E +WK  +E   +EDE +  + A      LE  EE+     + R + L + + V L + + I      +R +  E   D  + RL + +  P Q   + FF  ++V  + QL GPV+QMS+ +++YS   PPR + G LP  TI  PVYKEGL SV+ PT++S+++AI TYELQGGS ++ + DDG+Q+++  +   R  FY  ++I +VARP HG ++ R G+FKK+SN+N  L +S  VE+++   +RP       WT  +E   Y  CL EA+ +  R                  WA GNIRIG+ IL+IDSDTRVP DC LDA SEM  SPE  I+Q  S VM V N +FENGI FFT L+ T+I + V+NGDV  FVGHNA +RWSA+Q+++ +++E+   + WSESHVSEDFD +LR+ V GY +R A ++  GF+EGVSL+  DE+ RW+KYA+G +ELL H  + W  KGPFTP+ + F + SN+    K +  +Y+ +YY I  A+ L+ A Y   G Y   LD  Y+ SWKV  S+ +VF      A A++RYR G+  L  A++E  KWT    +F  GLS+ V+QALLAH    DMTW AT KEA ++  F E+P + + F+ +       I+ ++V A   FIP  +++I D+V+++P+  V   H+L P  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>105</Statistics_hsp-len>
+      <Statistics_eff-space>4615609456</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

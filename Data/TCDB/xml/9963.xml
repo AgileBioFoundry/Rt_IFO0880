@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>9963 CE146653_13514_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>695</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>9963 CE146653_13514_mRNA</Iteration_query-def>
+  <Iteration_query-len>695</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7607</Hit_id>
+  <Hit_def>gnl|TC-DB|P35056|3.A.20.1.5 Peroxisomal targeting signal receptor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PEX5 PE=1 SV=1</Hit_def>
+  <Hit_accession>7607</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>7.15841e-71</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>688</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>688</Hsp_align-len>
+      <Hsp_qseq>MGGAECSTSSNPLHSLLKQQQTDHSLHHGGFHAG---PSSSQGSSMRSYTGTPNQAEEADRFFQMQQQQAAAGGAGPLAMDQMRRELENVARGPAGAIKGDREWASQYHPAGSSLSPAEMARMEEQFRMQQHQGMPSDFAAEFRQQQHFPATSAAPAFAPAAPAAPASSSSAMYSRPGFAPSYGAYGGSGGMMGMRSFMPSASPSLAQQQSQQDAKGKGRFVELDDADWEAQFAKIGDATTAE-PAAKEAEQQQQPAEA-QKESETANLFEGEIPLDATESDQQLLKDLEATWASLKTQLNSSATSDAELAKWEAQFGSQFNDIHGSPLLDDD---DGEFLRTPDIRRAPMWTPENVDSFLQDQTPFPFNEENEYMQRTDPYADGMRLLAEGAPLSEAALAFEAACRQDESRAEAWKAAGETWAADEREVKGIRALEKAVACGGPAGVGAWLSLAVAYVNEGQELRALATLEKWLSLAYPSISLPPLDTTQIRSPWDASNRVIDLFLAAAQAGPQARAPGQSDELGVVDPDVQVGLGVLFYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAAEHLLAAIQGQMTREEVAASQKGKGKDVDLGRLPEDGSANLFHTLRRAFLCMERHDLADKAMPGADLNEFR</Hsp_qseq>
+      <Hsp_hseq>MDVGSCSVGNNPLAQLHKHTQQNKSLQFNQKNNGRLNESPLQGTNKPGISEAFISNVNAISQENMANMQRFINGE-PLIDDKRRMEI--------GPSSGRLPPFSNVHSLQTSANPTQIKGVNDI----------SHWSQEFQGSNSIQNRNADTGNSEKAWQRGSTTASSRFQYPNTMMNNYAYASMNSLSGSRLQSPAF---MNQQQSGRSKEGVN---EQEQQPWTDQFEKLEKEVSENLDINDEIEKEENVSEVEQNKPETVEKEEGVY-------GDQYQSDFQEVWDSIH--------KDAE-------------EVLPSELVNDDLNLGEDYLKYLGGR-------------VNGNIEYAFQSNNEYFNNPNAYKIGCLLMENGAKLSEAALAFEAAVKEKPDHVDAWLRLGLVQTQNEKELNGISALEECLKLD-PKNLEAMKTLAISYINEGYDMSAFTMLDKWAETKYPEI------WSRIKQQDDKFQKEKGFTHIDMNAHITKQFLQLANNLSTIDPEIQLCLGLLFYTKDDFDKTIDCFESALRVNPNDELMWNRLGASLANSNRSEEAIQAYHRALQLKPSFVRARYNLAVSSMNIGCFKEAAGYLLSV----LSMHEVNTNNK-KG---DVGSLLNTYNDTVIETLKRVFIAMNRDDLLQEVKPGMDLKRFK</Hsp_hseq>
+      <Hsp_midline>M    CS  +NPL  L K  Q + SL     + G    S  QG++    +        A     M   Q    G  PL  D+ R E+        G   G     S  H   +S +P ++  + +           S ++ EF+        +A    +  A    ++++S+ +  P    +  AY     + G R   P+    + QQQS +  +G     E +   W  QF K+    +       E E+++  +E  Q + ET    EG           Q   D +  W S+          DAE             ++  S L++DD     ++L+    R             +     + F   NEY    + Y  G  L+  GA LSEAALAFEAA ++     +AW   G     +E+E+ GI ALE+ +    P  + A  +LA++Y+NEG ++ A   L+KW    YP I       ++I+   D   +          A    +    ++ L  +DP++Q+ LG+LFY+  ++DK  DCFE+AL V PND L+WNRLGA+LANS   E+AIQAY +AL L+P+F RA YNL VS +NIGC++EAA +LL+     ++  EV  + K KG   D+G L    +  +  TL+R F+ M R DL  +  PG DL  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5105</Hit_id>
+  <Hit_def>gnl|TC-DB|O09012|3.A.20.1.1 Peroxisomal targeting signal 1 receptor OS=Mus musculus GN=Pex5 PE=1 SV=2</Hit_def>
+  <Hit_accession>5105</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.72243e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>673</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>136</Hsp_gaps>
+      <Hsp_align-len>703</Hsp_align-len>
+      <Hsp_qseq>ECSTSSNPLHSLLKQQQTDHSLHHGGFHAGP---SSSQGSSMRSYTGTPNQAEEADRFFQMQQQQAAAGGAGPLAMDQMRRELENVA---------RGPAGA-IKGDREWASQYHPAGSSLSPAEMARMEEQFRMQQHQGMPSDFAAEFRQQQHFPATSAAPAFAPAAPAAPASSSSAMYSRPGFAPS---YGAYGGSGGMMGMRSFMPSA--SPSLAQQQSQQDAK--GKGRFVELDDADWEAQFAKIGDATTAEPAAKEAEQQQQPAEAQKESET-------ANLFEGEIPLDATESDQQLLKDLEATWASLKTQLNSSATSDAELAKWEAQFGSQFNDIHGSPLLDDDDGEFLRTPDIRRAPMWTPENVDSFLQDQTPFPFNEENEYMQRTDPYADGMRLLAEGAPLSEAALAFEAACRQDESRAEAWKAAGETWAADEREVKGIRALEKAVACGGPAGVGAWLSLAVAYVNEGQELRALATLEKWL--SLAYPSISLPPLDTTQIRSPWDASNRVI-------------DLFLAAAQAGPQARAPGQSDELGVVDPDVQVGLGVLFYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAAEHLLAAIQGQMTREEVAASQKGKGKDVDLGRLPEDGSANLFHTLRRAFLCMERHD</Hsp_qseq>
+      <Hsp_hseq>ECG-GANPLMKLATHFTQDKALRQEGLRPGPWPPGASAAETVSKPLGVGTEDELVSEFLQDQNATLVSRAPQTFKMDDLLAEMQEIEQSNFRQAPQRAPGVADLALSENWAQEFLAAGDAVDVAQDYN-------------ETDWSQEFIAEVTDPL-SVSPARWAEEYLEQSEEKLWLGDQEGSSTADRWYDEYHPEEDLQHTASDFVSKVDDPKLANSEFLKFVRQIGEGQ-VSLESA------AGSGGAQ-AEQWAAEFIQQQGTSEAWVDQFTRPGNKIAALQVEFERAKSAIESDVDF-------WDKLQAELEEMAKRDAEAHPW---------------LSDYDD--------------LTSASYDKGYQ------FEEENPLRDHPQPFEEGLHRLEEG-DLPNAVLLFEAAVQQDPKHMEAWQYLGTTQAENEQELLAISALRRCLELK-PDNRTALMALAVSFTNESLQRQACETLRDWLRYSPAYAHLVAPGEEGATGAGP---SKRILGSLLSDSLFLEVKDLFLAAVRLDPTS-----------IDPDVQCGLGVLFNLSGEYDKAVDCFTAALSVRPNDYLMWNKLGATLANGNQSEEAVAAYRRALELQPGYIRSRYNLGISCINLGAHREAVEHFLEALNMQ---------RKSRGPRGEGGAMSE----NIWSTLRLALSMLGQSD</Hsp_hseq>
+      <Hsp_midline>EC   +NPL  L      D +L   G   GP    +S   ++    G   + E    F Q Q     +       MD +  E++ +          R P  A +     WA ++  AG ++  A+                 +D++ EF  +   P  S +PA         +     +  + G + +   Y  Y     +    S   S    P LA  +  +  +  G+G+ V L+ A      A  G A  AE  A E  QQQ  +EA  +  T       A   E E    A ESD          W  L+ +L   A  DAE   W               L D DD               T  + D   Q      F EEN       P+ +G+  L EG  L  A L FEAA +QD    EAW+  G T A +E+E+  I AL + +    P    A ++LAV++ NE  + +A  TL  WL  S AY  +  P  +      P   S R++             DLFLAA +  P +           +DPDVQ GLGVLF  + EYDKA DCF AALSVRPND+L+WN+LGATLAN    E+A+ AYR+AL+L+P + R+ YNLG+SC+N+G ++EA EH L A+  Q         +K +G   + G + E    N++ TLR A   + + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15256</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9U7C3|3.A.20.1.3 Peroxisome targeting signal 1 receptor PEX5 OS=Trypanosoma brucei PE=1 SV=1</Hit_def>
+  <Hit_accession>15256</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>9.15562e-43</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>676</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>634</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>626</Hsp_align-len>
+      <Hsp_qseq>QMQQQQAAAGGAGPLAMDQMRRELENVARGPAGAIKGDREWASQYHPAGSSLSPAEMARMEEQFRMQQHQGMPSDFAAEFRQQQHFPATSAAPAFAPAAPAAPASSSSAMYSRPGFAPSYGAYGGSGGMMGMRSFMPSASPSLAQQQSQQDAKGKGRFVELDDADWEAQFAKIGDATTAEPAAKEAEQQQQPAEAQK-----ESETANLFEGEIPLDATESDQQLLKDLEATWASLKTQLNSSATSDAELAKWEAQFGSQFNDIHGSPLLDDDDGEFLRTPDI----RRAPMWTPEN-----VDSFLQDQTPFPFNEENEYMQRTDPYADGMRLLAEGAPLSEAALAFEAACRQDESRAEAWKAAGETWAADEREVKGIRALEKAVACGGPAGVGAWLSLAVAYVNEGQELRALATLEKWLSLAYPSISLPPLDTTQIRSPWDASNRVI---DLFLAAAQAGPQARAPGQSD-ELGVVDPDVQVGLGVLFYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAAEHLLAAIQGQMTREEVAASQKGKGKDVDLGRLPEDGSANLFHTLRRAFLCMERHDLAD</Hsp_qseq>
+      <Hsp_hseq>QHQQMMMQRQHNDALMIQQQHRDMEEAFRASA------RAGAPQQANAGPLMMPPGPMMMAGGMAPMMHAG--GFMMGGMPQMMPCAPMGMNMGMAPVATMSPATTNTVSGAREGATAVSSAAPGVVDLGGDSAW----AEKLHQAEWGQDYK-----------DVEVHTVEGSTAQTVEEHAKTSKFYEFMDKIRKKELLVDEDSGEVVQGPGPDPDVEADTEYLARLAA--------MEGINVPPSVMDHMQGQDGVQRGT--------DEDMEGMMGDDVYDPSADVEQWAQEYAQMQAMQERLQNNTDYPFEANNPYMYHENPMEEGLSML-KLANLAEAALAFEAVCQKEPEREEAWRSLGLTQAENEKDGLAIIALNHARMLD-PKDIAVHAALAVSHTNEHNANAALASLRAWL-LSQPQYE--QLGSVNLQADVDIDDLNVQSEDFFFAAPNEYRECRTLLHAALEMNPNDAQLHASLGVLYNLSNNYDSAAANLRRAVELRPDDAQLWNKLGATLANGNRPQEALDAYNRALDINPGYVRVMYNMAVSYSNMSQYDLAAKQLVRAIYMQV------------GGTTPTGEASREATRSMWDFFRMLLNVMNRPDLVE</Hsp_hseq>
+      <Hsp_midline>Q QQ          L + Q  R++E   R  A      R  A Q   AG  + P     M        H G          Q             AP A  +PA++++   +R G      A  G   + G  ++    +  L Q +  QD K           D E    +   A T E  AK ++  +   + +K     + ++  + +G  P    E+D + L  L A        +       + +   + Q G Q           D+D E +   D+         W  E      +   LQ+ T +PF   N YM   +P  +G+ +L + A L+EAALAFEA C+++  R EAW++ G T A +E++   I AL  A     P  +    +LAV++ NE     ALA+L  WL L+ P      L +  +++  D  +  +   D F AA     + R    +  E+   D  +   LGVL+  ++ YD A      A+ +RP+D  LWN+LGATLAN   P++A+ AY +ALD+ P + R +YN+ VS  N+  Y  AA+ L+ AI  Q+            G     G    + + +++   R     M R DL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14361</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9FMA3|3.A.20.1.2 Peroxisomal targeting signal type 1 receptor OS=Arabidopsis thaliana GN=At5g56290 PE=1 SV=1</Hit_def>
+  <Hit_accession>14361</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.70056e-36</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>625</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>685</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>EAQFGSQFNDIHGSPLLDDDDGEFLRTP-DIRRAPMWTPENVDSFLQDQTP-------FPFNEENEYMQRTDPYADGMRLLAEGAPLSEAALAFEAACRQDESRAEAWKAAGETWAADEREVKGIRALEKAVACGGPAGVGAWLSLAVAYVNEGQELRALATLEKWLSL--AYPSISLPPLDTTQIRSPWDASNRVIDLFLAAAQAGPQARAPGQSDELGVVDPDVQVGLGVLFYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAAEHLLAAI</Hsp_qseq>
+      <Hsp_hseq>EDQWVNEFSKLN----VDDWIDEFAEGPVGDSSADAWA-NAYDEFLNEKNAGKQTSGVYVFSDMNPYVGHPEPMKEGQELFRKGL-LSEAALALEAEVMKNPENAEGWRLLGVTHAENDDDQQAIAAMMRAQEAD-PTNLEVLLALGVSHTNELEQATALKYLYGWLRNHPKYGAIAPPELADSLYHAD------IARLFNEASQLNPE-------------DADVHIVLGVLYNLSREFDRAITSFQTALQLKPNDYSLWNKLGATQANSVQSADAISAYQQALDLKPNYVRAWANMGISYANQGMYKESIPYYVRAL</Hsp_hseq>
+      <Hsp_midline>E Q+ ++F+ ++    +DD   EF   P     A  W     D FL ++         + F++ N Y+   +P  +G  L  +G  LSEAALA EA   ++   AE W+  G T A ++ + + I A+ +A     P  +   L+L V++ NE ++  AL  L  WL     Y +I+ P L  +   +       +  LF  A+Q  P+             D DV + LGVL+  + E+D+A   F+ AL ++PND+ LWN+LGAT ANS    DAI AY++ALDL+P + RA  N+G+S  N G Y+E+  + + A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2717</Hit_id>
+  <Hit_def>gnl|TC-DB|D8PEM7|1.B.55.2.2 Putative uncharacterized protein OS=Candidatus Nitrospira defluvii GN=NIDE1962 PE=4 SV=1</Hit_def>
+  <Hit_accession>2717</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.07459e-05</Hsp_evalue>
+      <Hsp_query-from>513</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GPQARAPGQSDELGVVDPDVQVGLGVLFYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAA</Hsp_qseq>
+      <Hsp_hseq>GMQVYLPG-SAQAQPSEGNVLVAQAVLAYESKRYDEALNLLTRARTHDPHNARGLYYLGLTQLALQHPDDAIEPLEAARQLHPTDVNVQYQLGVAYLAANRYDEAS</Hsp_hseq>
+      <Hsp_midline>G Q   PG S +    + +V V   VL Y +  YD+A +    A +  P++      LG T     HP+DAI+    A  L PT     Y LGV+ L    Y EA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9793</Hit_id>
+  <Hit_def>gnl|TC-DB|Q12118|3.A.21.1.1 Small glutamine-rich tetratricopeptide repeat-containing protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SGT2 PE=1 SV=1</Hit_def>
+  <Hit_accession>9793</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>5.48355e-05</Hsp_evalue>
+      <Hsp_query-from>542</Hsp_query-from>
+      <Hsp_query-to>593</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>SNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDL</Hsp_qseq>
+      <Hsp_hseq>SLKEYDQAVKDAESAISIDPSYFRGYSRLGFAKYAQGKPEEALEAYKKVLDI</Hsp_hseq>
+      <Hsp_midline>S  EYD+A    E+A+S+ P+ F  ++RLG      G PE+A++AY+K LD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11998</Hit_id>
+  <Hit_def>gnl|TC-DB|Q6ZXV5|8.A.95.1.1 Transmembrane and TPR repeat-containing protein 3 OS=Homo sapiens GN=TMTC3 PE=1 SV=2</Hit_def>
+  <Hit_accession>11998</Hit_accession>
+  <Hit_len>915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000257002</Hsp_evalue>
+      <Hsp_query-from>540</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>FYSNSEYDKAKDCFEAALSVRPNDFLLWNRLGATLANSGHPEDAIQAYRKALDLRPTFTRAIYNLGVSCLNIGCYQEAAEHLLAA</Hsp_qseq>
+      <Hsp_hseq>FHRNWDWESEYTLFMSALKVNKNNAKLWNNVGHALENEKNFERALKYFLQATHVQPDDIGAHMNVGRTYKNLNRTKEAEESYMMA</Hsp_hseq>
+      <Hsp_midline>F+ N +++     F +AL V  N+  LWN +G  L N  + E A++ + +A  ++P    A  N+G +  N+   +EA E  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>103</Statistics_hsp-len>
+      <Statistics_eff-space>3347900896</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

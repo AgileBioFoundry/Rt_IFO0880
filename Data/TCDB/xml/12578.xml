@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>12578 gm1.1483_g_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>12578 gm1.1483_g_mRNA</Iteration_query-def>
+  <Iteration_query-len>793</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13341</Hit_id>
+  <Hit_def>gnl|TC-DB|Q8TAG9|1.F.2.1.2 Exocyst complex component 6 OS=Homo sapiens GN=EXOC6 PE=1 SV=3</Hit_def>
+  <Hit_accession>13341</Hit_accession>
+  <Hit_len>804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>7.38911e-84</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>DIEALSPILVNIH--RSRQQDAYLRALKAFVAEKEKEIEAVCGRNYQDFVGSVSALLRVRQGTVSLKHRVVELNDDVQKSGAGLADKKKALLDARRVGQNIDETIDTLQACLRVLDMASKVQNLIQNAKYFSALRQLEDLQATHLKPVLHYPFATLMLSSVPDLRNSIRDAVTRSLKAWMYEARETSRSVGKGAL-DAMEQRGRRWAARKRKDASLG----LAKINGPIE---------LGLSERHEYNVLDNDAVKIDFKPLYTCIHIYDTLDAREELQLSYQADRRAQAGLLLSSTSSLNPFSLPALSTLLEEIVGFFLIESHVLRTTNSFRSEQDVEDLWNGMCERVVKIVDEGLAGCEEAEVFLGTKFKVLTFVQTLEGYGYSVSHLNSLLLTLFERYSQLLQRTFSADFEKIVVDDDHQPMVINDEEEFGKVVSVTWLPSSGEWSAEQLKSSGFPLALPFSQTYPLCCVDIRSFTEQYYQFAEGFAEHHRDIDDVLRKALDNLLIKQVSENIQRRLNMIS----NLSQLAQIVVNVLFFQTACSDLETLL--VTLRATQRGGTIHLDSLASFQQTLTQTQDRMVAQISQKVDTFFEEAQYPWTATQPPPPHTANDASGYLQDLIDYVSTVMMSVLIQLPEFAKDYVYRGALARCATVLQSYLTDKEPRQISDAGLLHLARDVRWL-----VNHVKTLGNDRLADVFTELNQLVTLLTATPNITDYLDPQARSTRFHRVQPRALQTVLIKL</Hsp_qseq>
+      <Hsp_hseq>DTACVGPTLRSVYDDQPNAHKKFMEKLDACIRNHDKEIEKMCNFHHQGFVDAITELLKVRTDAEKLKVQVTDTNRRFQDAGKEVIVHTEDIIRCRIQQRNITTVVEKLQLCLPVLEMYSKLKEQMSAKRYYSALKTMEQLENVYFPWVSQYRFCQLMIENLPKLREDIKEISMSDLKDFLESIRKHSDKIGETAMKQAQHQKTFSVSLQKQNKMKFGKNMYINRDRIPEERNETVLKHSLEEEDENEEEILTVQDL-VDFSPVYRCLHIYSVLGDEETFENYYRKQRKKQARLVLQPQSNMHE-TVDGYRRYFTQIVGFFVVEDHILHVTQGLVTRAYTDELWNMALSKIIAVLRAHSSYCTDPDLVLELKNLTVIFADTLQGYGFPVNRLFDLLFEIRDQYNETLLKKWAGVFRDIFEEDNYSPIPVVNEEEYKIVI------SKFPFQDPDLEKQSFPKKFPMSQSVPHIYIQVKEFIYASLKFSESLHRSSTEIDDMLRKSTNLLLTRTLSSCL---LNLIRKPHIGLTELVQIIINTTHLEQACKYLEDFITNITNISQETVHTTRLYGLSTFKDARHAAEGEIYTKLNQKIDEFVQLADYDWTMSEPD-----GRASGYLMDLINFLRSI-FQVFTHLPGKVAQTACMSACQHLSTSLMQMLLDSELKQISMGAVQQFNLDVIQCELFASSEPVPGFQGDTLQLAFIDLRQLLDLFMVWDWSTYLADYGQPASKYLRVNPNTALTLLEKM</Hsp_hseq>
+      <Hsp_midline>D   + P L +++  +      ++  L A +   +KEIE +C  ++Q FV +++ LL+VR     LK +V + N   Q +G  +    + ++  R   +NI   ++ LQ CL VL+M SK++  +   +Y+SAL+ +E L+  +   V  Y F  LM+ ++P LR  I++     LK ++   R+ S  +G+ A+  A  Q+    + +K+     G    + +   P E         L   + +E  +L    + +DF P+Y C+HIY  L   E  +  Y+  R+ QA L+L   S+++  ++        +IVGFF++E H+L  T    +    ++LWN    +++ ++    + C + ++ L  K   + F  TL+GYG+ V+ L  LL  + ++Y++ L + ++  F  I  +D++ P+ + +EEE+  V+      S   +    L+   FP   P SQ+ P   + ++ F     +F+E       +IDD+LRK+ + LL + +S  +   LN+I      L++L QI++N    + AC  LE  +  +T  + +   T  L  L++F+      +  +  +++QK+D F + A Y WT ++P        ASGYL DLI+++ ++   V   LP          A    +T L   L D E +QIS   +     DV           V     D L   F +L QL+ L       T   D    ++++ RV P    T+L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14824</Hit_id>
+  <Hit_def>gnl|TC-DB|Q9LXX6|1.F.2.1.3 Exocyst complex component SEC15A OS=Arabidopsis thaliana GN=SEC15A PE=3 SV=2</Hit_def>
+  <Hit_accession>14824</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>5.98765e-47</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>GDIEALSPILVNIHRSRQQDAYLRALKAFVAEKEKEIEAVCGRNYQDFVGSVSALLRVRQGTVSLKHRVVELNDDVQKSGAGLADKKKALLDARRVGQNIDETIDTLQACLRVLDMASKVQNLIQNAKYFSALRQLEDLQATHLKPVLHYPFATLMLSSVPDLRNSIRDAVTRSLKAWMYEARETSRSVGKGALD---AMEQRGRRWAARKRK---DASLGLAKINGPIELGLSERHEYNVLDNDAVKIDFKPLYTCIHIYDTLDAREELQLSYQADRRAQAGLLLSSTSSLNPFSLPALSTLLEEIVGFFLIESHVLRTTNSFRSEQDVEDLWNGMCERVVKIVDEGLAGCEEAEVFLGTKFKVLTFVQTLEGYGYSVSHLNSLLLTLFERYSQLLQRTFSADFEKIVVDDDHQPMVINDEEEFGKVVSVTWLPSSGEWSAEQLKSSGFPLALPFSQTYPLCCVDIRSFTEQYYQFAEGFAEHHRDIDDVLRKALDNLLIKQVSENIQRRLNMISN----LSQLAQIVVNVLFFQTACSDLETLLVTLRATQRGGTIHLDSLASFQQTLTQTQD----RMVAQISQKVDTFFEEAQ-YPWTATQ-PPPPHTANDASGYLQDLIDYVSTVMMSVLIQLPEFAKDYVYRGALARCA-TVLQSYLTDKEPRQISDAGLLHLARDVRWLVNHV-KTLGNDRLADVF---------TELNQLVTLLTATPNITDYLDPQARSTRFHRVQPRALQTVLIK</Hsp_qseq>
+      <Hsp_hseq>GNGDDVGPLVRHAFEMGRPEPLVHQLKNVARKKEAEIEDLCKTHYEEFIVAVDELRGVLVDAEELKSDLASDNFRLQEVGSALLVKLEELLESYAVKKNVTEAIKMSKICVQALELCVKCNSYISEGQFYHALKTMDLIEKSYLKLIPLKVLKLVIERRIPVIKTHIEKKVCSQFNEWLVHIRSSSKNIGQTAIGLTASARQREEEMLERQRRAEEQNTGGLGELAYTLDVEDSEQ-------DSVLKFDLTPLYRAYHIHTILGVPERFRDYYYENRLLQLQSDLQITYT-QPF-VESYQTFLAQVAGYFIVEDRVIRTAGDFLLADQVETMWETAISKIVAILENQFARMDSPTHLLLVKDYVTLLGTTLRQYGYEVGPVLDALDKSRDKYHELLLEECRKQIVTAITEDTYQQMVIKKEADYENNVLSFNLQTSDIMPA-------FTYIAPFSSMVPDVCRIIRSYIKGSVDYLSYGV--NTNFFSVLRKYLDKILIDVLNEVI---LETISNNSIGVSQAMQIAANISFLEKASDYFLRHAAQLCGIPSRSVERPQASLAAKVVLKTSRDAAYLALLNVVNTKLDEFMKLTENVNWTTEEMPQGPHE------YINEVVIYLETVMSTAQQILPMDALYKVGVGAIEHISNSIVSTFLSDSIKRFNANA-VSAINHDLRVIENFADERYHSSGLNEIYKEGSFRSYLVEARQLINLLSSS-QPENFMNPVIRERNYNTLDYKKVATICEK</Hsp_hseq>
+      <Hsp_midline>G+ + + P++ +     + +  +  LK    +KE EIE +C  +Y++F+ +V  L  V      LK  +   N  +Q+ G+ L  K + LL++  V +N+ E I   + C++ L++  K  + I   +++ AL+ ++ ++ ++LK +       ++   +P ++  I   V      W+   R +S+++G+ A+    +  QR      R+R+     + GL ++   +++  SE+       +  +K D  PLY   HI+  L   E  +  Y  +R  Q    L  T +  PF + +  T L ++ G+F++E  V+RT   F     VE +W     ++V I++   A  +     L  K  V     TL  YGY V  +   L    ++Y +LL           + +D +Q MVI  E ++   V    L +S    A       F    PFS   P  C  IRS+ +    +       + +   VLRK LD +LI  ++E I   L  ISN    +SQ  QI  N+ F + A          L            +  + +  L  ++D     ++  ++ K+D F +  +   WT  + P  PH       Y+ +++ Y+ TVM +    LP  A   V  GA+   + +++ ++L+D   R  ++A +  +  D+R + N   +   +  L +++          E  QL+ LL+++    ++++P  R   ++ +  + + T+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7080</Hit_id>
+  <Hit_def>gnl|TC-DB|P22224|1.F.2.1.1 Exocyst complex component SEC15 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SEC15 PE=1 SV=2</Hit_def>
+  <Hit_accession>7080</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.58259e-34</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>773</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>874</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>99</Hsp_gaps>
+      <Hsp_align-len>767</Hsp_align-len>
+      <Hsp_qseq>QGTV--SLKHRVVELNDDVQKSGAGLADKKKALLDARRVGQNIDETIDTLQACLRVLDMASKVQNLIQNAKYFSALRQLEDLQATHLKPVLHYPFATLM--LSSVPDLRNSIRDAVTRSLKAWM-YEARETSRSVGKGALDAMEQRGRRWAARKRKDASLGLAKINGPIELGLSERH--------EYNVLDN--DAVKIDFKPLYTCIHIYDTLDAREELQ---------------LSYQADRRAQA-----GLLLSSTSSLNPF----SLPALSTLLEEIVGFFLIESHVLRTTNSFRSEQD---VEDLWNGMCERVVK----IVDEGLAGCEEAEVFLGTKFKVLTFVQTLEGYGYSVSHLNSLLLTLFERYSQLLQRTFSADFEKIVVDDDHQPMVINDEEEFGKVVSVTWLPSSGEWS-AEQLKSSGFPLALPFSQTYPLCCVDIRSFTEQYYQFAEGFAEHH-RDIDDVLRKALDNLLIKQVSENIQRRLNMISNLSQLAQIVVNVLFFQTACSDLETLLVTLRATQRGG-TIHLDSLASFQQTLTQTQDRMVAQISQKVDTFFEEAQYPWTATQPPPPHTANDASGYLQDLIDYVSTVMMSVLIQLPEFAKDYVYRGALARCATVLQSYLTDKEPRQISDAGLLHLARDVRWLVNHVKTL----------------------------GND----------RLADVFTELNQLVTLLTATPNITDYLDPQARSTRFHRVQPRALQTVLIKLLTFYNSPQGS</Hsp_qseq>
+      <Hsp_hseq>QGMVQDTLSSEISKFQIRLSESANELIVKKQMYVNNKKISLKISEATILITKVVRILELSSKCQELITERKFFKVLQNLDSLEKLYLQEFKNYNFQFLIEIYNSIPFLQKVTKDECINLIRNSLNLNLGKNLIKVGQEFVAIYENELLPQWLETRSKMKLTNFKFNSPIEISMRDESFLAKLNLGEFFQLDDFHDSIMI-FQNLNELSVLSGEFNKEYELRKTKLMYPLIWKKNKTAAYQMDSLLRGTGTTPGSTAHDVSTDDPFTQSLSLHFLQDYFLKILGFLLYDINLNKATEFILVDNNYNSTNEFWDGLMDRLSPYLSYFIDEKL---KTEEDMIKLKDFLCIYVAILENFKLNIEPLYKILVSIFEKFCSVSLRAFDDEFQILLNDDDFMPLSINDKTLYEKVLKICWMKEGEHLSLPDPTNGEPFAVTLPFSPLYPMTCTLAKKTYSKITAFLSIFYRHELHTLNNILVKTMDDIFNDIVNKKIRSKLESTSR-EEIAQILVNLDYFIIAAKEFSNFMTRENILQNPDMEIRLSSIKYLAESRKLAETKLIELIDSKISDILETIEIDWQITE-----VRQDPDISIIDLAQFLEMMFASTLQNLPYSVQTLLIFREFDSLTRQFMGLLLHDTPSTITHESIMNFEVDVNYLESIIPRIFPSTPGTIDSNGYQSPMTPSTPTFPNANGVDAPTLFENNIKSLEATFMELKQCIELLKTQGK--DYNEPEIRLRKYSRIRQEDAALLLSKIQHFVSSVEGA</Hsp_hseq>
+      <Hsp_midline>QG V  +L   + +    + +S   L  KK+  ++ +++   I E    +   +R+L+++SK Q LI   K+F  L+ L+ L+  +L+   +Y F  L+   +S+P L+   +D     ++  +     +    VG+  +   E          R    L   K N PIE+ + +          E+  LD+  D++ I F+ L     +    +   EL+                +YQ D   +      G      S+ +PF    SL  L     +I+GF L + ++ + T     + +     + W+G+ +R+       +DE L   +  E  +  K  +  +V  LE +  ++  L  +L+++FE++  +  R F  +F+ ++ DDD  P+ IND+  + KV+ + W+      S  +      F + LPFS  YP+ C   +    +   F   F  H    ++++L K +D++    V++ I+ +L   S   ++AQI+VN+ +F  A  +    +      Q     I L S+    ++    + +++  I  K+    E  +  W  T+        D    + DL  ++  +  S L  LP   +  +               L    P  I+   +++   DV +L + +  +                            G D           L   F EL Q + LL       DY +P+ R  ++ R++      +L K+  F +S +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>104</Statistics_hsp-len>
+      <Statistics_eff-space>3884986443</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/Users/joonhoonkim/db/tcdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>13131 gm1.1985_g_mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>751</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>13131 gm1.1985_g_mRNA</Iteration_query-def>
+  <Iteration_query-len>751</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10160</Hit_id>
+  <Hit_def>gnl|TC-DB|Q1P9T1|2.A.108.1.7 Fet3 protein - Phanerochaete chrysosporium (White-rot fungus) (Sporotrichum pruinosum).</Hit_def>
+  <Hit_accession>10160</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>2.80721e-62</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>713</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>EYWWEVT----EHPGALDGYDRPMLVVNGQYPG--------DTVVVHVTNSLDEPVTIHWHGLFQNGTLWEDGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKNDPLKRGRDFDIDQIILLHDHYHRRSNEITDGLLSAGGFNGSFIAPSPQSNVI----NGAGLYDCSFAAANATCRQKTQRDLPELRFPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPVHRIPIAIAQRYSAILDTSGDETGDAFYLRAQINTGCLGLPFPDLDPQARLVVRI--GEDCDDLGQALPTSADWNDPATGNCTDLDAANLHPRIPRDAPSSASQVLVFNSSF-ALPQNIFKWTLNDQTFENFAYDPLLQRVARGESIPTGRV---AVVTAGHLEVVDLVIQNIQGADHPFHLHGPQMYVLSRGPGLIT--PEQASRLRHNLTNPIRRDVITVSPGTWQVVRLVADIPGVHAFHCHILWHQIQGLLGALIIEP-DVIRTFQIPQ---DNLALCN---GGNAS</Hsp_qseq>
+      <Hsp_hseq>EVWWNITYVQQANPDGLQ--PRRVIGINGTWPPPPIDVQSTDDLLVHAYNSLDQPMTLHHHGMFFNSTSWMDGALAISQCGVPPGQSFDYTVPISTSGQHGTYWVHSHASGQYVDGLRAPVVIH----PPQEKHQYDEEFTVVLGDWYHDEHEVLLKQFISVANPGGA--EPVPDSALIYFAQNASYLGPISGTHPDPVTAAVGFNENATLPFQPGKTYRLRIVNTSAFAMFYFWIDGHDMRIIEVDGTDVEESPTDLITVTVAQRYS-ILVTARNDTSQNWAIHANMDTDMFDTVPPALNPNITSSVTYDPSKPVTDLG-TIDTYHDIDDMA------LVPLDVEPMLP------STRTIPLEVTFDTMDDGTNRAMFNGQTFVSPLVPTVMSEMSLGDNATVAQAYGPFSFVLNHLEVVDILLQNGDAGKHPFHLHGHKFQIVQRSTDYTSDDPTLNPPINETQVNPIRRDTVQVPAGEGVTLRVVADNPGAWIFHCHIEWHLQAGLAVTFIEAPLEAQARNAIPQVMYDQCAMLNMPSSGNAA</Hsp_hseq>
+      <Hsp_midline>E WW +T     +P  L    R ++ +NG +P         D ++VH  NSLD+P+T+H HG+F N T W DG   ++QC + PG ++ Y  PI+   Q+GT+W H+H    Y+DG+  P +IH    P +    +D +  ++L D YH     +    +S     G+   P P S +I    N + L   S    +         +   L F P +  RLR +N  A  + +  +D H++ ++E D T     P   I + +AQRYS IL T+ ++T   + + A ++T       P L+P     V     +   DLG  + T  D +D A      L   ++ P +P      +++ +    +F  +     +   N QTF +     ++  ++ G++    +          HLEVVD+++QN     HPFHLHG +  ++ R     +  P     +     NPIRRD + V  G    +R+VAD PG   FHCHI WH   GL    I  P +      IPQ   D  A+ N    GNA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8107</Hit_id>
+  <Hit_def>gnl|TC-DB|P43561|2.A.108.1.4 Iron transport multicopper oxidase FET5 precursor (EC 1.-.-.-) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>8107</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.06577e-55</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>715</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>540</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>556</Hsp_align-len>
+      <Hsp_qseq>VTEHPGALDGYDRPMLVVNGQYP--------GDTVVVHVTNSLDE--PVTIHWHGLFQNGTLWE----DGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKNDPLKRGRDFDIDQIILLHDHYHRRSNEITDGLLSAGGFNGSFIAPSPQSNVINGAGLYDCSFAAANATCRQKTQRDLPELRFPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPVHRIPIAIAQRYSAILDTSGDETGDAFYLRAQINTGCLGLPFPDLDPQARLVVRIGEDCDDLGQALPTSADWNDPATGNCTDLDAAN----LHPRIPRDAPSSASQVLVFNSSFALPQNIFKWTLNDQTFENFAY----DPLLQ------RVARGESIPTGRVAVVTAGHLEVVDLVIQNIQGADHPFHLHGPQMYVLSRGPGLITPE---------------QASRLRHNLTNPIRRDVITVSPGTWQVVRLVADIPGVHAFHCHILWHQIQGLLGALIIEPDVIRTFQIPQDN-LALCNGGNASVI</Hsp_qseq>
+      <Hsp_hseq>VTANPDGL--HEKRMIGFNGEWPLPDIHVEKGDRVELYLTNGFQDNTATSLHFHGLFQNTSLGNQLQMDGPSMVTQCPIVPGQTYLYNFTVP--EQVGTFWYHAHMGAQYGDGMRGAFIIHDPEEPF----EYDHERVITLSDHYHENYKTVTKEFLSR--YNPTGAEPIPQNILFNN---------TMNVT-----------LDFTPGETYLFRFLNVGLFVSQYIILEDHEMSIVEVDGVYVKPNFTDSIYLSAGQRMSVLIKAKDKMPTRNYAMMQIMDETMLDVVPPELQLNQTIQMR-------YGHSLPEARALN---IEDC-DLDRATNDFYLEPLIERDLLAHYDHQIVMDVRMVNLGDGVKYAF----FNNITYVTPKVPTLTTLLTSGKLASDPRIYGDNINAQLLKHNDIIEVVLNNYDSGRHPFHLHGHNFQIVQKSPGFHVDEAYDESEQDEMTVPYNESAPLQPFPERPMVRDTVVLEPSGHVVLRFRADNPGVWYFHCHVDWHLQQGLASVFIEAPVLLQEREKLNENYLDICKAADIPVV</Hsp_hseq>
+      <Hsp_midline>VT +P  L  +++ M+  NG++P        GD V +++TN   +    ++H+HGLFQN +L      DGPS VTQCPI PG TY Y+F +   EQ GTFW+HAH  A Y DG+ G FIIH   +P     ++D +++I L DHYH     +T   LS   +N +   P PQ+ + N            N T           L F P +    RF+N G    Q++ +++HE+++VE D     P     I ++  QR S ++          + +   ++   L +  P+L     + +R        G +LP +   N     +C DLD A     L P I RD  +     +V +       +  K+      F N  Y     P L       ++A    I    +      H +++++V+ N     HPFHLHG    ++ + PG    E               +++ L+     P+ RD + + P    V+R  AD PGV  FHCH+ WH  QGL    I  P +++  +   +N L +C   +  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9614</Hit_id>
+  <Hit_def>gnl|TC-DB|Q09920|2.A.108.1.5 Iron transport multicopper oxidase fio1 precursor (EC 1.-.-.-) - Schizosaccharomyces pombe (Fission yeast).</Hit_def>
+  <Hit_accession>9614</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.8079e-54</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>700</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>532</Hsp_align-len>
+      <Hsp_qseq>QKREYWWEVTE----HPGALDGYDRPMLVVNGQYP--------GDTVVVHVTNSL--DEPVTIHWHGLFQNGTLWEDGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKNDPLKRGRDFDIDQIILLHDHYHRRSNEITDGLLSAGGFNGSFIAPSPQSNVINGAGLYDCSFAAANATCRQKTQRDLPELRFPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPVHRIPIAIAQRYSAILDTSGDETGDAFYLRAQINTGCLGLPFPDLDPQARLVVRIGEDCD-DLGQALPTSADWNDPATGNCTDLDAANLHPRIPRDAPSSASQVLVFNSSFALPQNIFKWTLNDQTFENFAYDPLLQRVARGESIPTGRVAVVTAG---------HLEVVDLVIQNIQGADHPFHLHGPQMYVLSRGP---GLITPEQASRLRHNLTNPIRRDVITVSPGTWQVVRLVADIPGVHAFHCHILWHQIQGLLGALIIEPDVIRTFQIP</Hsp_qseq>
+      <Hsp_hseq>KERLFEWNVTDVYDVDPDG-SGNSRWVIGVNNKWPIDPLVVDYGDQVIIKMTNSLANNRTTSLHSHGLFQKFTPYMDGVPQSTQCEIPPGATFYYNYTAL---QNGTYWVHSHDMSQYPDGLRTPFIINALEEPY----DYDEEYIISMTDWYYTPFNILVPDEFKTWK-NPTGAEPVPDTGLFNDT---------ANATFAME-----------PGKTYRLRFINIGAFNNYDVMIEDHNMTIIEVDGEYTEPQEVSSIHLTVAQRYS-VLVTAKNSTDRNYAITAYMDESLFDTIPDNYNPNVTAWLSYNSDASYDLG-----------PDIDEIDSYDDAELNPLYSWDVTESNHSINIWFDFFTLGDGANYAEINDSSYV-FPKVPSIM-IANSTNVDGYNLEPVTYGPYTNAYIFEYGDVVDVIIDNHDTGKHPFHLHGHTFQVLERGEENAGLYSDQESHTY---YDNPMRRDTVEIEPGSFIVIRFIADNPGAWVIHCHIEWHMESGLLATFIEAPEMIPSISSP</Hsp_hseq>
+      <Hsp_midline>++R + W VT+     P    G  R ++ VN ++P        GD V++ +TNSL  +   ++H HGLFQ  T + DG    TQC I PG T+ Y++      Q GT+W H+H  + Y DG+  PFII++  +P     D+D + II + D Y+   N +          N +   P P + + N           ANAT   +           P +  RLRFIN GA     V +++H +T++E D   T P  V  I + +AQRYS +L T+ + T   + + A ++         + +P     +    D   DLG           P        D A L+P    D   S   + ++   F L        +ND ++  F   P +  +A   ++    +  VT G         + +VVD++I N     HPFHLHG    VL RG    GL + +++        NP+RRD + + PG++ V+R +AD PG    HCHI WH   GLL   I  P++I +   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7835</Hit_id>
+  <Hit_def>gnl|TC-DB|P38993|2.A.108.1.1 IRON TRANSPORT MULTICOPPER OXIDASE FET3 PRECURSOR (EC 1.-.-.-) - Saccharomyces cerevisiae (Baker&apos;s yeast).</Hit_def>
+  <Hit_accession>7835</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.55456e-46</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>707</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>524</Hsp_align-len>
+      <Hsp_qseq>RPMLVVNGQYP--------GDTVVVHVTNSLDEPVT-IHWHGLFQNGTLWEDGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKNDPLKRGRDFDIDQIILLHDHYHRRSNEITDGLLSAGGFNGSFIAPSPQSNVINGAGLYDCSFAAANATCRQKTQRDLPELRFPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPVHRIPIAIAQRYSAILDTSGDETGDAFYLRAQINTGCLGLPFPDLDPQARLVVRIGEDCDDLGQALPTSADWNDPATGNCTDLDAANLHPRIPRDAPSSASQVLVFNSSFALPQNIFKWTLNDQTFENFAYD----PLLQRV------ARGESIPTGRVAVVTAGHLEVVDLVIQNIQGADHPFHLHGPQMYVLSRG----------PGLITPEQASRLRHNLTNPIRRDVITVSPGTWQVVRLVADIPGVHAFHCHILWHQIQGLLGALIIEPDVIR---TFQIPQDNLALC</Hsp_qseq>
+      <Hsp_hseq>RPVITCNGQFPWPDITVNKGDRVQIYLTNGMNNTNTSMHFHGLFQNGTASMDGVPFLTQCPIAPGSTMLYNF--TVDYNVGTYWYHSHTDGQYEDGMKGLFIIKDDSFPY----DYDEELSLSLSEWYHDLVTDLTKSFMSV--YNPTGAEPIPQNLIVNN---------TMNLTWEVQ-----------PDTTYLLRIVNVGGFVSQYFWIEDHEMTVVEIDGITTEKNVTDMLYITVAQRYTVLVHTKND-TDKNFAIMQKFDDTMLDVIPSDLQLNATSYMVYNKTA-----ALPTQ-NYVDSID---NFLDDFYLQPYEKEAIYGEPDHVITVD----VVMDNLKNGVNYAFFNNITYTAPKVPTLMTVLSSGDQANNSEIYGSNTHTFILEKDEIVEIVLNNQDTGTHPFHLHGHAFQTIQRDRTYDDALGEVPHSFDPDNHPAFPE---YPMRRDTLYVRPQSNFVIRFKADNPGVWFFHCHIEWHLLQGLGLVLVEDPFGIQDAHSQQLSENHLEVC</Hsp_hseq>
+      <Hsp_midline>RP++  NGQ+P        GD V +++TN ++   T +H+HGLFQNGT   DG   +TQCPI PG T  Y+F  T     GT+W+H+H    Y DG+ G FII   + P     D+D +  + L + YH    ++T   +S   +N +   P PQ+ ++N            N T   +           P+    LR +N G    Q+  +++HE+TVVE D   T       + I +AQRY+ ++ T  D T   F +  + +   L +   DL   A   +   +       ALPT  ++ D        LD   L P            V+  +    +  +  K  +N   F N  Y     P L  V      A    I             E+V++V+ N     HPFHLHG     + R           P    P+           P+RRD + V P +  V+R  AD PGV  FHCHI WH +QGL   L+ +P  I+   + Q+ +++L +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10830</Hit_id>
+  <Hit_def>gnl|TC-DB|Q4KCN4|9.B.62.1.5 Copper resistance protein A OS=Pseudomonas fluorescens (strain Pf-5 / ATCC BAA-477) GN=copA PE=4 SV=1</Hit_def>
+  <Hit_accession>10830</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>7.29777e-27</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>692</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>95</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>SPDWNINAPPQKR-----EYWWEVTEHPGALDGYDRPMLVVNGQYPG--------DTVVVHVTNSLDEPVTIHWHGLFQNGTLWEDGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKN-DPLKRGRDFDI----------DQIILL----HDHYHRRSNEITDGLLSAG--GFNGSFIAPSPQSNV-INGAGLYDCSFAAANATCRQKTQRDLPELRFPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPVHRIPIAIAQRYSAILDTSGDETGDAFYLRAQINTGC----------LGLPFPDLDPQARL--------------VVRIGEDCDDLGQALPTSADWNDPATGNCTDLDAANLHPRIP------RDAPSSASQVLVFNSSFALP---QNIFKWTLN-DQTFENFAYDPLLQRVARGESIPTGRVAVVTAGHLEVVDLVIQNIQGADHPFHLHGPQMYVLSRGPGLITPEQASRLRHNLTNPIRRDVITVSPGTWQVVRLVADIPGVHAFHCHILWHQIQGLLGALIIEPD</Hsp_qseq>
+      <Hsp_hseq>NPVWAVSSPGQPEVLAGSDFDLCIQQLPVNFSGRPRKAMAINGSLPGPLLRWREGDRVTVRVRNRLDQPSSIHWHGIILPADM--DGVPGLSFEGIEPGGLYRYSFPV---KQHGTYWYHSHSGLQEQLGVYGPLVIDAREPEPFSYERDYVVLLSDWSDEEPGQILRTLKKQSDYYNQHKRTLGDFIEDVGRDGWAATLAERSMWAQMNMTPTDLADVSGATYTFLLNGQAPGQPWCGLFRPGERLRLRVINASAMSYFDLRIPGVQMTVVAADGQHVVPVTVDELRIAVAETFDVLVQPGAG--AHALFAQAMDRSGYALGTLASAPGLVAEAPAMDPRPLLGMTDMAMGAMDHGAMPGMDHGAMDHGAMNATISHPTSETNNPLVDMQAVNPMPRLDDPGIGLRDNGRRVLRYADLKSTFADPDGREPSRTLTLHLTGHMEKFAWS--------FDGIPFAEAEPLRLRYGERLRIELVNDSMMAHPIHLHGLWSDL---------EDEHGRFQ------VRKHTIDMPPGTRRSYRVTADALGRWAYHCHLLYHMESGMFREVRVEEE</Hsp_hseq>
+      <Hsp_midline>+P W +++P Q       ++   + + P    G  R  + +NG  PG        D V V V N LD+P +IHWHG+     +  DG  G++   I PG  Y Y FP+   +Q+GT+W+H+H       G+ GP +I ++  +P    RD+ +           QI+       D+Y++    + D +   G  G+  +    S  + + +    L D S A        +         F P +R+RLR IN  A     + +   ++TVV AD    +P+ V  + IA+A+ +  ++         A + +A   +G           L    P +DP+  L              +  +     D G    T +           D+ A N  PR+       RD      +     S+FA P   +     TL+     E FA+          + IP      +   + E + + + N     HP HLHG    +          ++  R +      +R+  I + PGT +  R+ AD  G  A+HCH+L+H   G+   + +E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3934</Hit_id>
+  <Hit_def>gnl|TC-DB|G9EQG6|1.B.76.1.4 Putative uncharacterized protein OS=Legionella drancourtii LLAP12 GN=LDG_7513 PE=4 SV=1</Hit_def>
+  <Hit_accession>3934</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.02869e-15</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>GYDRPMLVVNGQYP--------GDTVVVHVTNSLDEPVTIHWHGLFQNGTLWE-DGPSGVTQCPIGPGITYTYDFPITGKEQYGTFWWHAHRRALYIDGITGPFIIHSKN-DPLKRGRDFDIDQIILLHDHYHRRSNEITDGLLSAGGFNGSFIAPSPQ-----------SNVING-------------AGLYDCSFAAANATCRQKTQRDLPELR-FPPNQRVRLRFINEGAHPLQFVSVDEHELTVVEADFTPTMPLPV</Hsp_qseq>
+      <Hsp_hseq>GHPARAITVNHQIPAPTLRFKEGDTITLNVNNHLDKDTAIHWHGII---LPWQMDGVMNITQKGIPPGATFRYHYTL---RQSGTYWYHAHAGLQEQDGLYGAYIIEPKSPPPFSYSKDFE----VVLSDWKNTKADHIQANLKKTGEYYGAGFPLQPSLLHFIQSYRKASKKERGKLWMDYKMMQFMRMGIFDLSDIAYDAFLMNGHPAHRPWTRQVKVGDVVRLRFVGASANSFFRVKIPGSRMQMVHIQGNDIVPYPV</Hsp_hseq>
+      <Hsp_midline>G+    + VN Q P        GDT+ ++V N LD+   IHWHG+      W+ DG   +TQ  I PG T+ Y + +    Q GT+W+HAH      DG+ G +II  K+  P    +DF+    ++L D  + +++ I   L   G + G+     P            S    G              G++D S  A +A          P  R       VRLRF+   A+    V +    + +V       +P PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15912</Hit_id>
+  <Hit_def>gnl|TC-DB|S7UI33|2.A.49.1.4 Chloride channel protein OS=Toxoplasma gondii GN=TGGT1_265500 PE=3 SV=1</Hit_def>
+  <Hit_accession>15912</Hit_accession>
+  <Hit_len>2075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000107271</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>598</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>SACTPVKHTSKPHSSTSKPTSTKHSSTKPHSTSKPHSTSKSHTTTKAHSTSKPHSPTTTKPHHPTPPPRASVTS</Hsp_qseq>
+      <Hsp_hseq>SSSTSPSPSSPPSSSPPSPSSAPSSSTSPSPSSPPPSSPPSSSSTSPSPSSAPSSSPPSPSPPPSSPPSSSSTS</Hsp_hseq>
+      <Hsp_midline>S+ T    +S P SS   P+S   SST P  +S P S+  S ++T    +S P S   +    P+ PP +S TS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000545962</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>502</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>SACTPVKHTSKPHSSTSKPTSTKHSSTKPHSTSKPHSTSKSHTTTKAHSTS-KPHSPTTTKPHHPTPPPRASVTS</Hsp_qseq>
+      <Hsp_hseq>SSSSPPPSSSPPPSSPPSPSSAPSSSTSPSPSSPPSSSPPSPSSAPSSSTSPSPSSPP------PSSPPSSSSTS</Hsp_hseq>
+      <Hsp_midline>S+ +P   +S P SS   P+S   SST P  +S P S+  S ++  + STS  P SP       P+ PP +S TS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12473</Hit_id>
+  <Hit_def>gnl|TC-DB|Q80KL8|8.B.25.2.3 Envelope glycoprotein gpUL73 OS=Human cytomegalovirus GN=UL73 PE=4 SV=1</Hit_def>
+  <Hit_accession>12473</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00027802</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SSTSKPTSTKHSSTKPHSTSKPHSTSKSHTTTKAHSTSKP----HSPTTTKPHHPTPPPRASVTSKLDELRLS</Hsp_qseq>
+      <Hsp_hseq>ASTPRPSSSTHASTTVKATTVATTSTTTATSTSSTTSAKPGSTTHDPNVMRPHAHNDFYNAHCTSHMYELSLS</Hsp_hseq>
+      <Hsp_midline>+ST +P+S+ H+ST   +T+   +++ + T+T + +++KP    H P   +PH       A  TS + EL LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16651</Statistics_db-num>
+      <Statistics_db-len>7370291</Statistics_db-len>
+      <Statistics_hsp-len>103</Statistics_hsp-len>
+      <Statistics_eff-space>3664594224</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
